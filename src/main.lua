@@ -3,59 +3,111 @@
 --- Created by knia.
 --- DateTime: 2019/3/2 20:24
 ---
+require('utils')
 require("xml_skill_skills")
-require("xml_skill_combo")
 require("xml_skill_skillgroup")
---require("xml_hero")
+require("xml_skill_formulas")
+require("ex_skill_names")
+require("xml_skill_combo")
+require("xml_equip_skill")
+--90101
+--获取组合技列表
+--require("getComboList")
+--runGetCombo()
 
-local combo_id;
-local combo_name;
-local combo_desc;
-local skill_names_table;
-
-function getSkillNames(value)
-    local skill_ids = {};
-    local skill_names = {};
-    if value.skill_1 or value.skill_2 then
-        skill_ids[1] = value.skill_1;
-        skill_ids[2] = value.skill_2;
-        skill_ids[3] = value.skill_3;
-        skill_names[1] =XML_skill.skills[skill_ids[1]].skill_name;
-        skill_names[2] =XML_skill.skills[skill_ids[2]].skill_name;
-        if skill_ids[3] then
-            skill_names[3] =XML_skill.skills[skill_ids[3]].skill_name;
-        else
-            skill_names[3] = "";
-        end
-    elseif value.group_skill_1 or value.group_skill_2 then
-        skill_ids[1] = value.group_skill_1;
-        skill_ids[2] = value.group_skill_2;
-        skill_ids[3] = value.group_skill_3;
-        skill_names[1] =XML_skill.skillgroup[skill_ids[1]].name;
-        skill_names[2] =XML_skill.skillgroup[skill_ids[2]].name;
-        if skill_ids[3] then
-            skill_names[3] =XML_skill.skillgroup[skill_ids[3]].name;
-        else
-            skill_names[3] = "";
+--获取刻印特技列表
+--getExEquipSkill()
+--local name = CfgControlSkillGroup:getSkillName(90101)
+--require('getExEquipSkills')
+local ex_skill_names = Ex_skill_names.ex_skill_names
+local equip_skills = XML_equip_skill.equip_skill
+local ex_skills_list = {}
+--获取当前刻印特技显示列表，包含每级共鸣技能groupid和数值乘数
+for equip_skills_i, equip_skills_v in pairs(equip_skills) do
+    for ex_skill_names_i, ex_skill_names_v in pairs(ex_skill_names) do
+        if equip_skills_v.name == ex_skill_names_v then
+            table.insert(ex_skills_list,equip_skills_v)
         end
     end
-    return skill_names;
+end
+local eq_skill_key
+
+for i, v in pairs(ex_skills_list) do
+
 end
 
-function getHeroNames()
-    --找不到关联，搁置
-    local hero_names = {};
+
+function getEachSkillDesc(ex_skill)
+    local desc_table = {}
+    local zone = ex_skill.zone
+    local group_id_list = {}
+
+    --取出 +0 +2 +5 +7 级共鸣参数
+    local key
+    local switch = {
+        [1] = function(v)
+            --处理共鸣0时的描述，并插入到描述表里
+            print(1)
+        end,
+        [3] = function(v)
+            --处理共鸣2时的描述，并插入到描述表里
+            print(2)
+        end,
+        [6] = function(v)
+            --处理共鸣5时的描述，并插入到描述表里
+            print(3)
+        end,
+        [8] = function(v)
+            --处理共鸣7时的描述，并插入到描述表里
+            print(4)
+        end,
+    }
+    local fSwitch = switch[key]
+    for i, v in pairs(zone) do
+        v = table_arrange(v)
+        key = v[1]
+        fSwitch = switch[key]
+        print('key:'..key)
+        if fSwitch then
+            local result = fSwitch(v)
+        else
+
+        end
+    end
 end
 
-for k, v in pairs(XML_skill.combo) do
-    combo_id = k;
-    combo_name = v.name;
-    combo_desc = v.combo_effect;
-
-    if combo_name == nil then
-        combo_name = combo_desc;
+function getEachLevelDesc(value)
+    local key = value[1]
+    local group_id = value[2]
+    local level = value[3]
+    local desc = ""
+    local fix_percent
+    local fix_level
+    local skill_formulas = XML_skill.formulas
+    local skill_groups = XML_skill.skillgroup
+    desc = removeHtmlMark(skill_groups[group_id].full_desc)
+    --寻找描述中formula表的匹配，可能会匹配到多个
+    local match_ids = {}
+    for match in string.gmatch(desc,'{[%a%A]-}') do
+        table.insert(match_ids,StrToTable(match).id)
+    end
+    --将匹配对应到formula表中具体的数值
+    for k, id in ipairs(match_ids) do
+        fix_level = skill_formulas[id].fix_level
+        fix_percent = skill_formulas[id].fix_percent
+        --TODO:计算值并写入
     end
 
-    skill_names_table = getSkillNames(v)
-    print(k..","..combo_name..","..combo_desc..","..skill_names_table[1]..","..skill_names_table[2]..","..skill_names_table[3]);
+    --重新写入描述并返回
+    for i, v in ipairs(value) do
+    table_ret[i] = string.gsub(str,match,tostring(v..'%%'))
+    end
 end
+
+
+getEachSkillDesc(ex_skills_list[2])
+
+
+
+
+
