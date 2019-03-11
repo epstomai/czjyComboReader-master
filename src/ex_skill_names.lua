@@ -6,7 +6,7 @@
 ---说明：在xml_equip_skill中有些技能名字与skill_group中的不同，
 ---由于是用name索引的，所以把正式的名字用注释标注
 ---
-module('Ex_skill_names', package.seeall)
+module("Ex_skill_names", package.seeall)
 
 ex_skill_names = {
     "双重净化",
@@ -20,7 +20,7 @@ ex_skill_names = {
     "吞食魔蛇",--吞噬魔蛇
     "冥火余烬",
     "龙吟枪",
-    "90帝隆",--炎爆拳
+    "爆裂拳",--炎爆拳
     "无双战技",--武神裁决
     "心眼·破",
     "斩首连击",--断罪连击
@@ -39,7 +39,7 @@ ex_skill_names = {
     "正义之刃",
     "重锤",
     "骸骨之墙",
-    "90格莱明",--濒死反击
+    "弱点狙击",--濒死反击
     "自动飞弹",
     "魔王的施舍",--强欲
     "侵蚀之毒",
