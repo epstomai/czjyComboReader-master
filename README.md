@@ -1,4 +1,4 @@
-# czjyComboReader-master
+# czjyComboReader
 ## 说明
 用于读取czjy组合技列表，和刻印技能，直接输出在console，请自行转化为excel。
 
