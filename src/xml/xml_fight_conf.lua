@@ -55,7 +55,7 @@ attrs = {
 	["critn"] = {
 		["per_or_not"] = 10000,
 		["type"] = 2,
-		["name"] = "普攻暴击",
+		["name"] = "普攻暴击率",
 		["key"] = "critn",
 	},
 	["fb"] = {
@@ -92,11 +92,11 @@ attrs = {
 		["name"] = "攻击力",
 		["key"] = "gj",
 	},
-	["ctitn_val"] = {
+	["critn_val"] = {
 		["per_or_not"] = 10000,
 		["type"] = 2,
-		["name"] = "普攻暴击增加倍数",
-		["key"] = "ctitn_val",
+		["name"] = "普攻暴伤",
+		["key"] = "critn_val",
 	},
 	["fyp"] = {
 		["per_or_not"] = 10000,

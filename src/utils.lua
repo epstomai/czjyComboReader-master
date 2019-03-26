@@ -35,10 +35,191 @@ function removeHtmlMark(str)
     return str
 end
 
+function ToStringEx(value)
+    if type(value)=='table' then
+       return TableToStr(value)
+    elseif type(value)=='string' then
+        return "\'"..value.."\'"
+    else
+       return tostring(value)
+    end
+end
+
+
 --字符串转table
 function StrToTable(str)
     if str == nil or type(str) ~= "string" then
         return
     end
     return loadstring("return " .. str)()
+end
+
+
+--table转string
+function TableToStr(t)
+    if t == nil then return "" end
+    local retstr= "{"
+
+    local i = 1
+    for key,value in pairs(t) do
+        local signal = ","
+        if i==1 then
+          signal = ""
+        end
+
+        if key == i then
+            retstr = retstr..signal..ToStringEx(value)
+        else
+            if type(key)=='number' or type(key) == 'string' then
+                retstr = retstr..signal..'['..ToStringEx(key).."]="..ToStringEx(value)
+            else
+                if type(key)=='userdata' then
+                    retstr = retstr..signal.."*s"..TableToStr(getmetatable(key)).."*e".."="..ToStringEx(value)
+                else
+                    retstr = retstr..signal..key.."="..ToStringEx(value)
+                end
+            end
+        end
+
+        i = i+1
+    end
+
+     retstr = retstr.."}"
+     return retstr
+end
+
+--打印table
+local key = ""
+function printTable(table , level)
+  level = level or 1
+  local indent = ""
+  for i = 1, level do
+    indent = indent.."  "
+  end
+
+  if key ~= "" then
+    print(indent..key.." ".."=".." ".."{")
+  else
+    print(indent .. "{")
+  end
+
+  key = ""
+  for k,v in pairs(table) do
+     if type(v) == "table" then
+        key = k
+        printTable(v, level + 1)
+     else
+        local content = string.format("%s%s = %s", indent .. "  ",tostring(k), tostring(v))
+      print(content)  
+      end
+  end
+  print(indent .. "}")
+end
+
+function table2json(t)
+  local function serialize(tbl)
+    local tmp = {}
+    for k, v in pairs(tbl) do
+      local k_type = type(k)
+      local v_type = type(v)
+      local key = (k_type == "string" and "\"" .. k .. "\":")
+        or (k_type == "number" and "")
+      local value = (v_type == "table" and serialize(v))
+        or (v_type == "boolean" and tostring(v))
+        or (v_type == "string" and "\"" .. v .. "\"")
+        or (v_type == "number" and v)
+      tmp[#tmp + 1] = key and value and tostring(key) .. tostring(value) or nil
+    end
+    if table.maxn(tbl) == 0 then
+      return "{" .. table.concat(tmp, ",") .. "}"
+    else
+      return "[" .. table.concat(tmp, ",") .. "]"
+    end
+  end
+  assert(type(t) == "table")
+  return serialize(t)
+end
+
+-- 持久化操作，无法确定其中的serialize方法，搁置
+local file = io.open("test.lua", "w")
+function saveObj(f, o, indent)
+    if type(o) == "number" then
+        f:write(o)
+    elseif type(o) == "boolean" then
+        if o then
+            f:write("true")
+        else
+            f:write("false")
+        end
+    elseif type(o) == "string" then
+        f:write(string.format("%q", o))
+    elseif type(o) == "table" then
+        f:write("{/n")
+        for k,v in pairs(o) do
+            for i=1,indent do
+                f:write("/t")
+            end
+            f:write("[")
+            serialize(f, k)
+            f:write("] = ")
+            serialize(f, v, indent + 1)
+            f:write(",/n")
+        end
+        for i=1,indent-1 do
+            f:write("/t")
+        end
+        f:write("}")
+    elseif type(o) == "nil" then
+        f:write("nil")
+    else
+        error("cannot serialize a " .. type(o))
+    end
+    return true
+end
+
+--序列化
+function serialize(obj)
+    local lua = ""
+    local t = type(obj)
+    if t == "number" then
+        lua = lua .. obj
+    elseif t == "boolean" then
+        lua = lua .. tostring(obj)
+    elseif t == "string" then
+        lua = lua .. string.format("%q", obj)
+    elseif t == "table" then
+        lua = lua .. "{\n"
+        for k, v in pairs(obj) do
+            lua = lua .. "[" .. serialize(k) .. "]=" .. serialize(v) .. ",\n"
+        end
+        local metatable = getmetatable(obj)
+        if metatable ~= nil and type(metatable.__index) == "table" then
+            for k, v in pairs(metatable.__index) do
+                lua = lua .. "[" .. serialize(k) .. "]=" .. serialize(v) .. ",\n"
+            end
+        end
+        lua = lua .. "}"
+    elseif t == "nil" then
+        return nil
+    else
+        error("can not serialize a " .. t .. " type.")
+    end
+    return lua
+end
+--反序列化
+function unserialize(lua)
+    local t = type(lua)
+    if t == "nil" or lua == "" then
+        return nil
+    elseif t == "number" or t == "string" or t == "boolean" then
+        lua = tostring(lua)
+    else
+        error("can not unserialize a " .. t .. " type.")
+    end
+    lua = "return " .. lua
+    local func = loadstring(lua)
+    if func == nil then
+        return nil
+    end
+    return func()
 end

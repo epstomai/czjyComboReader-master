@@ -50,16 +50,18 @@ function runGetCombo()
     local combo_desc
     local skill_names_table
     for k, v in pairs(XML_skill.combo) do
-        combo_id = k
-        combo_name = v.name
-        combo_desc = v.combo_effect
+        if k >= 10000 and k <=100000 then
+            combo_id = k
+            combo_name = v.name
+            combo_desc = v.combo_effect
 
-        if combo_name == nil then
-            combo_name = combo_desc
+            if combo_name == nil then
+                combo_name = combo_desc
+            end
+
+            skill_names_table = getSkillNames(v)
+            print(k..","..combo_name..","..combo_desc..","..skill_names_table[1]..","..skill_names_table[2]..","..skill_names_table[3])
         end
-
-        skill_names_table = getSkillNames(v)
-        print(k..","..combo_name..","..combo_desc..","..skill_names_table[1]..","..skill_names_table[2]..","..skill_names_table[3])
     end
 end
 

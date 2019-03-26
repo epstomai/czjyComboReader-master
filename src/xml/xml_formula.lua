@@ -255,6 +255,11 @@ fids = {
 		["formula_view"] = "cf_fix_p/10000+(src_slevel-1)*cf_fix_level/10000",
 		["formula"] = "(min(max((cf_fix_p/10000+(src_slevel-1)*cf_fix_level/10000)*(dst_fy/2-src_fy)*(1+src_ah/20000)*(1-dst_sh/20000)*suppress/100*rand_int32(9700,10300)/10000, src_gj*(cf_add+cf_add_level*(src_slevel-1))/10000), src_rgj*6))",
 	},
+	[52] = {
+		["ID"] = 52,
+		["formula_view"] = "cf_fix_p/10000+(src_slevel-1)*cf_fix_level/10000",
+		["formula"] = "((src_gj*(cf_fix_p/10000+(src_slevel-1)*cf_fix_level/10000+(cf_add+(src_slevel-1)*cf_add_level)/10000*distance/50))*(1+src_ah/20000)*(1-dst_sh/20000))*(1-(dst_fy/(src_gj+dst_fy)))*suppress/100*rand_int32(9700,10300)/10000",
+	},
 	[53] = {
 		["ID"] = 53,
 		["formula_view"] = "(cf_fix_p+cf_fix_level*(src_slevel-1))/10000",
@@ -269,6 +274,21 @@ fids = {
 		["ID"] = 55,
 		["formula_view"] = "cf_fix_p/10000+(src_slevel-1)*cf_fix_level/10000",
 		["formula"] = "((src_hp*(cf_fix_p/10000+(src_slevel-1)*cf_fix_level/10000)+cf_add+(src_slevel-1)*cf_add_level)*(1+src_ah/20000)*(1-dst_sh/20000))*(1-(dst_fy/(src_gj+dst_fy)))*suppress/100*rand_int32(9700,10300)/10000",
+	},
+	[56] = {
+		["ID"] = 56,
+		["formula_view"] = "(src_slevel>cf_add) and ((cf_fix_p+cf_fix_level*(cf_add-1))/10000) or ((cf_fix_p+cf_fix_level*(src_slevel-1))/10000)",
+		["formula"] = "(src_slevel>cf_add) and (dst_rfy*(cf_fix_p+cf_fix_level*(cf_add-1))/10000) or (dst_rfy*(cf_fix_p+cf_fix_level*(src_slevel-1))/10000)",
+	},
+	[57] = {
+		["ID"] = 57,
+		["formula_view"] = "(src_slevel<=cf_add) and (cf_fix_p/30+cf_add_level) or ((cf_fix_p+cf_fix_level*(src_slevel-cf_add))/30+cf_add_level)",
+		["formula"] = "(src_slevel<=cf_add) and (cf_fix_p) or ((cf_fix_p+cf_fix_level*(src_slevel-cf_add)))",
+	},
+	[58] = {
+		["ID"] = 58,
+		["formula_view"] = "(cf_fix_p+cf_fix_level*(src_slevel-1))/10000",
+		["formula"] = "src_critn*(cf_fix_p+cf_fix_level*(src_slevel-1))/10000",
 	},
 }
 
