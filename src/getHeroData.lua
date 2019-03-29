@@ -1,8 +1,45 @@
 require('function')
 require("xml.xml_hero")
 require("xml.xml_surmount")
+require("cfgControSkin")
 
 cfgControlHero = class("cfgControlHero")
+
+
+
+
+function cfgControlHero:getHeroBaseInfoAll()
+    local infos = {}
+    for key, id in pairs(cfgControlHero:getAllHeroIds()) do
+        local heroinfo = cfgControlHero:getHeroBaseInfoById(id)
+        local heroname = cfgControlHero:getName(id)
+        infos[heroname] = heroinfo
+    end
+    return infos
+end
+
+function getCampName(campid)
+    return CfgControlHeroCamp:getNote(campid)
+end
+
+function cfgControlHero:getHeroBaseInfoById(heroid)
+    local hero_info = {}
+    local pos1 = CfgControlHeroStory:pos01(heroid)
+    local pos2 = CfgControlHeroStory:pos02(heroid)
+    local pos3 = CfgControlHeroStory:pos03(heroid)
+    hero_info.name = cfgControlHero:getName(heroid)
+    hero_info.title = CfgControlHeroStory:nick_name(heroid)
+    hero_info.camp = getCampName(CfgControlHeroStory:camp_id(heroid))
+    hero_info.init_star = cfgControlHero:getStar(heroid)
+    hero_info.cv = CfgControlHeroStory:cv_name(heroid)
+    hero_info.notice_position = CfgControlHeroNotice:notice(pos1)
+    hero_info.notice_grow = CfgControlHeroNotice:notice(pos2)
+    hero_info.notice_period = CfgControlHeroNotice:notice(pos3)
+    hero_info.attack_range = cfgControlHero:attack_dis(heroid)
+    hero_info.skills = cfgControlHero:getAllSkills(heroid)
+    hero_info.heroid = cfgControlHero:getData(heroid).heroid
+    return hero_info
+end
 
 --返回整理好的技能table
 --  {
