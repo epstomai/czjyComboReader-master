@@ -140,43 +140,6 @@ function table2json(t)
   return serialize(t)
 end
 
--- 持久化操作，无法确定其中的serialize方法，搁置
-local file = io.open("test.lua", "w")
-function saveObj(f, o, indent)
-    if type(o) == "number" then
-        f:write(o)
-    elseif type(o) == "boolean" then
-        if o then
-            f:write("true")
-        else
-            f:write("false")
-        end
-    elseif type(o) == "string" then
-        f:write(string.format("%q", o))
-    elseif type(o) == "table" then
-        f:write("{/n")
-        for k,v in pairs(o) do
-            for i=1,indent do
-                f:write("/t")
-            end
-            f:write("[")
-            serialize(f, k)
-            f:write("] = ")
-            serialize(f, v, indent + 1)
-            f:write(",/n")
-        end
-        for i=1,indent-1 do
-            f:write("/t")
-        end
-        f:write("}")
-    elseif type(o) == "nil" then
-        f:write("nil")
-    else
-        error("cannot serialize a " .. type(o))
-    end
-    return true
-end
-
 --序列化
 function serialize(obj)
     local lua = ""
