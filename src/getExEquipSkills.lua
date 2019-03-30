@@ -211,6 +211,10 @@ function parseDesc(id, heroData, skillLv)
     return desc
 end
 
+function getSkillName(skillid)
+    return XML_skill.skillgroup[skillid].name
+end
+
 --运行获得刻印列表
 function run()
     local ex_skills_list = getExSkillList()
