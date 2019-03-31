@@ -48,7 +48,7 @@ end
 --    3 = 104630
 --    4 = 104640
 --  }
-function cfgControlHero:getAllSkills(heroid)
+function cfgControlHero:getAllSkillsById(heroid)
     local all_skills = cfgControlSurmount:all_heros_skills(heroid)
     local passive_skill = cfgControlHero:getSkills(heroid)
     if #passive_skill > 0 then

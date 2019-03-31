@@ -6,6 +6,7 @@
 require("getExEquipSkills")
 require("GetComboList")
 require("getHeroData")
+require("getSkillDesc")
 --获取组合技列表
 --GetComboList.runGetCombo()
 
@@ -16,26 +17,7 @@ require("getHeroData")
 --print(FormatTable(cfgControlHero:getHeroBaseInfoAll()))
 
 --获得指定技能描述
-function colorParser(str)
-    str = string.gsub(str,"#orange#","#ef6c00")
-    str = string.gsub(str,"#green1#","#0b9115")
-    str = string.gsub(str,"#green2#","green")
-    str = string.gsub(str,"##blue1##","blue")
-    str = string.gsub(str,"#purple#","purple")
-    return str
-end
-
-
-local heroid = 10030
-local skills = cfgControlHero:getAllSkills(heroid)
-local desc_all = {}
-for key, skillid in pairs(skills) do
-    local skill_name = GetExEquipSkills.getSkillName(skillid)
-    local single = {}
-    for level = 1, 6 do
-        local each_level_desc = colorParser(GetExEquipSkills.parseDesc(skillid,nil,level))
-        table.insert(single,level,each_level_desc)
-    end
-    desc_all[skill_name] = single
-end
-print(FormatTable(desc_all))
+--全部
+--printAllSkillsDesc()
+--指定英雄全部技能
+print(FormatTable(getllAllSkillDesc(10009)))
