@@ -20,4 +20,6 @@ require("getSkillDesc")
 --全部
 --printAllSkillsDesc()
 --指定英雄全部技能
-print(FormatTable(getllAllSkillDesc(10009)))
+--print(FormatTable(getllAllSkillDesc(10022)))
+--指定技能名称
+--printSingleSkillDesc("痛苦之力")

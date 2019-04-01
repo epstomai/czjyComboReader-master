@@ -2,6 +2,7 @@ require('function')
 require("xml.xml_hero")
 require("xml.xml_surmount")
 require("cfgControSkin")
+require("GetExEquipSkills")
 
 cfgControlHero = class("cfgControlHero")
 
@@ -36,9 +37,20 @@ function cfgControlHero:getHeroBaseInfoById(heroid)
     hero_info.notice_grow = CfgControlHeroNotice:notice(pos2)
     hero_info.notice_period = CfgControlHeroNotice:notice(pos3)
     hero_info.attack_range = cfgControlHero:attack_dis(heroid)
-    hero_info.skills = cfgControlHero:getAllSkills(heroid)
+    hero_info.skills = getSkillName(cfgControlHero:getAllSkillsById(heroid))
     hero_info.heroid = cfgControlHero:getData(heroid).heroid
     return hero_info
+end
+
+--根据技能id表返回技能名称
+function getSkillName(skills)
+    local names = {}
+    local count = 1
+    for i, skill in pairs(skills) do
+        table.insert(names,count,GetExEquipSkills.getSkillName(skill))
+        count = count + 1
+    end
+    return names
 end
 
 --返回整理好的技能table

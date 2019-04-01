@@ -40,3 +40,12 @@ function printAllSkillsDesc()
     end
     print(FormatTable(all_skills_desc))
 end
+
+function printSingleSkillDesc(skillname)
+    local all_skills_desc = {}
+    local heroids = cfgControlHero:getAllHeroIds()
+    for key, id in pairs(heroids) do
+        getllAllSkillDesc(id,all_skills_desc)
+    end
+    print(FormatTable(all_skills_desc[skillname]))
+end
