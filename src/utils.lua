@@ -88,34 +88,6 @@ function TableToStr(t)
      return retstr
 end
 
---打印table
-local key = ""
-function printTable(table , level)
-  level = level or 1
-  local indent = ""
-  for i = 1, level do
-    indent = indent.."  "
-  end
-
-  if key ~= "" then
-    print(indent..key.." ".."=".." ".."{")
-  else
-    print(indent .. "{")
-  end
-
-  key = ""
-  for k,v in pairs(table) do
-     if type(v) == "table" then
-        key = k
-        printTable(v, level + 1)
-     else
-        local content = string.format("%s%s = %s", indent .. "  ",tostring(k), tostring(v))
-      print(content)  
-      end
-  end
-  print(indent .. "}")
-end
-
 function table2json(t)
   local function serialize(tbl)
     local tmp = {}
@@ -189,14 +161,14 @@ end
 
 
 --还是打印table
-function FormatValue(val)
+function formatValue(val)
     if type(val) == "string" then
         return string.format("%q", val)
     end
     return tostring(val)
 end
 
-function FormatTable(t, tabcount)
+function formatTable(t, tabcount)
     tabcount = tabcount or 0
     if tabcount > 5 then
         --防止栈溢出
@@ -207,10 +179,10 @@ function FormatTable(t, tabcount)
         for k, v in pairs(t) do
             local tab = string.rep("\t", tabcount)
             if type(v) == "table" then
-                str = str..tab..string.format("[%s] = {", FormatValue(k))..'\n'
-                str = str..FormatTable(v, tabcount + 1)..tab..'},\n'
+                str = str..tab..string.format("[%s] = {", formatValue(k))..'\n'
+                str = str..formatTable(v, tabcount + 1)..tab..'},\n'
             else
-                str = str..tab..string.format("[%s] = %s", FormatValue(k), FormatValue(v))..',\n'
+                str = str..tab..string.format("[%s] = %s", formatValue(k), formatValue(v))..',\n'
             end
         end
     else

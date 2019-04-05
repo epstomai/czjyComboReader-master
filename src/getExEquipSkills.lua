@@ -9,6 +9,8 @@ require("xml.xml_equip_skill")
 require('xml.xml_fight_conf')
 require('xml.xml_skill_effects')
 require("xml.xml_formula")
+require("xml.xml_equip")
+require("getHeroData")
 
 --获取刻印特技列表
 function getExSkillList()
@@ -221,9 +223,6 @@ function run()
     local skillgroup = XML_skill.skillgroup
     local desc_list = {}
     local skillname
-    -- output_list 预留给输出为table时使用
-    local output_list = {}
-    local output_list_obj = {}
     for key, ex_skill in pairs(ex_skills_list) do
         skillname = skillgroup[ex_skill.zone[1][2]].name
         desc_list = getEachSkillAllDesc(ex_skill)
@@ -231,4 +230,108 @@ function run()
             print(desc_obj.id..","..skillgroup[desc_obj.id].name..","..desc_obj.desc)
         end
     end
+end
+
+--[[
+{
+    [洛天依]={
+        [icon] = "xx.png",
+        [skillname]="开饭"
+        [desc]={"1","2","3","4"}
+    }
+}
+]]
+
+--返回全部英雄刻印表
+function getAllHeroExEqSkills()
+    local equip_list = getAllExEquip()
+    local heros = {}
+    local out_list = {}
+    for i, v in pairs(equip_list) do
+        for j, k in pairs(v.skills) do
+            if k ~= 0 then
+                table.insert(heros,v.heros[j])
+            end
+        end
+    end
+    for i, v in pairs(heros) do
+
+        local heroname = cfgControlHero:getName(v)
+        out_list[heroname] = {
+            ["equip_name"] = getExEquiNameByHeroId(v),
+            ["skill_name"] = getEqSkillNameByHeroId(v),
+            ["desc"] = getAllDescByHeroid(v)
+        }
+    end
+    return out_list
+end
+
+--获取刻印列表
+function getAllExEquip()
+    local equip_list = {}
+    for i, v in pairs(XML_equip.equip) do
+        if not v.name then
+            v.name = ""
+        end
+       if string.find(v.name,"刻印") then
+            equip_list[v.name] = { ["skills"] = v.skills , ["heros"] = v.heroid }
+        end
+    end
+    return equip_list
+end
+
+--根据英雄id获取刻印名称
+function getExEquiNameByHeroId(heroid)
+    local equip_list = getAllExEquip()
+    for i, v in pairs(equip_list) do
+        for j, k in pairs(v.heros) do
+            if k == heroid then
+                return i
+            end
+        end
+    end
+    return ""
+end
+
+--根据英雄id获得转换过的刻印技能名称
+function getEqSkillNameByHeroId(heroid)
+    local equip_list = getAllExEquip()
+    local skillid
+    for i, v in pairs(equip_list) do
+        for j, k in pairs(v.heros) do
+            if k == heroid then
+                skillid = v.skills[j]
+                break
+            end
+        end
+    end
+    local tempid = XML_equip_skill.equip_skill[skillid].zone[1][2]
+    local true_name = getSkillName(tempid)
+    return true_name
+end
+
+--根据英雄id获得转换过的刻印技能id
+function getEqSkillIdByHeroId(heroid)
+    local equip_list = getAllExEquip()
+    local skillid
+    for i, v in pairs(equip_list) do
+        for j, k in pairs(v.heros) do
+            if k == heroid then
+                skillid = v.skills[j]
+                break
+            end
+        end
+    end
+    return skillid
+end
+
+function getAllDescByHeroid(heroid)
+    local skillid = getEqSkillIdByHeroId(heroid)
+    local ex_skill = XML_equip_skill.equip_skill[skillid]
+    local tmp_desc = getEachSkillAllDesc(ex_skill)
+    local desc = {}
+    for i, v in pairs(tmp_desc) do
+        desc[i] = v.desc
+    end
+    return desc
 end

@@ -1,6 +1,7 @@
 require('function')
 require("xml.xml_hero")
 require("xml.xml_surmount")
+require("xml.xml_item")
 require("cfgControSkin")
 require("GetExEquipSkills")
 
@@ -399,7 +400,8 @@ end
 function cfgControlSurmount:getAllConsumeByHeroId(id)
     local tmp = {}
     local check_repeat = {}
-    local max_surmount = CfgControlCommon:keys_max_surmount()
+    --当前版本最高突破等级
+    local max_surmount = 12
     for i= 1, max_surmount do
         local items = cfgControlSurmount:heros_consume(id,i).items
         for i,v in ipairs(items) do
@@ -410,7 +412,11 @@ function cfgControlSurmount:getAllConsumeByHeroId(id)
             end
         end
     end
-    return tmp
+    local mat_names = {}
+    for i, v in pairs(tmp) do
+        mat_names[i]=XML_item.item[v].name
+    end
+    return mat_names
 end
 
 -- 获取英雄某突破等级消耗的所有材料
@@ -424,4 +430,38 @@ function cfgControlSurmount:getAllConsumeList(id, break_lv)
         end
     end
     return items_list, res_list
+end
+
+-- 获取全部英雄突破材料、限定、获取方式信息
+function cfgControlSurmount:getAllHerosMoreInfo()
+    local heros = cfgControlHero:getAllHeroIds()
+    local moreinfo = {}
+    for key, heroid in pairs(heros) do
+        local name = cfgControlHero:getName(heroid)
+        local each_consumes = cfgControlSurmount:getAllConsumeByHeroId(heroid)
+        moreinfo[name] = { ["consumes"] = each_consumes }
+
+        moreinfo[name].consumes_str = table.concat(each_consumes,"、")
+
+        local xianding = CfgControlHeroStory:xianding(heroid)
+        if xianding == 0 then
+            xianding = "常驻"
+        elseif xianding  == 1 then
+            xianding = "限定"
+        elseif xianding  == 2 then
+            xianding = "特限"
+        end
+        moreinfo[name].xianding = xianding
+
+        local pieceid = XML_hero.heros[heroid].pieceid
+        local get_way = ""
+        if pieceid then
+            get_way = XML_item.item[pieceid].getway
+            if not get_way then
+                get_way = "无"
+            end
+        end
+        moreinfo[name].getway = get_way
+    end
+    return moreinfo
 end

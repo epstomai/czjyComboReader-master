@@ -10,7 +10,7 @@ require("getSkillDesc")
 --获取组合技列表
 --GetComboList.runGetCombo()
 
---获取刻印特技列表
+--获取刻印特技列表(excel用)
 --GetExEquipSkills.run()
 
 --获得英雄数据
@@ -23,3 +23,10 @@ require("getSkillDesc")
 --print(FormatTable(getllAllSkillDesc(10022)))
 --指定技能名称
 --printSingleSkillDesc("痛苦之力")
+
+--获取全部英雄突破材料、限定、获取方式信息
+--print(formatTable(cfgControlSurmount:getAllHerosMoreInfo()))
+
+--获取全部英雄刻印特技，table格式
+print(formatTable(GetExEquipSkills.getAllHeroExEqSkills()))
+
