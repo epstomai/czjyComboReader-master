@@ -34,8 +34,8 @@ function getEachLevelDesc(value)
     local level = value[3]
     --搬运的时候需要html标签就去掉这个方法{{!}}
     --local desc = parseDesc(group_id,nil,level)
-    local desc = removeHtmlMark(parseDesc(group_id,nil,level))
-    return desc
+    local desc = parseDesc(group_id,nil,level)
+    return colorParser(desc)
 end
 
 --获得每个技能的全部描述（四条描述）
@@ -232,17 +232,8 @@ function run()
     end
 end
 
---[[
-{
-    [洛天依]={
-        [icon] = "xx.png",
-        [skillname]="开饭"
-        [desc]={"1","2","3","4"}
-    }
-}
-]]
 
---返回全部英雄刻印表
+--返回全部英雄刻印表Engraving
 function getAllHeroExEqSkills()
     local equip_list = getAllExEquip()
     local heros = {}
@@ -260,6 +251,7 @@ function getAllHeroExEqSkills()
         out_list[heroname] = {
             ["equip_name"] = getExEquiNameByHeroId(v),
             ["skill_name"] = getEqSkillNameByHeroId(v),
+            ["icon"] = getExEqSkillIcon(v),
             ["desc"] = getAllDescByHeroid(v)
         }
     end
@@ -275,6 +267,24 @@ function getAllExEquip()
         end
        if string.find(v.name,"刻印") then
             equip_list[v.name] = { ["skills"] = v.skills , ["heros"] = v.heroid }
+        end
+    end
+    return equip_list
+end
+
+function getAllExEquipWithNames()
+    local equip_list = {}
+    for i, v in pairs(XML_equip.equip) do
+        if not v.name then
+            v.name = ""
+        end
+        if string.find(v.name,"刻印") then
+            local tmp_names = {}
+            for j, k in pairs(v.heroid) do
+                tmp_names[j] = cfgControlHero:getName(k)
+            end
+            --equip_list[v.name] = { ["skills"] = v.skills , ["heros"] = tmp_names }
+            equip_list[v.name] = {  ["heros"] = tmp_names }
         end
     end
     return equip_list
@@ -334,4 +344,12 @@ function getAllDescByHeroid(heroid)
         desc[i] = v.desc
     end
     return desc
+end
+
+function getExEqSkillIcon(heroid)
+    local skillid = getEqSkillIdByHeroId(heroid)
+    local groupid = XML_equip_skill.equip_skill[skillid].zone[1][2]
+    local path = XML_skill.skillgroup[groupid].params
+    path = string.match(path,"%a+.png")
+    return path
 end

@@ -7,6 +7,7 @@ require("getExEquipSkills")
 require("GetComboList")
 require("getHeroData")
 require("getSkillDesc")
+require("getHeroDialog")
 --获取组合技列表
 --GetComboList.runGetCombo()
 
@@ -27,6 +28,11 @@ require("getSkillDesc")
 --获取全部英雄突破材料、限定、获取方式信息
 --print(formatTable(cfgControlSurmount:getAllHerosMoreInfo()))
 
---获取全部英雄刻印特技，table格式
-print(formatTable(GetExEquipSkills.getAllHeroExEqSkills()))
+--获取全部英雄刻印特技（已出特技的），table格式
+--print(formatTable(GetExEquipSkills.getAllHeroExEqSkills()))
+----获取全部英雄刻印
+--print(formatTable(GetExEquipSkills.getAllExEquipWithNames()))
 
+--获取英雄对话和英雄故事
+--print(formatTable(getHeroDialogs()))
+print(formatTable(getHeroStories()))
