@@ -10,8 +10,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -224,8 +224,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -431,8 +431,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -721,8 +721,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -931,8 +931,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -1149,8 +1149,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -1322,8 +1322,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -1544,8 +1544,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -1784,8 +1784,8 @@ item = {
 		["sort"] = 730,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -1989,8 +1989,8 @@ item = {
 		["sort"] = 730,
 		["getway"] = "音乐祭冒险委托、音乐祭歌曲创作",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -2003,7 +2003,7 @@ item = {
 				["id"] = 31,
 				["value"] = {
 					[1] = 1,
-					[2] = "641",
+					[2] = "714",
 				},
 			},
 		},
@@ -2206,8 +2206,8 @@ item = {
 		["sort"] = 730,
 		["getway"] = "门票派送活动，奥罗拉音乐祭活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -2470,8 +2470,8 @@ item = {
 		["val"] = 10,
 		["sort"] = 730,
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -3012,8 +3012,8 @@ item = {
 		["sort"] = 716,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -3252,8 +3252,8 @@ item = {
 		["sort"] = 717,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -3510,8 +3510,8 @@ item = {
 		["sort"] = 718,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -3865,8 +3865,8 @@ item = {
 		["sort"] = 719,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -4078,8 +4078,8 @@ item = {
 		["sort"] = 720,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -4252,8 +4252,8 @@ item = {
 		["sort"] = 721,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -4479,8 +4479,8 @@ item = {
 		["sort"] = 722,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -4951,70 +4951,92 @@ item = {
 			},
 		},
 	},
-	[4102] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 0,
-		["sort"] = 730,
-		["overdue"] = {
-		},
-		["getway"] = "冒险任务、大苍穹、竞技场商店、日常巡守",
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/common_2.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "英雄突破4至8层的道具",
-		["name"] = "突破材料",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 4102,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
-		},
-	},
-	[110869] = {
+	[1026] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 2,
-		["sort"] = 361,
+		["sort"] = 26,
 		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
+		["stacklimit"] = 1,
 		["quality"] = 4,
 		["changeface"] = {
 		},
 		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift13.png",
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 110688,
+			["items"] = {
+				[1] = {
+					[1] = 2001,
+					[2] = 1,
+				},
+				[2] = {
+					[1] = 1025,
+					[2] = 90,
+				},
+				[3] = {
+					[1] = 1024,
+					[2] = 90,
+				},
+				[4] = {
+					[1] = 1001,
+					[2] = 90,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+				["gold"] = 1000,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得1~3个龙骸，或1~3个巡守券补给",
-		["name"] = "紫色福袋",
-		["sort1"] = 66,
+		["desc"] = "新手礼包",
+		["name"] = "新手礼包",
+		["sort1"] = 26,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110869,
+		["itemid"] = 1026,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1030] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 30,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 10,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["hero"] = {
+				[1] = 10008,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "英雄宝箱，打开可以获得英雄",
+		["name"] = "英雄宝箱2",
+		["sort1"] = 30,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1030,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -6196,8 +6218,8 @@ item = {
 		["sort"] = 725,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -6902,8 +6924,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -7270,8 +7292,8 @@ item = {
 		["sort"] = 734,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -7401,39 +7423,48 @@ item = {
 			},
 		},
 	},
-	[1402] = {
+	[110107] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 330,
+		["usetype"] = 18,
 		["val"] = 10,
+		["sort"] = 725,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2018-07-22 23:59:00",
+			["str_time"] = 1532275140,
 		},
+		["angle"] = "res/image/ui/02_item/other/activity_cup.png",
 		["stacklimit"] = 999,
-		["quality"] = 4,
+		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110107,
+			},
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/lightgreengift.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 1402,
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得1个中级突破石。",
-		["name"] = "中级突破礼包",
-		["sort1"] = 39,
+		["desc"] = "淡雅的青色礼物箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "青色礼物箱",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1402,
+		["itemid"] = 110107,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 0,
 			},
 		},
 	},
@@ -7446,8 +7477,8 @@ item = {
 		["sort"] = 735,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -7670,8 +7701,8 @@ item = {
 		["sort"] = 736,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -8001,8 +8032,8 @@ item = {
 		["sort"] = 737,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -8280,8 +8311,8 @@ item = {
 		["sort"] = 738,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -8499,8 +8530,8 @@ item = {
 		["sort"] = 739,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -8759,8 +8790,8 @@ item = {
 		["sort"] = 740,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -13047,35 +13078,51 @@ item = {
 			},
 		},
 	},
-	[7079] = {
+	[24213] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["selltype"] = 1,
+		["sort"] = 121,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
+		["version"] = 1000,
+		["stacklimit"] = 1,
 		["quality"] = 4,
-		["changeface"] = {
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 6,
+					},
+				},
+			},
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_3.png",
-		["resonate_value"] = {
+		["type"] = 201,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_2001.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 80,
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "80级精良的武器，盔甲，靴子，首饰。",
-		["name"] = "80级精良装备",
-		["sort1"] = 68,
-		["alltype"] = 4,
+		["alltype"] = 2,
+		["name"] = "猎手长矛",
+		["desc"] = "优秀的猎手，能够将猎物玩弄于鼓掌中。",
+		["sort1"] = 121,
 		["noair"] = 1,
-		["itemid"] = 7079,
+		["itemid"] = 24213,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 12500,
 			},
 		},
 	},
@@ -23616,46 +23663,52 @@ item = {
 			},
 		},
 	},
-	[1127] = {
+	[22111] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 46,
 		["viplimit"] = 0,
 		["selltype"] = 1,
-		["sort"] = 550,
+		["sort"] = 47,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 508,
-		["picture"] = "res/image/ui/02_item/material/superrare_03.png",
-		["val"] = 10,
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 3,
+		["open_hole"] = {
 			[1] = {
-				[1] = 80,
-				[2] = 89,
 			},
 			[2] = {
-				[1] = 6,
-				[2] = 6,
-			},
-			[3] = {
-				[1] = 203,
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
 			},
 		},
-		["name"] = "80传奇鞋子精华",
-		["desc"] = "可以作为80-89级，传奇品质鞋子共鸣材料使用。",
-		["sort1"] = 70,
-		["ex_function"] = {
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["itemid"] = 1127,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_1004.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 220,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 2047,
+		["name"] = "老佣兵的鞋子",
+		["desc"] = "陪伴老佣兵度过无数个寂寞的夜。",
+		["sort1"] = 47,
+		["noair"] = 1,
+		["itemid"] = 22111,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 5000,
 			},
 		},
 	},
@@ -30441,52 +30494,37 @@ item = {
 			},
 		},
 	},
-	[22309] = {
+	[9109] = {
 		["herolv"] = 1,
-		["teamlv"] = 40,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 81,
+		["usetype"] = 23,
+		["sort"] = 24,
 		["overdue"] = {
 		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
+		["getway"] = "渠道活动",
+		["stacklimit"] = 999,
 		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
+		["changeface"] = {
 		},
-		["type"] = 201,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_3001.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 160,
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_135.png",
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["propertyid"] = 2081,
-		["name"] = "先驱者之剑",
-		["desc"] = "赠与立志复兴奥罗拉的冒险先驱们!",
-		["sort1"] = 81,
-		["noair"] = 1,
-		["itemid"] = 22309,
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "跟宠:足球猫头鹰",
+		["desc"] = "使用解锁冒险跟宠：足球猫头鹰。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["pet"] = 1010,
+		},
+		["itemid"] = 9109,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 9000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -31196,35 +31234,51 @@ item = {
 			},
 		},
 	},
-	[7083] = {
+	[285033] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["sort"] = 201,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
-		["resonate_value"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_whip_4001.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
 		},
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "60级史诗的武器，盔甲，靴子，首饰。",
-		["name"] = "60级古代史诗装",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7083,
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2265,
+		["name"] = "黯淡的美杜莎的恩赐",
+		["decompose"] = 1,
+		["desc"] = "尚未完成的魔鞭，魔蛇的身躯还在不停的扭动着。",
+		["sort1"] = 201,
+		["itemid"] = 285033,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -32179,47 +32233,51 @@ item = {
 			},
 		},
 	},
-	[110963] = {
+	[284019] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 43,
-		["val"] = 10,
-		["sort"] = 730,
-		["getway"] = "酒馆招募",
+		["sort"] = 275,
 		["overdue"] = {
-			["str"] = "2019-04-02 23:59:59",
-			["str_time"] = 1554220799,
 		},
-		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
-		["stacklimit"] = 99999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/gift06.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["vitem"] = {
-				[1] = {
-					[1] = 3,
-					[2] = 30,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
 				},
 			},
 		},
-		["ex_function"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4015.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "打开即可获得初心者之境活动中格莱明SP的突破材料",
-		["name"] = "招募礼盒",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110963,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2339,
+		["name"] = "征途长靴",
+		["decompose"] = 1,
+		["desc"] = "我们的征途，是世界的尽头。",
+		["sort1"] = 275,
+		["itemid"] = 284019,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -32976,47 +33034,51 @@ item = {
 			},
 		},
 	},
-	[110965] = {
+	[284027] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 43,
-		["val"] = 10,
-		["sort"] = 730,
-		["getway"] = "酒馆招募",
+		["sort"] = 191,
 		["overdue"] = {
-			["str"] = "2019-04-02 23:59:59",
-			["str_time"] = 1554220799,
 		},
-		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
-		["stacklimit"] = 99999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/gift06.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["vitem"] = {
-				[1] = {
-					[1] = 2,
-					[2] = 30,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
 				},
 			},
 		},
-		["ex_function"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4013.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "打开即可获得初心者之境活动中桑妮SP的突破材料",
-		["name"] = "招募礼盒",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110965,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2259,
+		["name"] = "狮心战靴",
+		["decompose"] = 1,
+		["desc"] = "罪恶不尽，圣战不休。",
+		["sort1"] = 191,
+		["itemid"] = 284027,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -33392,47 +33454,51 @@ item = {
 			},
 		},
 	},
-	[110966] = {
+	[284031] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 43,
-		["val"] = 10,
-		["sort"] = 730,
-		["getway"] = "酒馆招募",
+		["sort"] = 199,
 		["overdue"] = {
-			["str"] = "2019-04-02 23:59:59",
-			["str_time"] = 1554220799,
 		},
-		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
-		["stacklimit"] = 99999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/gift06.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["vitem"] = {
-				[1] = {
-					[1] = 1,
-					[2] = 30,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
 				},
 			},
 		},
-		["ex_function"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4019.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "打开即可获得初心者之境活动中薇薇安SP的突破材料",
-		["name"] = "招募礼盒",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110966,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2263,
+		["name"] = "双翼祭司长靴",
+		["decompose"] = 1,
+		["desc"] = "一翼守护永夜和安宁。",
+		["sort1"] = 199,
+		["itemid"] = 284031,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -33714,48 +33780,35 @@ item = {
 			},
 		},
 	},
-	[110455] = {
+	[9206] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 736,
-		["getway"] = "贸易战线活动-英普瑞恩特产",
+		["usetype"] = 24,
+		["sort"] = 23,
 		["overdue"] = {
-			["str"] = "2018-12-13 23:59:59",
-			["str_time"] = 1544716799,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["getway"] = "活动商店兑换",
 		["stacklimit"] = 999,
-		["quality"] = 3,
+		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["id"] = 51,
-				["type"] = 3,
-				["activity"] = "TRADEEVENT",
-				["sysid"] = 2001,
-			},
 		},
-		["type"] = 527,
-		["picture"] = "res/image/ui/02_item/event/event_08/ink.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_137.png",
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "英普瑞恩生产的墨水，书写质量十分之好，受到各地的欢迎。（基准价格：100）",
-		["name"] = "墨水",
-		["sort1"] = 1,
 		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110455,
+		["resonate_value"] = {
+		},
+		["name"] = "球系大魔导",
+		["desc"] = "使用解锁桑妮皮肤：球系大魔导。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4004,
+		},
+		["itemid"] = 9206,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
 		},
 	},
 	[110711] = {
@@ -33803,36 +33856,51 @@ item = {
 			},
 		},
 	},
-	[110967] = {
+	[284035] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 46,
-		["sort"] = 727,
-		["val"] = 10,
+		["sort"] = 203,
 		["overdue"] = {
 		},
-		["getway"] = "礼包",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/raffle_ticket_1.png",
-		["resonate_value"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4022.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
 		},
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["name"] = "抽奖券A",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110967,
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2267,
+		["name"] = "苦痛的足踏",
+		["decompose"] = 1,
+		["desc"] = "这双鞋子很擅长制造“快乐”的痛苦。",
+		["sort1"] = 203,
+		["itemid"] = 284035,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 10000,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -36824,36 +36892,52 @@ item = {
 			},
 		},
 	},
-	[9111] = {
+	[22313] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 40,
 		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 24,
+		["selltype"] = 1,
+		["sort"] = 85,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
+		["version"] = 1000,
+		["stacklimit"] = 1,
 		["quality"] = 5,
-		["changeface"] = {
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_184.png",
+		["type"] = 201,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_axe_3001.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 180,
 		["award"] = {
 		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "跟宠:嘟嘟",
-		["desc"] = "使用解锁冒险跟宠：嘟嘟。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["pet"] = 1012,
-		},
-		["itemid"] = 9111,
+		["alltype"] = 2,
+		["propertyid"] = 2085,
+		["name"] = "咆哮战斧",
+		["desc"] = "为了胜利！为了荣誉！为了兄弟！",
+		["sort1"] = 85,
+		["noair"] = 1,
+		["itemid"] = 22313,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 9000,
 			},
 		},
 	},
@@ -37610,50 +37694,34 @@ item = {
 			},
 		},
 	},
-	[285097] = {
+	[7084] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 309,
+		["sort"] = 68,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
+		["stacklimit"] = 999,
 		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["changeface"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4011.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
+		["type"] = 604,
+		["picture"] = "res/image/map/building/00_chest_clothes_61.png",
+		["val"] = 10,
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "黯淡的昆达里尼",
-		["decompose"] = 1,
-		["desc"] = "尚未完全解放力量的剑杖，当它降世之时，未知的魔兽也将一同现身。",
-		["sort1"] = 309,
-		["itemid"] = 285097,
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "远古传奇装备",
+		["desc"] = "80级远古传奇的武器，盔甲，靴子，首饰。",
+		["sort1"] = 68,
+		["ex_function"] = {
+		},
+		["itemid"] = 7084,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -37832,51 +37900,40 @@ item = {
 			},
 		},
 	},
-	[284075] = {
+	[110977] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 255,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4001.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
+		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110977,
+			},
 		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2319,
-		["name"] = "绯红便鞋",
-		["decompose"] = 1,
-		["desc"] = "最深邃的夜空，预示着光明以及希望。",
-		["sort1"] = 255,
-		["itemid"] = 284075,
+		["ex_function"] = {
+		},
+		["desc"] = "打开即可随机获得一个1-4品异构苍穹辉光",
+		["name"] = "异构辉光礼袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110977,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -40023,36 +40080,52 @@ item = {
 			},
 		},
 	},
-	[9112] = {
+	[22315] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 42,
 		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 24,
+		["selltype"] = 1,
+		["sort"] = 87,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
+		["version"] = 1000,
+		["stacklimit"] = 1,
 		["quality"] = 5,
-		["changeface"] = {
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_188.png",
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3001.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 180,
 		["award"] = {
 		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "跟宠:小红莲",
-		["desc"] = "使用解锁冒险跟宠：小红莲。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["pet"] = 1013,
-		},
-		["itemid"] = 9112,
+		["alltype"] = 2,
+		["propertyid"] = 2087,
+		["name"] = "咆哮战靴",
+		["desc"] = "前进！前进！再前进！勇往直前！",
+		["sort1"] = 87,
+		["noair"] = 1,
+		["itemid"] = 22315,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 9000,
 			},
 		},
 	},
@@ -40139,35 +40212,42 @@ item = {
 			},
 		},
 	},
-	[9208] = {
+	[110471] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
+		["usetype"] = 31,
+		["sort"] = 363,
+		["getway"] = "贸易战线活动道具",
 		["overdue"] = {
+			["str"] = "2018-12-13 23:59:59",
+			["str_time"] = 1544716799,
 		},
-		["getway"] = "线下活动",
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 3,
 		["changeface"] = {
 		},
-		["type"] = 516,
+		["type"] = 519,
 		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_146.png",
+		["picture"] = "res/image/ui/02_item/event/event_08/buff_yellow.png",
 		["award"] = {
 		},
 		["alltype"] = 5,
 		["resonate_value"] = {
 		},
-		["name"] = "炎拳宗师(限定)",
-		["desc"] = "使用解锁帝隆皮肤：炎拳宗师(限定)。",
-		["sort1"] = 69,
+		["name"] = "售卖增益Buff",
+		["desc"] = "在活动大陆出售指定商品时，概率性额外获得财富值奖励增益",
+		["sort1"] = 66,
 		["ex_function"] = {
-			["skinid"] = 4006,
+			["count"] = 10,
+			["buff"] = 1,
 		},
-		["itemid"] = 9208,
+		["itemid"] = 110471,
 		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
 		},
 	},
 	[110727] = {
@@ -40983,51 +41063,40 @@ item = {
 			},
 		},
 	},
-	[284107] = {
+	[110985] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 291,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
 		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["changeface"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/heal.png",
+		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110985,
+			},
 		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2335,
-		["name"] = "深渊战靴",
-		["decompose"] = 1,
-		["desc"] = "深沉而庄严的铠甲，象征了死者的尊严。",
-		["sort1"] = 291,
-		["itemid"] = 284107,
+		["ex_function"] = {
+		},
+		["desc"] = "打开后可获得一个治愈刻印",
+		["name"] = "治愈刻印宝箱",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110985,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -42865,50 +42934,36 @@ item = {
 			},
 		},
 	},
-	[285149] = {
+	[101008] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 325,
+		["sort"] = 608,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["getway"] = "公会副本",
+		["stacklimit"] = 9999999,
+		["quality"] = 3,
+		["changeface"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_bow_4001.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
+		["type"] = 402,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/guild/guild_medal_1.png",
+		["resonate_value"] = {
 		},
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "黯淡的诺多林",
-		["decompose"] = 1,
-		["desc"] = "尚未完全解放力量的长弓，当其开张之时，星辰都将为之震颤。",
-		["sort1"] = 325,
-		["itemid"] = 285149,
+		["ex_function"] = {
+		},
+		["desc"] = "冒险公会根据贡献颁发的初级勋章，可用于在初级公会商店中兑换物品。",
+		["name"] = "初级公会勋章",
+		["sort1"] = 37,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 101008,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -44369,49 +44424,39 @@ item = {
 			},
 		},
 	},
-	[284139] = {
+	[110993] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 327,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 203,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
 		},
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
+		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110993,
+			},
 		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["ex_function"] = {
 		},
-		["val"] = 110,
-		["name"] = "米迦勒专属鞋子",
-		["decompose"] = 1,
-		["sort1"] = 327,
-		["itemid"] = 284139,
+		["name"] = "魔盒奖励23",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110993,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -44758,49 +44803,39 @@ item = {
 			},
 		},
 	},
-	[284143] = {
+	[110994] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 327,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 203,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
 		},
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
+		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110994,
+			},
 		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["ex_function"] = {
 		},
-		["val"] = 110,
-		["name"] = "沙利叶专属鞋子",
-		["decompose"] = 1,
-		["sort1"] = 327,
-		["itemid"] = 284143,
+		["name"] = "魔盒奖励24",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110994,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -45159,49 +45194,39 @@ item = {
 			},
 		},
 	},
-	[284147] = {
+	[110995] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 327,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 203,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
 		},
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
+		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110995,
+			},
 		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["ex_function"] = {
 		},
-		["val"] = 110,
-		["name"] = "莉莉丝",
-		["decompose"] = 1,
-		["sort1"] = 327,
-		["itemid"] = 284147,
+		["name"] = "魔盒奖励25",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110995,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -45528,39 +45553,49 @@ item = {
 			},
 		},
 	},
-	[110996] = {
+	[284151] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 307,
-		["val"] = 10,
+		["sort"] = 327,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 502,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_money_01.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["gold"] = 500000,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 203,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "打开即可获得500000金币",
-		["name"] = "大袋金币",
-		["sort1"] = 67,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110996,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 110,
+		["name"] = "艾尔薇",
+		["decompose"] = 1,
+		["sort1"] = 327,
+		["itemid"] = 284151,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 10000,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -45635,41 +45670,50 @@ item = {
 			},
 		},
 	},
-	[1004] = {
+	[284152] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 60,
 		["viplimit"] = 0,
-		["usetype"] = 1,
-		["sort"] = 105,
-		["val"] = 10,
+		["sort"] = 189,
 		["overdue"] = {
 		},
-		["getway"] = "作战、冒险任务、大苍穹、团队副本、日常巡守",
-		["stacklimit"] = 9999999,
-		["quality"] = 1,
-		["changeface"] = {
-		},
-		["type"] = 505,
-		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_05.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["hexp"] = 500,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 204,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4012.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
 		},
-		["desc"] = "进阶经验书，使用获得500经验",
-		["name"] = "进阶经验书",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1004,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["name"] = "艾尔薇",
+		["propertyid"] = 2193,
+		["decompose"] = 1,
+		["sort1"] = 189,
+		["itemid"] = 284152,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 200,
+				["gold"] = 50000,
 			},
 		},
 	},
@@ -46066,104 +46110,105 @@ item = {
 			},
 		},
 	},
-	[1028] = {
+	[110741] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 28,
+		["usetype"] = 18,
 		["val"] = 10,
+		["sort"] = 756,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-02-21 23:59:00",
+			["str_time"] = 1550764740,
 		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
+		["angle"] = "res/image/ui/00/67_thespringfestival/67_icon_jb.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110741,
+			},
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/flyinghorse_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 2001,
-					[2] = 1,
-				},
-				[2] = {
-					[1] = 1025,
-					[2] = 90,
-				},
-				[3] = {
-					[1] = 1031,
-					[2] = 90,
-				},
-				[4] = {
-					[1] = 1001,
-					[2] = 90,
-				},
-			},
-			["res"] = {
-				["diamond"] = 100,
-				["gold"] = 1000,
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "新手礼包2",
-		["name"] = "新手礼包2",
-		["sort1"] = 28,
+		["desc"] = "天马宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "天马宝箱",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1028,
+		["itemid"] = 110741,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
 			},
 		},
 	},
-	[284155] = {
+	[110997] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 327,
+		["usetype"] = 40,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 203,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["open_hole"] = {
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift07.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
 			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 286001,
+						[2] = 1,
+					},
+				},
 			},
 			[2] = {
 				["items"] = {
 					[1] = {
-						[1] = 1048,
-						[2] = 9,
+						[1] = 286003,
+						[2] = 1,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 286008,
+						[2] = 1,
 					},
 				},
 			},
 		},
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
+		["ex_function"] = {
 		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 110,
-		["name"] = "威廉",
-		["decompose"] = 1,
-		["sort1"] = 327,
-		["itemid"] = 284155,
+		["desc"] = "可以从荆棘、祝福、治愈三个刻印中指定获得一个",
+		["name"] = "刻印礼盒",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110997,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -46488,32 +46533,34 @@ item = {
 			},
 		},
 	},
-	[101016] = {
+	[1068] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["usetype"] = 13,
+		["sort"] = 322,
+		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 2,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_010.png",
+		["type"] = 509,
+		["picture"] = "res/image/ui/02_item/consumable/exp_book_buff_1.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["buff"] = 7,
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "赤铜打造的宝箱，坚硬且耐腐蚀，能够长时间存放高价值品。",
-		["name"] = "赤铜宝箱",
-		["sort1"] = 68,
-		["alltype"] = 4,
+		["desc"] = "使用后30天内，作战和快速作战的经验书收益增加30%。",
+		["name"] = "经验书30%增益",
+		["sort1"] = 37,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 101016,
+		["itemid"] = 1068,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -47155,50 +47202,46 @@ item = {
 			},
 		},
 	},
-	[284161] = {
+	[1128] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 325,
+		["selltype"] = 1,
+		["sort"] = 551,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
+		["stacklimit"] = 999,
 		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["changeface"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_bow_4005.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
+		["type"] = 508,
+		["picture"] = "res/image/ui/02_item/material/superrare_04.png",
+		["val"] = 10,
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "银色复仇",
-		["decompose"] = 1,
-		["desc"] = "弩枪中，最后一枚永不出膛弩箭，铭刻着仇敌的名字。",
-		["sort1"] = 325,
-		["itemid"] = 284161,
+		["alltype"] = 4,
+		["resonate_value"] = {
+			[1] = {
+				[1] = 80,
+				[2] = 89,
+			},
+			[2] = {
+				[1] = 6,
+				[2] = 6,
+			},
+			[3] = {
+				[1] = 204,
+			},
+		},
+		["name"] = "80传奇首饰精华",
+		["desc"] = "可以作为80-89级，传奇品质戒指共鸣材料使用。",
+		["sort1"] = 70,
+		["ex_function"] = {
+		},
+		["itemid"] = 1128,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -47365,35 +47408,49 @@ item = {
 			},
 		},
 	},
-	[9210] = {
+	[110487] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 752,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2018-12-20 23:59:59",
+			["str_time"] = 1545321599,
 		},
-		["getway"] = "商店购买",
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110487,
+			},
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_149.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/griffon_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
-		["name"] = "邪龙降临",
-		["desc"] = "使用解锁齐格飞皮肤：邪龙降临。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4008,
+		["award"] = {
 		},
-		["itemid"] = 9210,
+		["ex_function"] = {
+		},
+		["desc"] = "狮鹫宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "狮鹫宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110487,
 		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
 		},
 	},
 	[110743] = {
@@ -47441,49 +47498,48 @@ item = {
 			},
 		},
 	},
-	[284163] = {
+	[110999] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 327,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 748,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 203,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["open_hole"] = {
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110999,
 			},
 		},
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/redgradon_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
 		},
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["ex_function"] = {
 		},
-		["val"] = 110,
-		["name"] = "范海辛",
-		["decompose"] = 1,
-		["sort1"] = 327,
-		["itemid"] = 284163,
+		["desc"] = "黑龙宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "黑龙宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110999,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -47667,92 +47723,87 @@ item = {
 			},
 		},
 	},
-	[110232] = {
+	[1212] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 729,
-		["val"] = 10,
+		["selltype"] = 1,
+		["sort"] = 3500,
 		["overdue"] = {
-			["str"] = "2018-09-10 23:59:00",
-			["str_time"] = 1536595140,
 		},
-		["getway"] = "活动冒险委托，活动商店",
-		["stacklimit"] = 999,
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110232,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/swan_1.png",
-		["selltype"] = 1,
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/3D.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["res"] = {
+				["hexp"] = 150,
+			},
 		},
 		["ex_function"] = {
+			["time"] = 12,
+			["taskgroup"] = 104,
 		},
-		["desc"] = "天鹅宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "天鹅宝箱",
-		["sort1"] = 1,
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "极品苍穹炫光",
+		["sort1"] = 35,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110232,
+		["itemid"] = 1212,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 16000,
+				},
 			},
 		},
 	},
-	[110488] = {
+	[1216] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 753,
-		["getway"] = "活动冒险委托，活动商店",
+		["selltype"] = 1,
+		["sort"] = 3500,
 		["overdue"] = {
-			["str"] = "2018-12-20 23:59:59",
-			["str_time"] = 1545321599,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
-		["stacklimit"] = 999,
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110488,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/scorpion_1.png",
-		["selltype"] = 1,
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/4D.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["res"] = {
+				["hexp"] = 150,
+			},
 		},
 		["ex_function"] = {
+			["time"] = 12,
+			["taskgroup"] = 104,
 		},
-		["desc"] = "毒蝎宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "毒蝎宝箱",
-		["sort1"] = 1,
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "极品苍穹辉光",
+		["sort1"] = 35,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110488,
+		["itemid"] = 1216,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 32000,
+				},
 			},
 		},
 	},
@@ -47801,45 +47852,48 @@ item = {
 			},
 		},
 	},
-	[1224] = {
+	[111000] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 749,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["getway"] = "幻境作战，苍穹之光精炼",
-		["stacklimit"] = 1,
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111000,
+			},
 		},
-		["type"] = 520,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/5D.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/seamonster_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["res"] = {
-				["hexp"] = 210,
-			},
 		},
 		["ex_function"] = {
-			["time"] = 12,
-			["taskgroup"] = 104,
 		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "极品苍穹耀光",
-		["sort1"] = 35,
+		["desc"] = "水怪宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "水怪宝箱",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1224,
+		["itemid"] = 111000,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 48000,
-				},
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -48295,6 +48349,51 @@ item = {
 			},
 		},
 	},
+	[111001] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 750,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111001,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/snake_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "盘蛇宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "盘蛇宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111001,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
 	[1304] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -48518,38 +48617,32 @@ item = {
 			},
 		},
 	},
-	[1324] = {
+	[101020] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 12,
-		["sort"] = 88,
-		["val"] = 10,
+		["sort"] = 68,
 		["overdue"] = {
 		},
-		["getway"] = "英雄之证转化、英雄之证分解",
-		["stacklimit"] = 10000,
-		["quality"] = 6,
+		["stacklimit"] = 999,
+		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 530,
-		["picture"] = "res/image/ui/02_item/material/tezhi_sp.png",
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_005.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 1324,
-			},
 		},
 		["ex_function"] = {
 		},
-		["award_num"] = 100,
-		["desc"] = "觉醒宝石的碎片形态，使用100个该物品，可以合成1个特质宝石。",
-		["name"] = "特质宝石碎片",
-		["sort1"] = 69,
+		["desc"] = "钻石装饰的宝箱，箱子本身已经是价值连城，加上其上面施加的魔法封印，里面的物品必然是物价之宝。",
+		["name"] = "钻石宝箱",
+		["sort1"] = 68,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 1324,
+		["itemid"] = 101020,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -48719,6 +48812,51 @@ item = {
 			},
 		},
 	},
+	[111002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 751,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111002,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/owl_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "夜枭宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "夜枭宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111002,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
 	[99997] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -48847,42 +48985,39 @@ item = {
 			},
 		},
 	},
-	[110235] = {
+	[1404] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 29,
-		["val"] = 10000,
-		["sort"] = 774,
-		["getway"] = "活动冒险委托",
+		["usetype"] = 2,
+		["sort"] = 330,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["angle"] = "res/image/ui/00/55_flameisland/55_btn_j.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 524,
-		["picture"] = "res/image/ui/02_item/event/event_05/green_card_1.png",
-		["selltype"] = 0,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 110084,
+				[1] = 1404,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "获得后自动使用，立即随机获得一个碧之阵的英雄凭证。（洛天依、艾尔薇、莉可丽丝、伊莎贝拉、哥伦布、菲儿、布伦希尔德、黛丝、美杜莎、爱丽丝、桑妮、英普瑞斯、斯巴达、加百列。）",
-		["name"] = "英雄凭证-碧之阵",
-		["sort1"] = 42,
+		["desc"] = "打开可随机获得1个英雄突破9至12层的突破材料。",
+		["name"] = "特级突破礼包",
+		["sort1"] = 39,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110235,
+		["itemid"] = 1404,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -48970,6 +49105,51 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110747,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[111003] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 752,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111003,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/griffon_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "狮鹫宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "狮鹫宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111003,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
@@ -49196,6 +49376,51 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110748,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[111004] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 753,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111004,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/scorpion_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "毒蝎宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "毒蝎宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111004,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
@@ -49613,6 +49838,51 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110749,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[111005] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 754,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111005,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/spider_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "蜘蛛宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "蜘蛛宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111005,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
@@ -50262,49 +50532,35 @@ item = {
 			},
 		},
 	},
-	[110495] = {
+	[9211] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 765,
-		["getway"] = "活动商店",
+		["usetype"] = 24,
+		["sort"] = 23,
 		["overdue"] = {
-			["str"] = "2018-12-20 23:59:59",
-			["str_time"] = 1545321599,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["getway"] = "商店购买",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110495,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/snake_2.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_162.png",
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "特殊盘蛇宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "特殊盘蛇宝箱",
-		["sort1"] = 1,
 		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110495,
+		["resonate_value"] = {
+		},
+		["name"] = "绝代花魁",
+		["desc"] = "使用解锁莉可丽丝皮肤：绝代花魁。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4009,
+		},
+		["itemid"] = 9211,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
 		},
 	},
 	[110751] = {
@@ -50352,51 +50608,48 @@ item = {
 			},
 		},
 	},
-	[276005] = {
+	[111007] = {
 		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 185,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 756,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1001,
-		["type"] = 201,
-		["open_hole"] = {
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 3,
-					},
-				},
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111007,
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4015.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/flyinghorse_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
 		},
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2177,
-		["name"] = "远古的霜语",
-		["decompose"] = 1,
-		["desc"] = "远古时代，魔法曾抵达了能与元素精灵对话的高度，而这把法杖，便是见证。",
-		["sort1"] = 185,
-		["itemid"] = 276005,
+		["ex_function"] = {
+		},
+		["desc"] = "天马宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "天马宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111007,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -50935,37 +51188,58 @@ item = {
 			},
 		},
 	},
-	[100003] = {
+	[7000108] = {
 		["herolv"] = 1,
+		["buff"] = {
+			[1] = {
+				[1] = 1014,
+				[2] = 1025,
+				[3] = 1114,
+			},
+		},
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 16,
 		["sort"] = 1,
-		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/title_match_03.png",
-		["resonate_value"] = {
-		},
+		["quality"] = 6,
+		["type"] = 20001,
+		["picture"] = "res/image/ui/02_item/guild/equip/guild_sword_08.png",
 		["award"] = {
-			["title"] = 3,
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 50,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 50,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 50,
+					},
+				},
+			},
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "冠军赛三阵容对抗模式第二名",
-		["name"] = "圣殿骑士",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100003,
+		["alltype"] = 103,
+		["name"] = "空间撕裂者",
+		["version"] = 1000,
+		["desc"] = "据说有着撕裂空间的力量，但能发挥此等力量的使用者还未曾出现。",
+		["itemid"] = 7000108,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -51295,51 +51569,48 @@ item = {
 			},
 		},
 	},
-	[276013] = {
+	[111009] = {
 		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 185,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 758,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 3,
-					},
-				},
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111009,
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_4001.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/phoenix_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
 		},
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2185,
-		["name"] = "13",
-		["decompose"] = 1,
-		["desc"] = "13",
-		["sort1"] = 185,
-		["itemid"] = 276013,
+		["ex_function"] = {
+		},
+		["desc"] = "凤凰宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "凤凰宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111009,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -51468,51 +51739,52 @@ item = {
 			},
 		},
 	},
-	[276015] = {
+	[21106] = {
 		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 187,
+		["selltype"] = 1,
+		["sort"] = 6,
 		["overdue"] = {
 		},
+		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1001,
-		["type"] = 203,
+		["quality"] = 3,
 		["open_hole"] = {
 			[1] = {
 			},
 			[2] = {
 				["items"] = {
 					[1] = {
-						[1] = 1048,
-						[2] = 3,
+						[1] = 1046,
+						[2] = 1,
 					},
 				},
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4001.png",
+		["type"] = 202,
 		["hole_2"] = {
-			[1] = 1,
+			[1] = 2,
 			[2] = 2,
 		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_1003.png",
 		["hole_1"] = {
-			[1] = 2,
+			[1] = 1,
 			[2] = 1,
 		},
+		["val"] = 90,
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2187,
-		["name"] = "15",
-		["decompose"] = 1,
-		["desc"] = "15",
-		["sort1"] = 187,
-		["itemid"] = 276015,
+		["propertyid"] = 2006,
+		["name"] = "二手钢甲",
+		["desc"] = "上面还残留着前主人的味道。",
+		["sort1"] = 6,
+		["noair"] = 1,
+		["itemid"] = 21106,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50000,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -51702,6 +51974,51 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110754,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[111010] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 759,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111010,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/fox_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "九尾宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "九尾宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111010,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
@@ -51910,6 +52227,51 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[111011] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 760,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111011,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/swan_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "天鹅宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "天鹅宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111011,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -52239,6 +52601,57 @@ item = {
 			},
 		},
 	},
+	[111012] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 748,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111012,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/redgradon_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊黑龙宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊黑龙宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111012,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
+		},
+	},
 	[7000101] = {
 		["herolv"] = 1,
 		["buff"] = {
@@ -52514,6 +52927,57 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[111013] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 749,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111013,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/seamonster_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊水怪宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊水怪宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111013,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
 			},
 		},
 	},
@@ -52795,6 +53259,57 @@ item = {
 			},
 		},
 	},
+	[111014] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 750,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111014,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/snake_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊盘蛇宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊盘蛇宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111014,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
+		},
+	},
 	[100009] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -52953,37 +53468,107 @@ item = {
 		["sellprice"] = {
 		},
 	},
-	[100010] = {
+	[111015] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 1,
+		["usetype"] = 18,
 		["val"] = 10,
+		["sort"] = 751,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111015,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/owl_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊夜枭宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊夜枭宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111015,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
+		},
+	},
+	[7000301] = {
+		["herolv"] = 1,
+		["buff"] = {
+			[1] = {
+				[1] = 1201,
+			},
+		},
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 1,
 		["overdue"] = {
 		},
 		["stacklimit"] = 1,
 		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/badge_match_01.png",
-		["resonate_value"] = {
-		},
+		["type"] = 20003,
+		["picture"] = "res/image/ui/02_item/guild/equip/guild_ball_01.png",
 		["award"] = {
-			["badge"] = 1,
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 18,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 18,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 18,
+					},
+				},
+			},
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "冠军赛第一名时解锁",
-		["name"] = "冠军徽章",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100010,
+		["alltype"] = 103,
+		["name"] = "生命法球",
+		["version"] = 1000,
+		["desc"] = "能够强化治愈系魔法的法球",
+		["itemid"] = 7000301,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -53318,6 +53903,57 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[111016] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 752,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111016,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/griffon_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊狮鹫宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊狮鹫宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111016,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
 			},
 		},
 	},
@@ -53679,6 +54315,57 @@ item = {
 			},
 		},
 	},
+	[111017] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 753,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111017,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/scorpion_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊毒蝎宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊毒蝎宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111017,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
+		},
+	},
 	[100012] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -53953,6 +54640,57 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
+			},
+		},
+	},
+	[111018] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 754,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111018,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/spider_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊蜘蛛宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊蜘蛛宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111018,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
 			},
 		},
 	},
@@ -54307,6 +55045,57 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
+			},
+		},
+	},
+	[111019] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 755,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111019,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/lion_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊雄狮宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊雄狮宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111019,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
 			},
 		},
 	},
@@ -54822,6 +55611,57 @@ item = {
 			},
 		},
 	},
+	[111020] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 756,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111020,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/flyinghorse_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊天马宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊天马宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111020,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
+		},
+	},
 	[274010] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -55164,6 +56004,57 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
+			},
+		},
+	},
+	[111021] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 757,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111021,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/elk_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊麋鹿宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊麋鹿宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111021,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
 			},
 		},
 	},
@@ -55535,6 +56426,57 @@ item = {
 			},
 		},
 	},
+	[111022] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 758,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111022,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/phoenix_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊凤凰宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊凤凰宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111022,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
+		},
+	},
 	[274018] = {
 		["herolv"] = 1,
 		["teamlv"] = 60,
@@ -55752,35 +56694,105 @@ item = {
 			},
 		},
 	},
-	[9213] = {
+	[274021] = {
+		["herolv"] = 1,
+		["teamlv"] = 60,
+		["viplimit"] = 0,
+		["sort"] = 177,
+		["overdue"] = {
+			["num"] = 43200,
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 3,
+					},
+				},
+			},
+		},
+		["type"] = 201,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_4010.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 2177,
+		["decompose"] = 1,
+		["name"] = "纪元回归者",
+		["desc"] = "回归者们，继续你们的冒险吧！",
+		["sort1"] = 177,
+		["noair"] = 1,
+		["itemid"] = 274021,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
+			},
+		},
+	},
+	[111023] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 759,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["getway"] = "商店购买",
+		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111023,
+			},
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_161.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/fox_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
-		["name"] = "夏祭心跳",
-		["desc"] = "使用解锁格莱明皮肤：夏祭心跳。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4011,
+		["award"] = {
 		},
-		["itemid"] = 9213,
+		["ex_function"] = {
+		},
+		["desc"] = "特殊九尾宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊九尾宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111023,
 		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+			},
 		},
 	},
 	[274022] = {
@@ -56201,6 +57213,57 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
+			},
+		},
+	},
+	[111024] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 760,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111024,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/swan_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊天鹅宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊天鹅宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 111024,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 110879,
+					[2] = 1,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
 			},
 		},
 	},
@@ -59693,46 +60756,42 @@ item = {
 			},
 		},
 	},
-	[21048] = {
+	[121015] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 444,
-		["val"] = 10000,
+		["usetype"] = 19,
+		["sort"] = 777,
 		["overdue"] = {
 		},
+		["getway"] = "官网抽奖",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_147.png",
-		["selltype"] = 1,
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_27.png",
+		["award"] = {
+		},
+		["alltype"] = 4,
 		["resonate_value"] = {
 		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1327,
-					[2] = 1,
-				},
+		["name"] = "AR体验卡·帝隆",
+		["desc"] = "若英雄未解锁，使用可以临时解锁帝隆AR功能和基础动作。若已经解锁过该英雄的AR，则随机临时解锁该英雄的1个特殊动作，或延长基础动作试用时间。。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = 1,
+			},
+			["role"] = {
+				[1] = 10015,
 			},
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐60个可激活埃德蒙，同时也是埃德蒙觉醒的道具。",
-		["name"] = "英雄之证·埃德蒙",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21048,
+		["itemid"] = 121015,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
+			["res"] = {
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -61159,42 +62218,52 @@ item = {
 			},
 		},
 	},
-	[121019] = {
+	[21049] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 781,
+		["usetype"] = 3,
+		["sort"] = 445,
+		["val"] = 10000,
 		["overdue"] = {
 		},
-		["getway"] = "官网抽奖",
+		["getway"] = "酒馆招募",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["id"] = 19,
+				["type"] = 2,
+				["sysid"] = 1001,
+			},
 		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_29.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_148.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
-		["name"] = "AR体验卡·桑妮",
-		["desc"] = "若英雄未解锁，使用可以临时解锁桑妮AR功能和基础动作。若已经解锁过该英雄的AR，则随机临时解锁该英雄的1个特殊动作，或延长基础动作试用时间。。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = 1,
-			},
-			["role"] = {
-				[1] = 10019,
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1326,
+					[2] = 1,
+				},
 			},
 		},
-		["itemid"] = 121019,
+		["ex_function"] = {
+		},
+		["desc"] = "集齐40个可激活希娜，同时也是希娜觉醒的道具。",
+		["name"] = "英雄之证·希娜",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21049,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -62511,17 +63580,17 @@ item = {
 			},
 		},
 	},
-	[24313] = {
+	[274092] = {
 		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 60,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 145,
+		["sort"] = 189,
 		["overdue"] = {
 		},
-		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 5,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 204,
 		["open_hole"] = {
 			[1] = {
 			},
@@ -62529,33 +63598,33 @@ item = {
 				["items"] = {
 					[1] = {
 						[1] = 1046,
-						[2] = 9,
+						[2] = 1,
 					},
 				},
 			},
 		},
-		["type"] = 201,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4003.png",
 		["hole_2"] = {
-			[1] = 1,
+			[1] = 2,
 			[2] = 2,
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_3002.png",
 		["hole_1"] = {
 			[1] = 3,
 			[2] = 1,
 		},
-		["val"] = 80,
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["name"] = "天启者大剑",
-		["desc"] = "圣光所在之处，必是光明璀璨的未来。",
-		["sort1"] = 145,
-		["noair"] = 1,
-		["itemid"] = 24313,
+		["val"] = 80,
+		["propertyid"] = 2193,
+		["name"] = "奔流之戒",
+		["decompose"] = 1,
+		["desc"] = "从戒指中，能够听到河水奔流的声音。",
+		["sort1"] = 189,
+		["itemid"] = 274092,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 20000,
+				["gold"] = 50000,
 			},
 		},
 	},
@@ -63650,6 +64719,54 @@ item = {
 		["sellprice"] = {
 		},
 	},
+	[274103] = {
+		["herolv"] = 1,
+		["teamlv"] = 60,
+		["viplimit"] = 0,
+		["sort"] = 189,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 204,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4025.png",
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2193,
+		["name"] = "星落之戒",
+		["decompose"] = 1,
+		["desc"] = "宛如星落之强钧，一击毙敌于千里。",
+		["sort1"] = 189,
+		["itemid"] = 274103,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
+			},
+		},
+	},
 	[121025] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -63686,6 +64803,54 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[274104] = {
+		["herolv"] = 1,
+		["teamlv"] = 60,
+		["viplimit"] = 0,
+		["sort"] = 189,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 204,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4024.png",
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2193,
+		["name"] = "红莲之戒",
+		["decompose"] = 1,
+		["desc"] = "灼炎之莲，窈窕之姿，正是绽放之时。",
+		["sort1"] = 189,
+		["itemid"] = 274104,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
 			},
 		},
 	},
@@ -63773,6 +64938,54 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[274105] = {
+		["herolv"] = 1,
+		["teamlv"] = 60,
+		["viplimit"] = 0,
+		["sort"] = 189,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 204,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4026.png",
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2193,
+		["name"] = "剑灵之戒",
+		["decompose"] = 1,
+		["desc"] = "圣剑的意志，铭刻在灵魂之上，吾即圣剑。",
+		["sort1"] = 189,
+		["itemid"] = 274105,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
 			},
 		},
 	},
@@ -65947,39 +67160,39 @@ item = {
 			},
 		},
 	},
-	[121034] = {
+	[6033] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 796,
+		["usetype"] = 2,
+		["sort"] = 362,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "官网抽奖",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_110.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift03.png",
 		["resonate_value"] = {
 		},
-		["name"] = "AR体验卡·薇欧瑞儿",
-		["desc"] = "若英雄未解锁，使用可以临时解锁薇欧瑞儿AR功能和基础动作。若已经解锁过该英雄的AR，则随机临时解锁该英雄的1个特殊动作，或延长基础动作试用时间。。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = 1,
+		["award"] = {
+			["res"] = {
+				["gold"] = 1000000,
 			},
-			["role"] = {
-				[1] = 10038,
+			["drop"] = {
+				[1] = 6031,
 			},
 		},
-		["itemid"] = 121034,
+		["ex_function"] = {
+		},
+		["desc"] = "内含十连抽券1张，100万金币和3张任务刷新券，并且在使用后，每天用钻石刷新3次冒险任务必定出橙色任务，符文圣殿开启自动炼成功能，全部背包格子+200，额外赠送100符文背包格子",
+		["name"] = "欧王礼包",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 6033,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -67887,46 +69100,37 @@ item = {
 			},
 		},
 	},
-	[110035] = {
+	[11201] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 746,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭冒险委托",
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 701,
-		["picture"] = "res/image/ui/02_item/event/event_01/ingredients_16.png",
 		["selltype"] = 1,
+		["sort"] = 35,
+		["overdue"] = {
+		},
+		["getway"] = "日常巡守",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 521,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/isomer.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "源自英普瑞恩天然牧场，经由比南先进包装技术封装的制品牛奶。",
-		["name"] = "牛奶",
-		["sort1"] = 1,
+		["desc"] = "重新构造苍穹之光所需要的神秘物体。",
+		["name"] = "异构体",
+		["sort1"] = 35,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110035,
+		["itemid"] = 11201,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -68792,37 +69996,52 @@ item = {
 			},
 		},
 	},
-	[1061] = {
+	[21055] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 14,
-		["sort"] = 315,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
 		["overdue"] = {
 		},
+		["getway"] = "酒馆招募",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["id"] = 19,
+				["type"] = 2,
+				["sysid"] = 1001,
+			},
 		},
-		["type"] = 605,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/consumable/100bag.png",
-		["award"] = {
-			["base"] = 100,
-			["crystal"] = 100,
-		},
-		["alltype"] = 5,
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_169.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
-		["name"] = "100个背包格子",
-		["desc"] = "使用后增加100格背包空间，并额外增加100格符文背包空间",
-		["sort1"] = 37,
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1325,
+					[2] = 1,
+				},
+			},
+		},
 		["ex_function"] = {
 		},
-		["itemid"] = 1061,
+		["desc"] = "集齐40个可激活艾琳，同时也是艾琳觉醒的道具。",
+		["name"] = "英雄之证·艾琳",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21055,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -71220,36 +72439,33 @@ item = {
 			},
 		},
 	},
-	[1401] = {
+	[11202] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 330,
-		["val"] = 10,
+		["sort"] = 605,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
+		["getway"] = "苍穹之光分解",
+		["stacklimit"] = 999999,
+		["quality"] = 2,
 		["changeface"] = {
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
+		["type"] = 522,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/Ether.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 1401,
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得1个初级突破石。",
-		["name"] = "初级突破礼包",
-		["sort1"] = 39,
-		["alltype"] = 5,
+		["desc"] = "兑换苍穹之光的材料",
+		["name"] = "光以太",
+		["sort1"] = 33,
+		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 1401,
+		["itemid"] = 11202,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -71869,8 +73085,8 @@ item = {
 		["sort"] = 731,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -72174,8 +73390,8 @@ item = {
 		["sort"] = 731,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -72523,8 +73739,8 @@ item = {
 		["sort"] = 731,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -72662,6 +73878,51 @@ item = {
 			},
 		},
 	},
+	[8000010] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10002,
+		["picture"] = "res/image/ui/02_item/other/guildraid_nighthorn.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 24,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 24,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 24,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "夜光号角",
+		["desc"] = "加入了夜光尘埃制造的下级魔法号角，可用于驱散黄色迷雾",
+		["sort1"] = 1,
+		["itemid"] = 8000010,
+		["sellprice"] = {
+		},
+	},
 	[100066] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -72694,6 +73955,51 @@ item = {
 			["res"] = {
 				["gold"] = 1,
 			},
+		},
+	},
+	[8000014] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10002,
+		["picture"] = "res/image/ui/02_item/other/guildraid_holywater.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 24,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 24,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 24,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "圣愈之露",
+		["desc"] = "从女神之玉提取的液体，能够瞬间治愈任何创伤，可用于驱散黑色迷雾。",
+		["sort1"] = 1,
+		["itemid"] = 8000014,
+		["sellprice"] = {
 		},
 	},
 	[23105] = {
@@ -72779,6 +74085,51 @@ item = {
 			},
 		},
 	},
+	[8000011] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10002,
+		["picture"] = "res/image/ui/02_item/other/guildraid_starhorn.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 24,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 24,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 24,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "星辰号角",
+		["desc"] = "加入了星辰琉璃制造的中级魔法号角，可用于驱散白色迷雾。",
+		["sort1"] = 1,
+		["itemid"] = 8000011,
+		["sellprice"] = {
+		},
+	},
 	[130011] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -72811,6 +74162,51 @@ item = {
 			["res"] = {
 				["gold"] = 1000,
 			},
+		},
+	},
+	[8000003] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10001,
+		["picture"] = "res/image/ui/02_item/other/guildraid_gemstone.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 1,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 1,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "幻境石",
+		["desc"] = "3级通用材料，不存在于自然环境中的素材，只有在时空被扰乱的幻境四周才能找到。",
+		["sort1"] = 1,
+		["itemid"] = 8000003,
+		["sellprice"] = {
 		},
 	},
 	[110048] = {
@@ -72865,8 +74261,8 @@ item = {
 		["sort"] = 731,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -72898,6 +74294,96 @@ item = {
 			["res"] = {
 				["gold"] = 1000,
 			},
+		},
+	},
+	[8000002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10001,
+		["picture"] = "res/image/ui/02_item/other/guildraid_sand.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 0,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 0,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 0,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "时之砂",
+		["desc"] = "2级通用材料，较少见的沙砾，有着微弱的影响时间流逝的力量。",
+		["sort1"] = 1,
+		["itemid"] = 8000002,
+		["sellprice"] = {
+		},
+	},
+	[8000013] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10002,
+		["picture"] = "res/image/ui/02_item/other/guildraid_sunhorn.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 24,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 24,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 24,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "日炎号角",
+		["desc"] = "加入了日炎圣钻制造的最上级魔法号角，可用于驱散紫色迷雾。",
+		["sort1"] = 1,
+		["itemid"] = 8000013,
+		["sellprice"] = {
 		},
 	},
 	[132022] = {
@@ -72932,6 +74418,96 @@ item = {
 			["res"] = {
 				["gold"] = 1000,
 			},
+		},
+	},
+	[8000009] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10002,
+		["picture"] = "res/image/ui/02_item/other/guildraid_horn.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 24,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 24,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 24,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "魔力号角",
+		["desc"] = "用常规方法制造的最下级魔法号角，可用于驱散灰色迷雾。",
+		["sort1"] = 1,
+		["itemid"] = 8000009,
+		["sellprice"] = {
+		},
+	},
+	[8000001] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10001,
+		["picture"] = "res/image/ui/02_item/other/guildraid_clay.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 0,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 0,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 0,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "轻质黏土",
+		["desc"] = "1级通用材料，带有黏性的土壤，具有较好的可塑性。",
+		["sort1"] = 1,
+		["itemid"] = 8000001,
+		["sellprice"] = {
 		},
 	},
 	[120030] = {
@@ -73103,36 +74679,83 @@ item = {
 			},
 		},
 	},
-	[7074] = {
+	[132023] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["usetype"] = 25,
+		["sort"] = 363,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 3,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 604,
+		["type"] = 519,
 		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_2.png",
-		["resonate_value"] = {
-		},
+		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
 		["award"] = {
 		},
-		["ex_function"] = {
+		["alltype"] = 5,
+		["resonate_value"] = {
 		},
-		["desc"] = "60级普通的武器，盔甲，靴子，首饰。",
-		["name"] = "60级普通装备",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7074,
+		["name"] = "经验提升Ⅱ+60次",
+		["desc"] = "使用增加60次的buff使用次数。buff效果：增加15装备解放经验，中级能量石翻倍",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 60,
+			["buff"] = 202,
+		},
+		["itemid"] = 132023,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
+		},
+	},
+	[8000012] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10002,
+		["picture"] = "res/image/ui/02_item/other/guildraid_moonhorn.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 24,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 24,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 24,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "月影号角",
+		["desc"] = "加入了月影水晶制造的上级魔法号角，可用于驱散蓝色迷雾。",
+		["sort1"] = 1,
+		["itemid"] = 8000012,
+		["sellprice"] = {
 		},
 	},
 	[130012] = {
@@ -73167,6 +74790,51 @@ item = {
 			["res"] = {
 				["gold"] = 1000,
 			},
+		},
+	},
+	[8000008] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10001,
+		["picture"] = "res/image/ui/02_item/other/guildraid_goddess.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 2,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 2,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 2,
+					},
+				},
+			},
+		},
+		["alltype"] = 102,
+		["name"] = "女神之泪",
+		["desc"] = "5级专属材料，晶莹剔透却拥有极高强度的宝石，传说是女神的眼泪形成，可用于制作圣愈之露。",
+		["sort1"] = 1,
+		["itemid"] = 8000008,
+		["sellprice"] = {
 		},
 	},
 	[110049] = {
@@ -73221,8 +74889,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -73250,6 +74918,146 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110305,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[8000022] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 1,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99999,
+		["quality"] = 1,
+		["type"] = 10004,
+		["picture"] = "res/image/ui/02_item/other/item_98.png",
+		["award"] = {
+		},
+		["alltype"] = 102,
+		["name"] = "宝箱钥匙",
+		["desc"] = "用于开启宝箱的钥匙。",
+		["sort1"] = 1,
+		["itemid"] = 8000022,
+		["sellprice"] = {
+		},
+	},
+	[3027] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 10,
+		["sort"] = 27,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 2,
+		["type"] = 604,
+		["auto"] = 0,
+		["picture"] = "res/image/ui/02_item/other/tool_hammer.png",
+		["del"] = 1,
+		["award"] = {
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "特制锤子",
+		["selltype"] = 0,
+		["desc"] = "可以敲开特殊的陶罐，任务道具，离开地图会删除",
+		["sort1"] = 2,
+		["itemid"] = 3027,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[3011] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 10,
+		["sort"] = 12,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 2,
+		["type"] = 604,
+		["auto"] = 0,
+		["picture"] = "res/image/ui/02_item/other/item_08.png",
+		["del"] = 1,
+		["award"] = {
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "勇士挑战凭证",
+		["selltype"] = 0,
+		["desc"] = "任务道具，离开地图会删除",
+		["sort1"] = 2,
+		["itemid"] = 3011,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[3003] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 8,
+		["sort"] = 2,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 2,
+		["type"] = 603,
+		["auto"] = 0,
+		["picture"] = "res/image/ui/02_item/consumable/item_exp_potion_01.png",
+		["del"] = 0,
+		["award"] = {
+			["res"] = {
+				["supply"] = 50,
+			},
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "补给瓶",
+		["selltype"] = 1,
+		["desc"] = "补给瓶，使用可以恢复50补给",
+		["sort1"] = 2,
+		["itemid"] = 3003,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[3042] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 10,
+		["sort"] = 12,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 2,
+		["type"] = 604,
+		["auto"] = 0,
+		["picture"] = "res/image/ui/02_item/other/item_81.png",
+		["del"] = 1,
+		["award"] = {
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "魔榛果",
+		["selltype"] = 0,
+		["desc"] = "任务道具，离开地图会删除",
+		["sort1"] = 2,
+		["itemid"] = 3042,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -73295,6 +75103,37 @@ item = {
 			},
 		},
 	},
+	[9214] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 24,
+		["sort"] = 23,
+		["overdue"] = {
+		},
+		["getway"] = "商店购买",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_176.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "圣夜之光",
+		["desc"] = "使用解锁米迦勒皮肤：圣夜之光。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4012,
+		},
+		["itemid"] = 9214,
+		["sellprice"] = {
+		},
+	},
 	[100068] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -73324,6 +75163,42 @@ item = {
 		["noair"] = 1,
 		["itemid"] = 100068,
 		["sellprice"] = {
+		},
+	},
+	[116] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 38,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 10,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110095,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "塞连特殊商品",
+		["name"] = "塞连特殊商品",
+		["sort1"] = 38,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 116,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
 		},
 	},
 	[21058] = {
@@ -73369,6 +75244,64 @@ item = {
 			},
 		},
 	},
+	[3018] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 10,
+		["sort"] = 18,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 2,
+		["type"] = 604,
+		["auto"] = 0,
+		["picture"] = "res/image/ui/02_item/other/item_89.png",
+		["del"] = 1,
+		["award"] = {
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "魔法师名片",
+		["selltype"] = 1,
+		["desc"] = "任务道具，离开地图会删除",
+		["sort1"] = 2,
+		["itemid"] = 3018,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[3010] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 10,
+		["sort"] = 11,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99,
+		["quality"] = 2,
+		["type"] = 604,
+		["auto"] = 1,
+		["picture"] = "res/image/ui/02_item/other/kuangjing.png",
+		["del"] = 0,
+		["award"] = {
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "矿晶",
+		["selltype"] = 1,
+		["desc"] = "听闻有商人在高价收集",
+		["sort1"] = 2,
+		["itemid"] = 3010,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[130013] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -73397,6 +75330,35 @@ item = {
 			["buff"] = 301,
 		},
 		["itemid"] = 130013,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[3002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 7,
+		["sort"] = 4,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 2,
+		["type"] = 601,
+		["auto"] = 0,
+		["picture"] = "res/image/ui/02_item/other/tool_shovel.png",
+		["del"] = 0,
+		["award"] = {
+		},
+		["alltype"] = 6,
+		["val"] = 0,
+		["name"] = "铲子",
+		["selltype"] = 1,
+		["desc"] = "铲子",
+		["sort1"] = 2,
+		["itemid"] = 3002,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -73455,8 +75417,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -73484,1807 +75446,6 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110306,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[120032] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 762,
-		["overdue"] = {
-		},
-		["getway"] = "官网抽奖",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_98.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-		},
-		["name"] = "AR卡·疾风",
-		["desc"] = "使用可以永久解锁疾风AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = -1,
-			},
-			["role"] = {
-				[1] = 10036,
-			},
-		},
-		["itemid"] = 120032,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[100069] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 711,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/bubble_lmdzw.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["bubble"] = 8,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "跨服竞技S1赛季荣誉契约奖励",
-		["name"] = "海之初阳",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100069,
-		["sellprice"] = {
-		},
-	},
-	[22210] = {
-		["herolv"] = 1,
-		["teamlv"] = 45,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 58,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_2002.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 200,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2058,
-		["name"] = "制式长袍",
-		["desc"] = "制服诱惑的不二选择。",
-		["sort1"] = 58,
-		["noair"] = 1,
-		["itemid"] = 22210,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 7000,
-			},
-		},
-	},
-	[133051] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["picture"] = "res/image/ui/02_item/exproperty/upgrade_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-			["count"] = 16,
-			["buff"] = 305,
-		},
-		["desc"] = "使用增加16次的buff使用次数。buff效果：任意能量石50%提升为高级能量石",
-		["name"] = "品质提升+16次",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 133051,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110051] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 762,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_15.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "简单易懂的小点心，酥软可口。",
-		["name"] = "芝士蛋饼",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110051,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110307] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "彩虹",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110307,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[8000010] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10002,
-		["picture"] = "res/image/ui/02_item/other/guildraid_nighthorn.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 24,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 24,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 24,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "夜光号角",
-		["desc"] = "加入了夜光尘埃制造的下级魔法号角，可用于驱散黄色迷雾",
-		["sort1"] = 1,
-		["itemid"] = 8000010,
-		["sellprice"] = {
-		},
-	},
-	[133052] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["picture"] = "res/image/ui/02_item/exproperty/upgrade_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-			["count"] = 28,
-			["buff"] = 305,
-		},
-		["desc"] = "使用增加28次的buff使用次数。buff效果：任意能量石50%提升为高级能量石",
-		["name"] = "品质提升+28次",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 133052,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[120033] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 763,
-		["overdue"] = {
-		},
-		["getway"] = "官网抽奖",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_62.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-		},
-		["name"] = "AR卡·兰斯洛特",
-		["desc"] = "使用可以永久解锁兰斯洛特AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = -1,
-			},
-			["role"] = {
-				[1] = 10037,
-			},
-		},
-		["itemid"] = 120033,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[8000014] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10002,
-		["picture"] = "res/image/ui/02_item/other/guildraid_holywater.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 24,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 24,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 24,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "圣愈之露",
-		["desc"] = "从女神之玉提取的液体，能够瞬间治愈任何创伤，可用于驱散黑色迷雾。",
-		["sort1"] = 1,
-		["itemid"] = 8000014,
-		["sellprice"] = {
-		},
-	},
-	[100070] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 712,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/title_hldcc.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["title"] = 18,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "运营活动",
-		["name"] = "红莲的传承",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100070,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[8000011] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10002,
-		["picture"] = "res/image/ui/02_item/other/guildraid_starhorn.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 24,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 24,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 24,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "星辰号角",
-		["desc"] = "加入了星辰琉璃制造的中级魔法号角，可用于驱散白色迷雾。",
-		["sort1"] = 1,
-		["itemid"] = 8000011,
-		["sellprice"] = {
-		},
-	},
-	[23106] = {
-		["herolv"] = 1,
-		["teamlv"] = 63,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 102,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 3,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_1003.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2102,
-		["name"] = "生铁铠甲",
-		["desc"] = "普通铁质铠甲，穿上去心理安慰大于实际作用。",
-		["sort1"] = 102,
-		["noair"] = 1,
-		["itemid"] = 23106,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
-	[8000003] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10001,
-		["picture"] = "res/image/ui/02_item/other/guildraid_gemstone.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 1,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 1,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "幻境石",
-		["desc"] = "3级通用材料，不存在于自然环境中的素材，只有在时空被扰乱的幻境四周才能找到。",
-		["sort1"] = 1,
-		["itemid"] = 8000003,
-		["sellprice"] = {
-		},
-	},
-	[8000002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10001,
-		["picture"] = "res/image/ui/02_item/other/guildraid_sand.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 0,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 0,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 0,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "时之砂",
-		["desc"] = "2级通用材料，较少见的沙砾，有着微弱的影响时间流逝的力量。",
-		["sort1"] = 1,
-		["itemid"] = 8000002,
-		["sellprice"] = {
-		},
-	},
-	[133053] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["picture"] = "res/image/ui/02_item/exproperty/upgrade_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-			["count"] = 60,
-			["buff"] = 305,
-		},
-		["desc"] = "使用增加60次的buff使用次数。buff效果：任意能量石50%提升为高级能量石",
-		["name"] = "品质提升+60次",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 133053,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[8000013] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10002,
-		["picture"] = "res/image/ui/02_item/other/guildraid_sunhorn.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 24,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 24,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 24,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "日炎号角",
-		["desc"] = "加入了日炎圣钻制造的最上级魔法号角，可用于驱散紫色迷雾。",
-		["sort1"] = 1,
-		["itemid"] = 8000013,
-		["sellprice"] = {
-		},
-	},
-	[110052] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 763,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_16.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "适合吃饱了之后解腻，或者吃多了之后减肥……",
-		["name"] = "蔬菜色拉",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110052,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110308] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "远方",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110308,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[8000009] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10002,
-		["picture"] = "res/image/ui/02_item/other/guildraid_horn.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 24,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 24,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 24,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "魔力号角",
-		["desc"] = "用常规方法制造的最下级魔法号角，可用于驱散灰色迷雾。",
-		["sort1"] = 1,
-		["itemid"] = 8000009,
-		["sellprice"] = {
-		},
-	},
-	[110820] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110648,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得2~5个圣战遗物，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110820,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[8000001] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10001,
-		["picture"] = "res/image/ui/02_item/other/guildraid_clay.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 0,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 0,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 0,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "轻质黏土",
-		["desc"] = "1级通用材料，带有黏性的土壤，具有较好的可塑性。",
-		["sort1"] = 1,
-		["itemid"] = 8000001,
-		["sellprice"] = {
-		},
-	},
-	[8000012] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10002,
-		["picture"] = "res/image/ui/02_item/other/guildraid_moonhorn.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 24,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 24,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 24,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "月影号角",
-		["desc"] = "加入了月影水晶制造的上级魔法号角，可用于驱散蓝色迷雾。",
-		["sort1"] = 1,
-		["itemid"] = 8000012,
-		["sellprice"] = {
-		},
-	},
-	[8002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 12,
-		["sort"] = 89,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["getway"] = "冒险任务、大苍穹、团队副本、商店",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 403,
-		["picture"] = "res/image/map/building/00_chest_clothes_5.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 5102,
-			},
-		},
-		["ex_function"] = {
-		},
-		["award_num"] = 120,
-		["desc"] = "消耗120个该物品，可以合成60级传奇装备。",
-		["name"] = "中级传奇碎片",
-		["sort1"] = 69,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 8002,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[120034] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 764,
-		["overdue"] = {
-		},
-		["getway"] = "官网抽奖",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_110.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-		},
-		["name"] = "AR卡·薇欧瑞儿",
-		["desc"] = "使用可以永久解锁薇欧瑞儿AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = -1,
-			},
-			["role"] = {
-				[1] = 10038,
-			},
-		},
-		["itemid"] = 120034,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[8000008] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10001,
-		["picture"] = "res/image/ui/02_item/other/guildraid_goddess.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 2,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 2,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 2,
-					},
-				},
-			},
-		},
-		["alltype"] = 102,
-		["name"] = "女神之泪",
-		["desc"] = "5级专属材料，晶莹剔透却拥有极高强度的宝石，传说是女神的眼泪形成，可用于制作圣愈之露。",
-		["sort1"] = 1,
-		["itemid"] = 8000008,
-		["sellprice"] = {
-		},
-	},
-	[100071] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 712,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/title_znq.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["title"] = 19,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "初心者之境活动获得",
-		["name"] = "1周年庆典",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100071,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[8000022] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 1,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99999,
-		["quality"] = 1,
-		["type"] = 10004,
-		["picture"] = "res/image/ui/02_item/other/item_98.png",
-		["award"] = {
-		},
-		["alltype"] = 102,
-		["name"] = "宝箱钥匙",
-		["desc"] = "用于开启宝箱的钥匙。",
-		["sort1"] = 1,
-		["itemid"] = 8000022,
-		["sellprice"] = {
-		},
-	},
-	[3027] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 10,
-		["sort"] = 27,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 2,
-		["type"] = 604,
-		["auto"] = 0,
-		["picture"] = "res/image/ui/02_item/other/tool_hammer.png",
-		["del"] = 1,
-		["award"] = {
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "特制锤子",
-		["selltype"] = 0,
-		["desc"] = "可以敲开特殊的陶罐，任务道具，离开地图会删除",
-		["sort1"] = 2,
-		["itemid"] = 3027,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[132031] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "经验提升Ⅲ+16次",
-		["desc"] = "使用增加16次的buff使用次数。buff效果：增加15装备解放经验，高级能量石翻倍",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 16,
-			["buff"] = 203,
-		},
-		["itemid"] = 132031,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[3011] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 10,
-		["sort"] = 12,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 2,
-		["type"] = 604,
-		["auto"] = 0,
-		["picture"] = "res/image/ui/02_item/other/item_08.png",
-		["del"] = 1,
-		["award"] = {
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "勇士挑战凭证",
-		["selltype"] = 0,
-		["desc"] = "任务道具，离开地图会删除",
-		["sort1"] = 2,
-		["itemid"] = 3011,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[24322] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 142,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_3011.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "狂暴者战衣",
-		["desc"] = "狂暴的战意从体内涌出，越战越勇。",
-		["sort1"] = 142,
-		["noair"] = 1,
-		["itemid"] = 24322,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 20000,
-			},
-		},
-	},
-	[3003] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 8,
-		["sort"] = 2,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 2,
-		["type"] = 603,
-		["auto"] = 0,
-		["picture"] = "res/image/ui/02_item/consumable/item_exp_potion_01.png",
-		["del"] = 0,
-		["award"] = {
-			["res"] = {
-				["supply"] = 50,
-			},
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "补给瓶",
-		["selltype"] = 1,
-		["desc"] = "补给瓶，使用可以恢复50补给",
-		["sort1"] = 2,
-		["itemid"] = 3003,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110053] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 764,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_17.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "另类的炖肉，由于加入了土豆等食材，可以直接作为主食吃饱。",
-		["name"] = "土豆炖牛肉",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110053,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110309] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "雨滴",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110309,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[3042] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 10,
-		["sort"] = 12,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 2,
-		["type"] = 604,
-		["auto"] = 0,
-		["picture"] = "res/image/ui/02_item/other/item_81.png",
-		["del"] = 1,
-		["award"] = {
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "魔榛果",
-		["selltype"] = 0,
-		["desc"] = "任务道具，离开地图会删除",
-		["sort1"] = 2,
-		["itemid"] = 3042,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110821] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110649,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得2~5个天使之羽，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110821,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[132032] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "经验提升Ⅲ+28次",
-		["desc"] = "使用增加28次的buff使用次数。buff效果：增加15装备解放经验，高级能量石翻倍",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 28,
-			["buff"] = 203,
-		},
-		["itemid"] = 132032,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[101004] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 731,
-		["overdue"] = {
-		},
-		["getway"] = "礼包商店",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 701,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/other/guild_stone.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "领袖之石，用于创建公会",
-		["name"] = "领袖之石",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 101004,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[100002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 1,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/title_match_02.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["title"] = 2,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "冠军赛单阵容对抗模式第一名",
-		["name"] = "光之勇者王",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100002,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[120035] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 765,
-		["overdue"] = {
-		},
-		["getway"] = "官网抽奖",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_109.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-		},
-		["name"] = "AR卡·米迦勒",
-		["desc"] = "使用可以永久解锁米迦勒AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = -1,
-			},
-			["role"] = {
-				[1] = 10039,
-			},
-		},
-		["itemid"] = 120035,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[3018] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 10,
-		["sort"] = 18,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 2,
-		["type"] = 604,
-		["auto"] = 0,
-		["picture"] = "res/image/ui/02_item/other/item_89.png",
-		["del"] = 1,
-		["award"] = {
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "魔法师名片",
-		["selltype"] = 1,
-		["desc"] = "任务道具，离开地图会删除",
-		["sort1"] = 2,
-		["itemid"] = 3018,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[100072] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 712,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/02_item/title/skmbz.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["title"] = 20,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "礼包获得",
-		["name"] = "时空漫步者",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100072,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[3010] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 10,
-		["sort"] = 11,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99,
-		["quality"] = 2,
-		["type"] = 604,
-		["auto"] = 1,
-		["picture"] = "res/image/ui/02_item/other/kuangjing.png",
-		["del"] = 0,
-		["award"] = {
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "矿晶",
-		["selltype"] = 1,
-		["desc"] = "听闻有商人在高价收集",
-		["sort1"] = 2,
-		["itemid"] = 3010,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[21059] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_68.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1326,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐60个可激活比南纳尔，同时也是比南纳尔觉醒的道具。",
-		["name"] = "英雄之证·比南纳尔",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21059,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
-			},
-		},
-	},
-	[132033] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "经验提升Ⅲ+60次",
-		["desc"] = "使用增加60次的buff使用次数。buff效果：增加15装备解放经验，高级能量石翻倍",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 60,
-			["buff"] = 203,
-		},
-		["itemid"] = 132033,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[3002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 7,
-		["sort"] = 4,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 2,
-		["type"] = 601,
-		["auto"] = 0,
-		["picture"] = "res/image/ui/02_item/other/tool_shovel.png",
-		["del"] = 0,
-		["award"] = {
-		},
-		["alltype"] = 6,
-		["val"] = 0,
-		["name"] = "铲子",
-		["selltype"] = 1,
-		["desc"] = "铲子",
-		["sort1"] = 2,
-		["itemid"] = 3002,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -75343,163 +75504,6 @@ item = {
 		["desc"] = "任务道具，离开地图会删除",
 		["sort1"] = 2,
 		["itemid"] = 3017,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110054] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 765,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_18.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "上等英普瑞恩牛肉制作的牛排，肉食爱好者的心头好。",
-		["name"] = "香煎牛排",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110054,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110310] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "勇气",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110310,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[131041] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/critical_1.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "暴击倍数+16次",
-		["desc"] = "使用增加16次的buff使用次数。buff效果：暴击时，额外增加2倍装备解放经验",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 16,
-			["buff"] = 104,
-		},
-		["itemid"] = 131041,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110822] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110650,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得2~5个魔晶石，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110822,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -75593,12 +75597,12 @@ item = {
 			},
 		},
 	},
-	[120036] = {
+	[120032] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 19,
-		["sort"] = 766,
+		["sort"] = 762,
 		["overdue"] = {
 		},
 		["getway"] = "官网抽奖",
@@ -75608,24 +75612,24 @@ item = {
 		},
 		["type"] = 515,
 		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_111.png",
+		["picture"] = "res/image/ui/07_head/07_pic_98.png",
 		["award"] = {
 		},
 		["alltype"] = 4,
 		["resonate_value"] = {
 		},
-		["name"] = "AR卡·沙利叶",
-		["desc"] = "使用可以永久解锁沙利叶AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
+		["name"] = "AR卡·疾风",
+		["desc"] = "使用可以永久解锁疾风AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
 		["sort1"] = 49,
 		["ex_function"] = {
 			["time"] = {
 				[1] = -1,
 			},
 			["role"] = {
-				[1] = 10040,
+				[1] = 10036,
 			},
 		},
-		["itemid"] = 120036,
+		["itemid"] = 120032,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -75661,12 +75665,12 @@ item = {
 			},
 		},
 	},
-	[100073] = {
+	[100069] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 16,
-		["sort"] = 710,
+		["sort"] = 711,
 		["val"] = 10,
 		["overdue"] = {
 		},
@@ -75675,20 +75679,20 @@ item = {
 		["changeface"] = {
 		},
 		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/00_bg_wanjia_zhunian.png",
+		["picture"] = "res/image/ui/28_badge/bubble_lmdzw.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["border"] = 11,
+			["bubble"] = 8,
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "活动解锁",
-		["name"] = "桑妮的馈赠头像框",
+		["desc"] = "跨服竞技S1赛季荣誉契约奖励",
+		["name"] = "海之初阳",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 100073,
+		["itemid"] = 100069,
 		["sellprice"] = {
 		},
 	},
@@ -75779,12 +75783,12 @@ item = {
 			},
 		},
 	},
-	[22211] = {
+	[22210] = {
 		["herolv"] = 1,
-		["teamlv"] = 46,
+		["teamlv"] = 45,
 		["viplimit"] = 0,
 		["selltype"] = 1,
-		["sort"] = 59,
+		["sort"] = 58,
 		["overdue"] = {
 		},
 		["version"] = 1000,
@@ -75802,29 +75806,64 @@ item = {
 				},
 			},
 		},
-		["type"] = 203,
+		["type"] = 202,
 		["hole_2"] = {
-			[1] = 1,
+			[1] = 2,
 			[2] = 2,
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_2002.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_2002.png",
 		["hole_1"] = {
-			[1] = 2,
+			[1] = 1,
 			[2] = 1,
 		},
 		["val"] = 200,
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["propertyid"] = 2059,
-		["name"] = "制式布鞋",
-		["desc"] = "穿上它，自信+2",
-		["sort1"] = 59,
+		["propertyid"] = 2058,
+		["name"] = "制式长袍",
+		["desc"] = "制服诱惑的不二选择。",
+		["sort1"] = 58,
 		["noair"] = 1,
-		["itemid"] = 22211,
+		["itemid"] = 22210,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 7000,
+			},
+		},
+	},
+	[133051] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["picture"] = "res/image/ui/02_item/exproperty/upgrade_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+			["count"] = 16,
+			["buff"] = 305,
+		},
+		["desc"] = "使用增加16次的buff使用次数。buff效果：任意能量石50%提升为高级能量石",
+		["name"] = "品质提升+16次",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 133051,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -75857,6 +75896,84 @@ item = {
 			},
 		},
 	},
+	[11203] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 3499,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 523,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/4D.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+			["magic"] = 1,
+		},
+		["desc"] = "重新构造苍穹之光所需要的神秘物体。",
+		["name"] = "苍穹晶簇",
+		["sort1"] = 35,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 11203,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110307] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "彩虹",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110307,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[3007] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -75880,163 +75997,6 @@ item = {
 		["desc"] = "任务道具，离开地图会删除",
 		["sort1"] = 2,
 		["itemid"] = 3007,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110055] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 766,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_19.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "要尝试它，外表的刺激远远高于味道的刺激……",
-		["name"] = "仰望星空",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110055,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110311] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "力量",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110311,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[131042] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/critical_1.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "暴击倍数+28次",
-		["desc"] = "使用增加28次的buff使用次数。buff效果：暴击时，额外增加2倍装备解放经验",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 28,
-			["buff"] = 104,
-		},
-		["itemid"] = 131042,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110823] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110651,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得2~5个纯恶灵体，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110823,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -76130,6 +76090,80 @@ item = {
 			},
 		},
 	},
+	[133052] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["picture"] = "res/image/ui/02_item/exproperty/upgrade_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+			["count"] = 28,
+			["buff"] = 305,
+		},
+		["desc"] = "使用增加28次的buff使用次数。buff效果：任意能量石50%提升为高级能量石",
+		["name"] = "品质提升+28次",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 133052,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[120033] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 19,
+		["sort"] = 763,
+		["overdue"] = {
+		},
+		["getway"] = "官网抽奖",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_62.png",
+		["award"] = {
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "AR卡·兰斯洛特",
+		["desc"] = "使用可以永久解锁兰斯洛特AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = -1,
+			},
+			["role"] = {
+				[1] = 10037,
+			},
+		},
+		["itemid"] = 120033,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[3029] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -76156,6 +76190,40 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[100070] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 712,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/title_hldcc.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["title"] = 18,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "运营活动",
+		["name"] = "红莲的传承",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100070,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -76188,35 +76256,53 @@ item = {
 			},
 		},
 	},
-	[100074] = {
+	[23106] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 63,
 		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 711,
-		["val"] = 10,
+		["selltype"] = 1,
+		["sort"] = 102,
 		["overdue"] = {
 		},
+		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
+		["quality"] = 3,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
 		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/bubble_zhunian.png",
-		["resonate_value"] = {
+		["type"] = 202,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
 		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_1003.png",
+		["hole_1"] = {
+			[1] = 1,
+			[2] = 1,
+		},
+		["val"] = 80,
 		["award"] = {
-			["bubble"] = 7,
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "活动解锁",
-		["name"] = "桑妮的馈赠",
-		["sort1"] = 1,
-		["alltype"] = 5,
+		["alltype"] = 2,
+		["propertyid"] = 2102,
+		["name"] = "生铁铠甲",
+		["desc"] = "普通铁质铠甲，穿上去心理安慰大于实际作用。",
+		["sort1"] = 102,
 		["noair"] = 1,
-		["itemid"] = 100074,
+		["itemid"] = 23106,
 		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
 		},
 	},
 	[3005] = {
@@ -76248,55 +76334,6 @@ item = {
 			},
 		},
 	},
-	[23107] = {
-		["herolv"] = 1,
-		["teamlv"] = 64,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 103,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 3,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_1002.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2103,
-		["name"] = "生铁战靴",
-		["desc"] = "如果可以的话还是换一双更轻便的鞋子比较好。",
-		["sort1"] = 103,
-		["noair"] = 1,
-		["itemid"] = 23107,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
 	[3028] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -76320,6 +76357,41 @@ item = {
 		["desc"] = "任务道具，离开地图会删除",
 		["sort1"] = 2,
 		["itemid"] = 3028,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[133053] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["picture"] = "res/image/ui/02_item/exproperty/upgrade_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+			["count"] = 60,
+			["buff"] = 305,
+		},
+		["desc"] = "使用增加60次的buff使用次数。buff效果：任意能量石50%提升为高级能量石",
+		["name"] = "品质提升+60次",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 133053,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -76358,6 +76430,93 @@ item = {
 			},
 		},
 	},
+	[110052] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 763,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_16.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "适合吃饱了之后解腻，或者吃多了之后减肥……",
+		["name"] = "蔬菜色拉",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110052,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110308] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "远方",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110308,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[3004] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -76381,6 +76540,42 @@ item = {
 		["desc"] = "任务道具",
 		["sort1"] = 2,
 		["itemid"] = 3004,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110820] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110648,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得2~5个圣战遗物，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110820,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -76412,163 +76607,6 @@ item = {
 		["sellprice"] = {
 		},
 	},
-	[110056] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 767,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_20.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "添加了酱料之后，贝肉变得更加鲜美，也更适合一般人的口味。",
-		["name"] = "芝士焗贝",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110056,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110312] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "可爱",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110312,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[131043] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/critical_1.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "暴击倍数+60次",
-		["desc"] = "使用增加60次的buff使用次数。buff效果：暴击时，额外增加2倍装备解放经验",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 60,
-			["buff"] = 104,
-		},
-		["itemid"] = 131043,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110824] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110652,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得2~5个源火种，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110824,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
 	[9000002] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -76594,6 +76632,83 @@ item = {
 		["sellprice"] = {
 		},
 	},
+	[8002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 12,
+		["sort"] = 89,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "冒险任务、大苍穹、团队副本、商店",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 403,
+		["picture"] = "res/image/map/building/00_chest_clothes_5.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 5102,
+			},
+		},
+		["ex_function"] = {
+		},
+		["award_num"] = 120,
+		["desc"] = "消耗120个该物品，可以合成60级传奇装备。",
+		["name"] = "中级传奇碎片",
+		["sort1"] = 69,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 8002,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[120034] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 19,
+		["sort"] = 764,
+		["overdue"] = {
+		},
+		["getway"] = "官网抽奖",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_110.png",
+		["award"] = {
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "AR卡·薇欧瑞儿",
+		["desc"] = "使用可以永久解锁薇欧瑞儿AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = -1,
+			},
+			["role"] = {
+				[1] = 10038,
+			},
+		},
+		["itemid"] = 120034,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[9000003] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -76617,6 +76732,40 @@ item = {
 		["sort1"] = 1,
 		["itemid"] = 9000003,
 		["sellprice"] = {
+		},
+	},
+	[100071] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 712,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/title_znq.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["title"] = 19,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "初心者之境活动获得",
+		["name"] = "1周年庆典",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100071,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
 		},
 	},
 	[5029] = {
@@ -76755,106 +76904,377 @@ item = {
 		["sellprice"] = {
 		},
 	},
-	[9107] = {
+	[132031] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 17,
+		["usetype"] = 25,
+		["sort"] = 363,
 		["overdue"] = {
 		},
-		["getway"] = "渠道活动",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 516,
+		["type"] = 519,
 		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_108.png",
+		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
 		["award"] = {
 		},
 		["alltype"] = 5,
 		["resonate_value"] = {
 		},
-		["name"] = "跟宠:麒麟酱",
-		["desc"] = "使用解锁冒险跟宠：麒麟酱。",
-		["sort1"] = 69,
+		["name"] = "经验提升Ⅲ+16次",
+		["desc"] = "使用增加16次的buff使用次数。buff效果：增加15装备解放经验，高级能量石翻倍",
+		["sort1"] = 66,
 		["ex_function"] = {
-			["pet"] = 1008,
+			["count"] = 16,
+			["buff"] = 203,
 		},
-		["itemid"] = 9107,
+		["itemid"] = 132031,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[285149] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 325,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_bow_4001.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "黯淡的诺多林",
+		["decompose"] = 1,
+		["desc"] = "尚未完全解放力量的长弓，当其开张之时，星辰都将为之震颤。",
+		["sort1"] = 325,
+		["itemid"] = 285149,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[24322] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 142,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["type"] = 202,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_3011.png",
+		["hole_1"] = {
+			[1] = 1,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "狂暴者战衣",
+		["desc"] = "狂暴的战意从体内涌出，越战越勇。",
+		["sort1"] = 142,
+		["noair"] = 1,
+		["itemid"] = 24322,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 20000,
+			},
+		},
+	},
+	[110455] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 736,
+		["getway"] = "贸易战线活动-英普瑞恩特产",
+		["overdue"] = {
+			["str"] = "2018-12-13 23:59:59",
+			["str_time"] = 1544716799,
+		},
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+			[1] = {
+				["id"] = 51,
+				["type"] = 3,
+				["activity"] = "TRADEEVENT",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 527,
+		["picture"] = "res/image/ui/02_item/event/event_08/ink.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "英普瑞恩生产的墨水，书写质量十分之好，受到各地的欢迎。（基准价格：100）",
+		["name"] = "墨水",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110455,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
 			},
 		},
 	},
-	[5008] = {
+	[110053] = {
 		["herolv"] = 1,
-		["notice_id"] = 8,
-		["own_state"] = {
-			[1] = {
-				["gj"] = 15,
-			},
-		},
-		["ctype"] = 4,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 8,
+		["usetype"] = 18,
+		["sort"] = 764,
+		["val"] = 10,
 		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
 		},
-		["getway"] = "普通炼成",
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["type"] = 301,
-		["picture"] = {
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 			[1] = {
-				[1] = 1,
-				[2] = 2,
-				[3] = "res/image/ui/02_item/crystal/black/grail01.png",
-			},
-			[2] = {
-				[1] = 3,
-				[2] = 5,
-				[3] = "res/image/ui/02_item/crystal/black/grail02.png",
-			},
-			[3] = {
-				[1] = 6,
-				[2] = 8,
-				[3] = "res/image/ui/02_item/crystal/black/grail03.png",
-			},
-			[4] = {
-				[1] = 9,
-				[2] = 10,
-				[3] = "res/image/ui/02_item/crystal/black/grail04.png",
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
 			},
 		},
-		["version"] = 1000,
-		["sort1"] = 8,
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_17.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
 		["award"] = {
 		},
-		["alltype"] = 3,
-		["max_lv"] = 10,
-		["random_state"] = {
-			[1] = {
-				["hp"] = 14,
-			},
-			[2] = {
-				["fy"] = 18,
-			},
-			[3] = {
-				["ah"] = 34,
-			},
-			[4] = {
-				["sh"] = 35,
+		["ex_function"] = {
+		},
+		["desc"] = "另类的炖肉，由于加入了土豆等食材，可以直接作为主食吃饱。",
+		["name"] = "土豆炖牛肉",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110053,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
-		["name"] = "符文:宝藏",
-		["desc"] = "测试符文8",
-		["get_rule"] = "符文圣殿达到1级",
-		["itemid"] = 5008,
+	},
+	[110309] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "雨滴",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110309,
 		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110059] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 770,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/other/gift_sundae.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "用不上的道具，看到了说明BUG了。",
+		["name"] = "冒险家圣代",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110059,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110821] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110649,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得2~5个天使之羽，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110821,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[132032] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "经验提升Ⅲ+28次",
+		["desc"] = "使用增加28次的buff使用次数。buff效果：增加15装备解放经验，高级能量石翻倍",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 28,
+			["buff"] = 203,
+		},
+		["itemid"] = 132032,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
 		},
 	},
 	[5009] = {
@@ -76925,9 +77345,9 @@ item = {
 		["sellprice"] = {
 		},
 	},
-	[5011] = {
+	[5008] = {
 		["herolv"] = 1,
-		["notice_id"] = 11,
+		["notice_id"] = 8,
 		["own_state"] = {
 			[1] = {
 				["gj"] = 15,
@@ -76937,7 +77357,7 @@ item = {
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["selltype"] = 1,
-		["sort"] = 11,
+		["sort"] = 8,
 		["overdue"] = {
 		},
 		["getway"] = "普通炼成",
@@ -76948,26 +77368,26 @@ item = {
 			[1] = {
 				[1] = 1,
 				[2] = 2,
-				[3] = "res/image/ui/02_item/crystal/black/justice01.png",
+				[3] = "res/image/ui/02_item/crystal/black/grail01.png",
 			},
 			[2] = {
 				[1] = 3,
 				[2] = 5,
-				[3] = "res/image/ui/02_item/crystal/black/justice02.png",
+				[3] = "res/image/ui/02_item/crystal/black/grail02.png",
 			},
 			[3] = {
 				[1] = 6,
 				[2] = 8,
-				[3] = "res/image/ui/02_item/crystal/black/justice03.png",
+				[3] = "res/image/ui/02_item/crystal/black/grail03.png",
 			},
 			[4] = {
 				[1] = 9,
 				[2] = 10,
-				[3] = "res/image/ui/02_item/crystal/black/justice04.png",
+				[3] = "res/image/ui/02_item/crystal/black/grail04.png",
 			},
 		},
 		["version"] = 1000,
-		["sort1"] = 11,
+		["sort1"] = 8,
 		["award"] = {
 		},
 		["alltype"] = 3,
@@ -76986,79 +77406,50 @@ item = {
 				["sh"] = 35,
 			},
 		},
-		["name"] = "符文:法则",
-		["desc"] = "测试符文11",
+		["name"] = "符文:宝藏",
+		["desc"] = "测试符文8",
 		["get_rule"] = "符文圣殿达到1级",
-		["itemid"] = 5011,
+		["itemid"] = 5008,
 		["sellprice"] = {
 		},
 	},
-	[5027] = {
+	[120035] = {
 		["herolv"] = 1,
-		["notice_id"] = 27,
-		["own_state"] = {
-			[1] = {
-				["hp"] = 13,
-			},
-		},
-		["ctype"] = 4,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 27,
+		["usetype"] = 19,
+		["sort"] = 765,
 		["overdue"] = {
 		},
-		["getway"] = "普通炼成",
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["type"] = 302,
-		["picture"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 2,
-				[3] = "res/image/ui/02_item/crystal/white/ice01.png",
-			},
-			[2] = {
-				[1] = 3,
-				[2] = 5,
-				[3] = "res/image/ui/02_item/crystal/white/ice02.png",
-			},
-			[3] = {
-				[1] = 6,
-				[2] = 8,
-				[3] = "res/image/ui/02_item/crystal/white/ice03.png",
-			},
-			[4] = {
-				[1] = 9,
-				[2] = 10,
-				[3] = "res/image/ui/02_item/crystal/white/ice04.png",
-			},
+		["getway"] = "官网抽奖",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 		},
-		["version"] = 1000,
-		["sort1"] = 27,
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_109.png",
 		["award"] = {
 		},
-		["alltype"] = 3,
-		["max_lv"] = 10,
-		["random_state"] = {
-			[1] = {
-				["gj"] = 16,
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "AR卡·米迦勒",
+		["desc"] = "使用可以永久解锁米迦勒AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = -1,
 			},
-			[2] = {
-				["fy"] = 18,
-			},
-			[3] = {
-				["ah"] = 34,
-			},
-			[4] = {
-				["sh"] = 35,
+			["role"] = {
+				[1] = 10039,
 			},
 		},
-		["name"] = "符文:冰霜",
-		["desc"] = "测试符文20",
-		["get_rule"] = "符文圣殿达到1级",
-		["itemid"] = 5027,
+		["itemid"] = 120035,
 		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
 		},
 	},
 	[5006] = {
@@ -77123,51 +77514,37 @@ item = {
 		["sellprice"] = {
 		},
 	},
-	[24323] = {
+	[100072] = {
 		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 143,
+		["usetype"] = 16,
+		["sort"] = 712,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 9,
-					},
-				},
-			},
+		["quality"] = 4,
+		["changeface"] = {
 		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
+		["type"] = 512,
+		["picture"] = "res/image/ui/02_item/title/skmbz.png",
+		["resonate_value"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3012.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 80,
 		["award"] = {
+			["title"] = 20,
 		},
-		["alltype"] = 2,
-		["name"] = "狂暴者战靴",
-		["desc"] = "狂暴的战意从体内涌出，越战越勇。",
-		["sort1"] = 143,
+		["ex_function"] = {
+		},
+		["desc"] = "礼包获得",
+		["name"] = "时空漫步者",
+		["sort1"] = 1,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 24323,
+		["itemid"] = 100072,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 20000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -77233,87 +77610,77 @@ item = {
 		["sellprice"] = {
 		},
 	},
-	[110057] = {
+	[21059] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 768,
-		["val"] = 10,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
 		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
 		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
 		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/other/gift_candy.png",
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_68.png",
 		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1326,
+					[2] = 1,
+				},
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "用不上的道具，看到了说明BUG了。",
-		["name"] = "呜喵软糖",
-		["sort1"] = 1,
-		["alltype"] = 5,
+		["desc"] = "集齐60个可激活比南纳尔，同时也是比南纳尔觉醒的道具。",
+		["name"] = "英雄之证·比南纳尔",
+		["sort1"] = 67,
+		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 110057,
+		["itemid"] = 21059,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
-	[110313] = {
+	[132033] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 732,
-		["getway"] = "音乐祭冒险委托",
+		["usetype"] = 25,
+		["sort"] = 363,
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
 		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
+		["stacklimit"] = 999,
 		["quality"] = 4,
 		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
 		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
-		["name"] = "夜色",
-		["sort1"] = 1,
 		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110313,
+		["resonate_value"] = {
+		},
+		["name"] = "经验提升Ⅲ+60次",
+		["desc"] = "使用增加60次的buff使用次数。buff效果：增加15装备解放经验，高级能量石翻倍",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 60,
+			["buff"] = 203,
+		},
+		["itemid"] = 132033,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -77380,42 +77747,6 @@ item = {
 		["get_rule"] = "符文圣殿达到1级",
 		["itemid"] = 5005,
 		["sellprice"] = {
-		},
-	},
-	[110825] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110653,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得2~5个龙骸，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110825,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
 		},
 	},
 	[5036] = {
@@ -77552,6 +77883,163 @@ item = {
 		["get_rule"] = "符文圣殿达到1级",
 		["itemid"] = 5020,
 		["sellprice"] = {
+		},
+	},
+	[110054] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 765,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_18.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "上等英普瑞恩牛肉制作的牛排，肉食爱好者的心头好。",
+		["name"] = "香煎牛排",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110054,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110310] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "勇气",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110310,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[131041] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/critical_1.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "暴击倍数+16次",
+		["desc"] = "使用增加16次的buff使用次数。buff效果：暴击时，额外增加2倍装备解放经验",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 16,
+			["buff"] = 104,
+		},
+		["itemid"] = 131041,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110822] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110650,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得2~5个魔晶石，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110822,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
 		},
 	},
 	[5004] = {
@@ -77764,6 +78252,45 @@ item = {
 		["sellprice"] = {
 		},
 	},
+	[120036] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 19,
+		["sort"] = 766,
+		["overdue"] = {
+		},
+		["getway"] = "官网抽奖",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_111.png",
+		["award"] = {
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "AR卡·沙利叶",
+		["desc"] = "使用可以永久解锁沙利叶AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = -1,
+			},
+			["role"] = {
+				[1] = 10040,
+			},
+		},
+		["itemid"] = 120036,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[5033] = {
 		["herolv"] = 1,
 		["notice_id"] = 33,
@@ -77835,6 +78362,37 @@ item = {
 		["desc"] = "测试符文22",
 		["get_rule"] = "符文圣殿达到1级",
 		["itemid"] = 5033,
+		["sellprice"] = {
+		},
+	},
+	[100073] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 710,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/00_bg_wanjia_zhunian.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["border"] = 11,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "活动解锁",
+		["name"] = "桑妮的馈赠头像框",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100073,
 		["sellprice"] = {
 		},
 	},
@@ -77910,89 +78468,6 @@ item = {
 		["get_rule"] = "符文圣殿达到1级",
 		["itemid"] = 5032,
 		["sellprice"] = {
-		},
-	},
-	[21060] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["getway"] = "酒馆招募",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 19,
-				["type"] = 2,
-				["sysid"] = 1001,
-			},
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_182.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1323,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐40个可激活斯巴达，同时也是斯巴达觉醒的道具。",
-		["name"] = "英雄之证·斯巴达",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21060,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
-			},
-		},
-	},
-	[132041] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/percent_2.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "经验倍率Ⅰ+16次",
-		["desc"] = "使用增加16次的buff使用次数。buff效果：增加15%装备解放经验，初级能量石翻倍",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 16,
-			["buff"] = 204,
-		},
-		["itemid"] = 132041,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
 		},
 	},
 	[5031] = {
@@ -78131,6 +78606,55 @@ item = {
 		["sellprice"] = {
 		},
 	},
+	[22211] = {
+		["herolv"] = 1,
+		["teamlv"] = 46,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 59,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_2002.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 200,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 2059,
+		["name"] = "制式布鞋",
+		["desc"] = "穿上它，自信+2",
+		["sort1"] = 59,
+		["noair"] = 1,
+		["itemid"] = 22211,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 7000,
+			},
+		},
+	},
 	[1001] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -78166,6 +78690,1976 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10,
+			},
+		},
+	},
+	[274011] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 167,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 3,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4032.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2167,
+		["name"] = "风行者足具",
+		["decompose"] = 1,
+		["desc"] = "比南精湛技术的结晶。",
+		["sort1"] = 167,
+		["itemid"] = 274011,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
+			},
+		},
+	},
+	[110055] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 766,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_19.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "要尝试它，外表的刺激远远高于味道的刺激……",
+		["name"] = "仰望星空",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110055,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110311] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "力量",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110311,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[131042] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/critical_1.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "暴击倍数+28次",
+		["desc"] = "使用增加28次的buff使用次数。buff效果：暴击时，额外增加2倍装备解放经验",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 28,
+			["buff"] = 104,
+		},
+		["itemid"] = 131042,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110823] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110651,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得2~5个纯恶灵体，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110823,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 1,
+		["sort"] = 103,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "作战、冒险任务、大苍穹、日常巡守",
+		["stacklimit"] = 9999999,
+		["quality"] = 1,
+		["changeface"] = {
+		},
+		["type"] = 505,
+		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_03.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["res"] = {
+				["hexp"] = 50,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "中型经验书,使用获得50经验",
+		["name"] = "中级经验书",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1002,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50,
+			},
+		},
+	},
+	[110992] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110992,
+			},
+		},
+		["ex_function"] = {
+		},
+		["name"] = "魔盒奖励22",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110992,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[110969] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 46,
+		["sort"] = 729,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2019-04-07 23:59:59",
+			["str_time"] = 1554652799,
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/raffle_ticket_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "使用后可任意选择一个转盘进行抽奖",
+		["name"] = "抽奖券",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110969,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[7076] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "60级史诗的武器，盔甲，靴子，首饰。",
+		["name"] = "60级史诗装备",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7076,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[6032] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift02.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 6030,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "内含十连抽券1张，并且在使用后，每天首次用钻石刷新冒险任务必定出紫色任务，全部背包格子+100，额外赠送100符文背包格子",
+		["name"] = "亲王礼包",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 6032,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[100074] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 711,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/bubble_zhunian.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["bubble"] = 7,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "活动解锁",
+		["name"] = "桑妮的馈赠",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100074,
+		["sellprice"] = {
+		},
+	},
+	[7077] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["picture"] = "res/image/map/building/00_chest_clothes_5.png",
+		["val"] = 10,
+		["award"] = {
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "60级传奇装备",
+		["desc"] = "60级传奇的武器，盔甲，靴子，首饰。",
+		["sort1"] = 68,
+		["ex_function"] = {
+		},
+		["itemid"] = 7077,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[23107] = {
+		["herolv"] = 1,
+		["teamlv"] = 64,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 103,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 3,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_1002.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 2103,
+		["name"] = "生铁战靴",
+		["desc"] = "如果可以的话还是换一双更轻便的鞋子比较好。",
+		["sort1"] = 103,
+		["noair"] = 1,
+		["itemid"] = 23107,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[110629] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift13.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110629,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得10~50个专属戒指碎片，或1~2个高级能量石",
+		["name"] = "紫色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110629,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110051] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 762,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_15.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "简单易懂的小点心，酥软可口。",
+		["name"] = "芝士蛋饼",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110051,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[8007] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 12,
+		["sort"] = 91,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "冒险任务、大苍穹、商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 403,
+		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 5004,
+			},
+		},
+		["ex_function"] = {
+		},
+		["award_num"] = 200,
+		["desc"] = "消耗200个该物品，可以合成80级史诗装备。",
+		["name"] = "顶级史诗碎片",
+		["sort1"] = 69,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 8007,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[90002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 32,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 90002,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "测试掉落宝箱",
+		["name"] = "多人宝箱测试",
+		["sort1"] = 32,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 90002,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110056] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 767,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_20.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "添加了酱料之后，贝肉变得更加鲜美，也更适合一般人的口味。",
+		["name"] = "芝士焗贝",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110056,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110312] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "可爱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110312,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[131043] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/critical_1.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "暴击倍数+60次",
+		["desc"] = "使用增加60次的buff使用次数。buff效果：暴击时，额外增加2倍装备解放经验",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 60,
+			["buff"] = 104,
+		},
+		["itemid"] = 131043,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110824] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110652,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得2~5个源火种，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110824,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110968] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 46,
+		["sort"] = 728,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/raffle_ticket_2.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["name"] = "抽奖券B",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110968,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[6031] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 360,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 509,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/other/task_normal.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "稀有委托特权",
+		["desc"] = "每天用钻石或刷新券刷新3次冒险委托必定出橙色委托",
+		["sort1"] = 66,
+		["ex_function"] = {
+		},
+		["itemid"] = 6031,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[21051] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_158.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1322,
+					[2] = 1,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "集齐60个可激活缪斯，同时也是缪斯觉醒的道具。",
+		["name"] = "英雄之证·缪斯",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21051,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
+			},
+		},
+	},
+	[7026] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "40级史诗品质的盔甲。",
+		["name"] = "40级史诗盔甲",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7026,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[100035] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 710,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/00_bg_wanjia_dt.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["border"] = 4,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "电台月积分3500点时获得，有效期30天",
+		["name"] = "高阶电台头像框",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100035,
+		["sellprice"] = {
+		},
+	},
+	[110246] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 724,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-10 23:59:00",
+			["str_time"] = 1536595140,
+		},
+		["getway"] = "活动商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110246,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/lion_2.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊雄狮宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊雄狮宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110246,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[110967] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 46,
+		["sort"] = 727,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/raffle_ticket_1.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["name"] = "抽奖券A",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110967,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[5011] = {
+		["herolv"] = 1,
+		["notice_id"] = 11,
+		["own_state"] = {
+			[1] = {
+				["gj"] = 15,
+			},
+		},
+		["ctype"] = 4,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 11,
+		["overdue"] = {
+		},
+		["getway"] = "普通炼成",
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["type"] = 301,
+		["picture"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 2,
+				[3] = "res/image/ui/02_item/crystal/black/justice01.png",
+			},
+			[2] = {
+				[1] = 3,
+				[2] = 5,
+				[3] = "res/image/ui/02_item/crystal/black/justice02.png",
+			},
+			[3] = {
+				[1] = 6,
+				[2] = 8,
+				[3] = "res/image/ui/02_item/crystal/black/justice03.png",
+			},
+			[4] = {
+				[1] = 9,
+				[2] = 10,
+				[3] = "res/image/ui/02_item/crystal/black/justice04.png",
+			},
+		},
+		["version"] = 1000,
+		["sort1"] = 11,
+		["award"] = {
+		},
+		["alltype"] = 3,
+		["max_lv"] = 10,
+		["random_state"] = {
+			[1] = {
+				["hp"] = 14,
+			},
+			[2] = {
+				["fy"] = 18,
+			},
+			[3] = {
+				["ah"] = 34,
+			},
+			[4] = {
+				["sh"] = 35,
+			},
+		},
+		["name"] = "符文:法则",
+		["desc"] = "测试符文11",
+		["get_rule"] = "符文圣殿达到1级",
+		["itemid"] = 5011,
+		["sellprice"] = {
+		},
+	},
+	[5027] = {
+		["herolv"] = 1,
+		["notice_id"] = 27,
+		["own_state"] = {
+			[1] = {
+				["hp"] = 13,
+			},
+		},
+		["ctype"] = 4,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 27,
+		["overdue"] = {
+		},
+		["getway"] = "普通炼成",
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["type"] = 302,
+		["picture"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 2,
+				[3] = "res/image/ui/02_item/crystal/white/ice01.png",
+			},
+			[2] = {
+				[1] = 3,
+				[2] = 5,
+				[3] = "res/image/ui/02_item/crystal/white/ice02.png",
+			},
+			[3] = {
+				[1] = 6,
+				[2] = 8,
+				[3] = "res/image/ui/02_item/crystal/white/ice03.png",
+			},
+			[4] = {
+				[1] = 9,
+				[2] = 10,
+				[3] = "res/image/ui/02_item/crystal/white/ice04.png",
+			},
+		},
+		["version"] = 1000,
+		["sort1"] = 27,
+		["award"] = {
+		},
+		["alltype"] = 3,
+		["max_lv"] = 10,
+		["random_state"] = {
+			[1] = {
+				["gj"] = 16,
+			},
+			[2] = {
+				["fy"] = 18,
+			},
+			[3] = {
+				["ah"] = 34,
+			},
+			[4] = {
+				["sh"] = 35,
+			},
+		},
+		["name"] = "符文:冰霜",
+		["desc"] = "测试符文20",
+		["get_rule"] = "符文圣殿达到1级",
+		["itemid"] = 5027,
+		["sellprice"] = {
+		},
+	},
+	[1061] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 14,
+		["sort"] = 315,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 605,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/consumable/100bag.png",
+		["award"] = {
+			["base"] = 100,
+			["crystal"] = 100,
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "100个背包格子",
+		["desc"] = "使用后增加100格背包空间，并额外增加100格符文背包空间",
+		["sort1"] = 37,
+		["ex_function"] = {
+		},
+		["itemid"] = 1061,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[24323] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 143,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3012.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "狂暴者战靴",
+		["desc"] = "狂暴的战意从体内涌出，越战越勇。",
+		["sort1"] = 143,
+		["noair"] = 1,
+		["itemid"] = 24323,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 20000,
+			},
+		},
+	},
+	[24312] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 156,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["type"] = 204,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_3008.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "守护者黑戒",
+		["desc"] = "战争不仅仅是破坏，更是守护。",
+		["sort1"] = 156,
+		["noair"] = 1,
+		["itemid"] = 24312,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 20000,
+			},
+		},
+	},
+	[110057] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 768,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/other/gift_candy.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "用不上的道具，看到了说明BUG了。",
+		["name"] = "呜喵软糖",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110057,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110313] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 732,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/purple_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用紫色词卡填空，有可能获得满分人气，中等人气，或低人气。",
+		["name"] = "夜色",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110313,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110966] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 43,
+		["val"] = 10,
+		["sort"] = 730,
+		["getway"] = "酒馆招募",
+		["overdue"] = {
+			["str"] = "2019-04-02 23:59:59",
+			["str_time"] = 1554220799,
+		},
+		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
+		["stacklimit"] = 99999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/gift06.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["vitem"] = {
+				[1] = {
+					[1] = 1,
+					[2] = 30,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开即可获得初心者之境活动中薇薇安SP的突破材料",
+		["name"] = "招募礼盒",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110966,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[110825] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110653,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得2~5个龙骸，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110825,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[285093] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 305,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_4004.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "黯淡的血影之棘",
+		["decompose"] = 1,
+		["desc"] = "尚未完全解放力量的长枪，痛苦和悲鸣将为它完成最后的洗礼。",
+		["sort1"] = 305,
+		["itemid"] = 285093,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[284007] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 243,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4009.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2307,
+		["name"] = "绯炎便鞋",
+		["decompose"] = 1,
+		["desc"] = "金色的花纹勾勒出灼热的气息。",
+		["sort1"] = 243,
+		["itemid"] = 284007,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[9213] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 24,
+		["sort"] = 23,
+		["overdue"] = {
+		},
+		["getway"] = "商店购买",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_161.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "夏祭心跳",
+		["desc"] = "使用解锁格莱明皮肤：夏祭心跳。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4011,
+		},
+		["itemid"] = 9213,
+		["sellprice"] = {
+		},
+	},
+	[9201] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 24,
+		["sort"] = 18,
+		["overdue"] = {
+		},
+		["getway"] = "商店购买",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_107.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "极道少主",
+		["desc"] = "使用解锁疾风皮肤：极道少主。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4038,
+		},
+		["itemid"] = 9201,
+		["sellprice"] = {
+		},
+	},
+	[110102] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 746,
+		["getway"] = "活动冒险委托，活动事件奖励",
+		["overdue"] = {
+			["str"] = "2019-01-31 23:59:00",
+			["str_time"] = 1548950340,
+		},
+		["angle"] = "res/image/ui/02_item/other/activity_cup.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 47,
+				["type"] = 3,
+				["activity"] = "WORLDCUP",
+				["sysid"] = 2002,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/event_02/clue04.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "来自冒险者协会和北境王室的委托令，消耗50个可以接取1次活动冒险。",
+		["name"] = "冒险入场券",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110102,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[1401] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 330,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 1401,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1个初级突破石。",
+		["name"] = "初级突破礼包",
+		["sort1"] = 39,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1401,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[101003] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 26,
+		["sort"] = 723,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "门票派送活动",
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/other/dispatch_1.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+			[802] = 100,
+		},
+		["desc"] = "测试用优惠券",
+		["name"] = "优惠券",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 101003,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[21060] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
+		["overdue"] = {
+		},
+		["getway"] = "酒馆招募",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 19,
+				["type"] = 2,
+				["sysid"] = 1001,
+			},
+		},
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_182.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1323,
+					[2] = 1,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "集齐40个可激活斯巴达，同时也是斯巴达觉醒的道具。",
+		["name"] = "英雄之证·斯巴达",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21060,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
+			},
+		},
+	},
+	[132041] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/percent_2.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "经验倍率Ⅰ+16次",
+		["desc"] = "使用增加16次的buff使用次数。buff效果：增加15%装备解放经验，初级能量石翻倍",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 16,
+			["buff"] = 204,
+		},
+		["itemid"] = 132041,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110965] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 43,
+		["val"] = 10,
+		["sort"] = 730,
+		["getway"] = "酒馆招募",
+		["overdue"] = {
+			["str"] = "2019-04-02 23:59:59",
+			["str_time"] = 1554220799,
+		},
+		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
+		["stacklimit"] = 99999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/gift06.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["vitem"] = {
+				[1] = {
+					[1] = 2,
+					[2] = 30,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开即可获得初心者之境活动中桑妮SP的突破材料",
+		["name"] = "招募礼盒",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110965,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[9005] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 23,
+		["sort"] = 9,
+		["overdue"] = {
+		},
+		["getway"] = "外观商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 41,
+				["type"] = 3,
+				["value"] = {
+					[1] = 1,
+					[2] = "704",
+				},
+				["sysid"] = 1017,
+			},
+		},
+		["type"] = 517,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_176.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "看板娘:圣诞天使",
+		["desc"] = "使用解锁冒险、商店和酒馆看板娘：圣诞天使-米迦勒",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["kanban"] = 1006,
+		},
+		["itemid"] = 9005,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[1223] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 3500,
+		["overdue"] = {
+		},
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/5C.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["res"] = {
+				["hexp"] = 120,
+			},
+		},
+		["ex_function"] = {
+			["time"] = 12,
+			["taskgroup"] = 103,
+		},
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "高级苍穹耀光",
+		["sort1"] = 35,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1223,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 24000,
+				},
 			},
 		},
 	},
@@ -78221,8 +80715,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -78256,47 +80750,46 @@ item = {
 			},
 		},
 	},
-	[110246] = {
+	[21048] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 724,
-		["val"] = 10,
+		["usetype"] = 3,
+		["sort"] = 444,
+		["val"] = 10000,
 		["overdue"] = {
-			["str"] = "2018-09-10 23:59:00",
-			["str_time"] = 1536595140,
 		},
-		["getway"] = "活动商店",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110246,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/lion_2.png",
-		["selltype"] = 0,
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_147.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1327,
+					[2] = 1,
+				},
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "特殊雄狮宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "特殊雄狮宝箱",
-		["sort1"] = 1,
-		["alltype"] = 5,
+		["desc"] = "集齐60个可激活埃德蒙，同时也是埃德蒙觉醒的道具。",
+		["name"] = "英雄之证·埃德蒙",
+		["sort1"] = 67,
+		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 110246,
+		["itemid"] = 21048,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -78394,49 +80887,229 @@ item = {
 			},
 		},
 	},
-	[1002] = {
+	[24313] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 145,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["type"] = 201,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_3002.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "天启者大剑",
+		["desc"] = "圣光所在之处，必是光明璀璨的未来。",
+		["sort1"] = 145,
+		["noair"] = 1,
+		["itemid"] = 24313,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 20000,
+			},
+		},
+	},
+	[4002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 5,
+		["sort"] = 301,
+		["val"] = 10000,
+		["overdue"] = {
+		},
+		["getway"] = "商店",
+		["stacklimit"] = 999,
+		["quality"] = 2,
+		["changeface"] = {
+		},
+		["type"] = 507,
+		["picture"] = "res/image/ui/02_item/other/item_07.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "任务刷新券",
+		["name"] = "任务刷新券",
+		["sort1"] = 37,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 4002,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1004] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 1,
-		["sort"] = 103,
+		["sort"] = 105,
 		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "作战、冒险任务、大苍穹、日常巡守",
+		["getway"] = "作战、冒险任务、大苍穹、团队副本、日常巡守",
 		["stacklimit"] = 9999999,
 		["quality"] = 1,
 		["changeface"] = {
 		},
 		["type"] = 505,
-		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_03.png",
+		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_05.png",
 		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["res"] = {
-				["hexp"] = 50,
+				["hexp"] = 500,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "中型经验书,使用获得50经验",
-		["name"] = "中级经验书",
+		["desc"] = "进阶经验书，使用获得500经验",
+		["name"] = "进阶经验书",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1002,
+		["itemid"] = 1004,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50,
+				["gold"] = 200,
 			},
 		},
 	},
-	[285077] = {
+	[4105] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 237,
+		["selltype"] = 0,
+		["sort"] = 730,
+		["overdue"] = {
+		},
+		["getway"] = "皇家委托、日常巡守",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/common_5.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "英雄突破11至12层的道具",
+		["name"] = "突破材料",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 4105,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[1016] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 113,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 10,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/other/item_99.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "菜谱上的食品肯定用到的材料之一",
+		["name"] = "美汁源",
+		["sort1"] = 16,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1016,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110970] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 47,
+		["sort"] = 729,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 99999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/gift_08.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后可以获得多种奖励，甚至还有传奇装备和荆棘刻印！",
+		["name"] = "神秘魔方",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110970,
+		["sellprice"] = {
+		},
+	},
+	[276013] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["sort"] = 185,
 		["overdue"] = {
 		},
 		["stacklimit"] = 1,
@@ -78450,12 +81123,12 @@ item = {
 				["items"] = {
 					[1] = {
 						[1] = 1048,
-						[2] = 9,
+						[2] = 3,
 					},
 				},
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_hammer_4001.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_4001.png",
 		["hole_2"] = {
 			[1] = 1,
 			[2] = 2,
@@ -78467,219 +81140,16 @@ item = {
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2301,
-		["name"] = "黯淡的赫淮斯托斯",
-		["decompose"] = 1,
-		["desc"] = "尚未完成的比南机械重锤，目前工作状态极不稳定，容易造成意外。",
-		["sort1"] = 237,
-		["itemid"] = 285077,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[110969] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 46,
-		["sort"] = 729,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2019-04-07 23:59:59",
-			["str_time"] = 1554652799,
-		},
-		["getway"] = "礼包",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/raffle_ticket_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "使用后可任意选择一个转盘进行抽奖",
-		["name"] = "抽奖券",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110969,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
-	[21053] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["getway"] = "酒馆招募",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 19,
-				["type"] = 2,
-				["sysid"] = 1001,
-			},
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_160.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1325,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐60个可激活艾丽西亚，同时也是艾丽西亚觉醒的道具。",
-		["name"] = "英雄之证·艾丽西亚",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21053,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
-			},
-		},
-	},
-	[6032] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift02.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 6030,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "内含十连抽券1张，并且在使用后，每天首次用钻石刷新冒险任务必定出紫色任务，全部背包格子+100，额外赠送100符文背包格子",
-		["name"] = "亲王礼包",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 6032,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[284136] = {
-		["herolv"] = 1,
-		["teamlv"] = 60,
-		["viplimit"] = 0,
-		["sort"] = 189,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 204,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4012.png",
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
 		["val"] = 80,
-		["name"] = "薇欧瑞儿专属戒指",
-		["propertyid"] = 2193,
+		["propertyid"] = 2185,
+		["name"] = "13",
 		["decompose"] = 1,
-		["sort1"] = 189,
-		["itemid"] = 284136,
+		["desc"] = "13",
+		["sort1"] = 185,
+		["itemid"] = 276013,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
-			},
-		},
-	},
-	[133033] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["picture"] = "res/image/ui/02_item/exproperty/critical_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-			["count"] = 60,
-			["buff"] = 303,
-		},
-		["desc"] = "使用增加60次的buff使用次数。buff效果：20%造成暴击，装备解放经验*2",
-		["name"] = "暴击概率+60次",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 133033,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
 			},
 		},
 	},
@@ -78766,123 +81236,102 @@ item = {
 			},
 		},
 	},
-	[8001] = {
+	[110238] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 12,
-		["sort"] = 90,
-		["val"] = 10,
+		["usetype"] = 29,
+		["val"] = 10000,
+		["sort"] = 774,
+		["getway"] = "活动冒险委托",
 		["overdue"] = {
 		},
-		["getway"] = "冒险任务、大苍穹、商店",
+		["angle"] = "res/image/ui/00/55_flameisland/55_btn_j.png",
 		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 524,
+		["picture"] = "res/image/ui/02_item/event/event_05/purple_card_1.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110085,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "获得后自动使用，立即随机获得一个紫之阵英雄凭证。（维多利亚、伊露丽、潘多拉、沙利叶、薇欧瑞儿、特斯拉、范海辛、德古拉、卡缇、但丁、埃德蒙、拉娜克希娅、夏洛特、贝瑟芬妮、希尔芬。）",
+		["name"] = "英雄凭证-紫之阵",
+		["sort1"] = 42,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110238,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[286006] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 1,
+		["decompose"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 205,
+		["version"] = 1001,
+		["picture"] = "res/image/ui/02_item/equip/countermark/warrior.png",
+		["open_hole"] = {
+		},
+		["hole_2"] = {
+		},
+		["award"] = {
+		},
+		["desc"] = "铸有武魂纹样，纯辉钢打造的天启者专用刻印，能够激发某些英雄的潜力。",
+		["hole_1"] = {
+		},
+		["val"] = 110,
+		["name"] = "武魂刻印",
+		["alltype"] = 2,
+		["sort1"] = 325,
+		["itemid"] = 286006,
+		["sellprice"] = {
+		},
+	},
+	[11204] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 3498,
+		["overdue"] = {
+		},
+		["getway"] = "英雄回溯",
+		["stacklimit"] = 1,
 		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 403,
-		["picture"] = "res/image/map/building/00_chest_clothes_5.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 5101,
-			},
-		},
-		["ex_function"] = {
-		},
-		["award_num"] = 100,
-		["desc"] = "消耗100个该物品，可以合成1级传奇装备。",
-		["name"] = "初级传奇碎片",
-		["sort1"] = 69,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 8001,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[8007] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 12,
-		["sort"] = 91,
+		["type"] = 525,
 		["val"] = 10,
-		["overdue"] = {
-		},
-		["getway"] = "冒险任务、大苍穹、商店",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 403,
-		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 5004,
-			},
-		},
-		["ex_function"] = {
-		},
-		["award_num"] = 200,
-		["desc"] = "消耗200个该物品，可以合成80级史诗装备。",
-		["name"] = "顶级史诗碎片",
-		["sort1"] = 69,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 8007,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110059] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 770,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/other/gift_sundae.png",
-		["selltype"] = 1,
+		["picture"] = "res/image/ui/02_item/light/Expbot.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "用不上的道具，看到了说明BUG了。",
-		["name"] = "冒险家圣代",
-		["sort1"] = 1,
+		["desc"] = "天启回溯后的经验存储瓶，可进行天启经验传承。",
+		["name"] = "天启经验瓶",
+		["sort1"] = 35,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110059,
+		["itemid"] = 11204,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
 		},
 	},
 	[110315] = {
@@ -78894,8 +81343,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -78929,36 +81378,33 @@ item = {
 			},
 		},
 	},
-	[90002] = {
+	[4003] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 32,
-		["val"] = 10,
+		["sort"] = 301,
 		["overdue"] = {
 		},
+		["getway"] = "商店",
 		["stacklimit"] = 999,
-		["quality"] = 4,
+		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["type"] = 507,
+		["val"] = 10000,
+		["picture"] = "res/image/ui/02_item/other/quill_pen.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 90002,
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "测试掉落宝箱",
-		["name"] = "多人宝箱测试",
-		["sort1"] = 32,
+		["desc"] = "用于更改团长名字，注意名字一周只能改一次。",
+		["name"] = "羽毛笔",
+		["sort1"] = 37,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 90002,
+		["itemid"] = 4003,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -79118,261 +81564,294 @@ item = {
 			},
 		},
 	},
-	[110968] = {
+	[284161] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 325,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_bow_4005.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "银色复仇",
+		["decompose"] = 1,
+		["desc"] = "弩枪中，最后一枚永不出膛弩箭，铭刻着仇敌的名字。",
+		["sort1"] = 325,
+		["itemid"] = 284161,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[1126] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 46,
-		["sort"] = 728,
+		["selltype"] = 1,
+		["sort"] = 549,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 508,
+		["picture"] = "res/image/ui/02_item/material/superrare_02.png",
+		["val"] = 10,
+		["award"] = {
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+			[1] = {
+				[1] = 80,
+				[2] = 89,
+			},
+			[2] = {
+				[1] = 6,
+				[2] = 6,
+			},
+			[3] = {
+				[1] = 202,
+			},
+		},
+		["name"] = "80传奇衣服精华",
+		["desc"] = "可以作为80-89级，传奇品质衣服共鸣材料使用。",
+		["sort1"] = 70,
+		["ex_function"] = {
+		},
+		["itemid"] = 1126,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[9220] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 24,
+		["sort"] = 23,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 69,
+				["type"] = 2,
+				["sysid"] = 1050,
+			},
+		},
+		["type"] = 516,
+		["picture"] = "res/image/ui/07_head/07_pic_187.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "蔷薇特使",
+		["desc"] = "使用解锁拉娜克希娅皮肤：蔷薇特使。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4018,
+		},
+		["itemid"] = 9220,
+		["sellprice"] = {
+		},
+	},
+	[110971] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
 		["val"] = 10,
 		["overdue"] = {
 		},
 		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/raffle_ticket_2.png",
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110971,
+			},
 		},
 		["ex_function"] = {
 		},
-		["name"] = "抽奖券B",
-		["sort1"] = 1,
+		["desc"] = "打开即可随机获得1-5个极品苍穹辉光",
+		["name"] = "极品苍穹辉光礼袋",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110968,
+		["itemid"] = 110971,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
 			},
 		},
 	},
-	[7000206] = {
+	[24210] = {
 		["herolv"] = 1,
-		["buff"] = {
-			[1] = {
-				[1] = 1043,
-				[2] = 1133,
-				[3] = 1143,
-			},
-		},
-		["teamlv"] = 1,
+		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["sort"] = 1,
+		["selltype"] = 1,
+		["sort"] = 118,
 		["overdue"] = {
 		},
+		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 5,
-		["type"] = 20002,
-		["picture"] = "res/image/ui/02_item/guild/equip/guild_shield_06.png",
-		["award"] = {
+		["quality"] = 4,
+		["open_hole"] = {
 			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 25,
-					},
-				},
 			},
 			[2] = {
 				["items"] = {
 					[1] = {
-						[1] = 101009,
-						[2] = 25,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 25,
+						[1] = 1046,
+						[2] = 6,
 					},
 				},
 			},
 		},
-		["alltype"] = 103,
-		["name"] = "皇家守卫",
-		["version"] = 1000,
-		["desc"] = "古代奥罗拉皇家护卫的盾牌，被赋予了强大的防御魔法。",
-		["itemid"] = 7000206,
+		["type"] = 202,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_2001.png",
+		["hole_1"] = {
+			[1] = 1,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "炫光铠甲",
+		["desc"] = "光洁的表面反射出强光，足以亮瞎敌人的眼睛！",
+		["sort1"] = 118,
+		["noair"] = 1,
+		["itemid"] = 24210,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 12500,
 			},
 		},
 	},
-	[1032] = {
+	[1316] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 32,
+		["sort"] = 228,
+		["overdue"] = {
+		},
+		["getway"] = "宝石碎片合成、宝石商店",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+			[1] = {
+				["id"] = 22,
+				["type"] = 3,
+				["value"] = 805,
+				["sysid"] = 1017,
+			},
+			[2] = {
+				["id"] = 57,
+				["type"] = 3,
+				["sysid"] = 2013,
+			},
+		},
+		["type"] = 506,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/xuetong.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "能够发掘英雄的潜能极限，激活血源系天赋的觉醒宝石，可用于英雄的极限觉醒。",
+		["name"] = "血源宝石",
+		["sort1"] = 37,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1316,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[1320] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 12,
+		["sort"] = 88,
 		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
+		["getway"] = "英雄之证转化、英雄之证分解",
+		["stacklimit"] = 10000,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["type"] = 530,
+		["picture"] = "res/image/ui/02_item/material/shengguang_sp.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 1002,
+				[1] = 1320,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "测试掉落宝箱",
-		["name"] = "测试掉落宝箱",
-		["sort1"] = 32,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1032,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[1048] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 304,
-		["overdue"] = {
-		},
-		["getway"] = "冒险任务、日常巡守",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 506,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/consumable/punching.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "装备符文孔解锁材料",
-		["name"] = "高阶打孔器",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1048,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[4105] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 0,
-		["sort"] = 730,
-		["overdue"] = {
-		},
-		["getway"] = "皇家委托、日常巡守",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/common_5.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "英雄突破11至12层的道具",
-		["name"] = "突破材料",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 4105,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
-		},
-	},
-	[1064] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 13,
-		["sort"] = 318,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 509,
-		["picture"] = "res/image/ui/02_item/consumable/exp_buff_1.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["buff"] = 3,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "使用后30天内，作战和快速作战的团队经验收益增加15%。",
-		["name"] = "经验15%增益",
-		["sort1"] = 37,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1064,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[11202] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 605,
-		["overdue"] = {
-		},
-		["getway"] = "苍穹之光分解",
-		["stacklimit"] = 999999,
-		["quality"] = 2,
-		["changeface"] = {
-		},
-		["type"] = 522,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/Ether.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "兑换苍穹之光的材料",
-		["name"] = "光以太",
-		["sort1"] = 33,
+		["award_num"] = 100,
+		["desc"] = "觉醒宝石的碎片形态，使用100个该物品，可以合成1个圣光宝石。",
+		["name"] = "圣光宝石碎片",
+		["sort1"] = 69,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 11202,
+		["itemid"] = 1320,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -79425,46 +81904,17 @@ item = {
 			},
 		},
 	},
-	[286006] = {
+	[276005] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 1,
-		["decompose"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 205,
-		["version"] = 1001,
-		["picture"] = "res/image/ui/02_item/equip/countermark/warrior.png",
-		["open_hole"] = {
-		},
-		["hole_2"] = {
-		},
-		["award"] = {
-		},
-		["desc"] = "铸有武魂纹样，纯辉钢打造的天启者专用刻印，能够激发某些英雄的潜力。",
-		["hole_1"] = {
-		},
-		["val"] = 110,
-		["name"] = "武魂刻印",
-		["alltype"] = 2,
-		["sort1"] = 325,
-		["itemid"] = 286006,
-		["sellprice"] = {
-		},
-	},
-	[284035] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["sort"] = 203,
+		["sort"] = 185,
 		["overdue"] = {
 		},
 		["stacklimit"] = 1,
 		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
+		["version"] = 1001,
+		["type"] = 201,
 		["open_hole"] = {
 			[1] = {
 			},
@@ -79472,111 +81922,162 @@ item = {
 				["items"] = {
 					[1] = {
 						[1] = 1048,
-						[2] = 9,
+						[2] = 3,
 					},
 				},
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4022.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4015.png",
 		["hole_2"] = {
 			[1] = 1,
 			[2] = 2,
 		},
 		["hole_1"] = {
-			[1] = 2,
+			[1] = 3,
 			[2] = 1,
 		},
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2267,
-		["name"] = "苦痛的足踏",
+		["val"] = 80,
+		["propertyid"] = 2177,
+		["name"] = "远古的霜语",
 		["decompose"] = 1,
-		["desc"] = "这双鞋子很擅长制造“快乐”的痛苦。",
-		["sort1"] = 203,
-		["itemid"] = 284035,
+		["desc"] = "远古时代，魔法曾抵达了能与元素精灵对话的高度，而这把法杖，便是见证。",
+		["sort1"] = 185,
+		["itemid"] = 276005,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 50000,
 			},
 		},
 	},
-	[119] = {
+	[110972] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 2,
-		["sort"] = 38,
+		["sort"] = 361,
 		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 10,
-		["quality"] = 4,
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
 		["changeface"] = {
 		},
 		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["picture"] = "res/image/ui/02_item/consumable/gift_21.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 110098,
+				[1] = 110972,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "黑土特殊商品",
-		["name"] = "黑土特殊商品",
-		["sort1"] = 38,
+		["desc"] = "打开后随机获得一件80级传奇武器",
+		["name"] = "武器宝箱·80级",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 119,
+		["itemid"] = 110972,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
 			},
 		},
 	},
-	[1202] = {
+	[110991] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "幻境作战，苍穹之光精炼",
-		["stacklimit"] = 1,
-		["quality"] = 3,
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 520,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/1B.png",
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["res"] = {
-				["hexp"] = 10,
+			["drop"] = {
+				[1] = 110991,
 			},
 		},
 		["ex_function"] = {
-			["time"] = 6,
-			["taskgroup"] = 102,
 		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "中级苍穹微光",
-		["sort1"] = 35,
+		["name"] = "魔盒奖励21",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1202,
+		["itemid"] = 110991,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 80,
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[7000109] = {
+		["herolv"] = 1,
+		["buff"] = {
+			[1] = {
+				[1] = 1015,
+				[2] = 1025,
+				[3] = 1114,
+				[4] = 1124,
+			},
+		},
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 20001,
+		["picture"] = "res/image/ui/02_item/guild/equip/guild_sword_09.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 70,
+					},
 				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 70,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 70,
+					},
+				},
+			},
+		},
+		["alltype"] = 103,
+		["name"] = "天堂之刃",
+		["version"] = 1000,
+		["desc"] = "守护天使曾经使用的武器，遗落千年之后，再度现世。",
+		["itemid"] = 7000109,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -79636,8 +82137,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -79671,46 +82172,47 @@ item = {
 			},
 		},
 	},
-	[1220] = {
+	[110551] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
-		["overdue"] = {
-		},
-		["getway"] = "幻境作战，苍穹之光精炼",
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 520,
+		["usetype"] = 18,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/4H.png",
+		["sort"] = 730,
+		["getway"] = "圣诞巡游",
+		["overdue"] = {
+			["str"] = "2019-01-10 23:59:59",
+			["str_time"] = 1547135999,
+		},
+		["angle"] = "res/image/ui/00/63_christmas/63_icon_x.png",
+		["stacklimit"] = 99999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 50,
+				["type"] = 3,
+				["activity"] = "CHRISTMAS",
+				["sysid"] = 2010,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/xunyoubi.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["res"] = {
-				["hexp"] = 300,
-			},
 		},
 		["ex_function"] = {
-			["taskgroup"] = 8,
-			["time"] = 12,
-			["rank"] = 4,
 		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "4品异构辉光",
-		["sort1"] = 35,
+		["desc"] = "圣诞巡游获得的货币，在圣诞派送环节中使用可进行礼物派送",
+		["name"] = "巡游币",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1220,
+		["itemid"] = 110551,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 32000,
-				},
+			["res"] = {
+				["gold"] = 0,
 			},
 		},
 	},
@@ -80155,216 +82657,209 @@ item = {
 			},
 		},
 	},
-	[21106] = {
+	[9112] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 6,
+		["usetype"] = 23,
+		["sort"] = 24,
 		["overdue"] = {
 		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 3,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_1003.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 90,
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_188.png",
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["propertyid"] = 2006,
-		["name"] = "二手钢甲",
-		["desc"] = "上面还残留着前主人的味道。",
-		["sort1"] = 6,
-		["noair"] = 1,
-		["itemid"] = 21106,
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "跟宠:小红莲",
+		["desc"] = "使用解锁冒险跟宠：小红莲。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["pet"] = 1013,
+		},
+		["itemid"] = 9112,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 1,
 			},
 		},
 	},
-	[100035] = {
+	[110014] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 710,
+		["usetype"] = 18,
+		["sort"] = 725,
 		["val"] = 10,
 		["overdue"] = {
+			["str"] = "2018-03-20 23:59:00",
+			["str_time"] = 1521561540,
 		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
+		["getway"] = "初春祭冒险委托，初春祭活动商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110014,
+			},
 		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/00_bg_wanjia_dt.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/lightgreengift.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["border"] = 4,
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "电台月积分3500点时获得，有效期30天",
-		["name"] = "高阶电台头像框",
+		["desc"] = "淡雅的青色礼物箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(传奇装备或者传奇装备共鸣精华的其中1种)。",
+		["name"] = "青色礼物箱",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 100035,
-		["sellprice"] = {
-		},
-	},
-	[23111] = {
-		["herolv"] = 1,
-		["teamlv"] = 66,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 107,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 3,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_1002.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2107,
-		["name"] = "包头软靴",
-		["desc"] = "有了它，你终于可以摆脱“赤脚大仙”的名号。",
-		["sort1"] = 107,
-		["noair"] = 1,
-		["itemid"] = 23111,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
-	[110645] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 747,
-		["getway"] = "活动商店",
-		["overdue"] = {
-			["str"] = "2019-01-10 23:59:59",
-			["str_time"] = 1547135999,
-		},
-		["angle"] = "res/image/ui/00/63_christmas/63_icon_x.png",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/event/open.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "比南出产的一次性开箱器，采用最高级分解技术，无坚不摧，安全可靠，无论是钢铁还是秘银，均可轻易开启。(开启活动礼物箱时需要的消耗品)",
-		["name"] = "万能开箱器",
-		["sort1"] = 1,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 110645,
+		["itemid"] = 110014,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
 			},
 		},
 	},
-	[276010] = {
+	[110973] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift_22.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110973,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后随机获得一件80级传奇衣服",
+		["name"] = "衣服宝箱·80级",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110973,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[24209] = {
 		["herolv"] = 1,
 		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["sort"] = 182,
+		["selltype"] = 1,
+		["sort"] = 117,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
 		["version"] = 1000,
-		["type"] = 202,
+		["stacklimit"] = 1,
+		["quality"] = 4,
 		["open_hole"] = {
 			[1] = {
 			},
 			[2] = {
 				["items"] = {
 					[1] = {
-						[1] = 1048,
-						[2] = 3,
+						[1] = 1046,
+						[2] = 6,
 					},
 				},
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_4031.png",
+		["type"] = 201,
 		["hole_2"] = {
-			[1] = 2,
+			[1] = 1,
 			[2] = 2,
 		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_2001.png",
 		["hole_1"] = {
-			[1] = 1,
+			[1] = 3,
 			[2] = 1,
 		},
+		["val"] = 80,
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2182,
-		["name"] = "10",
-		["decompose"] = 1,
-		["desc"] = "10",
-		["sort1"] = 182,
-		["itemid"] = 276010,
+		["name"] = "炫光大剑",
+		["desc"] = "光洁的表面反射出强光，足以亮瞎敌人的眼睛！",
+		["sort1"] = 117,
+		["noair"] = 1,
+		["itemid"] = 24209,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50000,
+				["gold"] = 12500,
+			},
+		},
+	},
+	[1317] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 229,
+		["overdue"] = {
+		},
+		["getway"] = "宝石碎片合成、宝石商店",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+			[1] = {
+				["id"] = 22,
+				["type"] = 3,
+				["value"] = 805,
+				["sysid"] = 1017,
+			},
+			[2] = {
+				["id"] = 57,
+				["type"] = 3,
+				["sysid"] = 2013,
+			},
+		},
+		["type"] = 506,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/boxue.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "能够发掘英雄的潜能极限，激活博学系天赋的觉醒宝石，可用于英雄的极限觉醒。",
+		["name"] = "博学宝石",
+		["sort1"] = 37,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1317,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -80579,47 +83074,57 @@ item = {
 			},
 		},
 	},
-	[110014] = {
+	[21008] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 725,
-		["val"] = 10,
+		["usetype"] = 3,
+		["sort"] = 409,
+		["val"] = 10000,
 		["overdue"] = {
-			["str"] = "2018-03-20 23:59:00",
-			["str_time"] = 1521561540,
 		},
-		["getway"] = "初春祭冒险委托，初春祭活动商店",
+		["getway"] = "酒馆招募、协力作战、精英作战",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 			[1] = {
+				["id"] = 19,
+				["type"] = 2,
+				["sysid"] = 1001,
+			},
+			[2] = {
+				["id"] = 20,
 				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110014,
+				["sysid"] = 1030,
 			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/lightgreengift.png",
-		["selltype"] = 0,
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_05.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1320,
+					[2] = 1,
+				},
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "淡雅的青色礼物箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(传奇装备或者传奇装备共鸣精华的其中1种)。",
-		["name"] = "青色礼物箱",
-		["sort1"] = 1,
-		["alltype"] = 5,
+		["desc"] = "集齐40个可激活珊朵拉，同时也是珊朵拉觉醒的道具。",
+		["name"] = "英雄之证·珊朵拉",
+		["sort1"] = 50,
+		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 110014,
+		["itemid"] = 21008,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -80665,8 +83170,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -80700,39 +83205,51 @@ item = {
 			},
 		},
 	},
-	[104] = {
+	[274027] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["usetype"] = 4,
-		["sort"] = 38,
-		["val"] = 10,
+		["sort"] = 183,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["lottery"] = {
-				[1] = 1001,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1001,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 3,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4050.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "伪随机测试宝箱",
-		["name"] = "伪随机测试宝箱",
-		["sort1"] = 38,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 104,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2183,
+		["name"] = "精灵近卫战靴",
+		["decompose"] = 1,
+		["desc"] = "精灵王城近卫的制式战靴，轻盈却有着完美的强度。",
+		["sort1"] = 183,
+		["itemid"] = 274027,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 50000,
 			},
 		},
 	},
@@ -81177,227 +83694,75 @@ item = {
 			},
 		},
 	},
-	[284009] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 249,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_4005.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2313,
-		["name"] = "烈日",
-		["decompose"] = 1,
-		["desc"] = "炽热的光芒，犹如初升的太阳。",
-		["sort1"] = 249,
-		["itemid"] = 284009,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[110486] = {
+	[110974] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
+		["usetype"] = 2,
+		["sort"] = 361,
 		["val"] = 10,
-		["sort"] = 751,
-		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-12-20 23:59:59",
-			["str_time"] = 1545321599,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 6,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110486,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/owl_1.png",
-		["selltype"] = 1,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift_23.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110974,
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "夜枭宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "夜枭宝箱",
-		["sort1"] = 1,
+		["desc"] = "打开后随机获得一件80级传奇鞋子",
+		["name"] = "鞋子宝箱·80级",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110486,
+		["itemid"] = 110974,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
 			},
 		},
 	},
-	[24209] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 117,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 6,
-					},
-				},
-			},
-		},
-		["type"] = 201,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_2001.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "炫光大剑",
-		["desc"] = "光洁的表面反射出强光，足以亮瞎敌人的眼睛！",
-		["sort1"] = 117,
-		["noair"] = 1,
-		["itemid"] = 24209,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 12500,
-			},
-		},
-	},
-	[274011] = {
+	[9203] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 167,
+		["usetype"] = 24,
+		["sort"] = 20,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 3,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4032.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2167,
-		["name"] = "风行者足具",
-		["decompose"] = 1,
-		["desc"] = "比南精湛技术的结晶。",
-		["sort1"] = 167,
-		["itemid"] = 274011,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 50000,
-			},
-		},
-	},
-	[7077] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
+		["getway"] = "商店购买",
 		["stacklimit"] = 999,
-		["quality"] = 6,
+		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 604,
-		["picture"] = "res/image/map/building/00_chest_clothes_5.png",
+		["type"] = 516,
 		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_113.png",
 		["award"] = {
 		},
-		["alltype"] = 4,
+		["alltype"] = 5,
 		["resonate_value"] = {
 		},
-		["name"] = "60级传奇装备",
-		["desc"] = "60级传奇的武器，盔甲，靴子，首饰。",
-		["sort1"] = 68,
+		["name"] = "盛装华服",
+		["desc"] = "使用解锁薇薇安皮肤：盛装华服。",
+		["sort1"] = 69,
 		["ex_function"] = {
+			["skinid"] = 4002,
 		},
-		["itemid"] = 7077,
+		["itemid"] = 9203,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
 		},
 	},
-	[9214] = {
+	[9209] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -81412,33 +83777,70 @@ item = {
 		},
 		["type"] = 516,
 		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_176.png",
+		["picture"] = "res/image/ui/07_head/07_pic_146.png",
 		["award"] = {
 		},
 		["alltype"] = 5,
 		["resonate_value"] = {
 		},
-		["name"] = "圣夜之光",
-		["desc"] = "使用解锁米迦勒皮肤：圣夜之光。",
+		["name"] = "炎拳宗师",
+		["desc"] = "使用解锁帝隆皮肤：炎拳宗师。",
 		["sort1"] = 69,
 		["ex_function"] = {
-			["skinid"] = 4012,
+			["skinid"] = 4007,
 		},
-		["itemid"] = 9214,
+		["itemid"] = 9209,
 		["sellprice"] = {
 		},
 	},
-	[274021] = {
+	[110988] = {
 		["herolv"] = 1,
-		["teamlv"] = 60,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 177,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
-			["num"] = 43200,
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift_24.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 5104,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后随即获得一个英雄专属戒指",
+		["name"] = "随机戒指盒子",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110988,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[23111] = {
+		["herolv"] = 1,
+		["teamlv"] = 66,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 107,
+		["overdue"] = {
 		},
 		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 6,
+		["quality"] = 3,
 		["open_hole"] = {
 			[1] = {
 			},
@@ -81446,35 +83848,112 @@ item = {
 				["items"] = {
 					[1] = {
 						[1] = 1046,
-						[2] = 3,
+						[2] = 1,
 					},
 				},
 			},
 		},
-		["type"] = 201,
+		["type"] = 203,
 		["hole_2"] = {
 			[1] = 1,
 			[2] = 2,
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_4010.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_1002.png",
 		["hole_1"] = {
-			[1] = 3,
+			[1] = 2,
 			[2] = 1,
 		},
 		["val"] = 80,
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["propertyid"] = 2177,
-		["decompose"] = 1,
-		["name"] = "纪元回归者",
-		["desc"] = "回归者们，继续你们的冒险吧！",
-		["sort1"] = 177,
+		["propertyid"] = 2107,
+		["name"] = "包头软靴",
+		["desc"] = "有了它，你终于可以摆脱“赤脚大仙”的名号。",
+		["sort1"] = 107,
 		["noair"] = 1,
-		["itemid"] = 274021,
+		["itemid"] = 23111,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50000,
+				["gold"] = 10000,
+			},
+		},
+	},
+	[100057] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 713,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/title_myds.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["title"] = 1002,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "可在贸易战线活动的贸易商店购买。",
+		["name"] = "贸易大师",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100057,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110463] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 744,
+		["getway"] = "贸易战线活动-归尘之地特产",
+		["overdue"] = {
+			["str"] = "2018-12-13 23:59:59",
+			["str_time"] = 1544716799,
+		},
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+			[1] = {
+				["id"] = 51,
+				["type"] = 3,
+				["activity"] = "TRADEEVENT",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 527,
+		["picture"] = "res/image/ui/02_item/event/event_01/ingredients_04.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "只在归尘之地生长的辣度极高的辣椒，受到广大辣党的追捧。（基准价格：100）",
+		["name"] = "魔鬼辣椒",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110463,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -81518,136 +83997,6 @@ item = {
 					[1] = 1079,
 					[2] = 1,
 				},
-			},
-		},
-	},
-	[110038] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 749,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_02.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "精选的超大扇贝，用烧烤的方式，充分体现贝肉的鲜美。",
-		["name"] = "法式烤贝",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110038,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[6033] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 362,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift03.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["gold"] = 1000000,
-			},
-			["drop"] = {
-				[1] = 6031,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "内含十连抽券1张，100万金币和3张任务刷新券，并且在使用后，每天用钻石刷新3次冒险任务必定出橙色任务，符文圣殿开启自动炼成功能，全部背包格子+200，额外赠送100符文背包格子",
-		["name"] = "欧王礼包",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 6033,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[285033] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 201,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_whip_4001.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2265,
-		["name"] = "黯淡的美杜莎的恩赐",
-		["decompose"] = 1,
-		["desc"] = "尚未完成的魔鞭，魔蛇的身躯还在不停的扭动着。",
-		["sort1"] = 201,
-		["itemid"] = 285033,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
 			},
 		},
 	},
@@ -81696,6 +84045,115 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[110975] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift_24.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110975,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后随机获得一件80级传奇戒指",
+		["name"] = "戒指宝箱·80级",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110975,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[1402] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 330,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 1402,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1个中级突破石。",
+		["name"] = "中级突破礼包",
+		["sort1"] = 39,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1402,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[130001] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 101,
+		["overdue"] = {
+		},
+		["getway"] = "大苍穹8层及以上、活动、日常巡守",
+		["stacklimit"] = 9999999,
+		["quality"] = 2,
+		["changeface"] = {
+		},
+		["type"] = 518,
+		["picture"] = "res/image/ui/02_item/exproperty/power_stone_green.png",
+		["val"] = 10,
+		["award"] = {
+			["res"] = {
+				["eexp"] = 100,
+			},
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "初级能量石",
+		["desc"] = "装备解放能量石,使用获得100装备解放经验",
+		["sort1"] = 1,
+		["ex_function"] = {
+		},
+		["itemid"] = 130001,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -81751,8 +84209,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -81786,47 +84244,42 @@ item = {
 			},
 		},
 	},
-	[110166] = {
+	[120022] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 726,
-		["val"] = 10,
+		["usetype"] = 19,
+		["sort"] = 752,
 		["overdue"] = {
-			["str"] = "2018-08-20 23:59:00",
-			["str_time"] = 1534780740,
 		},
-		["getway"] = "活动冒险委托，活动商店",
+		["getway"] = "官网抽奖",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110166,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/greengift.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_59.png",
 		["award"] = {
 		},
-		["ex_function"] = {
+		["alltype"] = 4,
+		["resonate_value"] = {
 		},
-		["desc"] = "鲜艳的绿色礼物箱，谁也不知道里面究竟盛装着什么宝物。不需要万能开箱器即可使用，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。与绿色礼物箱共享开启次数。",
-		["name"] = "特殊绿色礼物箱",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110166,
+		["name"] = "AR卡·布伦希尔德",
+		["desc"] = "使用可以永久解锁布伦希尔德AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = -1,
+			},
+			["role"] = {
+				[1] = 10022,
+			},
+		},
+		["itemid"] = 120022,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -82271,239 +84724,6 @@ item = {
 			},
 		},
 	},
-	[110463] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 744,
-		["getway"] = "贸易战线活动-归尘之地特产",
-		["overdue"] = {
-			["str"] = "2018-12-13 23:59:59",
-			["str_time"] = 1544716799,
-		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-			[1] = {
-				["id"] = 51,
-				["type"] = 3,
-				["activity"] = "TRADEEVENT",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 527,
-		["picture"] = "res/image/ui/02_item/event/event_01/ingredients_04.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "只在归尘之地生长的辣度极高的辣椒，受到广大辣党的追捧。（基准价格：100）",
-		["name"] = "魔鬼辣椒",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110463,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110872] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 307,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 502,
-		["picture"] = "res/image/ui/02_item/consumable/embs.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["emb"] = 250,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开即可获得250个皇家纹章",
-		["name"] = "一袋皇家纹章",
-		["sort1"] = 67,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110872,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 22500,
-			},
-		},
-	},
-	[101008] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 608,
-		["overdue"] = {
-		},
-		["getway"] = "公会副本",
-		["stacklimit"] = 9999999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 402,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/guild/guild_medal_1.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "冒险公会根据贡献颁发的初级勋章，可用于在初级公会商店中兑换物品。",
-		["name"] = "初级公会勋章",
-		["sort1"] = 37,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 101008,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[120022] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 752,
-		["overdue"] = {
-		},
-		["getway"] = "官网抽奖",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_59.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-		},
-		["name"] = "AR卡·布伦希尔德",
-		["desc"] = "使用可以永久解锁布伦希尔德AR功能和基础动作。若已经解锁过该英雄的AR，则随机永久解锁该英雄的1个特殊动作。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = -1,
-			},
-			["role"] = {
-				[1] = 10022,
-			},
-		},
-		["itemid"] = 120022,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[6030] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 359,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 509,
-		["picture"] = "res/image/ui/02_item/other/task_normal.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "每天首次用钻石或刷新券刷新冒险委托必定出紫色委托",
-		["name"] = "委托特权",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 6030,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[24210] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 118,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 6,
-					},
-				},
-			},
-		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_2001.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "炫光铠甲",
-		["desc"] = "光洁的表面反射出强光，足以亮瞎敌人的眼睛！",
-		["sort1"] = 118,
-		["noair"] = 1,
-		["itemid"] = 24210,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 12500,
-			},
-		},
-	},
 	[110171] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -82542,58 +84762,229 @@ item = {
 			},
 		},
 	},
-	[7000108] = {
+	[110976] = {
 		["herolv"] = 1,
-		["buff"] = {
-			[1] = {
-				[1] = 1014,
-				[2] = 1025,
-				[3] = 1114,
-			},
-		},
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 1,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift_21.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 5103,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后随机获得一件80级传奇装备",
+		["name"] = "装备宝箱·80级",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110976,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[286002] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 1,
+		["decompose"] = 1,
 		["overdue"] = {
 		},
 		["stacklimit"] = 1,
 		["quality"] = 6,
-		["type"] = 20001,
-		["picture"] = "res/image/ui/02_item/guild/equip/guild_sword_08.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 50,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 50,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 50,
-					},
-				},
-			},
+		["type"] = 205,
+		["version"] = 1001,
+		["picture"] = "res/image/ui/02_item/equip/countermark/divinesun.png",
+		["open_hole"] = {
 		},
-		["alltype"] = 103,
-		["name"] = "空间撕裂者",
-		["version"] = 1000,
-		["desc"] = "据说有着撕裂空间的力量，但能发挥此等力量的使用者还未曾出现。",
-		["itemid"] = 7000108,
+		["hole_2"] = {
+		},
+		["award"] = {
+		},
+		["desc"] = "铸有圣阳纹样，纯辉钢打造的天启者专用刻印，能够激发某些英雄的潜力。",
+		["hole_1"] = {
+		},
+		["val"] = 110,
+		["name"] = "圣阳刻印",
+		["alltype"] = 2,
+		["sort1"] = 325,
+		["itemid"] = 286002,
+		["sellprice"] = {
+		},
+	},
+	[101016] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 2,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_010.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "赤铜打造的宝箱，坚硬且耐腐蚀，能够长时间存放高价值品。",
+		["name"] = "赤铜宝箱",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 101016,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 1,
+			},
+		},
+	},
+	[7008] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_ring_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "精良品质的首饰。",
+		["name"] = "精良首饰",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7008,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[7040] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_ring_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "50级史诗品质的首饰。",
+		["name"] = "50级史诗首饰",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7040,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[7056] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_ring_2.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "70级普通品质的首饰。",
+		["name"] = "70级普通首饰",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7056,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[7080] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "80级史诗的武器，盔甲，靴子，首饰。",
+		["name"] = "80级史诗装备",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7080,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -82680,94 +85071,94 @@ item = {
 			},
 		},
 	},
-	[284019] = {
+	[7000204] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["buff"] = {
+			[1] = {
+				[1] = 1042,
+				[2] = 1141,
+			},
+		},
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 275,
+		["sort"] = 1,
 		["overdue"] = {
 		},
 		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
+		["quality"] = 4,
+		["type"] = 20002,
+		["picture"] = "res/image/ui/02_item/guild/equip/guild_shield_04.png",
+		["award"] = {
 			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 12,
+					},
+				},
 			},
 			[2] = {
 				["items"] = {
 					[1] = {
-						[1] = 1048,
-						[2] = 9,
+						[1] = 101009,
+						[2] = 12,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 12,
 					},
 				},
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4015.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2339,
-		["name"] = "征途长靴",
-		["decompose"] = 1,
-		["desc"] = "我们的征途，是世界的尽头。",
-		["sort1"] = 275,
-		["itemid"] = 284019,
+		["alltype"] = 103,
+		["name"] = "黄金护盾",
+		["version"] = 1000,
+		["desc"] = "黄金打造的盾牌，其对于身份的象征远大于实用性。",
+		["itemid"] = 7000204,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1000,
 			},
 		},
 	},
-	[9005] = {
+	[110978] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 9,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "外观商店",
+		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 6,
 		["changeface"] = {
-			[1] = {
-				["id"] = 41,
-				["type"] = 3,
-				["value"] = {
-					[1] = 1,
-					[2] = "704",
-				},
-				["sysid"] = 1017,
-			},
 		},
-		["type"] = 517,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_176.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/brambles.png",
 		["resonate_value"] = {
 		},
-		["name"] = "看板娘:圣诞天使",
-		["desc"] = "使用解锁冒险、商店和酒馆看板娘：圣诞天使-米迦勒",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["kanban"] = 1006,
+		["award"] = {
+			["drop"] = {
+				[1] = 110978,
+			},
 		},
-		["itemid"] = 9005,
+		["ex_function"] = {
+		},
+		["desc"] = "打开后可获得一个荆棘刻印",
+		["name"] = "荆棘刻印宝箱",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110978,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -82815,8 +85206,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -82850,36 +85241,41 @@ item = {
 			},
 		},
 	},
-	[7008] = {
+	[9221] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["usetype"] = 24,
+		["sort"] = 23,
 		["overdue"] = {
 		},
+		["getway"] = "礼包购买",
 		["stacklimit"] = 999,
-		["quality"] = 4,
+		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["id"] = 27,
+				["type"] = 3,
+				["value"] = "158",
+				["sysid"] = 1026,
+			},
 		},
-		["type"] = 604,
+		["type"] = 516,
 		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_ring_3.png",
-		["resonate_value"] = {
-		},
+		["picture"] = "res/image/ui/07_head/07_pic_193.png",
 		["award"] = {
 		},
-		["ex_function"] = {
+		["alltype"] = 5,
+		["resonate_value"] = {
 		},
-		["desc"] = "精良品质的首饰。",
-		["name"] = "精良首饰",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7008,
+		["name"] = "极冰的深渊",
+		["desc"] = "使用解锁艾丽西亚皮肤：极冰的深渊。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4019,
+		},
+		["itemid"] = 9221,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
 		},
 	},
 	[110831] = {
@@ -83109,7 +85505,7 @@ item = {
 			},
 		},
 	},
-	[7040] = {
+	[7079] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -83117,31 +85513,31 @@ item = {
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
 		},
 		["type"] = 604,
 		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_ring_4.png",
+		["picture"] = "res/image/map/building/00_chest_clothes_3.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "50级史诗品质的首饰。",
-		["name"] = "50级史诗首饰",
+		["desc"] = "80级精良的武器，盔甲，靴子，首饰。",
+		["name"] = "80级精良装备",
 		["sort1"] = 68,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 7040,
+		["itemid"] = 7079,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
 			},
 		},
 	},
-	[7056] = {
+	[7055] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -83154,122 +85550,73 @@ item = {
 		},
 		["type"] = 604,
 		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_ring_2.png",
+		["picture"] = "res/image/map/building/00_chest_shoes_2.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "70级普通品质的首饰。",
-		["name"] = "70级普通首饰",
+		["desc"] = "70级普通品质的靴子。",
+		["name"] = "70级普通靴子",
 		["sort1"] = 68,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 7056,
+		["itemid"] = 7055,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
 			},
 		},
 	},
-	[7080] = {
+	[110979] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
+		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/divinesun.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110979,
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "80级史诗的武器，盔甲，靴子，首饰。",
-		["name"] = "80级史诗装备",
-		["sort1"] = 68,
-		["alltype"] = 4,
+		["desc"] = "打开后可获得一个圣阳刻印",
+		["name"] = "圣阳刻印宝箱",
+		["sort1"] = 66,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 7080,
+		["itemid"] = 110979,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 10000,
 			},
 		},
 	},
-	[7000204] = {
+	[23204] = {
 		["herolv"] = 1,
-		["buff"] = {
-			[1] = {
-				[1] = 1042,
-				[2] = 1141,
-			},
-		},
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["type"] = 20002,
-		["picture"] = "res/image/ui/02_item/guild/equip/guild_shield_04.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 12,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 12,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 12,
-					},
-				},
-			},
-		},
-		["alltype"] = 103,
-		["name"] = "黄金护盾",
-		["version"] = 1000,
-		["desc"] = "黄金打造的盾牌，其对于身份的象征远大于实用性。",
-		["itemid"] = 7000204,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[24311] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 63,
 		["viplimit"] = 0,
 		["selltype"] = 1,
-		["sort"] = 155,
+		["sort"] = 112,
 		["overdue"] = {
 		},
 		["version"] = 1000,
 		["stacklimit"] = 1,
-		["quality"] = 5,
+		["quality"] = 4,
 		["open_hole"] = {
 			[1] = {
 			},
@@ -83277,69 +85624,106 @@ item = {
 				["items"] = {
 					[1] = {
 						[1] = 1046,
-						[2] = 9,
+						[2] = 1,
 					},
 				},
 			},
 		},
-		["type"] = 203,
+		["type"] = 204,
 		["hole_2"] = {
-			[1] = 1,
+			[1] = 2,
 			[2] = 2,
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3009.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_2004.png",
 		["hole_1"] = {
-			[1] = 2,
+			[1] = 3,
 			[2] = 1,
 		},
 		["val"] = 80,
 		["award"] = {
 		},
 		["alltype"] = 2,
-		["name"] = "守护者战靴",
-		["desc"] = "战争不仅仅是破坏，更是守护。",
-		["sort1"] = 155,
+		["propertyid"] = 2112,
+		["name"] = "学徒戒指",
+		["desc"] = "作为学徒毕业的信物，具有收藏意义。",
+		["sort1"] = 112,
 		["noair"] = 1,
-		["itemid"] = 24311,
+		["itemid"] = 23204,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 20000,
+				["gold"] = 12500,
 			},
 		},
 	},
-	[6028] = {
+	[110980] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 2,
-		["sort"] = 357,
+		["sort"] = 361,
 		["val"] = 10,
 		["overdue"] = {
 		},
+		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 4,
+		["quality"] = 6,
 		["changeface"] = {
 		},
 		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_box_003.png",
+		["picture"] = "res/image/ui/02_item/equip/countermark/bless.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 6028,
+				[1] = 110980,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得1件50级珍稀首饰。",
-		["name"] = "50级珍稀首饰礼包",
+		["desc"] = "打开后可获得一个祝福刻印",
+		["name"] = "祝福刻印宝箱",
 		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 6028,
+		["itemid"] = 110980,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
+			},
+		},
+	},
+	[101001] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 0,
+		["sort"] = 723,
+		["overdue"] = {
+			["num"] = 4320,
+		},
+		["getway"] = "门票派送活动",
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/other/dispatch_1.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "冒险者协会下达的派遣券，使用可以立刻完成一个冒险任务。<br/>      使用条件：完成一个活动任务，1.消耗的补给瓶不多于1瓶、2.探索度达到90%，则可使用活动派遣券派遣与该任务相同战力及以下的同名任务。",
+		["name"] = "活动派遣券",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 101001,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
 			},
 		},
 	},
@@ -83426,36 +85810,48 @@ item = {
 			},
 		},
 	},
-	[4003] = {
+	[111006] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 301,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 755,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["getway"] = "商店",
+		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111006,
+			},
 		},
-		["type"] = 507,
-		["val"] = 10000,
-		["picture"] = "res/image/ui/02_item/other/quill_pen.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/lion_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "用于更改团长名字，注意名字一周只能改一次。",
-		["name"] = "羽毛笔",
-		["sort1"] = 37,
+		["desc"] = "雄狮宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "雄狮宝箱",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 4003,
+		["itemid"] = 111006,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -83508,39 +85904,35 @@ item = {
 			},
 		},
 	},
-	[101003] = {
+	[7074] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 26,
-		["sort"] = 723,
-		["val"] = 10,
+		["sort"] = 68,
 		["overdue"] = {
 		},
-		["getway"] = "门票派送活动",
-		["stacklimit"] = 1,
-		["quality"] = 4,
+		["stacklimit"] = 999,
+		["quality"] = 3,
 		["changeface"] = {
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/other/dispatch_1.png",
-		["selltype"] = 0,
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_clothes_2.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
-			[802] = 100,
 		},
-		["desc"] = "测试用优惠券",
-		["name"] = "优惠券",
-		["sort1"] = 1,
-		["alltype"] = 5,
+		["desc"] = "60级普通的武器，盔甲，靴子，首饰。",
+		["name"] = "60级普通装备",
+		["sort1"] = 68,
+		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 101003,
+		["itemid"] = 7074,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -83597,8 +85989,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -83703,139 +86095,44 @@ item = {
 			},
 		},
 	},
-	[285029] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 197,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4005.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2261,
-		["name"] = "黯淡的双翼圣杖",
-		["decompose"] = 1,
-		["desc"] = "尚未完全解放力量的权杖，等待心存万物之人揭开它真正的面纱。",
-		["sort1"] = 197,
-		["itemid"] = 285029,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[120] = {
+	[110981] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 2,
-		["sort"] = 38,
+		["sort"] = 361,
 		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 10,
-		["quality"] = 4,
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
 		["changeface"] = {
 		},
 		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["picture"] = "res/image/ui/02_item/equip/countermark/darkmoon.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 110099,
+				[1] = 110981,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "寇克玛特殊商品",
-		["name"] = "寇克玛特殊商品",
-		["sort1"] = 38,
+		["desc"] = "打开后可获得一个暗月刻印",
+		["name"] = "暗月刻印宝箱",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 120,
+		["itemid"] = 110981,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
 			},
 		},
 	},
-	[24310] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 154,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_3009.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "守护者战甲",
-		["desc"] = "战争不仅仅是破坏，更是守护。",
-		["sort1"] = 154,
-		["noair"] = 1,
-		["itemid"] = 24310,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 20000,
-			},
-		},
-	},
-	[101001] = {
+	[101002] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -83851,22 +86148,110 @@ item = {
 		},
 		["type"] = 514,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/other/dispatch_1.png",
+		["picture"] = "res/image/ui/02_item/other/dispatch_2.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "冒险者协会下达的派遣券，使用可以立刻完成一个冒险任务。<br/>      使用条件：完成一个活动任务，1.消耗的补给瓶不多于1瓶、2.探索度达到90%，则可使用活动派遣券派遣与该任务相同战力及以下的同名任务。",
-		["name"] = "活动派遣券",
+		["desc"] = "冒险者协会下达的皇家派遣券，使用可以立刻完成一个皇家冒险委托。<br/>      达成以下条件：1.委托的书皮为红色、2.消耗的补给瓶不多于1瓶、3.探索度达到90%，则可使用皇家派遣券派遣，该委托相同怪物特征且推荐战力相同及以下的皇家委托。",
+		["name"] = "皇家派遣券",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 101001,
+		["itemid"] = 101002,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[1221] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 3500,
+		["overdue"] = {
+		},
+		["getway"] = "幻境作战",
+		["stacklimit"] = 1,
+		["quality"] = 1,
+		["changeface"] = {
+		},
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/5A.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["res"] = {
+				["hexp"] = 40,
+			},
+		},
+		["ex_function"] = {
+			["time"] = 4,
+			["taskgroup"] = 101,
+		},
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "低级苍穹耀光",
+		["sort1"] = 35,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1221,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 750,
+				},
+			},
+		},
+	},
+	[284147] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 327,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 203,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 110,
+		["name"] = "莉莉丝",
+		["decompose"] = 1,
+		["sort1"] = 327,
+		["itemid"] = 284147,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -84030,124 +86415,123 @@ item = {
 			},
 		},
 	},
-	[110358] = {
+	[8001] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
+		["usetype"] = 12,
+		["sort"] = 90,
 		["val"] = 10,
-		["sort"] = 724,
-		["getway"] = "活动冒险委托，活动商店",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110358,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/lion_1.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "雄狮宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "雄狮宝箱",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110358,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
-	[101002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 0,
-		["sort"] = 723,
-		["overdue"] = {
-			["num"] = 4320,
-		},
-		["getway"] = "门票派送活动",
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 514,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/other/dispatch_2.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "冒险者协会下达的皇家派遣券，使用可以立刻完成一个皇家冒险委托。<br/>      达成以下条件：1.委托的书皮为红色、2.消耗的补给瓶不多于1瓶、3.探索度达到90%，则可使用皇家派遣券派遣，该委托相同怪物特征且推荐战力相同及以下的皇家委托。",
-		["name"] = "皇家派遣券",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 101002,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
-		},
-	},
-	[1317] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 229,
 		["overdue"] = {
 		},
-		["getway"] = "宝石碎片合成、宝石商店",
+		["getway"] = "冒险任务、大苍穹、商店",
 		["stacklimit"] = 999,
 		["quality"] = 6,
 		["changeface"] = {
-			[1] = {
-				["id"] = 22,
-				["type"] = 3,
-				["value"] = 805,
-				["sysid"] = 1017,
-			},
-			[2] = {
-				["id"] = 57,
-				["type"] = 3,
-				["sysid"] = 2013,
-			},
 		},
-		["type"] = 506,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/boxue.png",
+		["type"] = 403,
+		["picture"] = "res/image/map/building/00_chest_clothes_5.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 5101,
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "能够发掘英雄的潜能极限，激活博学系天赋的觉醒宝石，可用于英雄的极限觉醒。",
-		["name"] = "博学宝石",
-		["sort1"] = 37,
+		["award_num"] = 100,
+		["desc"] = "消耗100个该物品，可以合成1级传奇装备。",
+		["name"] = "初级传奇碎片",
+		["sort1"] = 69,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 8001,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[285029] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 197,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4005.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2261,
+		["name"] = "黯淡的双翼圣杖",
+		["decompose"] = 1,
+		["desc"] = "尚未完全解放力量的权杖，等待心存万物之人揭开它真正的面纱。",
+		["sort1"] = 197,
+		["itemid"] = 285029,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[110982] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/destroy.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110982,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后可获得一个崩坏刻印",
+		["name"] = "崩坏刻印宝箱",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1317,
+		["itemid"] = 110982,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
@@ -84207,8 +86591,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -84313,141 +86697,6 @@ item = {
 			},
 		},
 	},
-	[21008] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 409,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["getway"] = "酒馆招募、协力作战、精英作战",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 19,
-				["type"] = 2,
-				["sysid"] = 1001,
-			},
-			[2] = {
-				["id"] = 20,
-				["type"] = 3,
-				["sysid"] = 1030,
-			},
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_05.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1320,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐40个可激活珊朵拉，同时也是珊朵拉觉醒的道具。",
-		["name"] = "英雄之证·珊朵拉",
-		["sort1"] = 50,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21008,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
-			},
-		},
-	},
-	[284007] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 243,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4009.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2307,
-		["name"] = "绯炎便鞋",
-		["decompose"] = 1,
-		["desc"] = "金色的花纹勾勒出灼热的气息。",
-		["sort1"] = 243,
-		["itemid"] = 284007,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[101010] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 608,
-		["overdue"] = {
-		},
-		["getway"] = "公会副本",
-		["stacklimit"] = 9999999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 402,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/guild/guild_medal_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "冒险公会根据贡献颁发的高级勋章，可用于在高级公会商店中兑换物品。",
-		["name"] = "高级公会勋章",
-		["sort1"] = 37,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 101010,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
 	[284008] = {
 		["herolv"] = 1,
 		["teamlv"] = 60,
@@ -84495,41 +86744,51 @@ item = {
 			},
 		},
 	},
-	[110471] = {
+	[284009] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 31,
-		["sort"] = 363,
-		["getway"] = "贸易战线活动道具",
+		["sort"] = 249,
 		["overdue"] = {
-			["str"] = "2018-12-13 23:59:59",
-			["str_time"] = 1544716799,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
 		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/event/event_08/buff_yellow.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_4005.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
 		["award"] = {
 		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "售卖增益Buff",
-		["desc"] = "在活动大陆出售指定商品时，概率性额外获得财富值奖励增益",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 10,
-			["buff"] = 1,
-		},
-		["itemid"] = 110471,
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2313,
+		["name"] = "烈日",
+		["decompose"] = 1,
+		["desc"] = "炽热的光芒，犹如初升的太阳。",
+		["sort1"] = 249,
+		["itemid"] = 284009,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -84576,94 +86835,40 @@ item = {
 			},
 		},
 	},
-	[24213] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 121,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 6,
-					},
-				},
-			},
-		},
-		["type"] = 201,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_2001.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "猎手长矛",
-		["desc"] = "优秀的猎手，能够将猎物玩弄于鼓掌中。",
-		["sort1"] = 121,
-		["noair"] = 1,
-		["itemid"] = 24213,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 12500,
-			},
-		},
-	},
-	[21062] = {
+	[110983] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
+		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_178.png",
-		["selltype"] = 1,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/warrior.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1322,
-					[2] = 1,
-				},
+			["drop"] = {
+				[1] = 110983,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "集齐60个可激活希尔芬，同时也是希尔芬觉醒的道具。",
-		["name"] = "英雄之证·希尔芬",
-		["sort1"] = 67,
-		["alltype"] = 4,
+		["desc"] = "打开后可获得一个武魂刻印",
+		["name"] = "武魂刻印宝箱",
+		["sort1"] = 66,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 21062,
+		["itemid"] = 110983,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -84715,56 +86920,40 @@ item = {
 			},
 		},
 	},
-	[7000301] = {
+	[110984] = {
 		["herolv"] = 1,
-		["buff"] = {
-			[1] = {
-				[1] = 1201,
-			},
-		},
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 1,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["type"] = 20003,
-		["picture"] = "res/image/ui/02_item/guild/equip/guild_ball_01.png",
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/defense.png",
+		["resonate_value"] = {
+		},
 		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 18,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 18,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 18,
-					},
-				},
+			["drop"] = {
+				[1] = 110984,
 			},
 		},
-		["alltype"] = 103,
-		["name"] = "生命法球",
-		["version"] = 1000,
-		["desc"] = "能够强化治愈系魔法的法球",
-		["itemid"] = 7000301,
+		["ex_function"] = {
+		},
+		["desc"] = "打开后可获得一个铁壁刻印",
+		["name"] = "铁壁刻印宝箱",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110984,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -84799,6 +86988,49 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
+			},
+		},
+	},
+	[21062] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_178.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1322,
+					[2] = 1,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "集齐60个可激活希尔芬，同时也是希尔芬觉醒的道具。",
+		["name"] = "英雄之证·希尔芬",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21062,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -84847,6 +87079,118 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 100000,
+			},
+		},
+	},
+	[4005] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 301,
+		["overdue"] = {
+		},
+		["getway"] = "活动获取",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 507,
+		["val"] = 10000,
+		["picture"] = "res/image/ui/02_item/consumable/02_reborn_2.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "用于角色回溯，适用各种突破等级。",
+		["name"] = "完美回溯券",
+		["sort1"] = 37,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 4005,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[101004] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 731,
+		["overdue"] = {
+		},
+		["getway"] = "礼包商店",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 701,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/other/guild_stone.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "领袖之石，用于创建公会",
+		["name"] = "领袖之石",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 101004,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110495] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 765,
+		["getway"] = "活动商店",
+		["overdue"] = {
+			["str"] = "2018-12-20 23:59:59",
+			["str_time"] = 1545321599,
+		},
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110495,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/snake_2.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊盘蛇宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊盘蛇宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110495,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
 			},
 		},
 	},
@@ -84903,8 +87247,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -85008,75 +87352,48 @@ item = {
 			},
 		},
 	},
-	[4005] = {
+	[110959] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 301,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 757,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-09 23:59:59",
+			["str_time"] = 1554825599,
 		},
-		["getway"] = "活动获取",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 507,
-		["val"] = 10000,
-		["picture"] = "res/image/ui/02_item/consumable/02_reborn_2.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "用于角色回溯，适用各种突破等级。",
-		["name"] = "完美回溯券",
-		["sort1"] = 37,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 4005,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110238] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 29,
-		["val"] = 10000,
-		["sort"] = 774,
-		["getway"] = "活动冒险委托",
-		["overdue"] = {
-		},
-		["angle"] = "res/image/ui/00/55_flameisland/55_btn_j.png",
+		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110959,
+			},
 		},
-		["type"] = 524,
-		["picture"] = "res/image/ui/02_item/event/event_05/purple_card_1.png",
-		["selltype"] = 0,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/elk_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 110085,
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "获得后自动使用，立即随机获得一个紫之阵英雄凭证。（维多利亚、伊露丽、潘多拉、沙利叶、薇欧瑞儿、特斯拉、范海辛、德古拉、卡缇、但丁、埃德蒙、拉娜克希娅、夏洛特、贝瑟芬妮、希尔芬。）",
-		["name"] = "英雄凭证-紫之阵",
-		["sort1"] = 42,
+		["desc"] = "特殊麋鹿宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊麋鹿宝箱",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110238,
+		["itemid"] = 110959,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -85128,6 +87445,50 @@ item = {
 			},
 		},
 	},
+	[21039] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 3,
+		["sort"] = 436,
+		["val"] = 10000,
+		["overdue"] = {
+		},
+		["getway"] = "活动获取",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_109.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1320,
+					[2] = 1,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "集齐60个可激活米迦勒，同时也是米迦勒觉醒的道具。",
+		["name"] = "英雄之证·米迦勒",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21039,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
+			},
+		},
+	},
 	[285045] = {
 		["herolv"] = 1,
 		["teamlv"] = 90,
@@ -85173,6 +87534,43 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 100000,
+			},
+		},
+	},
+	[110986] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/equip/countermark/precise.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110986,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后可获得一个精准刻印",
+		["name"] = "精准刻印宝箱",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110986,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -85258,6 +87656,51 @@ item = {
 			},
 		},
 	},
+	[110358] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 724,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110358,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/lion_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "雄狮宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "雄狮宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110358,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
 	[21046] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -85304,101 +87747,6 @@ item = {
 					[1] = 1079,
 					[2] = 1,
 				},
-			},
-		},
-	},
-	[284027] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 191,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4013.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2259,
-		["name"] = "狮心战靴",
-		["decompose"] = 1,
-		["desc"] = "罪恶不尽，圣战不休。",
-		["sort1"] = 191,
-		["itemid"] = 284027,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[110476] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 714,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2019-02-03 23:59:59",
-			["str_time"] = 1549209599,
-		},
-		["getway"] = "夺宝奇兵活动",
-		["stacklimit"] = 99999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1017,
-				["id"] = 31,
-				["value"] = {
-					[1] = 1,
-					[2] = "654",
-				},
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/baozangbi.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "夺宝奇兵活动产出的奖励。",
-		["name"] = "宝藏币",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110476,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100,
 			},
 		},
 	},
@@ -85451,84 +87799,87 @@ item = {
 			},
 		},
 	},
-	[101009] = {
+	[110987] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 608,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "公会副本",
-		["stacklimit"] = 9999999,
-		["quality"] = 4,
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 402,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/event/pepergift.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 5105,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开后随即获得一个刻印",
+		["name"] = "随机刻印盒子",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110987,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[110476] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 714,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/guild/guild_medal_2.png",
+		["overdue"] = {
+			["str"] = "2019-02-03 23:59:59",
+			["str_time"] = 1549209599,
+		},
+		["getway"] = "夺宝奇兵活动",
+		["stacklimit"] = 99999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1017,
+				["id"] = 31,
+				["value"] = {
+					[1] = 1,
+					[2] = "654",
+				},
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/baozangbi.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "冒险公会根据贡献颁发的中级勋章，可用于在中级公会商店中兑换物品。",
-		["name"] = "中级公会勋章",
-		["sort1"] = 37,
-		["alltype"] = 4,
+		["desc"] = "夺宝奇兵活动产出的奖励。",
+		["name"] = "宝藏币",
+		["sort1"] = 1,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 101009,
+		["itemid"] = 110476,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[284031] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 199,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 203,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4019.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2263,
-		["name"] = "双翼祭司长靴",
-		["decompose"] = 1,
-		["desc"] = "一翼守护永夜和安宁。",
-		["sort1"] = 199,
-		["itemid"] = 284031,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 100,
 			},
 		},
 	},
@@ -85585,8 +87936,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -85617,6 +87968,222 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[101009] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 608,
+		["overdue"] = {
+		},
+		["getway"] = "公会副本",
+		["stacklimit"] = 9999999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 402,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/guild/guild_medal_2.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "冒险公会根据贡献颁发的中级勋章，可用于在中级公会商店中兑换物品。",
+		["name"] = "中级公会勋章",
+		["sort1"] = 37,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 101009,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110835] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 0,
+		["sort"] = 106,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "岁末礼包活动",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 531,
+		["picture"] = "res/image/ui/02_item/consumable/discount.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "购买“春节系列礼包”时，消耗该道具将获得8.5折优惠（不能叠加使用）",
+		["name"] = "8.5折优惠券",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110835,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 500,
+			},
+		},
+	},
+	[100014] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 1,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/badge_match_05.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["badge"] = 5,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "冠军赛三十二强时解锁",
+		["name"] = "三十二强徽章",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100014,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[284163] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 327,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 203,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 110,
+		["name"] = "范海辛",
+		["decompose"] = 1,
+		["sort1"] = 327,
+		["itemid"] = 284163,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[110989] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "礼包",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110989,
+			},
+		},
+		["ex_function"] = {
+		},
+		["name"] = "魔盒奖励19",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110989,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[101010] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 608,
+		["overdue"] = {
+		},
+		["getway"] = "公会副本",
+		["stacklimit"] = 9999999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 402,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/guild/guild_medal_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "冒险公会根据贡献颁发的高级勋章，可用于在高级公会商店中兑换物品。",
+		["name"] = "高级公会勋章",
+		["sort1"] = 37,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 101010,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -85668,40 +88235,6 @@ item = {
 			},
 		},
 	},
-	[110835] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 0,
-		["sort"] = 106,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["getway"] = "岁末礼包活动",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 531,
-		["picture"] = "res/image/ui/02_item/consumable/discount.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "购买“春节系列礼包”时，消耗该道具将获得8.5折优惠（不能叠加使用）",
-		["name"] = "8.5折优惠券",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110835,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 500,
-			},
-		},
-	},
 	[285061] = {
 		["herolv"] = 1,
 		["teamlv"] = 90,
@@ -85750,243 +88283,39 @@ item = {
 			},
 		},
 	},
-	[7055] = {
+	[110990] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 604,
+		["usetype"] = 2,
+		["sort"] = 361,
 		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_shoes_2.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "70级普通品质的靴子。",
-		["name"] = "70级普通靴子",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7055,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[101011] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
 		["overdue"] = {
 		},
+		["getway"] = "礼包",
 		["stacklimit"] = 999,
-		["quality"] = 3,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/guild/guildbox_blue.png",
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "获得一个蓝色品质，随机类型的上锁宝箱",
-		["name"] = "蓝色宝箱·锁",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 101011,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[21047] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 443,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_150.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1326,
-					[2] = 1,
-				},
+			["drop"] = {
+				[1] = 110990,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "集齐60个可激活伊露丽，同时也是伊露丽觉醒的道具。",
-		["name"] = "英雄之证·伊露丽",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21047,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
-			},
-		},
-	},
-	[110487] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 752,
-		["getway"] = "活动冒险委托，活动商店",
-		["overdue"] = {
-			["str"] = "2018-12-20 23:59:59",
-			["str_time"] = 1545321599,
-		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110487,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/griffon_1.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "狮鹫宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "狮鹫宝箱",
-		["sort1"] = 1,
+		["name"] = "魔盒奖励20",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110487,
+		["itemid"] = 110990,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
-			},
-		},
-	},
-	[7000109] = {
-		["herolv"] = 1,
-		["buff"] = {
-			[1] = {
-				[1] = 1015,
-				[2] = 1025,
-				[3] = 1114,
-				[4] = 1124,
-			},
-		},
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 20001,
-		["picture"] = "res/image/ui/02_item/guild/equip/guild_sword_09.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 70,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 70,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 70,
-					},
-				},
-			},
-		},
-		["alltype"] = 103,
-		["name"] = "天堂之刃",
-		["version"] = 1000,
-		["desc"] = "守护天使曾经使用的武器，遗落千年之后，再度现世。",
-		["itemid"] = 7000109,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[7025] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_weapon_4.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "40级史诗品质的武器。",
-		["name"] = "40级史诗武器",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7025,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
 			},
 		},
 	},
@@ -86073,7 +88402,7 @@ item = {
 			},
 		},
 	},
-	[7081] = {
+	[101011] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -86081,23 +88410,24 @@ item = {
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 6,
+		["quality"] = 3,
 		["changeface"] = {
 		},
 		["type"] = 604,
-		["picture"] = "res/image/map/building/00_chest_clothes_6.png",
 		["val"] = 10,
-		["award"] = {
-		},
-		["alltype"] = 4,
+		["picture"] = "res/image/ui/02_item/guild/guildbox_blue.png",
 		["resonate_value"] = {
 		},
-		["name"] = "80级传奇装备",
-		["desc"] = "80级传奇的武器，盔甲，靴子，首饰。",
-		["sort1"] = 68,
+		["award"] = {
+		},
 		["ex_function"] = {
 		},
-		["itemid"] = 7081,
+		["desc"] = "获得一个蓝色品质，随机类型的上锁宝箱",
+		["name"] = "蓝色宝箱·锁",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 101011,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -86153,35 +88483,46 @@ item = {
 			},
 		},
 	},
-	[101014] = {
+	[21047] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["usetype"] = 3,
+		["sort"] = 443,
+		["val"] = 10000,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 1,
+		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_009.png",
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_150.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1326,
+					[2] = 1,
+				},
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "木材打造的宝箱，没有任何防盗性能，存放的东西价值有限。",
-		["name"] = "木质宝箱",
-		["sort1"] = 68,
+		["desc"] = "集齐60个可激活伊露丽，同时也是伊露丽觉醒的道具。",
+		["name"] = "英雄之证·伊露丽",
+		["sort1"] = 67,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 101014,
+		["itemid"] = 21047,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -86238,8 +88579,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -86273,59 +88614,35 @@ item = {
 			},
 		},
 	},
-	[7000209] = {
+	[7022] = {
 		["herolv"] = 1,
-		["buff"] = {
-			[1] = {
-				[1] = 1035,
-				[2] = 1045,
-				[3] = 1134,
-				[4] = 1144,
-			},
-		},
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 1,
+		["sort"] = 68,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 20002,
-		["picture"] = "res/image/ui/02_item/guild/equip/guild_shield_09.png",
-		["award"] = {
-			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 101008,
-						[2] = 70,
-					},
-				},
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 101009,
-						[2] = 70,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 101010,
-						[2] = 70,
-					},
-				},
-			},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
 		},
-		["alltype"] = 103,
-		["name"] = "天堂守护",
-		["version"] = 1000,
-		["desc"] = "守护天使曾经使用过的盾牌，遗落千年之后，再度现世。",
-		["itemid"] = 7000209,
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_clothes_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "40级精良品质的盔甲。",
+		["name"] = "40级精良盔甲",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7022,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -86399,45 +88716,50 @@ item = {
 			},
 		},
 	},
-	[1223] = {
+	[285125] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
+		["sort"] = 325,
 		["overdue"] = {
 		},
-		["getway"] = "幻境作战，苍穹之光精炼",
 		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 520,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/5C.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["hexp"] = 120,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
-			["time"] = 12,
-			["taskgroup"] = 103,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_4011.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "高级苍穹耀光",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1223,
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "黯淡的无铭刀-空斩",
+		["decompose"] = 1,
+		["desc"] = "尚未完全解放力量的太刀，得到强大剑客的使用才能得到最终的升华。",
+		["sort1"] = 325,
+		["itemid"] = 285125,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 24000,
-				},
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -86479,98 +88801,538 @@ item = {
 			},
 		},
 	},
-	[1221] = {
+	[7025] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_weapon_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "40级史诗品质的武器。",
+		["name"] = "40级史诗武器",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7025,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[7081] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["picture"] = "res/image/map/building/00_chest_clothes_6.png",
+		["val"] = 10,
+		["award"] = {
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+		},
+		["name"] = "80级传奇装备",
+		["desc"] = "80级传奇的武器，盔甲，靴子，首饰。",
+		["sort1"] = 68,
+		["ex_function"] = {
+		},
+		["itemid"] = 7081,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[101014] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 1,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_009.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "木材打造的宝箱，没有任何防盗性能，存放的东西价值有限。",
+		["name"] = "木质宝箱",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 101014,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[24310] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 154,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["type"] = 202,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_3009.png",
+		["hole_1"] = {
+			[1] = 1,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "守护者战甲",
+		["desc"] = "战争不仅仅是破坏，更是守护。",
+		["sort1"] = 154,
+		["noair"] = 1,
+		["itemid"] = 24310,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 20000,
+			},
+		},
+	},
+	[1127] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["selltype"] = 1,
-		["sort"] = 3500,
+		["sort"] = 550,
 		["overdue"] = {
 		},
-		["getway"] = "幻境作战",
-		["stacklimit"] = 1,
-		["quality"] = 1,
+		["stacklimit"] = 999,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 520,
+		["type"] = 508,
+		["picture"] = "res/image/ui/02_item/material/superrare_03.png",
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/5A.png",
-		["resonate_value"] = {
-		},
 		["award"] = {
-			["res"] = {
-				["hexp"] = 40,
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+			[1] = {
+				[1] = 80,
+				[2] = 89,
+			},
+			[2] = {
+				[1] = 6,
+				[2] = 6,
+			},
+			[3] = {
+				[1] = 203,
 			},
 		},
+		["name"] = "80传奇鞋子精华",
+		["desc"] = "可以作为80-89级，传奇品质鞋子共鸣材料使用。",
+		["sort1"] = 70,
 		["ex_function"] = {
-			["time"] = 4,
-			["taskgroup"] = 101,
 		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "低级苍穹耀光",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1221,
+		["itemid"] = 1127,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 750,
-				},
+			["res"] = {
+				["gold"] = 1000,
 			},
 		},
 	},
-	[1026] = {
+	[132063] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 26,
-		["val"] = 10,
+		["usetype"] = 25,
+		["sort"] = 363,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
+		["stacklimit"] = 999,
 		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["type"] = 519,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/exproperty/percent_2.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "经验倍率Ⅲ+60次",
+		["desc"] = "使用增加60次的buff使用次数。buff效果：增加15%装备解放经验，高级能量石翻倍",
+		["sort1"] = 66,
+		["ex_function"] = {
+			["count"] = 60,
+			["buff"] = 206,
+		},
+		["itemid"] = 132063,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[7000209] = {
+		["herolv"] = 1,
+		["buff"] = {
+			[1] = {
+				[1] = 1035,
+				[2] = 1045,
+				[3] = 1134,
+				[4] = 1144,
+			},
+		},
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 20002,
+		["picture"] = "res/image/ui/02_item/guild/equip/guild_shield_09.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 70,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 70,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 70,
+					},
+				},
+			},
+		},
+		["alltype"] = 103,
+		["name"] = "天堂守护",
+		["version"] = 1000,
+		["desc"] = "守护天使曾经使用过的盾牌，遗落千年之后，再度现世。",
+		["itemid"] = 7000209,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[285077] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 237,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_hammer_4001.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2301,
+		["name"] = "黯淡的赫淮斯托斯",
+		["decompose"] = 1,
+		["desc"] = "尚未完成的比南机械重锤，目前工作状态极不稳定，容易造成意外。",
+		["sort1"] = 237,
+		["itemid"] = 285077,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[110488] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 753,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2018-12-20 23:59:59",
+			["str_time"] = 1545321599,
+		},
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110488,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/scorpion_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "毒蝎宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "毒蝎宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110488,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[110069] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 727,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-04-29 23:59:00",
+			["str_time"] = 1525017540,
+		},
+		["getway"] = "奥罗拉美食祭冒险委托，奥罗拉美食祭活动商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110069,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/event_01/egg06.png",
 		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 2001,
-					[2] = 1,
-				},
-				[2] = {
-					[1] = 1025,
-					[2] = 90,
-				},
-				[3] = {
-					[1] = 1024,
-					[2] = 90,
-				},
-				[4] = {
-					[1] = 1001,
-					[2] = 90,
-				},
-			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "优雅的蓝色彩蛋，谁也不知道里面装着什么好东西。点击使用，可以消耗1个“开蛋器”打开彩蛋，里面必定会有1份传奇物品(传奇装备或者传奇装备共鸣精华的其中1种)。",
+		["name"] = "蓝色彩蛋",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110069,
+		["sellprice"] = {
 			["res"] = {
-				["diamond"] = 100,
+				["gold"] = 0,
+			},
+		},
+	},
+	[110325] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 733,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 3,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
+		["name"] = "追寻",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110325,
+		["sellprice"] = {
+			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[110742] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 757,
+		["getway"] = "活动冒险委托，活动商店",
+		["overdue"] = {
+			["str"] = "2019-02-21 23:59:00",
+			["str_time"] = 1550764740,
+		},
+		["angle"] = "res/image/ui/00/67_thespringfestival/67_icon_jb.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110742,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/elk_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "麋鹿宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "麋鹿宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110742,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[110837] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110657,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "新手礼包",
-		["name"] = "新手礼包",
-		["sort1"] = 26,
+		["desc"] = "打开可随机获得4~10个恶灵瓶，或1~5个巡守券补给",
+		["name"] = "金色福袋",
+		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1026,
+		["itemid"] = 110837,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -86606,6 +89368,49 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
+			},
+		},
+	},
+	[21052] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_159.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1324,
+					[2] = 1,
+				},
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "集齐60个可激活夏洛特·菲熙，同时也是夏洛特·菲熙觉醒的道具。",
+		["name"] = "英雄之证·夏洛特·菲熙",
+		["sort1"] = 67,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 21052,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
@@ -86701,40 +89506,6 @@ item = {
 			},
 		},
 	},
-	[132063] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/percent_2.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "经验倍率Ⅲ+60次",
-		["desc"] = "使用增加60次的buff使用次数。buff效果：增加15%装备解放经验，高级能量石翻倍",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 60,
-			["buff"] = 206,
-		},
-		["itemid"] = 132063,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
 	[110357] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -86744,8 +89515,8 @@ item = {
 		["sort"] = 723,
 		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -86812,127 +89583,138 @@ item = {
 			},
 		},
 	},
-	[1404] = {
+	[1095] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 330,
-		["val"] = 10,
+		["selltype"] = 1,
+		["sort"] = 518,
 		["overdue"] = {
 		},
+		["getway"] = "大苍穹",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
-		["resonate_value"] = {
-		},
+		["type"] = 508,
+		["picture"] = "res/image/ui/02_item/material/superrare_01.png",
+		["val"] = 10,
 		["award"] = {
-			["drop"] = {
-				[1] = 1404,
+		},
+		["alltype"] = 4,
+		["resonate_value"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 59,
+			},
+			[2] = {
+				[1] = 6,
+				[2] = 6,
+			},
+			[3] = {
+				[1] = 201,
 			},
 		},
+		["name"] = "初级传奇武器精华",
+		["desc"] = "可以作为1-59级，传奇品质武器共鸣材料使用。",
+		["sort1"] = 70,
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得1个英雄突破9至12层的突破材料。",
-		["name"] = "特级突破礼包",
-		["sort1"] = 39,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1404,
+		["itemid"] = 1095,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
 			},
 		},
 	},
-	[110069] = {
+	[21063] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 727,
-		["val"] = 10,
+		["usetype"] = 3,
+		["sort"] = 446,
+		["val"] = 10000,
 		["overdue"] = {
-			["str"] = "2018-04-29 23:59:00",
-			["str_time"] = 1525017540,
 		},
-		["getway"] = "奥罗拉美食祭冒险委托，奥罗拉美食祭活动商店",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110069,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/event_01/egg06.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "优雅的蓝色彩蛋，谁也不知道里面装着什么好东西。点击使用，可以消耗1个“开蛋器”打开彩蛋，里面必定会有1份传奇物品(传奇装备或者传奇装备共鸣精华的其中1种)。",
-		["name"] = "蓝色彩蛋",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110069,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
-		},
-	},
-	[110325] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 733,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 3,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_190.png",
 		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1322,
+					[2] = 1,
+				},
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
-		["name"] = "追寻",
-		["sort1"] = 1,
-		["alltype"] = 5,
+		["desc"] = "集齐60个可激活格莱明SP，同时也是格莱明SP觉醒的道具。",
+		["name"] = "英雄之证·格莱明SP",
+		["sort1"] = 67,
+		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 110325,
+		["itemid"] = 21063,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
+			},
+		},
+	},
+	[24311] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 155,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3009.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "守护者战靴",
+		["desc"] = "战争不仅仅是破坏，更是守护。",
+		["sort1"] = 155,
+		["noair"] = 1,
+		["itemid"] = 24311,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 20000,
 			},
 		},
 	},
@@ -86970,7 +89752,221 @@ item = {
 			},
 		},
 	},
-	[110837] = {
+	[1093] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 516,
+		["overdue"] = {
+		},
+		["getway"] = "大苍穹",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 508,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/rare_04.png",
+		["resonate_value"] = {
+			[1] = {
+				[1] = 40,
+				[2] = 59,
+			},
+			[2] = {
+				[1] = 5,
+				[2] = 5,
+			},
+			[3] = {
+				[1] = 204,
+			},
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "可以作为40-59级，史诗品质戒指共鸣材料使用。",
+		["name"] = "40史诗首饰精华",
+		["sort1"] = 70,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 1093,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1091] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 514,
+		["overdue"] = {
+		},
+		["getway"] = "大苍穹",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 508,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/rare_02.png",
+		["resonate_value"] = {
+			[1] = {
+				[1] = 40,
+				[2] = 59,
+			},
+			[2] = {
+				[1] = 5,
+				[2] = 5,
+			},
+			[3] = {
+				[1] = 202,
+			},
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "可以作为40-59级，史诗品质衣服共鸣材料使用。",
+		["name"] = "40史诗衣服精华",
+		["sort1"] = 70,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 1091,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110070] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 728,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-04-29 23:59:00",
+			["str_time"] = 1525017540,
+		},
+		["getway"] = "奥罗拉美食祭冒险委托，奥罗拉美食祭活动商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110070,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/event_01/egg07.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "神秘的紫色彩蛋，谁也不知道里面装着什么好东西。点击使用，可以消耗1个“开蛋器”打开彩蛋，里面必定会有1份传奇物品(传奇装备或者传奇装备共鸣精华的其中1种)。",
+		["name"] = "紫色彩蛋",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110070,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[110326] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 733,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 3,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
+		["name"] = "鸡汤",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110326,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110869] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift13.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110688,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1~3个龙骸，或1~3个巡守券补给",
+		["name"] = "紫色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110869,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110838] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -86989,187 +89985,20 @@ item = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 110657,
+				[1] = 110658,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得4~10个恶灵瓶，或1~5个巡守券补给",
+		["desc"] = "打开可随机获得4~10个血之精华，或1~5个巡守券补给",
 		["name"] = "金色福袋",
 		["sort1"] = 66,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110837,
+		["itemid"] = 110838,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
-			},
-		},
-	},
-	[110959] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 757,
-		["getway"] = "活动冒险委托，活动商店",
-		["overdue"] = {
-			["str"] = "2019-04-09 23:59:59",
-			["str_time"] = 1554825599,
-		},
-		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110959,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/elk_1.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "特殊麋鹿宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "特殊麋鹿宝箱",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110959,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
-	[110102] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 746,
-		["getway"] = "活动冒险委托，活动事件奖励",
-		["overdue"] = {
-			["str"] = "2019-01-31 23:59:00",
-			["str_time"] = 1548950340,
-		},
-		["angle"] = "res/image/ui/02_item/other/activity_cup.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["id"] = 47,
-				["type"] = 3,
-				["activity"] = "WORLDCUP",
-				["sysid"] = 2002,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/event_02/clue04.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "来自冒险者协会和北境王室的委托令，消耗50个可以接取1次活动冒险。",
-		["name"] = "冒险入场券",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110102,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
-		},
-	},
-	[9201] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 18,
-		["overdue"] = {
-		},
-		["getway"] = "商店购买",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_107.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "极道少主",
-		["desc"] = "使用解锁疾风皮肤：极道少主。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4038,
-		},
-		["itemid"] = 9201,
-		["sellprice"] = {
-		},
-	},
-	[285093] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 305,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_4004.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "黯淡的血影之棘",
-		["decompose"] = 1,
-		["desc"] = "尚未完全解放力量的长枪，痛苦和悲鸣将为它完成最后的洗礼。",
-		["sort1"] = 305,
-		["itemid"] = 285093,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
 			},
 		},
 	},
@@ -87206,50 +90035,6 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
-			},
-		},
-	},
-	[21039] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 436,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["getway"] = "活动获取",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_109.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1320,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐60个可激活米迦勒，同时也是米迦勒觉醒的道具。",
-		["name"] = "英雄之证·米迦勒",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21039,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
 			},
 		},
 	},
@@ -87297,49 +90082,6 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
-			},
-		},
-	},
-	[21063] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_190.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1322,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐60个可激活格莱明SP，同时也是格莱明SP觉醒的道具。",
-		["name"] = "英雄之证·格莱明SP",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21063,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
 			},
 		},
 	},
@@ -87391,52 +90133,143 @@ item = {
 			},
 		},
 	},
-	[21049] = {
+	[285097] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 309,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4011.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "黯淡的昆达里尼",
+		["decompose"] = 1,
+		["desc"] = "尚未完全解放力量的剑杖，当它降世之时，未知的魔兽也将一同现身。",
+		["sort1"] = 309,
+		["itemid"] = 285097,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[110485] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 445,
-		["val"] = 10000,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 750,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2018-12-20 23:59:59",
+			["str_time"] = 1545321599,
 		},
-		["getway"] = "酒馆招募",
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 			[1] = {
-				["id"] = 19,
-				["type"] = 2,
-				["sysid"] = 1001,
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110485,
 			},
 		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_148.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/snake_1.png",
 		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1326,
-					[2] = 1,
-				},
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "集齐40个可激活希娜，同时也是希娜觉醒的道具。",
-		["name"] = "英雄之证·希娜",
-		["sort1"] = 67,
-		["alltype"] = 4,
+		["desc"] = "盘蛇宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "盘蛇宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 21049,
+		["itemid"] = 110485,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
+			["res"] = {
+				["gold"] = 10000,
+			},
+		},
+	},
+	[284075] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 255,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
 				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4001.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2319,
+		["name"] = "绯红便鞋",
+		["decompose"] = 1,
+		["desc"] = "最深邃的夜空，预示着光明以及希望。",
+		["sort1"] = 255,
+		["itemid"] = 284075,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -87494,8 +90327,8 @@ item = {
 		["sort"] = 732,
 		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2018-09-30 23:59:59",
+			["str_time"] = 1538323199,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
@@ -87530,550 +90363,39 @@ item = {
 			},
 		},
 	},
-	[110070] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 728,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-04-29 23:59:00",
-			["str_time"] = 1525017540,
-		},
-		["getway"] = "奥罗拉美食祭冒险委托，奥罗拉美食祭活动商店",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110070,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/event_01/egg07.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "神秘的紫色彩蛋，谁也不知道里面装着什么好东西。点击使用，可以消耗1个“开蛋器”打开彩蛋，里面必定会有1份传奇物品(传奇装备或者传奇装备共鸣精华的其中1种)。",
-		["name"] = "紫色彩蛋",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110070,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 0,
-			},
-		},
-	},
-	[110326] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 733,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 3,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
-		["name"] = "鸡汤",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110326,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[9209] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
-		["overdue"] = {
-		},
-		["getway"] = "商店购买",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_146.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "炎拳宗师",
-		["desc"] = "使用解锁帝隆皮肤：炎拳宗师。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4007,
-		},
-		["itemid"] = 9209,
-		["sellprice"] = {
-		},
-	},
-	[110838] = {
+	[110872] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 2,
-		["sort"] = 361,
+		["sort"] = 307,
 		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift14.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110658,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得4~10个血之精华，或1~5个巡守券补给",
-		["name"] = "金色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110838,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[100014] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 1,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
 		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/badge_match_05.png",
+		["type"] = 502,
+		["picture"] = "res/image/ui/02_item/consumable/embs.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["badge"] = 5,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "冠军赛三十二强时解锁",
-		["name"] = "三十二强徽章",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100014,
-		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[6002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 331,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 6002,
+				["emb"] = 250,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "打开可随机获得1件史诗衣服。",
-		["name"] = "史诗衣服礼包",
-		["sort1"] = 40,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 6002,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[24312] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 156,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["type"] = 204,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_3008.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "守护者黑戒",
-		["desc"] = "战争不仅仅是破坏，更是守护。",
-		["sort1"] = 156,
-		["noair"] = 1,
-		["itemid"] = 24312,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 20000,
-			},
-		},
-	},
-	[284152] = {
-		["herolv"] = 1,
-		["teamlv"] = 60,
-		["viplimit"] = 0,
-		["sort"] = 189,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 204,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4012.png",
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["name"] = "艾尔薇",
-		["propertyid"] = 2193,
-		["decompose"] = 1,
-		["sort1"] = 189,
-		["itemid"] = 284152,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 50000,
-			},
-		},
-	},
-	[284151] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 327,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 203,
-		["version"] = 1000,
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 110,
-		["name"] = "艾尔薇",
-		["decompose"] = 1,
-		["sort1"] = 327,
-		["itemid"] = 284151,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[285109] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 225,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_4003.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["propertyid"] = 2289,
-		["name"] = "黯淡的伦哥米尼亚德",
-		["decompose"] = 1,
-		["desc"] = "尚未完全解放力量的圣枪，默默等待着伟大骑士的眷顾。",
-		["sort1"] = 225,
-		["itemid"] = 285109,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[110742] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 757,
-		["getway"] = "活动冒险委托，活动商店",
-		["overdue"] = {
-			["str"] = "2019-02-21 23:59:00",
-			["str_time"] = 1550764740,
-		},
-		["angle"] = "res/image/ui/00/67_thespringfestival/67_icon_jb.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110742,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/elk_1.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "麋鹿宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "麋鹿宝箱",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110742,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
-		},
-	},
-	[21052] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_159.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1324,
-					[2] = 1,
-				},
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐60个可激活夏洛特·菲熙，同时也是夏洛特·菲熙觉醒的道具。",
-		["name"] = "英雄之证·夏洛特·菲熙",
+		["desc"] = "打开即可获得250个皇家纹章",
+		["name"] = "一袋皇家纹章",
 		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21052,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
-			},
-		},
-	},
-	[110107] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 725,
-		["getway"] = "活动冒险委托，活动商店",
-		["overdue"] = {
-			["str"] = "2018-07-22 23:59:00",
-			["str_time"] = 1532275140,
-		},
-		["angle"] = "res/image/ui/02_item/other/activity_cup.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110107,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/lightgreengift.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "淡雅的青色礼物箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "青色礼物箱",
-		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110107,
+		["itemid"] = 110872,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 22500,
 			},
 		},
 	},
@@ -88126,78 +90448,75 @@ item = {
 			},
 		},
 	},
-	[21050] = {
+	[110996] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
+		["usetype"] = 2,
+		["sort"] = 307,
+		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_156.png",
-		["selltype"] = 1,
+		["type"] = 502,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_money_01.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1323,
-					[2] = 1,
-				},
+			["res"] = {
+				["gold"] = 500000,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "集齐60个可激活拉娜克希娅，同时也是拉娜克希娅觉醒的道具。",
-		["name"] = "英雄之证·拉娜克希娅",
+		["desc"] = "打开即可获得500000金币",
+		["name"] = "大袋金币",
 		["sort1"] = 67,
-		["alltype"] = 4,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 21050,
+		["itemid"] = 110996,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
-	[7026] = {
+	[6002] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["usetype"] = 2,
+		["sort"] = 331,
+		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_box_004.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 6002,
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "40级史诗品质的盔甲。",
-		["name"] = "40级史诗盔甲",
-		["sort1"] = 68,
-		["alltype"] = 4,
+		["desc"] = "打开可随机获得1件史诗衣服。",
+		["name"] = "史诗衣服礼包",
+		["sort1"] = 40,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 7026,
+		["itemid"] = 6002,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -88245,8 +90564,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -88280,35 +90599,51 @@ item = {
 			},
 		},
 	},
-	[7022] = {
+	[285109] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["sort"] = 68,
+		["sort"] = 225,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
 		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_3.png",
-		["resonate_value"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_lance_4003.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
 		},
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "40级精良品质的盔甲。",
-		["name"] = "40级精良盔甲",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7022,
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2289,
+		["name"] = "黯淡的伦哥米尼亚德",
+		["decompose"] = 1,
+		["desc"] = "尚未完全解放力量的圣枪，默默等待着伟大骑士的眷顾。",
+		["sort1"] = 225,
+		["itemid"] = 285109,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -88348,198 +90683,46 @@ item = {
 			},
 		},
 	},
-	[9106] = {
+	[110235] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 16,
+		["usetype"] = 29,
+		["val"] = 10000,
+		["sort"] = 774,
+		["getway"] = "活动冒险委托",
 		["overdue"] = {
 		},
-		["getway"] = "渠道活动",
+		["angle"] = "res/image/ui/00/55_flameisland/55_btn_j.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_105.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "跟宠:小VV",
-		["desc"] = "使用解锁冒险跟宠：小VV。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["pet"] = 1007,
-		},
-		["itemid"] = 9106,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110741] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 756,
-		["getway"] = "活动冒险委托，活动商店",
-		["overdue"] = {
-			["str"] = "2019-02-21 23:59:00",
-			["str_time"] = 1550764740,
-		},
-		["angle"] = "res/image/ui/00/67_thespringfestival/67_icon_jb.png",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110741,
-			},
-		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/flyinghorse_1.png",
-		["selltype"] = 1,
+		["type"] = 524,
+		["picture"] = "res/image/ui/02_item/event/event_05/green_card_1.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["drop"] = {
+				[1] = 110084,
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "天马宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "天马宝箱",
-		["sort1"] = 1,
+		["desc"] = "获得后自动使用，立即随机获得一个碧之阵的英雄凭证。（洛天依、艾尔薇、莉可丽丝、伊莎贝拉、哥伦布、菲儿、布伦希尔德、黛丝、美杜莎、爱丽丝、桑妮、英普瑞斯、斯巴达、加百列。）",
+		["name"] = "英雄凭证-碧之阵",
+		["sort1"] = 42,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110741,
+		["itemid"] = 110235,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 10000,
+				["gold"] = 0,
 			},
 		},
 	},
-	[11201] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 35,
-		["overdue"] = {
-		},
-		["getway"] = "日常巡守",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 521,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/isomer.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "重新构造苍穹之光所需要的神秘物体。",
-		["name"] = "异构体",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 11201,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[9202] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 19,
-		["overdue"] = {
-		},
-		["getway"] = "商店购买",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_106.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "世界守护者",
-		["desc"] = "使用解锁菲儿皮肤：世界守护者。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4001,
-		},
-		["itemid"] = 9202,
-		["sellprice"] = {
-		},
-	},
-	[285125] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 325,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_4011.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "黯淡的无铭刀-空斩",
-		["decompose"] = 1,
-		["desc"] = "尚未完全解放力量的太刀，得到强大剑客的使用才能得到最终的升华。",
-		["sort1"] = 325,
-		["itemid"] = 285125,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 100000,
-			},
-		},
-	},
-	[21051] = {
+	[21050] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -88553,26 +90736,26 @@ item = {
 		["changeface"] = {
 		},
 		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_158.png",
+		["picture"] = "res/image/ui/07_head/07_pic_156.png",
 		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
 			["items"] = {
 				[1] = {
-					[1] = 1322,
+					[1] = 1323,
 					[2] = 1,
 				},
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "集齐60个可激活缪斯，同时也是缪斯觉醒的道具。",
-		["name"] = "英雄之证·缪斯",
+		["desc"] = "集齐60个可激活拉娜克希娅，同时也是拉娜克希娅觉醒的道具。",
+		["name"] = "英雄之证·拉娜克希娅",
 		["sort1"] = 67,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 21051,
+		["itemid"] = 21050,
 		["sellprice"] = {
 			["items"] = {
 				[1] = {
@@ -88582,46 +90765,176 @@ item = {
 			},
 		},
 	},
-	[1128] = {
+	[1058] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 551,
+		["usetype"] = 13,
+		["sort"] = 312,
+		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 6,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 508,
-		["picture"] = "res/image/ui/02_item/material/superrare_04.png",
-		["val"] = 10,
-		["award"] = {
-		},
-		["alltype"] = 4,
+		["type"] = 509,
+		["picture"] = "res/image/ui/02_item/consumable/3xgold.png",
 		["resonate_value"] = {
-			[1] = {
-				[1] = 80,
-				[2] = 89,
-			},
-			[2] = {
-				[1] = 6,
-				[2] = 6,
-			},
-			[3] = {
-				[1] = 204,
-			},
 		},
-		["name"] = "80传奇首饰精华",
-		["desc"] = "可以作为80-89级，传奇品质戒指共鸣材料使用。",
-		["sort1"] = 70,
+		["award"] = {
+			["buff"] = 1,
+		},
 		["ex_function"] = {
 		},
-		["itemid"] = 1128,
+		["desc"] = "使用后30天内，作战和快速作战的金币收益增加150%。",
+		["name"] = "金币150%增益",
+		["sort1"] = 37,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1058,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[1031] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 31,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 401,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/02_GoldBar.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "觉醒1至3重道具",
+		["name"] = "蓝色水晶",
+		["sort1"] = 31,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 1031,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[1029] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 29,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 10,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["hero"] = {
+				[1] = 10019,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "英雄宝箱，打开可以获得英雄",
+		["name"] = "英雄宝箱",
+		["sort1"] = 29,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1029,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1027] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 1,
+		["sort"] = 27,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 1,
+		["changeface"] = {
+		},
+		["type"] = 505,
+		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_02.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["res"] = {
+				["hexp"] = 100,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "中型经验书，使用获得100经验",
+		["name"] = "中级经验书",
+		["sort1"] = 27,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1027,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[100002] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 1,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/title_match_02.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["title"] = 2,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "冠军赛单阵容对抗模式第一名",
+		["name"] = "光之勇者王",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100002,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -88674,92 +90987,71 @@ item = {
 			},
 		},
 	},
-	[1095] = {
+	[9106] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 518,
+		["usetype"] = 23,
+		["sort"] = 16,
 		["overdue"] = {
 		},
-		["getway"] = "大苍穹",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 508,
-		["picture"] = "res/image/ui/02_item/material/superrare_01.png",
-		["val"] = 10,
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 59,
-			},
-			[2] = {
-				[1] = 6,
-				[2] = 6,
-			},
-			[3] = {
-				[1] = 201,
-			},
-		},
-		["name"] = "初级传奇武器精华",
-		["desc"] = "可以作为1-59级，传奇品质武器共鸣材料使用。",
-		["sort1"] = 70,
-		["ex_function"] = {
-		},
-		["itemid"] = 1095,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[1093] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 516,
-		["overdue"] = {
-		},
-		["getway"] = "大苍穹",
+		["getway"] = "渠道活动",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 508,
+		["type"] = 516,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/rare_04.png",
+		["picture"] = "res/image/ui/07_head/07_pic_105.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
 		["resonate_value"] = {
-			[1] = {
-				[1] = 40,
-				[2] = 59,
-			},
-			[2] = {
-				[1] = 5,
-				[2] = 5,
-			},
-			[3] = {
-				[1] = 204,
+		},
+		["name"] = "跟宠:小VV",
+		["desc"] = "使用解锁冒险跟宠：小VV。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["pet"] = 1007,
+		},
+		["itemid"] = 9106,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
+	},
+	[100003] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 1,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/title_match_03.png",
+		["resonate_value"] = {
+		},
 		["award"] = {
+			["title"] = 3,
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "可以作为40-59级，史诗品质戒指共鸣材料使用。",
-		["name"] = "40史诗首饰精华",
-		["sort1"] = 70,
-		["alltype"] = 4,
+		["desc"] = "冠军赛三阵容对抗模式第二名",
+		["name"] = "圣殿骑士",
+		["sort1"] = 1,
+		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1093,
+		["itemid"] = 100003,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -88812,49 +91104,35 @@ item = {
 			},
 		},
 	},
-	[1091] = {
+	[9202] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 514,
+		["usetype"] = 24,
+		["sort"] = 19,
 		["overdue"] = {
 		},
-		["getway"] = "大苍穹",
+		["getway"] = "商店购买",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 508,
+		["type"] = 516,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/rare_02.png",
-		["resonate_value"] = {
-			[1] = {
-				[1] = 40,
-				[2] = 59,
-			},
-			[2] = {
-				[1] = 5,
-				[2] = 5,
-			},
-			[3] = {
-				[1] = 202,
-			},
-		},
+		["picture"] = "res/image/ui/07_head/07_pic_106.png",
 		["award"] = {
 		},
-		["ex_function"] = {
+		["alltype"] = 5,
+		["resonate_value"] = {
 		},
-		["desc"] = "可以作为40-59级，史诗品质衣服共鸣材料使用。",
-		["name"] = "40史诗衣服精华",
-		["sort1"] = 70,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 1091,
+		["name"] = "世界守护者",
+		["desc"] = "使用解锁菲儿皮肤：世界守护者。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4001,
+		},
+		["itemid"] = 9202,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
 		},
 	},
 	[110072] = {
@@ -88899,8 +91177,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -88934,52 +91212,51 @@ item = {
 			},
 		},
 	},
-	[21055] = {
+	[284107] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 3,
-		["sort"] = 446,
-		["val"] = 10000,
+		["sort"] = 291,
 		["overdue"] = {
 		},
-		["getway"] = "酒馆招募",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 203,
+		["open_hole"] = {
 			[1] = {
-				["id"] = 19,
-				["type"] = 2,
-				["sysid"] = 1001,
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
 			},
 		},
-		["type"] = 401,
-		["picture"] = "res/image/ui/07_head/07_pic_169.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
 		},
 		["award"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1325,
-					[2] = 1,
-				},
-			},
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "集齐40个可激活艾琳，同时也是艾琳觉醒的道具。",
-		["name"] = "英雄之证·艾琳",
-		["sort1"] = 67,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 21055,
+		["alltype"] = 2,
+		["val"] = 110,
+		["propertyid"] = 2335,
+		["name"] = "深渊战靴",
+		["decompose"] = 1,
+		["desc"] = "深沉而庄严的铠甲，象征了死者的尊严。",
+		["sort1"] = 291,
+		["itemid"] = 284107,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 1079,
-					[2] = 1,
-				},
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -89016,6 +91293,93 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 22500,
+			},
+		},
+	},
+	[7083] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "60级史诗的武器，盔甲，靴子，首饰。",
+		["name"] = "60级古代史诗装",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7083,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[7000206] = {
+		["herolv"] = 1,
+		["buff"] = {
+			[1] = {
+				[1] = 1043,
+				[2] = 1133,
+				[3] = 1143,
+			},
+		},
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 1,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["type"] = 20002,
+		["picture"] = "res/image/ui/02_item/guild/equip/guild_shield_06.png",
+		["award"] = {
+			[1] = {
+				["items"] = {
+					[1] = {
+						[1] = 101008,
+						[2] = 25,
+					},
+				},
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 101009,
+						[2] = 25,
+					},
+				},
+			},
+			[3] = {
+				["items"] = {
+					[1] = {
+						[1] = 101010,
+						[2] = 25,
+					},
+				},
+			},
+		},
+		["alltype"] = 103,
+		["name"] = "皇家守卫",
+		["version"] = 1000,
+		["desc"] = "古代奥罗拉皇家护卫的盾牌，被赋予了强大的防御魔法。",
+		["itemid"] = 7000206,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -89063,6 +91427,50 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 100000,
+			},
+		},
+	},
+	[110232] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 729,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-10 23:59:00",
+			["str_time"] = 1536595140,
+		},
+		["getway"] = "活动冒险委托，活动商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110232,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/swan_1.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "天鹅宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "天鹅宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110232,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -89219,106 +91627,6 @@ item = {
 			},
 		},
 	},
-	[9109] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 24,
-		["overdue"] = {
-		},
-		["getway"] = "渠道活动",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_135.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "跟宠:足球猫头鹰",
-		["desc"] = "使用解锁冒险跟宠：足球猫头鹰。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["pet"] = 1010,
-		},
-		["itemid"] = 9109,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[11204] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 3498,
-		["overdue"] = {
-		},
-		["getway"] = "英雄回溯",
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 525,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/Expbot.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "天启回溯后的经验存储瓶，可进行天启经验传承。",
-		["name"] = "天启经验瓶",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 11204,
-		["sellprice"] = {
-		},
-	},
-	[110629] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift13.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110629,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得10~50个专属戒指碎片，或1~2个高级能量石",
-		["name"] = "紫色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110629,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
 	[5012] = {
 		["herolv"] = 1,
 		["notice_id"] = 12,
@@ -89421,81 +91729,36 @@ item = {
 			},
 		},
 	},
-	[9203] = {
+	[9110] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 20,
+		["usetype"] = 23,
+		["sort"] = 24,
 		["overdue"] = {
 		},
-		["getway"] = "商店购买",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
 		["type"] = 516,
 		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_113.png",
+		["picture"] = "res/image/ui/07_head/07_pic_140.png",
 		["award"] = {
 		},
 		["alltype"] = 5,
 		["resonate_value"] = {
 		},
-		["name"] = "盛装华服",
-		["desc"] = "使用解锁薇薇安皮肤：盛装华服。",
+		["name"] = "跟宠:无畏骑士兔",
+		["desc"] = "使用解锁冒险跟宠：无畏骑士兔。",
 		["sort1"] = 69,
 		["ex_function"] = {
-			["skinid"] = 4002,
+			["pet"] = 1011,
 		},
-		["itemid"] = 9203,
-		["sellprice"] = {
-		},
-	},
-	[285157] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 0,
-		["sort"] = 325,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_mitt_4001.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "黯淡的战神之腕",
-		["decompose"] = 1,
-		["desc"] = "尚未完成的比南机械臂，威力有余，灵活不足。",
-		["sort1"] = 325,
-		["itemid"] = 285157,
+		["itemid"] = 9110,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -89540,6 +91803,40 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[100010] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 16,
+		["sort"] = 1,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 512,
+		["picture"] = "res/image/ui/28_badge/badge_match_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["badge"] = 1,
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "冠军赛第一名时解锁",
+		["name"] = "冠军徽章",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 100010,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -89588,8 +91885,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -89623,50 +91920,37 @@ item = {
 			},
 		},
 	},
-	[284137] = {
+	[9107] = {
 		["herolv"] = 1,
-		["teamlv"] = 90,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 325,
+		["usetype"] = 23,
+		["sort"] = 17,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 201,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 9,
-					},
-				},
-			},
+		["getway"] = "渠道活动",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4013.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_108.png",
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 110,
-		["name"] = "耶兹拉提克",
-		["decompose"] = 1,
-		["desc"] = "代表太阳无上全能的神杖，散发着无尽的光和热。",
-		["sort1"] = 325,
-		["itemid"] = 284137,
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "跟宠:麒麟酱",
+		["desc"] = "使用解锁冒险跟宠：麒麟酱。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["pet"] = 1008,
+		},
+		["itemid"] = 9107,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 100000,
+				["gold"] = 1,
 			},
 		},
 	},
@@ -89740,39 +92024,7 @@ item = {
 			},
 		},
 	},
-	[7076] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_4.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "60级史诗的武器，盔甲，靴子，首饰。",
-		["name"] = "60级史诗装备",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7076,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[284141] = {
+	[285157] = {
 		["herolv"] = 1,
 		["teamlv"] = 90,
 		["viplimit"] = 0,
@@ -89795,7 +92047,7 @@ item = {
 				},
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4014.png",
+		["picture"] = "res/image/ui/02_item/equip/02_equip_mitt_4001.png",
 		["hole_2"] = {
 			[1] = 1,
 			[2] = 2,
@@ -89808,118 +92060,195 @@ item = {
 		},
 		["alltype"] = 2,
 		["val"] = 110,
-		["name"] = "巴拉夏库苏",
+		["name"] = "黯淡的战神之腕",
 		["decompose"] = 1,
-		["desc"] = "代表月亮治愈全能的神杖，同时散发着治愈和死亡的气息。",
+		["desc"] = "尚未完成的比南机械臂，威力有余，灵活不足。",
 		["sort1"] = 325,
-		["itemid"] = 284141,
+		["itemid"] = 285157,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 100000,
 			},
 		},
 	},
-	[1031] = {
+	[111008] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 31,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 401,
+		["usetype"] = 18,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/02_GoldBar.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "觉醒1至3重道具",
-		["name"] = "蓝色水晶",
-		["sort1"] = 31,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 1031,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[4002] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 5,
-		["sort"] = 301,
-		["val"] = 10000,
+		["sort"] = 757,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2019-04-30 23:59:00",
+			["str_time"] = 1556639940,
 		},
-		["getway"] = "商店",
+		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 999,
-		["quality"] = 2,
+		["quality"] = 5,
 		["changeface"] = {
-		},
-		["type"] = 507,
-		["picture"] = "res/image/ui/02_item/other/item_07.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "任务刷新券",
-		["name"] = "任务刷新券",
-		["sort1"] = 37,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 4002,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 111008,
 			},
 		},
-	},
-	[1010] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 1,
-		["sort"] = 111,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["getway"] = "作战、冒险任务、大苍穹",
-		["stacklimit"] = 9999999,
-		["quality"] = 1,
-		["changeface"] = {
-		},
-		["type"] = 505,
-		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_10.png",
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/elk_1.png",
 		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["res"] = {
-				["hexp"] = 100000000000,
-			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "超传说经验书，使用获得100000000000经验",
-		["name"] = "超传说经验书",
+		["desc"] = "麋鹿宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "麋鹿宝箱",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1010,
+		["itemid"] = 111008,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 10000,
+			},
+		},
+	},
+	[1211] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 3500,
+		["overdue"] = {
+		},
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/3C.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["res"] = {
+				["hexp"] = 85,
+			},
+		},
+		["ex_function"] = {
+			["time"] = 12,
+			["taskgroup"] = 103,
+		},
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "高级苍穹炫光",
+		["sort1"] = 35,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1211,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 8000,
+				},
+			},
+		},
+	},
+	[284136] = {
+		["herolv"] = 1,
+		["teamlv"] = 60,
+		["viplimit"] = 0,
+		["sort"] = 189,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 204,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4012.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["name"] = "薇欧瑞儿专属戒指",
+		["propertyid"] = 2193,
+		["decompose"] = 1,
+		["sort1"] = 189,
+		["itemid"] = 284136,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
+			},
+		},
+	},
+	[284137] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 325,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4013.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "耶兹拉提克",
+		["decompose"] = 1,
+		["desc"] = "代表太阳无上全能的神杖，散发着无尽的光和热。",
+		["sort1"] = 325,
+		["itemid"] = 284137,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -90034,104 +92363,145 @@ item = {
 			},
 		},
 	},
-	[1016] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 113,
-		["overdue"] = {
-		},
-		["stacklimit"] = 99,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 10,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/other/item_99.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "菜谱上的食品肯定用到的材料之一",
-		["name"] = "美汁源",
-		["sort1"] = 16,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1016,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[1020] = {
+	[21053] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 3,
-		["sort"] = 117,
-		["val"] = 10,
+		["sort"] = 446,
+		["val"] = 10000,
 		["overdue"] = {
 		},
-		["stacklimit"] = 99,
-		["quality"] = 4,
+		["getway"] = "酒馆招募",
+		["stacklimit"] = 999,
+		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["id"] = 19,
+				["type"] = 2,
+				["sysid"] = 1001,
+			},
 		},
-		["type"] = 12,
-		["picture"] = "res/image/ui/02_item/other/item_99.png",
+		["type"] = 401,
+		["picture"] = "res/image/ui/07_head/07_pic_160.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 1325,
+					[2] = 1,
+				},
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "菜谱上的食品肯定用到的材料之一",
-		["name"] = "英雄碎片",
-		["sort1"] = 20,
+		["desc"] = "集齐60个可激活艾丽西亚，同时也是艾丽西亚觉醒的道具。",
+		["name"] = "英雄之证·艾丽西亚",
+		["sort1"] = 67,
 		["alltype"] = 4,
 		["noair"] = 1,
-		["itemid"] = 1020,
+		["itemid"] = 21053,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
+			["items"] = {
+				[1] = {
+					[1] = 1079,
+					[2] = 1,
+				},
 			},
 		},
 	},
-	[1030] = {
+	[284139] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 90,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 30,
-		["val"] = 10,
+		["sort"] = 327,
 		["overdue"] = {
 		},
-		["stacklimit"] = 10,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["hero"] = {
-				[1] = 10008,
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 203,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "英雄宝箱，打开可以获得英雄",
-		["name"] = "英雄宝箱2",
-		["sort1"] = 30,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1030,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 110,
+		["name"] = "米迦勒专属鞋子",
+		["decompose"] = 1,
+		["sort1"] = 327,
+		["itemid"] = 284139,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 100000,
+			},
+		},
+	},
+	[284141] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 325,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 201,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_wand_4014.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 110,
+		["name"] = "巴拉夏库苏",
+		["decompose"] = 1,
+		["desc"] = "代表月亮治愈全能的神杖，同时散发着治愈和死亡的气息。",
+		["sort1"] = 325,
+		["itemid"] = 284141,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -90180,8 +92550,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -90215,37 +92585,41 @@ item = {
 			},
 		},
 	},
-	[1058] = {
+	[1010] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 13,
-		["sort"] = 312,
+		["usetype"] = 1,
+		["sort"] = 111,
 		["val"] = 10,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
+		["getway"] = "作战、冒险任务、大苍穹",
+		["stacklimit"] = 9999999,
+		["quality"] = 1,
 		["changeface"] = {
 		},
-		["type"] = 509,
-		["picture"] = "res/image/ui/02_item/consumable/3xgold.png",
+		["type"] = 505,
+		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_10.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["buff"] = 1,
+			["res"] = {
+				["hexp"] = 100000000000,
+			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "使用后30天内，作战和快速作战的金币收益增加150%。",
-		["name"] = "金币150%增益",
-		["sort1"] = 37,
+		["desc"] = "超传说经验书，使用获得100000000000经验",
+		["name"] = "超传说经验书",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1058,
+		["itemid"] = 1010,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -90285,12 +92659,169 @@ item = {
 			},
 		},
 	},
-	[1068] = {
+	[1020] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 3,
+		["sort"] = 117,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 99,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 12,
+		["picture"] = "res/image/ui/02_item/other/item_99.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "菜谱上的食品肯定用到的材料之一",
+		["name"] = "英雄碎片",
+		["sort1"] = 20,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 1020,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1028] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 28,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["items"] = {
+				[1] = {
+					[1] = 2001,
+					[2] = 1,
+				},
+				[2] = {
+					[1] = 1025,
+					[2] = 90,
+				},
+				[3] = {
+					[1] = 1031,
+					[2] = 90,
+				},
+				[4] = {
+					[1] = 1001,
+					[2] = 90,
+				},
+			},
+			["res"] = {
+				["diamond"] = 100,
+				["gold"] = 1000,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "新手礼包2",
+		["name"] = "新手礼包2",
+		["sort1"] = 28,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1028,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1032] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 32,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 1002,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "测试掉落宝箱",
+		["name"] = "测试掉落宝箱",
+		["sort1"] = 32,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1032,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[1048] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 304,
+		["overdue"] = {
+		},
+		["getway"] = "冒险任务、日常巡守",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 506,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/consumable/punching.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "装备符文孔解锁材料",
+		["name"] = "高阶打孔器",
+		["sort1"] = 35,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1048,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[1064] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 13,
-		["sort"] = 322,
+		["sort"] = 318,
 		["val"] = 10,
 		["overdue"] = {
 		},
@@ -90299,23 +92830,69 @@ item = {
 		["changeface"] = {
 		},
 		["type"] = 509,
-		["picture"] = "res/image/ui/02_item/consumable/exp_book_buff_1.png",
+		["picture"] = "res/image/ui/02_item/consumable/exp_buff_1.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["buff"] = 7,
+			["buff"] = 3,
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "使用后30天内，作战和快速作战的经验书收益增加30%。",
-		["name"] = "经验书30%增益",
+		["desc"] = "使用后30天内，作战和快速作战的团队经验收益增加15%。",
+		["name"] = "经验15%增益",
 		["sort1"] = 37,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1068,
+		["itemid"] = 1064,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
+			},
+		},
+	},
+	[284155] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 327,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 203,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 110,
+		["name"] = "威廉",
+		["decompose"] = 1,
+		["sort1"] = 327,
+		["itemid"] = 284155,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
 			},
 		},
 	},
@@ -90451,6 +93028,55 @@ item = {
 			},
 		},
 	},
+	[22216] = {
+		["herolv"] = 1,
+		["teamlv"] = 43,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 64,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
+			},
+		},
+		["type"] = 204,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_necklace_2001.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 220,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 2064,
+		["name"] = "猛士骨饰",
+		["desc"] = "粗犷的风格可以激发你内心不羁的放荡。",
+		["sort1"] = 64,
+		["noair"] = 1,
+		["itemid"] = 22216,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 7000,
+			},
+		},
+	},
 	[284159] = {
 		["herolv"] = 1,
 		["teamlv"] = 90,
@@ -90540,43 +93166,80 @@ item = {
 			},
 		},
 	},
-	[1126] = {
+	[110075] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 549,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
-		["quality"] = 6,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 508,
-		["picture"] = "res/image/ui/02_item/material/superrare_02.png",
-		["val"] = 10,
-		["award"] = {
-		},
-		["alltype"] = 4,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift02.png",
 		["resonate_value"] = {
-			[1] = {
-				[1] = 80,
-				[2] = 89,
-			},
-			[2] = {
-				[1] = 6,
-				[2] = 6,
-			},
-			[3] = {
-				[1] = 202,
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110075,
 			},
 		},
-		["name"] = "80传奇衣服精华",
-		["desc"] = "可以作为80-89级，传奇品质衣服共鸣材料使用。",
-		["sort1"] = 70,
 		["ex_function"] = {
 		},
-		["itemid"] = 1126,
+		["desc"] = "内含十连抽券1张，并且在使用后，每天首次用钻石刷新冒险任务必定出紫色任务，全部背包格子+100",
+		["name"] = "北境食材",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110075,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110331] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 733,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 3,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
+		["name"] = "狗粮",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110331,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -90629,12 +93292,48 @@ item = {
 			},
 		},
 	},
-	[1029] = {
+	[110843] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 2,
-		["sort"] = 29,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift12.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110662,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1~2个天使之羽，或10~125个皇家纹章",
+		["name"] = "蓝色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110843,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[119] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 38,
 		["val"] = 10,
 		["overdue"] = {
 		},
@@ -90647,221 +93346,96 @@ item = {
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["hero"] = {
-				[1] = 10019,
+			["drop"] = {
+				[1] = 110098,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "英雄宝箱，打开可以获得英雄",
-		["name"] = "英雄宝箱",
-		["sort1"] = 29,
+		["desc"] = "黑土特殊商品",
+		["name"] = "黑土特殊商品",
+		["sort1"] = 38,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 1029,
+		["itemid"] = 119,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
 			},
 		},
 	},
-	[22216] = {
-		["herolv"] = 1,
-		["teamlv"] = 43,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 64,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 204,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_necklace_2001.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 220,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2064,
-		["name"] = "猛士骨饰",
-		["desc"] = "粗犷的风格可以激发你内心不羁的放荡。",
-		["sort1"] = 64,
-		["noair"] = 1,
-		["itemid"] = 22216,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 7000,
-			},
-		},
-	},
-	[9220] = {
+	[9111] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
+		["usetype"] = 23,
+		["sort"] = 24,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["id"] = 69,
-				["type"] = 2,
-				["sysid"] = 1050,
-			},
 		},
 		["type"] = 516,
-		["picture"] = "res/image/ui/07_head/07_pic_187.png",
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_184.png",
 		["award"] = {
 		},
 		["alltype"] = 5,
 		["resonate_value"] = {
 		},
-		["name"] = "蔷薇特使",
-		["desc"] = "使用解锁拉娜克希娅皮肤：蔷薇特使。",
+		["name"] = "跟宠:嘟嘟",
+		["desc"] = "使用解锁冒险跟宠：嘟嘟。",
 		["sort1"] = 69,
 		["ex_function"] = {
-			["skinid"] = 4018,
+			["pet"] = 1012,
 		},
-		["itemid"] = 9220,
+		["itemid"] = 9111,
 		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
 		},
 	},
-	[1027] = {
+	[1202] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 1,
-		["sort"] = 27,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 1,
-		["changeface"] = {
-		},
-		["type"] = 505,
-		["picture"] = "res/image/ui/02_item/consumable/02_exp_book_02.png",
 		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["hexp"] = 100,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "中型经验书，使用获得100经验",
-		["name"] = "中级经验书",
-		["sort1"] = 27,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1027,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110075] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
+		["sort"] = 3500,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift02.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110075,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "内含十连抽券1张，并且在使用后，每天首次用钻石刷新冒险任务必定出紫色任务，全部背包格子+100",
-		["name"] = "北境食材",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110075,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110331] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 733,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
 		["quality"] = 3,
 		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
 		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
-		["selltype"] = 1,
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/1B.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["res"] = {
+				["hexp"] = 10,
+			},
 		},
 		["ex_function"] = {
+			["time"] = 6,
+			["taskgroup"] = 102,
 		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
-		["name"] = "狗粮",
-		["sort1"] = 1,
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "中级苍穹微光",
+		["sort1"] = 35,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110331,
+		["itemid"] = 1202,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 80,
+				},
 			},
 		},
 	},
@@ -90914,39 +93488,88 @@ item = {
 			},
 		},
 	},
-	[110843] = {
+	[1220] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
+		["selltype"] = 1,
+		["sort"] = 3500,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
+		["quality"] = 6,
 		["changeface"] = {
 		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift12.png",
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/4H.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["drop"] = {
-				[1] = 110662,
+			["res"] = {
+				["hexp"] = 300,
 			},
 		},
 		["ex_function"] = {
+			["taskgroup"] = 8,
+			["time"] = 12,
+			["rank"] = 4,
 		},
-		["desc"] = "打开可随机获得1~2个天使之羽，或10~125个皇家纹章",
-		["name"] = "蓝色福袋",
-		["sort1"] = 66,
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "4品异构辉光",
+		["sort1"] = 35,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110843,
+		["itemid"] = 1220,
 		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 32000,
+				},
+			},
+		},
+	},
+	[1224] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 3500,
+		["overdue"] = {
+		},
+		["getway"] = "幻境作战，苍穹之光精炼",
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 520,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/light/5D.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["hexp"] = 210,
+			},
+		},
+		["ex_function"] = {
+			["time"] = 12,
+			["taskgroup"] = 104,
+		},
+		["desc"] = "英雄提升天启等级需要的苍穹之光。",
+		["name"] = "极品苍穹耀光",
+		["sort1"] = 35,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 1224,
+		["sellprice"] = {
+			["items"] = {
+				[1] = {
+					[1] = 11202,
+					[2] = 48000,
+				},
 			},
 		},
 	},
@@ -90976,247 +93599,6 @@ item = {
 		["alltype"] = 4,
 		["noair"] = 1,
 		["itemid"] = 7051,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[22111] = {
-		["herolv"] = 1,
-		["teamlv"] = 46,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 47,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 3,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_1004.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 220,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2047,
-		["name"] = "老佣兵的鞋子",
-		["desc"] = "陪伴老佣兵度过无数个寂寞的夜。",
-		["sort1"] = 47,
-		["noair"] = 1,
-		["itemid"] = 22111,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 5000,
-			},
-		},
-	},
-	[22207] = {
-		["herolv"] = 1,
-		["teamlv"] = 44,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 55,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_2005.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 180,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2055,
-		["name"] = "制式皮靴",
-		["desc"] = "穿上它，自信+2",
-		["sort1"] = 55,
-		["noair"] = 1,
-		["itemid"] = 22207,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 7000,
-			},
-		},
-	},
-	[6031] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 360,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 509,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/other/task_normal.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "稀有委托特权",
-		["desc"] = "每天用钻石或刷新券刷新3次冒险委托必定出橙色委托",
-		["sort1"] = 66,
-		["ex_function"] = {
-		},
-		["itemid"] = 6031,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[24318] = {
-		["herolv"] = 1,
-		["teamlv"] = 80,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 150,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 9,
-					},
-				},
-			},
-		},
-		["type"] = 202,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_3007.png",
-		["hole_1"] = {
-			[1] = 1,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["name"] = "驱魔者法袍",
-		["desc"] = "以圣光驱散一切邪恶，拯救世人。",
-		["sort1"] = 150,
-		["noair"] = 1,
-		["itemid"] = 24318,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 20000,
-			},
-		},
-	},
-	[9215] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
-		["overdue"] = {
-		},
-		["getway"] = "商店购买",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_177.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "圣夜舞步",
-		["desc"] = "使用解锁蔻洛尔皮肤：圣夜舞步。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4013,
-		},
-		["itemid"] = 9215,
-		["sellprice"] = {
-		},
-	},
-	[101020] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_005.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "钻石装饰的宝箱，箱子本身已经是价值连城，加上其上面施加的魔法封印，里面的物品必然是物价之宝。",
-		["name"] = "钻石宝箱",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 101020,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -91272,85 +93654,100 @@ item = {
 			},
 		},
 	},
-	[1316] = {
+	[22207] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 44,
 		["viplimit"] = 0,
-		["sort"] = 228,
+		["selltype"] = 1,
+		["sort"] = 55,
 		["overdue"] = {
 		},
-		["getway"] = "宝石碎片合成、宝石商店",
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 4,
+		["open_hole"] = {
 			[1] = {
-				["id"] = 22,
-				["type"] = 3,
-				["value"] = 805,
-				["sysid"] = 1017,
 			},
 			[2] = {
-				["id"] = 57,
-				["type"] = 3,
-				["sysid"] = 2013,
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 1,
+					},
+				},
 			},
 		},
-		["type"] = 506,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/material/xuetong.png",
-		["resonate_value"] = {
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_2005.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 180,
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "能够发掘英雄的潜能极限，激活血源系天赋的觉醒宝石，可用于英雄的极限觉醒。",
-		["name"] = "血源宝石",
-		["sort1"] = 37,
-		["alltype"] = 5,
+		["alltype"] = 2,
+		["propertyid"] = 2055,
+		["name"] = "制式皮靴",
+		["desc"] = "穿上它，自信+2",
+		["sort1"] = 55,
 		["noair"] = 1,
-		["itemid"] = 1316,
+		["itemid"] = 22207,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 10000,
+				["gold"] = 7000,
 			},
 		},
 	},
-	[1320] = {
+	[24318] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["usetype"] = 12,
-		["sort"] = 88,
-		["val"] = 10,
+		["selltype"] = 1,
+		["sort"] = 150,
 		["overdue"] = {
 		},
-		["getway"] = "英雄之证转化、英雄之证分解",
-		["stacklimit"] = 10000,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 530,
-		["picture"] = "res/image/ui/02_item/material/shengguang_sp.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 1320,
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 9,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
+		["type"] = 202,
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
 		},
-		["award_num"] = 100,
-		["desc"] = "觉醒宝石的碎片形态，使用100个该物品，可以合成1个圣光宝石。",
-		["name"] = "圣光宝石碎片",
-		["sort1"] = 69,
-		["alltype"] = 4,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_3007.png",
+		["hole_1"] = {
+			[1] = 1,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["name"] = "驱魔者法袍",
+		["desc"] = "以圣光驱散一切邪恶，拯救世人。",
+		["sort1"] = 150,
 		["noair"] = 1,
-		["itemid"] = 1320,
+		["itemid"] = 24318,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 20000,
 			},
 		},
 	},
@@ -91403,49 +93800,35 @@ item = {
 			},
 		},
 	},
-	[110485] = {
+	[9215] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 750,
-		["getway"] = "活动冒险委托，活动商店",
+		["usetype"] = 24,
+		["sort"] = 23,
 		["overdue"] = {
-			["str"] = "2018-12-20 23:59:59",
-			["str_time"] = 1545321599,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["getway"] = "商店购买",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110485,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/snake_1.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_177.png",
 		["award"] = {
 		},
-		["ex_function"] = {
-		},
-		["desc"] = "盘蛇宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "盘蛇宝箱",
-		["sort1"] = 1,
 		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110485,
+		["resonate_value"] = {
+		},
+		["name"] = "圣夜舞步",
+		["desc"] = "使用解锁蔻洛尔皮肤：圣夜舞步。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4013,
+		},
+		["itemid"] = 9215,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 10000,
-			},
 		},
 	},
 	[110076] = {
@@ -91493,8 +93876,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -91525,6 +93908,116 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[1324] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 12,
+		["sort"] = 88,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["getway"] = "英雄之证转化、英雄之证分解",
+		["stacklimit"] = 10000,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 530,
+		["picture"] = "res/image/ui/02_item/material/tezhi_sp.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 1324,
+			},
+		},
+		["ex_function"] = {
+		},
+		["award_num"] = 100,
+		["desc"] = "觉醒宝石的碎片形态，使用100个该物品，可以合成1个特质宝石。",
+		["name"] = "特质宝石碎片",
+		["sort1"] = 69,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 1324,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110844] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift12.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110663,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1~2个魔晶石，或10~125个皇家纹章",
+		["name"] = "蓝色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110844,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110645] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 747,
+		["getway"] = "活动商店",
+		["overdue"] = {
+			["str"] = "2019-01-10 23:59:59",
+			["str_time"] = 1547135999,
+		},
+		["angle"] = "res/image/ui/00/63_christmas/63_icon_x.png",
+		["stacklimit"] = 999,
+		["quality"] = 6,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/event/open.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "比南出产的一次性开箱器，采用最高级分解技术，无坚不摧，安全可靠，无论是钢铁还是秘银，均可轻易开启。(开启活动礼物箱时需要的消耗品)",
+		["name"] = "万能开箱器",
+		["sort1"] = 1,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 110645,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
 			},
 		},
 	},
@@ -91576,81 +94069,51 @@ item = {
 			},
 		},
 	},
-	[110844] = {
+	[276010] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 80,
 		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
+		["sort"] = 182,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift12.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110663,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得1~2个魔晶石，或10~125个皇家纹章",
-		["name"] = "蓝色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110844,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[1216] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
-		["overdue"] = {
-		},
-		["getway"] = "幻境作战，苍穹之光精炼",
 		["stacklimit"] = 1,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 520,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/4D.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["hexp"] = 150,
+		["quality"] = 6,
+		["version"] = 1000,
+		["type"] = 202,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 3,
+					},
+				},
 			},
 		},
-		["ex_function"] = {
-			["time"] = 12,
-			["taskgroup"] = 104,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_cloth_4031.png",
+		["hole_2"] = {
+			[1] = 2,
+			[2] = 2,
 		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "极品苍穹辉光",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1216,
+		["hole_1"] = {
+			[1] = 1,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2182,
+		["name"] = "10",
+		["decompose"] = 1,
+		["desc"] = "10",
+		["sort1"] = 182,
+		["itemid"] = 276010,
 		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 32000,
-				},
+			["res"] = {
+				["gold"] = 50000,
 			},
 		},
 	},
@@ -91702,120 +94165,48 @@ item = {
 			},
 		},
 	},
-	[1212] = {
+	[110486] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
-		["overdue"] = {
-		},
-		["getway"] = "幻境作战，苍穹之光精炼",
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 520,
+		["usetype"] = 18,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/3D.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["hexp"] = 150,
-			},
-		},
-		["ex_function"] = {
-			["time"] = 12,
-			["taskgroup"] = 104,
-		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "极品苍穹炫光",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1212,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 16000,
-				},
-			},
-		},
-	},
-	[1211] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3500,
+		["sort"] = 751,
+		["getway"] = "活动冒险委托，活动商店",
 		["overdue"] = {
+			["str"] = "2018-12-20 23:59:59",
+			["str_time"] = 1545321599,
 		},
-		["getway"] = "幻境作战，苍穹之光精炼",
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 520,
-		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/3C.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["res"] = {
-				["hexp"] = 85,
-			},
-		},
-		["ex_function"] = {
-			["time"] = 12,
-			["taskgroup"] = 103,
-		},
-		["desc"] = "英雄提升天启等级需要的苍穹之光。",
-		["name"] = "高级苍穹炫光",
-		["sort1"] = 35,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1211,
-		["sellprice"] = {
-			["items"] = {
-				[1] = {
-					[1] = 11202,
-					[2] = 8000,
-				},
-			},
-		},
-	},
-	[9110] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 24,
-		["overdue"] = {
-		},
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
 		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110486,
+			},
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_140.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/owl_1.png",
+		["selltype"] = 1,
 		["resonate_value"] = {
 		},
-		["name"] = "跟宠:无畏骑士兔",
-		["desc"] = "使用解锁冒险跟宠：无畏骑士兔。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["pet"] = 1011,
+		["award"] = {
 		},
-		["itemid"] = 9110,
+		["ex_function"] = {
+		},
+		["desc"] = "夜枭宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，可以消耗1个“开箱工具”打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "夜枭宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110486,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 10000,
 			},
 		},
 	},
@@ -91923,102 +94314,229 @@ item = {
 			},
 		},
 	},
-	[286002] = {
-		["herolv"] = 1,
-		["teamlv"] = 90,
-		["viplimit"] = 1,
-		["decompose"] = 1,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["type"] = 205,
-		["version"] = 1001,
-		["picture"] = "res/image/ui/02_item/equip/countermark/divinesun.png",
-		["open_hole"] = {
-		},
-		["hole_2"] = {
-		},
-		["award"] = {
-		},
-		["desc"] = "铸有圣阳纹样，纯辉钢打造的天启者专用刻印，能够激发某些英雄的潜力。",
-		["hole_1"] = {
-		},
-		["val"] = 110,
-		["name"] = "圣阳刻印",
-		["alltype"] = 2,
-		["sort1"] = 325,
-		["itemid"] = 286002,
-		["sellprice"] = {
-		},
-	},
-	[11203] = {
+	[9208] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 3499,
+		["usetype"] = 24,
+		["sort"] = 23,
 		["overdue"] = {
 		},
-		["stacklimit"] = 1,
+		["getway"] = "线下活动",
+		["stacklimit"] = 999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 523,
+		["type"] = 516,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/light/4D.png",
+		["picture"] = "res/image/ui/07_head/07_pic_146.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "炎拳宗师(限定)",
+		["desc"] = "使用解锁帝隆皮肤：炎拳宗师(限定)。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4006,
+		},
+		["itemid"] = 9208,
+		["sellprice"] = {
+		},
+	},
+	[4102] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 0,
+		["sort"] = 730,
+		["overdue"] = {
+		},
+		["getway"] = "冒险任务、大苍穹、竞技场商店、日常巡守",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 514,
+		["val"] = 10,
+		["picture"] = "res/image/ui/02_item/material/common_2.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
-			["magic"] = 1,
 		},
-		["desc"] = "重新构造苍穹之光所需要的神秘物体。",
-		["name"] = "苍穹晶簇",
-		["sort1"] = 35,
+		["desc"] = "英雄突破4至8层的道具",
+		["name"] = "突破材料",
+		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 11203,
+		["itemid"] = 4102,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[276015] = {
+		["herolv"] = 1,
+		["teamlv"] = 80,
+		["viplimit"] = 0,
+		["sort"] = 187,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["version"] = 1001,
+		["type"] = 203,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 3,
+					},
+				},
+			},
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4001.png",
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["val"] = 80,
+		["propertyid"] = 2187,
+		["name"] = "15",
+		["decompose"] = 1,
+		["desc"] = "15",
+		["sort1"] = 187,
+		["itemid"] = 276015,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 50000,
+			},
+		},
+	},
+	[6028] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 357,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_box_003.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 6028,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1件50级珍稀首饰。",
+		["name"] = "50级珍稀首饰礼包",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 6028,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
 			},
 		},
 	},
-	[121015] = {
+	[110077] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 19,
-		["sort"] = 777,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "官网抽奖",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 515,
-		["val"] = 1,
-		["picture"] = "res/image/ui/07_head/07_pic_27.png",
-		["award"] = {
-		},
-		["alltype"] = 4,
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift02.png",
 		["resonate_value"] = {
 		},
-		["name"] = "AR体验卡·帝隆",
-		["desc"] = "若英雄未解锁，使用可以临时解锁帝隆AR功能和基础动作。若已经解锁过该英雄的AR，则随机临时解锁该英雄的1个特殊动作，或延长基础动作试用时间。。",
-		["sort1"] = 49,
-		["ex_function"] = {
-			["time"] = {
-				[1] = 1,
-			},
-			["role"] = {
-				[1] = 10015,
+		["award"] = {
+			["drop"] = {
+				[1] = 110077,
 			},
 		},
-		["itemid"] = 121015,
+		["ex_function"] = {
+		},
+		["desc"] = "内含十连抽券1张，并且在使用后，每天首次用钻石刷新冒险任务必定出紫色任务，全部背包格子+100",
+		["name"] = "特殊图食材",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110077,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110333] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 733,
+		["getway"] = "音乐祭冒险委托",
+		["overdue"] = {
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
+		},
+		["angle"] = "res/image/ui/02_item/other/music1.png",
+		["stacklimit"] = 9999,
+		["quality"] = 3,
+		["changeface"] = {
+			[1] = {
+				["id"] = 45,
+				["type"] = 3,
+				["activity"] = "SING_PRE",
+				["sysid"] = 2007,
+			},
+		},
+		["type"] = 526,
+		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
+		["name"] = "异味",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110333,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -92073,117 +94591,6 @@ item = {
 			},
 		},
 	},
-	[110077] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift02.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110077,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "内含十连抽券1张，并且在使用后，每天首次用钻石刷新冒险任务必定出紫色任务，全部背包格子+100",
-		["name"] = "特殊图食材",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110077,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[110333] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 733,
-		["getway"] = "音乐祭冒险委托",
-		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
-		},
-		["angle"] = "res/image/ui/02_item/other/music1.png",
-		["stacklimit"] = 9999,
-		["quality"] = 3,
-		["changeface"] = {
-			[1] = {
-				["id"] = 45,
-				["type"] = 3,
-				["activity"] = "SING_PRE",
-				["sysid"] = 2007,
-			},
-		},
-		["type"] = 526,
-		["picture"] = "res/image/ui/02_item/event/event_06/blue_word.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "音乐祭词卡碎片，消耗 30张能填一个词。用蓝色词卡填空，有可能获得中等人气或低人气。",
-		["name"] = "异味",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110333,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[9206] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
-		["overdue"] = {
-		},
-		["getway"] = "活动商店兑换",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_137.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "球系大魔导",
-		["desc"] = "使用解锁桑妮皮肤：球系大魔导。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4004,
-		},
-		["itemid"] = 9206,
-		["sellprice"] = {
-		},
-	},
 	[110845] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -92214,6 +94621,42 @@ item = {
 		["alltype"] = 5,
 		["noair"] = 1,
 		["itemid"] = 110845,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[104] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 4,
+		["sort"] = 38,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/02_gift_nh_01.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["lottery"] = {
+				[1] = 1001,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "伪随机测试宝箱",
+		["name"] = "伪随机测试宝箱",
+		["sort1"] = 38,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 104,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -92264,91 +94707,117 @@ item = {
 			},
 		},
 	},
-	[110551] = {
+	[121019] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 730,
-		["getway"] = "圣诞巡游",
+		["usetype"] = 19,
+		["sort"] = 781,
 		["overdue"] = {
-			["str"] = "2019-01-10 23:59:59",
-			["str_time"] = 1547135999,
 		},
-		["angle"] = "res/image/ui/00/63_christmas/63_icon_x.png",
-		["stacklimit"] = 99999,
-		["quality"] = 4,
+		["getway"] = "官网抽奖",
+		["stacklimit"] = 999,
+		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["id"] = 50,
-				["type"] = 3,
-				["activity"] = "CHRISTMAS",
-				["sysid"] = 2010,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/consumable/xunyoubi.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_29.png",
 		["award"] = {
 		},
-		["ex_function"] = {
+		["alltype"] = 4,
+		["resonate_value"] = {
 		},
-		["desc"] = "圣诞巡游获得的货币，在圣诞派送环节中使用可进行礼物派送",
-		["name"] = "巡游币",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110551,
+		["name"] = "AR体验卡·桑妮",
+		["desc"] = "若英雄未解锁，使用可以临时解锁桑妮AR功能和基础动作。若已经解锁过该英雄的AR，则随机临时解锁该英雄的1个特殊动作，或延长基础动作试用时间。。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = 1,
+			},
+			["role"] = {
+				[1] = 10019,
+			},
+		},
+		["itemid"] = 121019,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 1000,
 			},
 		},
 	},
-	[110550] = {
+	[121034] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
-		["val"] = 10,
-		["sort"] = 737,
-		["getway"] = "活动商店",
+		["usetype"] = 19,
+		["sort"] = 796,
 		["overdue"] = {
-			["str"] = "2019-01-03 23:59:59",
-			["str_time"] = 1546531199,
 		},
-		["angle"] = "res/image/ui/00/63_christmas/63_icon_x.png",
+		["getway"] = "官网抽奖",
 		["stacklimit"] = 999,
-		["quality"] = 4,
+		["quality"] = 5,
 		["changeface"] = {
-			[1] = {
-				["id"] = 50,
-				["type"] = 3,
-				["activity"] = "CHRISTMAS",
-				["sysid"] = 2010,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/event_02/timefly.png",
-		["selltype"] = 0,
-		["resonate_value"] = {
-		},
+		["type"] = 515,
+		["val"] = 1,
+		["picture"] = "res/image/ui/07_head/07_pic_110.png",
 		["award"] = {
 		},
-		["ex_function"] = {
+		["alltype"] = 4,
+		["resonate_value"] = {
 		},
-		["desc"] = "加快时间流逝的的神奇物品，每次使用，都会让你瞬间渡过5分钟。(每使用一个，可以在活动之中直接跳过5分钟时间，不满5分钟的，按照5分钟计算)",
-		["name"] = "时间沙漏",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110550,
+		["name"] = "AR体验卡·薇欧瑞儿",
+		["desc"] = "若英雄未解锁，使用可以临时解锁薇欧瑞儿AR功能和基础动作。若已经解锁过该英雄的AR，则随机临时解锁该英雄的1个特殊动作，或延长基础动作试用时间。。",
+		["sort1"] = 49,
+		["ex_function"] = {
+			["time"] = {
+				[1] = 1,
+			},
+			["role"] = {
+				[1] = 10038,
+			},
+		},
+		["itemid"] = 121034,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 1000,
+			},
+		},
+	},
+	[130003] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 101,
+		["overdue"] = {
+		},
+		["getway"] = "大苍穹8层及以上、活动",
+		["stacklimit"] = 9999999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 518,
+		["picture"] = "res/image/ui/02_item/exproperty/power_stone_purple.png",
+		["val"] = 10,
+		["award"] = {
+			["res"] = {
+				["eexp"] = 150,
+			},
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "高级能量石",
+		["desc"] = "装备解放能量石,使用获得150装备解放经验",
+		["sort1"] = 1,
+		["ex_function"] = {
+		},
+		["itemid"] = 130003,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -92378,69 +94847,6 @@ item = {
 		["alltype"] = 4,
 		["noair"] = 1,
 		["itemid"] = 7052,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[7006] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_clothes_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "精良品质的盔甲。",
-		["name"] = "精良盔甲",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7006,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[7084] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 6,
-		["changeface"] = {
-		},
-		["type"] = 604,
-		["picture"] = "res/image/map/building/00_chest_clothes_61.png",
-		["val"] = 10,
-		["award"] = {
-		},
-		["alltype"] = 4,
-		["resonate_value"] = {
-		},
-		["name"] = "远古传奇装备",
-		["desc"] = "80级远古传奇的武器，盔甲，靴子，首饰。",
-		["sort1"] = 68,
-		["ex_function"] = {
-		},
-		["itemid"] = 7084,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -92578,6 +94984,41 @@ item = {
 			},
 		},
 	},
+	[133033] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 519,
+		["picture"] = "res/image/ui/02_item/exproperty/critical_3.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+			["count"] = 60,
+			["buff"] = 303,
+		},
+		["desc"] = "使用增加60次的buff使用次数。buff效果：20%造成暴击，装备解放经验*2",
+		["name"] = "暴击概率+60次",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 133033,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[22307] = {
 		["herolv"] = 1,
 		["teamlv"] = 44,
@@ -92624,38 +95065,6 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 9000,
-			},
-		},
-	},
-	[7053] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["sort"] = 68,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 604,
-		["val"] = 10,
-		["picture"] = "res/image/map/building/00_chest_weapon_2.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "70级普通品质的武器。",
-		["name"] = "70级普通武器",
-		["sort1"] = 68,
-		["alltype"] = 4,
-		["noair"] = 1,
-		["itemid"] = 7053,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
 			},
 		},
 	},
@@ -92747,8 +95156,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -92782,7 +95191,7 @@ item = {
 			},
 		},
 	},
-	[116] = {
+	[120] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -92801,17 +95210,17 @@ item = {
 		},
 		["award"] = {
 			["drop"] = {
-				[1] = 110095,
+				[1] = 110099,
 			},
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "塞连特殊商品",
-		["name"] = "塞连特殊商品",
+		["desc"] = "寇克玛特殊商品",
+		["name"] = "寇克玛特殊商品",
 		["sort1"] = 38,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 116,
+		["itemid"] = 120,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
@@ -92888,101 +95297,78 @@ item = {
 			},
 		},
 	},
-	[274027] = {
+	[110035] = {
 		["herolv"] = 1,
-		["teamlv"] = 80,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["sort"] = 183,
+		["usetype"] = 18,
+		["sort"] = 746,
+		["val"] = 10,
 		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
 		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1001,
-		["type"] = 203,
-		["open_hole"] = {
+		["getway"] = "奥罗拉美食祭冒险委托",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
 			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1048,
-						[2] = 3,
-					},
-				},
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
 			},
 		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4050.png",
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
+		["type"] = 701,
+		["picture"] = "res/image/ui/02_item/event/event_01/ingredients_16.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
 		},
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2183,
-		["name"] = "精灵近卫战靴",
-		["decompose"] = 1,
-		["desc"] = "精灵王城近卫的制式战靴，轻盈却有着完美的强度。",
-		["sort1"] = 183,
-		["itemid"] = 274027,
+		["ex_function"] = {
+		},
+		["desc"] = "源自英普瑞恩天然牧场，经由比南先进包装技术封装的制品牛奶。",
+		["name"] = "牛奶",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110035,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 50000,
+				["gold"] = 1,
 			},
 		},
 	},
-	[23204] = {
+	[9210] = {
 		["herolv"] = 1,
-		["teamlv"] = 63,
+		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 112,
+		["usetype"] = 24,
+		["sort"] = 23,
 		["overdue"] = {
 		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
+		["getway"] = "商店购买",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
 		},
-		["type"] = 204,
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_2004.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 80,
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_149.png",
 		["award"] = {
 		},
-		["alltype"] = 2,
-		["propertyid"] = 2112,
-		["name"] = "学徒戒指",
-		["desc"] = "作为学徒毕业的信物，具有收藏意义。",
-		["sort1"] = 112,
-		["noair"] = 1,
-		["itemid"] = 23204,
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "邪龙降临",
+		["desc"] = "使用解锁齐格飞皮肤：邪龙降临。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["skinid"] = 4008,
+		},
+		["itemid"] = 9210,
 		["sellprice"] = {
-			["res"] = {
-				["gold"] = 12500,
-			},
 		},
 	},
 	[6029] = {
@@ -93024,91 +95410,136 @@ item = {
 			},
 		},
 	},
-	[110997] = {
+	[22309] = {
 		["herolv"] = 1,
-		["teamlv"] = 1,
+		["teamlv"] = 40,
 		["viplimit"] = 0,
-		["usetype"] = 40,
-		["sort"] = 361,
-		["val"] = 10,
+		["selltype"] = 1,
+		["sort"] = 81,
 		["overdue"] = {
 		},
-		["stacklimit"] = 999,
+		["version"] = 1000,
+		["stacklimit"] = 1,
 		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift07.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
+		["open_hole"] = {
 			[1] = {
-				["items"] = {
-					[1] = {
-						[1] = 286001,
-						[2] = 1,
-					},
-				},
 			},
 			[2] = {
 				["items"] = {
 					[1] = {
-						[1] = 286003,
-						[2] = 1,
-					},
-				},
-			},
-			[3] = {
-				["items"] = {
-					[1] = {
-						[1] = 286008,
+						[1] = 1046,
 						[2] = 1,
 					},
 				},
 			},
 		},
-		["ex_function"] = {
+		["type"] = 201,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
 		},
-		["desc"] = "可以从荆棘、祝福、治愈三个刻印中指定获得一个",
-		["name"] = "刻印礼盒",
-		["sort1"] = 66,
-		["alltype"] = 5,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_sword_3001.png",
+		["hole_1"] = {
+			[1] = 3,
+			[2] = 1,
+		},
+		["val"] = 160,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 2081,
+		["name"] = "先驱者之剑",
+		["desc"] = "赠与立志复兴奥罗拉的冒险先驱们!",
+		["sort1"] = 81,
 		["noair"] = 1,
-		["itemid"] = 110997,
+		["itemid"] = 22309,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 9000,
 			},
 		},
 	},
-	[9113] = {
+	[110963] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 23,
-		["sort"] = 24,
+		["usetype"] = 43,
+		["val"] = 10,
+		["sort"] = 730,
+		["getway"] = "酒馆招募",
 		["overdue"] = {
+			["str"] = "2019-04-02 23:59:59",
+			["str_time"] = 1554220799,
 		},
-		["getway"] = "2019年愚人节赠品",
-		["stacklimit"] = 999,
+		["angle"] = "res/image/ui/00/69_anniversary/69_icon_jb.png",
+		["stacklimit"] = 99999,
 		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_192.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/consumable/gift06.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
-		["name"] = "跟宠:小美",
-		["desc"] = "使用解锁冒险跟宠：小美。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["pet"] = 1014,
+		["award"] = {
+			["vitem"] = {
+				[1] = {
+					[1] = 3,
+					[2] = 30,
+				},
+			},
 		},
-		["itemid"] = 9113,
+		["ex_function"] = {
+		},
+		["desc"] = "打开即可获得初心者之境活动中格莱明SP的突破材料",
+		["name"] = "招募礼盒",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110963,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[110038] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 749,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_02.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "精选的超大扇贝，用烧烤的方式，充分体现贝肉的鲜美。",
+		["name"] = "法式烤贝",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110038,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -93160,40 +95591,6 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 50000,
-			},
-		},
-	},
-	[100056] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 16,
-		["sort"] = 713,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/title_dfh.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["title"] = 1001,
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "贸易战线财富排行前10名",
-		["name"] = "大富豪",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 100056,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
 			},
 		},
 	},
@@ -93280,7 +95677,53 @@ item = {
 			},
 		},
 	},
-	[100057] = {
+	[284143] = {
+		["herolv"] = 1,
+		["teamlv"] = 90,
+		["viplimit"] = 0,
+		["sort"] = 327,
+		["overdue"] = {
+		},
+		["stacklimit"] = 1,
+		["quality"] = 6,
+		["type"] = 203,
+		["version"] = 1000,
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_4010.png",
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1048,
+						[2] = 9,
+					},
+				},
+			},
+		},
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 110,
+		["name"] = "沙利叶专属鞋子",
+		["decompose"] = 1,
+		["sort1"] = 327,
+		["itemid"] = 284143,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 100000,
+			},
+		},
+	},
+	[100056] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
@@ -93294,63 +95737,20 @@ item = {
 		["changeface"] = {
 		},
 		["type"] = 512,
-		["picture"] = "res/image/ui/28_badge/title_myds.png",
+		["picture"] = "res/image/ui/28_badge/title_dfh.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
-			["title"] = 1002,
+			["title"] = 1001,
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "可在贸易战线活动的贸易商店购买。",
-		["name"] = "贸易大师",
+		["desc"] = "贸易战线财富排行前10名",
+		["name"] = "大富豪",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 100057,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110040] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 18,
-		["sort"] = 751,
-		["val"] = 10,
-		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
-		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-			[1] = {
-				["id"] = 39,
-				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
-			},
-		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_04.png",
-		["selltype"] = 1,
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "再好的食材，如果不好好烹饪，出来的就是……",
-		["name"] = "黑暗料理",
-		["sort1"] = 1,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110040,
+		["itemid"] = 100056,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -93409,8 +95809,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -93441,6 +95841,129 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1000,
+			},
+		},
+	},
+	[110040] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 751,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_04.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "再好的食材，如果不好好烹饪，出来的就是……",
+		["name"] = "黑暗料理",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110040,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110847] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 361,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 504,
+		["picture"] = "res/image/ui/02_item/consumable/gift12.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+			["drop"] = {
+				[1] = 110666,
+			},
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "打开可随机获得1~2个龙骸，或10~125个皇家纹章",
+		["name"] = "蓝色福袋",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110847,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
+	[110166] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 726,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-08-20 23:59:00",
+			["str_time"] = 1534780740,
+		},
+		["getway"] = "活动冒险委托，活动商店",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110166,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/greengift.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "鲜艳的绿色礼物箱，谁也不知道里面究竟盛装着什么宝物。不需要万能开箱器即可使用，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。与绿色礼物箱共享开启次数。",
+		["name"] = "特殊绿色礼物箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110166,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
 			},
 		},
 	},
@@ -93486,90 +96009,6 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 10000,
-			},
-		},
-	},
-	[110847] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 2,
-		["sort"] = 361,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 3,
-		["changeface"] = {
-		},
-		["type"] = 504,
-		["picture"] = "res/image/ui/02_item/consumable/gift12.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["drop"] = {
-				[1] = 110666,
-			},
-		},
-		["ex_function"] = {
-		},
-		["desc"] = "打开可随机获得1~2个龙骸，或10~125个皇家纹章",
-		["name"] = "蓝色福袋",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 110847,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[274092] = {
-		["herolv"] = 1,
-		["teamlv"] = 60,
-		["viplimit"] = 0,
-		["sort"] = 189,
-		["overdue"] = {
-		},
-		["stacklimit"] = 1,
-		["quality"] = 6,
-		["version"] = 1000,
-		["type"] = 204,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_ring_4003.png",
-		["hole_2"] = {
-			[1] = 2,
-			[2] = 2,
-		},
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["val"] = 80,
-		["propertyid"] = 2193,
-		["name"] = "奔流之戒",
-		["decompose"] = 1,
-		["desc"] = "从戒指中，能够听到河水奔流的声音。",
-		["sort1"] = 189,
-		["itemid"] = 274092,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 50000,
 			},
 		},
 	},
@@ -93692,6 +96131,39 @@ item = {
 			},
 		},
 	},
+	[6030] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 2,
+		["sort"] = 359,
+		["val"] = 10,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+		},
+		["type"] = 509,
+		["picture"] = "res/image/ui/02_item/other/task_normal.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "每天首次用钻石或刷新券刷新冒险委托必定出紫色委托",
+		["name"] = "委托特权",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 6030,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1000,
+			},
+		},
+	},
 	[110424] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -93734,6 +96206,55 @@ item = {
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 0,
+			},
+		},
+	},
+	[31303] = {
+		["herolv"] = 1,
+		["teamlv"] = 2,
+		["viplimit"] = 0,
+		["selltype"] = 1,
+		["sort"] = 300,
+		["overdue"] = {
+		},
+		["version"] = 1000,
+		["stacklimit"] = 1,
+		["quality"] = 5,
+		["open_hole"] = {
+			[1] = {
+			},
+			[2] = {
+				["items"] = {
+					[1] = {
+						[1] = 1046,
+						[2] = 3,
+					},
+				},
+			},
+		},
+		["type"] = 203,
+		["hole_2"] = {
+			[1] = 1,
+			[2] = 2,
+		},
+		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3004.png",
+		["hole_1"] = {
+			[1] = 2,
+			[2] = 1,
+		},
+		["val"] = 80,
+		["award"] = {
+		},
+		["alltype"] = 2,
+		["propertyid"] = 31303,
+		["name"] = "古代试验战靴",
+		["desc"] = "远古时期炼金术师的炼成玩具，蕴含大量魔法之尘，可往符文圣殿分解。",
+		["sort1"] = 300,
+		["noair"] = 1,
+		["itemid"] = 31303,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
 			},
 		},
 	},
@@ -93814,139 +96335,6 @@ item = {
 			},
 		},
 	},
-	[31303] = {
-		["herolv"] = 1,
-		["teamlv"] = 2,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 300,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 3,
-					},
-				},
-			},
-		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3004.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 80,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 31303,
-		["name"] = "古代试验战靴",
-		["desc"] = "远古时期炼金术师的炼成玩具，蕴含大量魔法之尘，可往符文圣殿分解。",
-		["sort1"] = 300,
-		["noair"] = 1,
-		["itemid"] = 31303,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[133022] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 519,
-		["picture"] = "res/image/ui/02_item/exproperty/percent_3.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-		},
-		["ex_function"] = {
-			["count"] = 28,
-			["buff"] = 302,
-		},
-		["desc"] = "使用增加28次的buff使用次数。buff效果：增加100%的装备解放经验加成",
-		["name"] = "经验倍率+28次",
-		["sort1"] = 66,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 133022,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1000,
-			},
-		},
-	},
-	[22313] = {
-		["herolv"] = 1,
-		["teamlv"] = 40,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 85,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 201,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_axe_3001.png",
-		["hole_1"] = {
-			[1] = 3,
-			[2] = 1,
-		},
-		["val"] = 180,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2085,
-		["name"] = "咆哮战斧",
-		["desc"] = "为了胜利！为了荣誉！为了兄弟！",
-		["sort1"] = 85,
-		["noair"] = 1,
-		["itemid"] = 22313,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 9000,
-			},
-		},
-	},
 	[23305] = {
 		["herolv"] = 1,
 		["teamlv"] = 62,
@@ -93996,39 +96384,38 @@ item = {
 			},
 		},
 	},
-	[130001] = {
+	[133022] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 101,
+		["usetype"] = 25,
+		["sort"] = 363,
+		["val"] = 10,
 		["overdue"] = {
 		},
-		["getway"] = "大苍穹8层及以上、活动、日常巡守",
-		["stacklimit"] = 9999999,
-		["quality"] = 2,
+		["stacklimit"] = 999,
+		["quality"] = 5,
 		["changeface"] = {
 		},
-		["type"] = 518,
-		["picture"] = "res/image/ui/02_item/exproperty/power_stone_green.png",
-		["val"] = 10,
-		["award"] = {
-			["res"] = {
-				["eexp"] = 100,
-			},
-		},
-		["alltype"] = 5,
+		["type"] = 519,
+		["picture"] = "res/image/ui/02_item/exproperty/percent_3.png",
 		["resonate_value"] = {
 		},
-		["name"] = "初级能量石",
-		["desc"] = "装备解放能量石,使用获得100装备解放经验",
-		["sort1"] = 1,
-		["ex_function"] = {
+		["award"] = {
 		},
-		["itemid"] = 130001,
+		["ex_function"] = {
+			["count"] = 28,
+			["buff"] = 302,
+		},
+		["desc"] = "使用增加28次的buff使用次数。buff效果：增加100%的装备解放经验加成",
+		["name"] = "经验倍率+28次",
+		["sort1"] = 66,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 133022,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1,
+				["gold"] = 1000,
 			},
 		},
 	},
@@ -94085,8 +96472,8 @@ item = {
 		["sort"] = 733,
 		["getway"] = "音乐祭冒险委托",
 		["overdue"] = {
-			["str"] = "2018-10-21 23:59:59",
-			["str_time"] = 1540137599,
+			["str"] = "2019-04-30 23:59:59",
+			["str_time"] = 1556639999,
 		},
 		["angle"] = "res/image/ui/02_item/other/music1.png",
 		["stacklimit"] = 9999,
@@ -94199,6 +96586,49 @@ item = {
 			},
 		},
 	},
+	[110039] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["sort"] = 750,
+		["val"] = 10,
+		["overdue"] = {
+			["str"] = "2018-09-26 23:59:59",
+			["str_time"] = 1537977599,
+		},
+		["getway"] = "奥罗拉美食祭烹饪获得",
+		["stacklimit"] = 999,
+		["quality"] = 4,
+		["changeface"] = {
+			[1] = {
+				["id"] = 39,
+				["type"] = 3,
+				["activity"] = "COOK_2",
+				["sysid"] = 2001,
+			},
+		},
+		["type"] = 702,
+		["picture"] = "res/image/ui/02_item/event/event_01/food_03.png",
+		["selltype"] = 1,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "各种新鲜海鲜，上等刀工切割，尽力保持了食材最原始的味道。",
+		["name"] = "海鲜刺身",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110039,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
 	[120023] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
@@ -94238,114 +96668,78 @@ item = {
 			},
 		},
 	},
-	[130003] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 101,
-		["overdue"] = {
-		},
-		["getway"] = "大苍穹8层及以上、活动",
-		["stacklimit"] = 9999999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 518,
-		["picture"] = "res/image/ui/02_item/exproperty/power_stone_purple.png",
-		["val"] = 10,
-		["award"] = {
-			["res"] = {
-				["eexp"] = 150,
-			},
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "高级能量石",
-		["desc"] = "装备解放能量石,使用获得150装备解放经验",
-		["sort1"] = 1,
-		["ex_function"] = {
-		},
-		["itemid"] = 130003,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[1134] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 13,
-		["sort"] = 322,
-		["val"] = 10,
-		["overdue"] = {
-		},
-		["stacklimit"] = 999,
-		["quality"] = 4,
-		["changeface"] = {
-		},
-		["type"] = 509,
-		["picture"] = "res/image/ui/16_guide/04_pic_jsms.png",
-		["resonate_value"] = {
-		},
-		["award"] = {
-			["buff"] = 12,
-		},
-		["ex_function"] = {
-			["gift_display"] = 1,
-		},
-		["desc"] = "获得30天极速特权：冒险中开启增加移速；战斗动画3档速（购买3次后将永久获取）",
-		["name"] = "极速特权",
-		["sort1"] = 37,
-		["alltype"] = 5,
-		["noair"] = 1,
-		["itemid"] = 1134,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 1,
-			},
-		},
-	},
-	[110039] = {
+	[110550] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
 		["usetype"] = 18,
-		["sort"] = 750,
 		["val"] = 10,
+		["sort"] = 737,
+		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-09-26 23:59:59",
-			["str_time"] = 1537977599,
+			["str"] = "2019-01-03 23:59:59",
+			["str_time"] = 1546531199,
 		},
-		["getway"] = "奥罗拉美食祭烹饪获得",
+		["angle"] = "res/image/ui/00/63_christmas/63_icon_x.png",
 		["stacklimit"] = 999,
 		["quality"] = 4,
 		["changeface"] = {
 			[1] = {
-				["id"] = 39,
+				["id"] = 50,
 				["type"] = 3,
-				["activity"] = "COOK_2",
-				["sysid"] = 2001,
+				["activity"] = "CHRISTMAS",
+				["sysid"] = 2010,
 			},
 		},
-		["type"] = 702,
-		["picture"] = "res/image/ui/02_item/event/event_01/food_03.png",
-		["selltype"] = 1,
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/event_02/timefly.png",
+		["selltype"] = 0,
 		["resonate_value"] = {
 		},
 		["award"] = {
 		},
 		["ex_function"] = {
 		},
-		["desc"] = "各种新鲜海鲜，上等刀工切割，尽力保持了食材最原始的味道。",
-		["name"] = "海鲜刺身",
+		["desc"] = "加快时间流逝的的神奇物品，每次使用，都会让你瞬间渡过5分钟。(每使用一个，可以在活动之中直接跳过5分钟时间，不满5分钟的，按照5分钟计算)",
+		["name"] = "时间沙漏",
 		["sort1"] = 1,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110039,
+		["itemid"] = 110550,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[9113] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 23,
+		["sort"] = 24,
+		["overdue"] = {
+		},
+		["getway"] = "2019年愚人节赠品",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+		},
+		["type"] = 516,
+		["val"] = 10,
+		["picture"] = "res/image/ui/07_head/07_pic_192.png",
+		["award"] = {
+		},
+		["alltype"] = 5,
+		["resonate_value"] = {
+		},
+		["name"] = "跟宠:小美",
+		["desc"] = "使用解锁冒险跟宠：小美。",
+		["sort1"] = 69,
+		["ex_function"] = {
+			["pet"] = 1014,
+		},
+		["itemid"] = 9113,
 		["sellprice"] = {
 			["res"] = {
 				["gold"] = 1,
@@ -94528,118 +96922,113 @@ item = {
 			},
 		},
 	},
-	[22315] = {
-		["herolv"] = 1,
-		["teamlv"] = 42,
-		["viplimit"] = 0,
-		["selltype"] = 1,
-		["sort"] = 87,
-		["overdue"] = {
-		},
-		["version"] = 1000,
-		["stacklimit"] = 1,
-		["quality"] = 5,
-		["open_hole"] = {
-			[1] = {
-			},
-			[2] = {
-				["items"] = {
-					[1] = {
-						[1] = 1046,
-						[2] = 1,
-					},
-				},
-			},
-		},
-		["type"] = 203,
-		["hole_2"] = {
-			[1] = 1,
-			[2] = 2,
-		},
-		["picture"] = "res/image/ui/02_item/equip/02_equip_shoe_3001.png",
-		["hole_1"] = {
-			[1] = 2,
-			[2] = 1,
-		},
-		["val"] = 180,
-		["award"] = {
-		},
-		["alltype"] = 2,
-		["propertyid"] = 2087,
-		["name"] = "咆哮战靴",
-		["desc"] = "前进！前进！再前进！勇往直前！",
-		["sort1"] = 87,
-		["noair"] = 1,
-		["itemid"] = 22315,
-		["sellprice"] = {
-			["res"] = {
-				["gold"] = 9000,
-			},
-		},
-	},
-	[132023] = {
+	[7053] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 25,
-		["sort"] = 363,
+		["sort"] = 68,
+		["overdue"] = {
+		},
+		["stacklimit"] = 999,
+		["quality"] = 3,
+		["changeface"] = {
+		},
+		["type"] = 604,
+		["val"] = 10,
+		["picture"] = "res/image/map/building/00_chest_weapon_2.png",
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "70级普通品质的武器。",
+		["name"] = "70级普通武器",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7053,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 1,
+			},
+		},
+	},
+	[110498] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["usetype"] = 18,
+		["val"] = 10,
+		["sort"] = 768,
+		["getway"] = "活动商店",
+		["overdue"] = {
+			["str"] = "2018-12-20 23:59:59",
+			["str_time"] = 1545321599,
+		},
+		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
+		["stacklimit"] = 999,
+		["quality"] = 5,
+		["changeface"] = {
+			[1] = {
+				["type"] = 3,
+				["activity"] = "",
+				["sysid"] = 1021,
+				["id"] = 29,
+				["value"] = 110498,
+			},
+		},
+		["type"] = 514,
+		["picture"] = "res/image/ui/02_item/event/animal_box/scorpion_2.png",
+		["selltype"] = 0,
+		["resonate_value"] = {
+		},
+		["award"] = {
+		},
+		["ex_function"] = {
+		},
+		["desc"] = "特殊毒蝎宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
+		["name"] = "特殊毒蝎宝箱",
+		["sort1"] = 1,
+		["alltype"] = 5,
+		["noair"] = 1,
+		["itemid"] = 110498,
+		["sellprice"] = {
+			["res"] = {
+				["gold"] = 0,
+			},
+		},
+	},
+	[7006] = {
+		["herolv"] = 1,
+		["teamlv"] = 1,
+		["viplimit"] = 0,
+		["sort"] = 68,
 		["overdue"] = {
 		},
 		["stacklimit"] = 999,
 		["quality"] = 4,
 		["changeface"] = {
 		},
-		["type"] = 519,
+		["type"] = 604,
 		["val"] = 10,
-		["picture"] = "res/image/ui/02_item/exproperty/promote_2.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
+		["picture"] = "res/image/map/building/00_chest_clothes_3.png",
 		["resonate_value"] = {
 		},
-		["name"] = "经验提升Ⅱ+60次",
-		["desc"] = "使用增加60次的buff使用次数。buff效果：增加15装备解放经验，中级能量石翻倍",
-		["sort1"] = 66,
-		["ex_function"] = {
-			["count"] = 60,
-			["buff"] = 202,
+		["award"] = {
 		},
-		["itemid"] = 132023,
+		["ex_function"] = {
+		},
+		["desc"] = "精良品质的盔甲。",
+		["name"] = "精良盔甲",
+		["sort1"] = 68,
+		["alltype"] = 4,
+		["noair"] = 1,
+		["itemid"] = 7006,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 1000,
+				["gold"] = 1,
 			},
-		},
-	},
-	[9211] = {
-		["herolv"] = 1,
-		["teamlv"] = 1,
-		["viplimit"] = 0,
-		["usetype"] = 24,
-		["sort"] = 23,
-		["overdue"] = {
-		},
-		["getway"] = "商店购买",
-		["stacklimit"] = 999,
-		["quality"] = 5,
-		["changeface"] = {
-		},
-		["type"] = 516,
-		["val"] = 10,
-		["picture"] = "res/image/ui/07_head/07_pic_162.png",
-		["award"] = {
-		},
-		["alltype"] = 5,
-		["resonate_value"] = {
-		},
-		["name"] = "绝代花魁",
-		["desc"] = "使用解锁莉可丽丝皮肤：绝代花魁。",
-		["sort1"] = 69,
-		["ex_function"] = {
-			["skinid"] = 4009,
-		},
-		["itemid"] = 9211,
-		["sellprice"] = {
 		},
 	},
 	[110081] = {
@@ -94686,48 +97075,38 @@ item = {
 			},
 		},
 	},
-	[110498] = {
+	[1134] = {
 		["herolv"] = 1,
 		["teamlv"] = 1,
 		["viplimit"] = 0,
-		["usetype"] = 18,
+		["usetype"] = 13,
+		["sort"] = 322,
 		["val"] = 10,
-		["sort"] = 768,
-		["getway"] = "活动商店",
 		["overdue"] = {
-			["str"] = "2018-12-20 23:59:59",
-			["str_time"] = 1545321599,
 		},
-		["angle"] = "res/image/ui/00/61_airship/61_btn_my.png",
 		["stacklimit"] = 999,
-		["quality"] = 5,
+		["quality"] = 4,
 		["changeface"] = {
-			[1] = {
-				["type"] = 3,
-				["activity"] = "",
-				["sysid"] = 1021,
-				["id"] = 29,
-				["value"] = 110498,
-			},
 		},
-		["type"] = 514,
-		["picture"] = "res/image/ui/02_item/event/animal_box/scorpion_2.png",
-		["selltype"] = 0,
+		["type"] = 509,
+		["picture"] = "res/image/ui/16_guide/04_pic_jsms.png",
 		["resonate_value"] = {
 		},
 		["award"] = {
+			["buff"] = 12,
 		},
 		["ex_function"] = {
+			["gift_display"] = 1,
 		},
-		["desc"] = "特殊毒蝎宝箱，谁也不知道里面究竟盛装着什么宝物。点击使用，无需消耗“开箱工具”即可打开宝箱，里面必定会有1份传奇物品(60级传奇专属戒指或者传奇首饰共鸣精华的其中1种)。",
-		["name"] = "特殊毒蝎宝箱",
-		["sort1"] = 1,
+		["desc"] = "获得30天极速特权：冒险中开启增加移速；战斗动画3档速（购买3次后将永久获取）",
+		["name"] = "极速特权",
+		["sort1"] = 37,
 		["alltype"] = 5,
 		["noair"] = 1,
-		["itemid"] = 110498,
+		["itemid"] = 1134,
 		["sellprice"] = {
 			["res"] = {
-				["gold"] = 0,
+				["gold"] = 1,
 			},
 		},
 	},

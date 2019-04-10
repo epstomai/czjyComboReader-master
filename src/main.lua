@@ -15,7 +15,7 @@ require("getHeroDialog")
 --GetExEquipSkills.run()
 
 --获得英雄数据
---print(FormatTable(cfgControlHero:getHeroBaseInfoAll()))
+--print(formatTable(cfgControlHero:getHeroBaseInfoAll()))
 
 --获得指定技能描述
 --全部
@@ -35,4 +35,5 @@ require("getHeroDialog")
 
 --获取英雄对话和英雄故事
 --print(formatTable(getHeroDialogs()))
-print(formatTable(getHeroStories()))
+--print(formatTable(getHeroStories()))
+

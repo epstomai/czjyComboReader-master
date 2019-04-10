@@ -190,3 +190,63 @@ function formatTable(t, tabcount)
     end
     return str
 end
+
+--重命名技能图片文件
+function renameSkillIconFiles()
+    require("xml.xml_skill_skillgroup")
+    local heroids = cfgControlHero:getAllHeroIds()
+    local map = {}
+    for i, v in pairs(heroids) do
+        for j, k in pairs(cfgControlHero:getAllSkillsById(v)) do
+            map[k] = {
+                id = k,
+                filename = string.match(XML_skill.skillgroup[k].params,"%a+.png")
+            }
+        end
+    end
+
+    function copyFunc(sourcePath,targetPath)
+        local rf = io.open(sourcePath,"rb") --使用“rb”打开二进制文件，如果是“r”的话，是使用文本方式打开，遇到‘0’时会结束读取
+        local len = rf:seek("end")  --获取文件长度
+        rf:seek("set",0)--重新设置文件索引为0的位置
+        local data = rf:read(len)  --根据文件长度读取文件数据
+        local wf = io.open(targetPath,"wb")  --用“wb”方法写入二进制文件
+        wf:write(data,len)
+        rf:close()
+        wf:close()
+    end
+
+    local s = io.popen("dir C:\\Users\\knia\\Desktop\\czjy\\skillicons /b/s")
+    local filelist = s:read("*all")
+
+    local start_pos = 0
+    local file_not_changed = {}
+    while true
+    do
+        _,end_pos, line = string.find(filelist, "([^\n\r]+.png)", start_pos)
+
+        if not end_pos then
+            break
+        end
+        local folder_filename = string.match(line,"%a+.png")
+        local new_name
+        for i, v in pairs(map) do
+            if v.filename == folder_filename then
+                new_name = i..".png"
+            end
+        end
+        if new_name then
+            copyFunc(line,"C:\\Users\\knia\\Desktop\\czjy\\skills_rename\\"..new_name)
+        else
+            table.insert(file_not_changed,line)
+        end
+
+        --os.rename(line , string.format("C:\\Users\\knia\\Desktop\\czjy\\战报图片\\技能\\%s.png", name))
+
+        start_pos = end_pos + 1
+    end
+
+    print("++++++重命名完成+++++")
+
+    print(formatTable(file_not_changed))
+end

@@ -38,7 +38,10 @@ function cfgControlHero:getHeroBaseInfoById(heroid)
     hero_info.notice_grow = CfgControlHeroNotice:notice(pos2)
     hero_info.notice_period = CfgControlHeroNotice:notice(pos3)
     hero_info.attack_range = cfgControlHero:attack_dis(heroid)
-    hero_info.skills = getSkillName(cfgControlHero:getAllSkillsById(heroid))
+    --获取技能名字
+    --hero_info.skills = getSkillName(cfgControlHero:getAllSkillsById(heroid))
+    --获取技能id
+    hero_info.skills = cfgControlHero:getAllSkillsById(heroid)
     hero_info.heroid = cfgControlHero:getData(heroid).heroid
     return hero_info
 end

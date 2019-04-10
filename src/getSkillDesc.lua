@@ -27,7 +27,7 @@ function getllAllSkillDesc(heroid,all_skills_desc)
             local each_level_desc = colorParser(desc)
             table.insert(single,level,each_level_desc)
         end
-        all_skills_desc[skill_name] = single
+        all_skills_desc[skillid] = { ["desc"] = single, id = skillid, name = skill_name }
     end
     return all_skills_desc
 end
@@ -38,7 +38,7 @@ function printAllSkillsDesc()
     for key, id in pairs(heroids) do
         getllAllSkillDesc(id,all_skills_desc)
     end
-    print(FormatTable(all_skills_desc))
+    print(formatTable(all_skills_desc))
 end
 
 function printSingleSkillDesc(skillname)
@@ -47,5 +47,5 @@ function printSingleSkillDesc(skillname)
     for key, id in pairs(heroids) do
         getllAllSkillDesc(id,all_skills_desc)
     end
-    print(FormatTable(all_skills_desc[skillname]))
+    print(formatTable(all_skills_desc[skillname]))
 end
