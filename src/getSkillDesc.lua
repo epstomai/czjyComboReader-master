@@ -11,7 +11,7 @@ function colorParser(str)
     return str
 end
 
-function getllAllSkillDesc(heroid,all_skills_desc)
+function getSkillsDescByHeroId(heroid,all_skills_desc)
     if not all_skills_desc then
         all_skills_desc = {}
     end
@@ -32,13 +32,13 @@ function getllAllSkillDesc(heroid,all_skills_desc)
     return all_skills_desc
 end
 
-function printAllSkillsDesc()
+function getAllSkillsDesc()
     local all_skills_desc = {}
     local heroids = cfgControlHero:getAllHeroIds()
     for key, id in pairs(heroids) do
-        getllAllSkillDesc(id,all_skills_desc)
+        getSkillsDescByHeroId(id,all_skills_desc)
     end
-    print(formatTable(all_skills_desc))
+    return formatTable(all_skills_desc)
 end
 
 function printSingleSkillDesc(skillname)

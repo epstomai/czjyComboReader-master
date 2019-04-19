@@ -1039,32 +1039,47 @@ skillgroup = {
 		["full_desc"] = "尼尔法释放幻变元素时，召唤一个法球且有<font color='#green2#'>50%</font>概率召唤出第二个法球。",
 		["params"] = "res/image/ui/04_skill/changeelement.png",
 	},
-	[532231] = {
-		["max_level"] = 1,
+	[102920] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击全体，造成伤害。",
+		["simple_desc"] = "治疗全体友军，并赋予激励状态。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 532231,
+				["sid"] = 30170,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30171,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30172,
 			},
 		},
+		["key"] = 102920,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 532231,
-		["name"] = "沙漠地龙",
+		["name"] = "魔能爆发",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击全体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "引发雷电的力量，治疗全体友军，并赋予所有友军<font color='#red#'>激励</font>状态，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：恢复<font color='#green2#'>{id =301701,index=1,format = 2}</font>攻击力的生命，激励状态提升<font color='#orange#'>{id =301701,index=2,format = 1}%</font>普通攻击暴击率和<font color='#orange#'>30%</font>暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：恢复<font color='#green2#'>{id =301711,index=1,format = 2}</font>攻击力的生命，激励状态提升<font color='#orange#'>{id =301711,index=2,format = 1}%</font>普通攻击暴击率和<font color='#orange#'>30%</font>暴击伤害；<br/><font color='#purple#'>终结阶段</font>：恢复<font color='#green2#'>{id =301721,index=1,format = 2}</font>攻击力的生命，激励状态提升<font color='#orange#'>{id =301721,index=2,format = 1}%</font>普通攻击暴击率和<font color='#orange#'>30%</font>暴击伤害。",
+		["params"] = "res/image/ui/04_skill/failure.png",
 	},
 	[532232] = {
 		["max_level"] = 1,
@@ -1207,28 +1222,19 @@ skillgroup = {
 		["full_desc"] = "敌人没有携带英雄技能施加的防御提升buff时，对敌人伤害增加100%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[108040] = {
-		["max_level"] = 10,
+	[532241] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "希尔芬对全体单位造成伤害并随机赋予碎甲状态。",
+		["simple_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
 		["skill_type"] = 1,
-		["probability"] = 3400,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30637,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30638,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30639,
+				["sid"] = 532241,
 			},
 		},
-		["key"] = 108040,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -1236,13 +1242,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "烈风",
-		["combo_value"] = 2,
+		["key"] = 532241,
+		["name"] = "沙盗头目",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "希尔芬将不可控制的暴躁风元素投掷到敌方中心，风元素在远离希尔芬之后开始暴怒并逐渐变成烈风，对全体敌方单位造成<font color='#orange#'>1</font>次伤害并随后造成<font color='#orange#'>多</font>次随机单体伤害并赋予碎甲状态，多次受到烈风伤害的单位<font color='#orange#'>会且仅会受到一层</font>碎甲效果。<br/><font color='#green1#'>战斗开始</font>：对敌方全体造成<font color='#green1#'>{id =30637,index=1,format = 2}</font>攻击力的伤害，随后造成<font color='#orange#'>3</font>次<font color='#green1#'>{id =306371,index=1,format = 2}</font>攻击力的随机单体伤害；<br/><font color='#blue1#'>激战阶段</font>：对敌方全体造成<font color='#green1#'>{id =30637,index=1,format = 2}</font>攻击力的伤害，随后造成<font color='#orange#'>3</font>次<font color='#green1#'>{id =306371,index=1,format = 2}</font>攻击力的随机单体伤害；<br/><font color='#purple#'>终结阶段</font>：对敌方全体造成<font color='#green1#'>{id =30637,index=1,format = 2}</font>攻击力的伤害，随后造成<font color='#orange#'>3</font>次<font color='#green1#'>{id =306371,index=1,format = 2}</font>攻击力的随机单体伤害。<br/>（<font color='#orange#'>碎甲</font>效果会降低持有该效果的角色<font color='#green2#'>{id =40019,index=2,format = 2}</font>防御，持续<font color='#orange#'>6</font>秒。碎甲效果最多叠加2层。)",
-		["params"] = "res/image/ui/04_skill/strongwind.png",
+		["full_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50061] = {
 		["max_level"] = 1,
@@ -1567,25 +1572,17 @@ skillgroup = {
 		["name"] = "光明会狂战",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521104] = {
+	[534300] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
-		["skill_type"] = 1,
+		["simple_desc"] = "每次受击伤害不超过最大生命的2%。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5211041,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211042,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211043,
+				["sid"] = 534300,
 			},
 		},
 		["consume"] = {
@@ -1595,11 +1592,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521104,
-		["name"] = "光明会拳师",
+		["key"] = 534300,
+		["name"] = "守护印记",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["full_desc"] = "每次受击伤害不超过最大生命的2%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[5925202] = {
@@ -4338,7 +4335,7 @@ skillgroup = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "与怪物战斗时，夺魂之镰与冥界狱火会减治疗且当恢复时攻击。",
+		["simple_desc"] = "与怪物战斗时，夺魂之镰与冥界狱火会减治疗且当恢复时加攻。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
@@ -4353,7 +4350,7 @@ skillgroup = {
 		["name"] = "禁疗之镰",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，夺魂之镰和冥界狱火会降低目标所受治疗量<font color='#green2#'>{id =950011, index=1, format = 2}</font>，且当敌方恢复生命时，发射魔法球攻击目标，造成<font color='#green2#'>{id =950013, index=1, format = 2}</font>攻击力伤害（内置冷却<font color='#orange#'>1.5</font>秒），持续<font color='#orange#'>8</font>秒。",
+		["full_desc"] = "与怪物战斗时，夺魂之镰和冥界狱火会降低目标所受治疗量<font color='#green2#'>{id =950011, index=1, format = 2}</font>，且当敌方恢复生命时，使下一次技能增加<font color='#green2#'>{id =950013, index=1, format = 2}</font>攻击力伤害（内置冷却<font color='#orange#'>1.5</font>秒），可叠加<font color='#orange#'>3</font>层，持续<font color='#orange#'>8</font>秒。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[534400] = {
@@ -4383,20 +4380,28 @@ skillgroup = {
 		["full_desc"] = "每次受到技能伤害时都会为自身恢复一次血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[108310] = {
+	[50068] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "薇薇安圣剑会激发其他剑灵并随同攻击",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30640,
+				["sid"] = 500681,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 500682,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 500683,
 			},
 		},
-		["key"] = 108310,
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50068,
+		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -4404,13 +4409,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "圣剑之主",
-		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "薇薇安取得了圣剑的认可，在圣剑的庇护下能激发其他剑的剑灵并获得<font color='#orange#'>传承之力</font>。在薇薇安释放技能时会获得<font color='#orange#'>极大的攻速</font>提升直到下次普攻触发，且该次普攻圣剑会驱使其他剑灵<font color='#orange#'>一同攻击</font>。",
-		["params"] = "res/image/ui/04_skill/passive/consciousnessofthechoosen.png",
+		["name"] = "撕咬",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80157] = {
 		["max_level"] = 10,
@@ -5019,39 +5022,36 @@ skillgroup = {
 		["name"] = "光明会牧师",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[9000005] = {
+	[530332] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "单体目标破甲",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 803412,
+				["sid"] = 5303321,
+			},
+			[2] = {
+				["round"] = 0,
+				["sid"] = 5303322,
 			},
 		},
-		["key"] = 9000005,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "单破甲",
-		["combo_value"] = 1,
+		["key"] = 530332,
+		["name"] = "零歧电击者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "单体目标破甲",
-		["params"] = "res/image/ui/04_skill/passive/exgift.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[530333] = {
 		["max_level"] = 1,
@@ -6139,7 +6139,7 @@ skillgroup = {
 		["name"] = "迟缓",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，秘蛇之毒和吞世魔蛇命中后会降低目标攻速<font color='#green2#'>{id =950111, index=1, format = 2}</font>，持续<font color='#orange#'>6</font>秒，并对攻速变化的单位额外造成<font color='#green2#'>{id =950112, index=1, format = 2}</font>攻击力的伤害。",
+		["full_desc"] = "与怪物战斗时，秘蛇之毒和吞世魔蛇命中后会降低目标攻速<font color='#green2#'>{id =950111, index=1, format = 2}</font>，持续<font color='#orange#'>6</font>秒，若目标本次战斗受到过攻速提升增益状态的加成，则额外造成<font color='#green2#'>{id =950112, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[532432] = {
@@ -7374,37 +7374,39 @@ skillgroup = {
 		["full_desc"] = "神秘的音乐弥漫全场，持续治愈敌我双方生命值最低的角色，持续<font color='#orange#'>3</font>秒；同时降低其攻击力，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：友军目标每秒恢复<font color='#green2#'>{id =30362,index=1,key='buff_add_hp',format = 2}</font>但丁攻击力的生命，敌方目标每秒恢复<font color='#green2#'>{id =303622,index=1,key='buff_add_hp',format = 2}</font>但丁攻击力的生命，已方目标降低<font color='#orange#'>{id =303621,index=1,key='buff_sub_gj',format = 2}</font>攻击力，敌方目标降低<font color='#orange#'>{id =303623,index=1,key='buff_sub_gj',format = 2}</font>攻击力；<br/><font color='#blue1#'>激战阶段</font>：友军目标每秒恢复<font color='#green2#'>{id =30363,index=1,key='buff_add_hp',format = 2}</font>但丁攻击力的生命，敌方目标每秒恢复<font color='#green2#'>{id =303632,index=1,key='buff_add_hp',format = 2}</font>但丁攻击力的生命，已方目标降低<font color='#orange#'>{id =303621,index=1,key='buff_sub_gj',format = 2}</font>攻击力，敌方目标降低<font color='#orange#'>{id =303623,index=1,key='buff_sub_gj',format = 2}</font>攻击力；<br/><font color='#purple#'>终结阶段</font>：友军目标每秒恢复<font color='#green2#'>{id =30364,index=1,key='buff_add_hp',format = 2}</font>但丁攻击力的生命，敌方目标每秒恢复<font color='#green2#'>{id =303642,index=1,key='buff_add_hp',format = 2}</font>但丁攻击力的生命，已方目标降低<font color='#orange#'>{id =303621,index=1,key='buff_sub_gj',format = 2}</font>攻击力，敌方目标降低<font color='#orange#'>{id =303623,index=1,key='buff_sub_gj',format = 2}</font>攻击力。",
 		["params"] = "res/image/ui/04_skill/divinetune.png",
 	},
-	[80172] = {
-		["max_level"] = 10,
+	[521215] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80172,
+				["sid"] = 5212151,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5212152,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5212153,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80172,
-		["name"] = "齐格飞 白",
+		["key"] = 521215,
+		["name"] = "零歧压迫者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "魔剑解放的脆弱伤害增加10%，同时技能伤害提升<font color='#green2#'>50%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521216] = {
@@ -7570,39 +7572,37 @@ skillgroup = {
 		["name"] = "粉碎撕咬",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521219] = {
-		["max_level"] = 1,
+	[80173] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5212191,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5212192,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5212193,
+				["sid"] = 80173,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521219,
-		["name"] = "末日裁决者",
+		["key"] = 80173,
+		["name"] = "齐格飞 白EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "魔剑解放的脆弱伤害增加20%，同时技能伤害提升<font color='#green2#'>100%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521220] = {
@@ -8248,7 +8248,7 @@ skillgroup = {
 		["name"] = "瞬身术",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，奥义:乱舞会提升自身的闪避<font color='#green2#'>{id =950211, index=1, format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>与怪物战斗时，疾风每次闪避都会提升自身<font color='#green2#'>{id =950212, index=1, format = 2}</font>攻击力，最多叠加<font color='#orange#'>4</font>层，持续<font color='#orange#'>2</font>秒。",
+		["full_desc"] = "与怪物战斗时，奥义:乱舞会提升自身的闪避<font color='#green2#'>{id =950211, index=1, format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>与怪物战斗时，疾风每次闪避都会提升自身<font color='#green2#'>{id =950212, index=1, format = 2}</font>攻击力，最多叠加<font color='#orange#'>6</font>层，持续<font color='#orange#'>2</font>秒。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[108330] = {
@@ -11015,19 +11015,20 @@ skillgroup = {
 		["full_desc"] = "胜利之盾可驱散<font color='#green2#'>1</font>个负面效果，超过120%，驱散<font color='#green2#'>2</font>个，超过200%，驱散<font color='#green2#'>4</font>个。",
 		["params"] = "res/image/ui/04_skill/shieldbash.png",
 	},
-	[592016] = {
+	[106810] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "当自身释放黑暗系技能时，随机混乱1名敌方目标。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592016,
+				["sid"] = 30522,
 			},
 		},
+		["key"] = 106810,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -11035,12 +11036,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592016,
-		["name"] = "零歧电击者",
+		["name"] = "禁忌的低语",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "当自身释放黑暗系技能时，随机赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>混乱</font>效果。<br/>(<font color='#orange#'>混乱</font>状态下的目标攻速提升，普通攻击伤害大幅下降，持续<font color='#orange#'>6</font>秒)",
+		["params"] = "res/image/ui/04_skill/passive/mindgirl.png",
 	},
 	[592017] = {
 		["max_level"] = 1,
@@ -11231,25 +11233,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521301] = {
+	[592024] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5213011,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5213012,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5213013,
+				["sid"] = 592024,
 			},
 		},
 		["consume"] = {
@@ -11259,11 +11253,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521301,
-		["name"] = "森林狼",
+		["key"] = 592024,
+		["name"] = "小火龙",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592025] = {
@@ -11293,17 +11287,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60068] = {
-		["max_level"] = 10,
+	[592026] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60068,
+				["sid"] = 592026,
 			},
 		},
 		["consume"] = {
@@ -11313,13 +11307,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60068,
-		["name"] = "趁虚而入",
+		["key"] = 592026,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放灵魂震颤时，会额外触发3次伤害，每次造成<font color='#green2#'>{id =600681, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/spiritbreak.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592027] = {
 		["max_level"] = 1,
@@ -11348,25 +11341,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521303] = {
+	[592028] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5213031,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5213032,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5213033,
+				["sid"] = 592028,
 			},
 		},
 		["consume"] = {
@@ -11376,11 +11361,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521303,
-		["name"] = "石头人",
+		["key"] = 592028,
+		["name"] = "黑蔷薇剑兵",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[105020] = {
@@ -11993,7 +11978,7 @@ skillgroup = {
 		["name"] = "拯救之罚",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，拯救会降下天罚攻击敌方前排，造成的伤害与目标当前防御以及自身当前防御有关。（敌方防御越高伤害越高，最低不低于自身当前攻击力的<font color='#green2#'>30%</font>，最高不超过自身初始攻击力的<font color='#green2#'>600%</font>）。",
+		["full_desc"] = "与怪物战斗时，拯救会降下天罚攻击敌方前排，造成<font color='#green2#'>{id =950411, index=1, format = 2}</font>攻击力的伤害，若目标受到了防御类增益状态的加成，则额外造成<font color='#orange#'>无视防御的</font><font color='#green2#'>{id =950414, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[521314] = {
@@ -13761,7 +13746,7 @@ skillgroup = {
 		["name"] = "打不过我",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，流水标记赋予的回血量提升<font color='#green2#'>{id =950512, index=1, format = 2}</font>，并且当夏洛特被带有流水标记的敌人普攻命中时，反击对方<font color='#orange#'>1次</font>（内置冷却<font color='#orange#'>1.5</font>秒），造成<font color='#green2#'>{id =950513, index=1, format = 2}</font>攻击力的伤害。",
+		["full_desc"] = "与怪物战斗时，流水标记赋予的回血量提升<font color='#green2#'>{id =950512, index=1, format = 2}</font>，并且当夏洛特被带有流水标记的敌人普攻命中时，反击对方<font color='#orange#'>1</font>次（内置冷却<font color='#orange#'>1.5</font>秒），造成<font color='#green2#'>{id =950513, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[534800] = {
@@ -15887,25 +15872,17 @@ skillgroup = {
 		["name"] = "惩罚搜捕者普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521401] = {
+	[592224] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214011,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214012,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214013,
+				["sid"] = 592224,
 			},
 		},
 		["consume"] = {
@@ -15915,11 +15892,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521401,
-		["name"] = "骷髅战士",
+		["key"] = 592224,
+		["name"] = "小火龙",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592225] = {
@@ -15949,17 +15926,25 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592226] = {
+	[521402] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592226,
+				["sid"] = 5214021,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214022,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214023,
 			},
 		},
 		["consume"] = {
@@ -15969,11 +15954,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592226,
-		["name"] = "光明会牧师",
+		["key"] = 521402,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592227] = {
@@ -16162,25 +16147,17 @@ skillgroup = {
 		["full_desc"] = "神圣回响在5层到12层会额外提供辅助目标一层伊莎贝拉攻击力<font color='#green2#'>{id =902011, index=1, format = 2}</font>的护盾值。",
 		["params"] = "res/image/ui/04_skill/callingangel.png",
 	},
-	[521405] = {
+	[592232] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214051,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214052,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214053,
+				["sid"] = 592232,
 			},
 		},
 		["consume"] = {
@@ -16190,11 +16167,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521405,
-		["name"] = "沙漠毒蝎",
+		["key"] = 592232,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103510] = {
@@ -18052,17 +18029,17 @@ skillgroup = {
 		["full_desc"] = "每次释放技能对怪物造成伤害时，有<font color='#green2#'>80%</font>概率释放一个光弹，造成<font color='#green2#'>{id =600496, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/anglebless.png",
 	},
-	[592302] = {
-		["max_level"] = 1,
+	[600492] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592302,
+				["sid"] = 600492,
 			},
 		},
 		["consume"] = {
@@ -18072,12 +18049,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592302,
-		["name"] = "骷髅弓箭手",
+		["key"] = 600492,
+		["name"] = "圣光弹",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "每次释放技能对怪物造成伤害时，有<font color='#green2#'>90%</font>概率释放一个光弹，造成<font color='#green2#'>{id =600497, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/anglebless.png",
 	},
 	[200351] = {
 		["max_level"] = 10,
@@ -18221,31 +18199,37 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592308] = {
-		["max_level"] = 1,
+	[80229] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592308,
+				["sid"] = 80229,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592308,
-		["name"] = "小火龙",
+		["key"] = 80229,
+		["name"] = "维多利亚 白EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "镜之领域随机给<font color='#green2#'>2</font>个敌方目标赋予<font color='#green2#'>1</font>层诅咒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592309] = {
@@ -18358,17 +18342,17 @@ skillgroup = {
 		["full_desc"] = "释放黄昏之刃时，齐格飞会恢复<font color='#green2#'>1</font>层龙血。",
 		["params"] = "res/image/ui/04_skill/duskblade.png",
 	},
-	[592312] = {
-		["max_level"] = 1,
+	[903532] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592312,
+				["sid"] = 903532,
 			},
 		},
 		["consume"] = {
@@ -18378,11 +18362,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592312,
-		["name"] = "鬼魂",
+		["key"] = 903532,
+		["name"] = "帝企鹅延迟回血",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "延迟回血",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[903533] = {
@@ -18700,17 +18685,17 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592322] = {
-		["max_level"] = 1,
+	[600512] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592322,
+				["sid"] = 600512,
 			},
 		},
 		["consume"] = {
@@ -18720,12 +18705,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592322,
-		["name"] = "獠牙战士",
+		["key"] = 600512,
+		["name"] = "碎甲弹",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物的减防效果有<font color='#green2#'>90%</font>概率增加<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
 	},
 	[600513] = {
 		["max_level"] = 10,
@@ -19153,17 +19139,17 @@ skillgroup = {
 		["full_desc"] = "随机破甲",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[903553] = {
+	[600523] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 903553,
+				["sid"] = 600523,
 			},
 		},
 		["consume"] = {
@@ -19173,13 +19159,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 903553,
-		["name"] = "帝企鹅随机回血",
+		["key"] = 600523,
+		["name"] = "腥红飞溅",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "随机破甲",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击怪物时，每次普攻有<font color='#green2#'>100%</font>概率施放一个光弹，造成<font color='#green2#'>{id =600526, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
 	},
 	[903554] = {
 		["max_level"] = 10,
@@ -20019,7 +20005,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "衰弱的减治疗效果增加<font color='#green2#'>50%</font>。",
+		["full_desc"] = "与怪物战斗时，衰弱的减治疗效果有<font color='#green2#'>90%</font>概率提升<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/puncture.png",
 	},
 	[600543] = {
@@ -20047,7 +20033,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "衰弱的减治疗效果增加<font color='#green2#'>50%</font>。",
+		["full_desc"] = "与怪物战斗时，衰弱的减治疗效果有<font color='#green2#'>100%</font>概率提升<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/puncture.png",
 	},
 	[107620] = {
@@ -20117,7 +20103,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "衰弱的减治疗效果增加<font color='#green2#'>50%</font>。",
+		["full_desc"] = "与怪物战斗时，衰弱的减治疗效果有<font color='#green2#'>100%</font>概率提升<font color='#green2#'>40%</font>。",
 		["params"] = "res/image/ui/04_skill/puncture.png",
 	},
 	[600545] = {
@@ -20145,7 +20131,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "衰弱的减治疗效果增加<font color='#green2#'>50%</font>。",
+		["full_desc"] = "与怪物战斗时，衰弱的减治疗效果有<font color='#green2#'>100%</font>概率提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/puncture.png",
 	},
 	[80235] = {
@@ -20555,38 +20541,33 @@ skillgroup = {
 		["name"] = "森林狼普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80236] = {
+	[600554] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80236,
+				["sid"] = 600554,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80236,
-		["name"] = "洛天依 白",
+		["key"] = 600554,
+		["name"] = "极寒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "苍蓝赞歌治愈辅助目标<font color='#green2#'>1</font>次，治愈量为攻击力的<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放寒冷时有<font color='#green2#'>100%</font>概率额外附加减少<font color='#green2#'>35%</font>攻击速度的效果。",
+		["params"] = "res/image/ui/04_skill/icefall.png",
 	},
 	[80492] = {
 		["max_level"] = 10,
@@ -20758,7 +20739,7 @@ skillgroup = {
 		["name"] = "爆燃符文",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，炽热符文有<font color='#orange#'>100%</font>概率对前排附加<font color='#orange#'>1</font>层灼烧，有<font color='#orange#'>50%</font>概率对其他敌人附加<font color='#orange#'>1</font>层灼烧。",
+		["full_desc"] = "与怪物战斗时，炽热符文有<font color='#orange#'>100%</font>概率对前排附加<font color='#orange#'>1</font>层灼烧，有<font color='#orange#'>70%</font>概率对其他敌人附加<font color='#orange#'>1</font>层灼烧。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[582132] = {
@@ -20860,33 +20841,27 @@ skillgroup = {
 		["full_desc"] = "苍蓝赞歌治愈辅助目标<font color='#green2#'>2</font>次，治愈量为攻击力的<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80493] = {
-		["max_level"] = 10,
+	[582135] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80493,
+				["sid"] = 582135,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 80493,
-		["name"] = "桑妮SP白",
+		["key"] = 582135,
+		["name"] = "罗萨",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "烈焰之灵辅助的目标攻击护盾时，桑妮SP将额外削减<font color='#green2#'>100%</font>攻击力的护盾值。",
-		["params"] = "res/image/ui/04_skill/passive/singer.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[582136] = {
 		["max_level"] = 1,
@@ -21732,38 +21707,27 @@ skillgroup = {
 		["full_desc"] = "残酷赐福的每个法球伤害提高<font color='#green2#'>{id =90221, index=1, format = 2}</font>，且受到的第一次普攻不会失去标记。",
 		["params"] = "res/image/ui/04_skill/cruelbuff.png",
 	},
-	[70003] = {
-		["max_level"] = 10,
+	[580115] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70003,
+				["sid"] = 580115,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 70003,
-		["name"] = "护盾",
+		["key"] = 580115,
+		["name"] = "树妖",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "开场时获得一个吸收<font color='#green2#'>200%</font>攻击力伤害的护盾，持续20秒。",
-		["params"] = "res/image/ui/04_skill/shieldbash.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592401] = {
 		["max_level"] = 1,
@@ -21868,7 +21832,7 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592405] = {
+	[580120] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -21878,49 +21842,51 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592405,
+				["sid"] = 580120,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592405,
-		["name"] = "兄弟会刺客",
+		["key"] = 580120,
+		["name"] = "沙漠地龙",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592406] = {
+	[101740] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每当自身释放一次灼烧，有概率再释放一次灼烧。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592406,
+				["sid"] = 30470,
 			},
 		},
+		["key"] = 101740,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592406,
-		["name"] = "兄弟会弩手",
+		["name"] = "烈炎",
+		["combo_value"] = 3,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "每当自身释放一次灼烧，有<font color='#orange#'>50%</font>概率再对敌方随机目标释放<font color='#orange#'>1</font>次，每3秒内最多触发一次。",
+		["params"] = "res/image/ui/04_skill/passive/fireman.png",
 	},
 	[51006] = {
 		["max_level"] = 1,
@@ -22097,7 +22063,7 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592410] = {
+	[580125] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -22107,18 +22073,13 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592410,
+				["sid"] = 580125,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592410,
-		["name"] = "骷髅法师",
+		["key"] = 580125,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -22156,7 +22117,7 @@ skillgroup = {
 		["name"] = "普通攻击(维多利亚)",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580127] = {
+	[592412] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -22166,19 +22127,24 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580127,
+				["sid"] = 592412,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580127,
-		["name"] = "零岐压迫者",
+		["key"] = 592412,
+		["name"] = "鬼魂",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580128] = {
+	[592413] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -22188,13 +22154,18 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580128,
+				["sid"] = 592413,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580128,
-		["name"] = "零岐监工",
+		["key"] = 592413,
+		["name"] = "零歧监工",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -22271,58 +22242,48 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592417] = {
+	[580132] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592417,
+				["sid"] = 580132,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592417,
-		["name"] = "独角兽",
+		["key"] = 580132,
+		["name"] = "零岐电击使",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592418] = {
+	[580133] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592418,
+				["sid"] = 580133,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592418,
-		["name"] = "惩罚搜捕者",
+		["key"] = 580133,
+		["name"] = "北境叛军男",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[108140] = {
@@ -22362,31 +22323,26 @@ skillgroup = {
 		["full_desc"] = "格莱明双枪合一，以流星为指引，屏息凝神，打出致命一发子弹，连流星也为之陨落；攻击<font color='#orange#'>1</font>名攻击力最高的敌人，双方每<font color='#orange#'>100</font>距离增加<font color='#orange#'>50%</font>攻击力的伤害，目标身上每层<font color='#orange#'>星落</font>标记都会提升此次伤害<font color='#orange#'>10%</font>。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30834,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30835,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30836,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/meteorguide.png",
 	},
-	[592419] = {
+	[580134] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592419,
+				["sid"] = 580134,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592419,
-		["name"] = "末日裁决者",
+		["key"] = 580134,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592420] = {
@@ -22458,17 +22414,17 @@ skillgroup = {
 		["full_desc"] = "神圣系技能，连续斩击<font color='#orange#'>1</font>名敌人。<br/><font color='#green1#'>战斗开始</font>：攻击<font color='#orange#'>2</font>次,每1击造成<font color='#green2#'>{id =300031,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：攻击<font color='#orange#'>3</font>次,每1击造成<font color='#green2#'>{id =300061,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：攻击<font color='#orange#'>3</font>次,每1击造成<font color='#green2#'>{id =300091,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/holycombo.png",
 	},
-	[600612] = {
-		["max_level"] = 10,
+	[592422] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600612,
+				["sid"] = 592422,
 			},
 		},
 		["consume"] = {
@@ -22478,13 +22434,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600612,
-		["name"] = "圣光洗礼",
+		["key"] = 592422,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放裁决时，会削弱所有怪物<font color='#green2#'>2层</font>护盾效果。",
-		["params"] = "res/image/ui/04_skill/holyblade.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51007] = {
 		["max_level"] = 1,
@@ -22585,17 +22540,25 @@ skillgroup = {
 		["full_desc"] = "瓦恩濒死(血量低于30%)时会爆发不屈的意志，赋予自身<font color='#orange#'>1</font>层<font color='#orange#'>觉醒印记</font>；同时提升自己<font color='#orange#'>300%</font>的防御力，持续<font color='#orange#'>8</font>秒。进场时自带<font color='#orange#'>1</font>层<font color='#orange#'>觉醒印记</font>(觉醒印记不会被驱散，最多叠加<font color='#orange#'>4</font>层)。不灭信仰触发拥有<font color='#orange#'>8</font>秒的冷却时间。",
 		["params"] = "res/image/ui/04_skill/passive/unyieldingfaith.png",
 	},
-	[90481] = {
-		["max_level"] = 10,
+	[521501] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90481,
+				["sid"] = 5215011,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215012,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215013,
 			},
 		},
 		["consume"] = {
@@ -22605,13 +22568,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90481,
-		["name"] = "侵蚀之毒",
+		["key"] = 521501,
+		["name"] = "森林狼",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "释放侵蚀时，会对随机目标额外赋予一层不协之毒，重复<font color='#green2#'>1</font>次。",
-		["params"] = "res/image/ui/04_skill/salt.png",
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580140] = {
 		["max_level"] = 1,
@@ -22662,26 +22624,31 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580142] = {
+	[592427] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580142,
+				["sid"] = 592427,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580142,
-		["name"] = "黑蔷薇杖兵",
+		["key"] = 592427,
+		["name"] = "黑蔷薇剑兵",
 		["counter_type"] = {
 		},
-		["full_desc"] = "赋予敌方流血状态。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[20005] = {
@@ -22765,17 +22732,25 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592430] = {
+	[521504] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592430,
+				["sid"] = 5215041,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215042,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215043,
 			},
 		},
 		["consume"] = {
@@ -22785,14 +22760,14 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592430,
-		["name"] = "巫师鲁恩",
+		["key"] = 521504,
+		["name"] = "树妖",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592431] = {
+	[580146] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -22802,18 +22777,13 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592431,
+				["sid"] = 580146,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592431,
-		["name"] = "骷髅战士",
+		["key"] = 580146,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -23251,31 +23221,26 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592440] = {
+	[580155] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每次受到伤害不超过自身最大生命值的3%。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592440,
+				["sid"] = 580155,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592440,
-		["name"] = "骷髅法师",
+		["key"] = 580155,
+		["name"] = "被动-伤害受限",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "每次受到伤害不超过自身最大生命值的3%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[578108] = {
@@ -23463,80 +23428,81 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580159] = {
+	[592444] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592444,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592444,
+		["name"] = "北境叛军女",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80502] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80502,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80502,
+		["name"] = "薇薇安SP黑EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "释放克拉伦特后增加<font color='#green2#'>100%</font>的暴击伤害，持续3秒。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
+	},
+	[580160] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "赋予自身若干层破甲印记，该标记每次受到伤害时减少1层。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580159,
+				["sid"] = 580160,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580159,
-		["name"] = "被动-链甲",
+		["key"] = 580160,
+		["name"] = "被动-破甲印记",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[578112] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 578112,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 578112,
-		["name"] = "魔女娜娜",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592445] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592445,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592445,
-		["name"] = "零歧压迫者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "赋予自身若干层破甲印记，该标记每次受到伤害时减少1层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[700963] = {
@@ -23752,27 +23718,27 @@ skillgroup = {
 		["full_desc"] = "水系技能，夏洛特控制水流攻击<font color='#orange#'>1</font>名敌人，造成伤害，同时控制水元素困住目标，并赋予<font color='#orange#'>1</font>层<font color='#orange#'>流水</font>标记。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30553,index=1,format = 2}</font>攻击力的伤害，并使目标无法受到来自友军的<font color='#orange#'>攻击增幅</font>效果，持续<font color='#orange#'>3</font>秒；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30554,index=1,format = 2}</font>攻击力的伤害，并使目标无法受到来自友军的<font color='#orange#'>攻击增幅</font>与<font color='#orange#'>治疗</font>效果，持续<font color='#orange#'>3</font>秒；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30555,index=1,format = 2}</font>攻击力的伤害，并使目标无法受到来自友军的<font color='#orange#'>攻击增幅</font>、<font color='#orange#'>治疗</font>与<font color='#orange#'>防御增幅</font>效果，持续<font color='#orange#'>3</font>秒。",
 		["params"] = "res/image/ui/04_skill/warterburst.png",
 	},
-	[95091] = {
-		["max_level"] = 10,
+	[580164] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "与怪物战斗时，多重射击和破甲射击降防御并附加额外伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 95091,
+				["sid"] = 580164,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 95091,
-		["name"] = "连续穿甲",
+		["key"] = 580164,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，多重射击和破甲射击额外减少1名前排敌人<font color='#green2#'>{id =950911, index=1, format = 2}</font>防御，持续<font color='#orange#'>6</font>秒；并额外造成<font color='#green2#'>自身攻击力与目标防御力差值</font>的伤害。",
-		["params"] = "res/image/ui/04_skill/sublimation.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580165] = {
 		["max_level"] = 1,
@@ -23891,7 +23857,7 @@ skillgroup = {
 		["full_desc"] = "释放杜兰达尔后普攻造成伤害时降低目标<font color='#green2#'>2%</font>的攻击力的效果， 持续6秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[580168] = {
+	[592453] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -23901,13 +23867,18 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580168,
+				["sid"] = 592453,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580168,
-		["name"] = "鬼魂",
+		["key"] = 592453,
+		["name"] = "獠牙酋长",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -23946,26 +23917,39 @@ skillgroup = {
 		["full_desc"] = "普通攻击造成伤害时，提升自身<font color='#green2#'>{id =7009711, index=1, format = 2}</font>的防御，持续3秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/unfearbless.png",
 	},
-	[580169] = {
+	[521516] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580169,
+				["sid"] = 5215161,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215162,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215163,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580169,
-		["name"] = "被动-狂暴",
+		["key"] = 521516,
+		["name"] = "零歧电击者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51009] = {
@@ -24057,26 +24041,31 @@ skillgroup = {
 		["full_desc"] = "普通攻击造成伤害时，提升自身<font color='#green2#'>{id =7009731, index=1, format = 2}</font>的防御，持续3秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/unfearbless.png",
 	},
-	[580171] = {
+	[592456] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "极大地降低敌方英雄的技能伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580171,
+				["sid"] = 592456,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580171,
-		["name"] = "被动-技能削弱",
+		["key"] = 592456,
+		["name"] = "树妖",
 		["counter_type"] = {
 		},
-		["full_desc"] = "极大地降低敌方英雄的技能伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[700974] = {
@@ -24112,31 +24101,26 @@ skillgroup = {
 		["full_desc"] = "普通攻击造成伤害时，提升自身<font color='#green2#'>{id =7009741, index=1, format = 2}</font>的防御，持续3秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/unfearbless.png",
 	},
-	[592457] = {
+	[580172] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592457,
+				["sid"] = 580172,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592457,
-		["name"] = "黑蔷薇剑兵",
+		["key"] = 580172,
+		["name"] = "被动-反伤",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[700975] = {
@@ -24172,31 +24156,26 @@ skillgroup = {
 		["full_desc"] = "普通攻击造成伤害时，提升自身<font color='#green2#'>{id =7009751, index=1, format = 2}</font>的防御，持续3秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/unfearbless.png",
 	},
-	[592458] = {
+	[580173] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "释放技能时增加自身攻速与暴击。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592458,
+				["sid"] = 580173,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592458,
-		["name"] = "黑蔷薇杖兵",
+		["key"] = 580173,
+		["name"] = "被动-爆裂普攻",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "释放技能时增加自身攻速与暴击。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580174] = {
@@ -24303,29 +24282,7 @@ skillgroup = {
 		["full_desc"] = "释放杜兰达尔后普攻造成伤害时降低目标<font color='#green2#'>4%</font>的攻击力的效果， 持续6秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[580176] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升己方全体防御；领袖死亡时，对其他队友造成伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580176,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580176,
-		["name"] = "被动-追击",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升己方全体防御；领袖死亡时，对其他队友造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600652] = {
+	[600651] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -24335,7 +24292,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600652,
+				["sid"] = 600651,
 			},
 		},
 		["consume"] = {
@@ -24345,13 +24302,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600652,
+		["key"] = 600651,
 		["name"] = "血影",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "杰克攻击怪物时，释放血腥一闪的同时提升杰克<font color='#green2#'>{id =6006521, index=1,key='buff_add_gj ',format = 2}</font>的攻击力。",
+		["full_desc"] = "杰克攻击怪物时，释放血腥一闪的同时提升杰克<font color='#green2#'>{id =6006511, index=1,key='buff_add_gj ',format = 2}</font>的攻击力。",
 		["params"] = "res/image/ui/04_skill/bloodyshining.png",
+	},
+	[592462] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方全体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592462,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592462,
+		["name"] = "剧毒亚龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方全体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[600653] = {
 		["max_level"] = 10,
@@ -24410,26 +24394,39 @@ skillgroup = {
 		["full_desc"] = "每当伊露丽释放技能时，会根据释放的技能获得不同的印记：<br/>活性金属，获得<font color='#orange#'>1</font>层<font color='#orange#'>硫</font>之印记；<br/>水银之刃时，炼制<font color='#orange#'>1</font>层<font color='#orange#'>汞</font>之印记；<br/>侵蚀，获得<font color='#orange#'>1</font>层<font color='#orange#'>盐</font>之印记。<br/>每个标记可分别叠加至<font color='#orange#'>2</font>层，标记达到2层时会赋予自身提升不协之毒伤害<font color='#orange#'>20%</font>的效果，持续10秒。",
 		["params"] = "res/image/ui/04_skill/passive/realhuman.png",
 	},
-	[580179] = {
+	[521521] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580179,
+				["sid"] = 5215211,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215212,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215213,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580179,
-		["name"] = "被动-链甲",
+		["key"] = 521521,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[700982] = {
@@ -24520,39 +24517,26 @@ skillgroup = {
 		["full_desc"] = "自身受到的异常状态伤害降低<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/defence.png",
 	},
-	[521522] = {
+	[580181] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215221,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215222,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215223,
+				["sid"] = 580181,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521522,
-		["name"] = "零歧监工",
+		["key"] = 580181,
+		["name"] = "被动-追加光弹",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[700984] = {
@@ -24588,26 +24572,31 @@ skillgroup = {
 		["full_desc"] = "自身受到的异常状态伤害降低<font color='#green2#'>28%</font>。",
 		["params"] = "res/image/ui/04_skill/defence.png",
 	},
-	[580182] = {
+	[592467] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
+		["simple_desc"] = "一定时间驱散自身的负面异常状态。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580182,
+				["sid"] = 592467,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580182,
-		["name"] = "叛军首领",
+		["key"] = 592467,
+		["name"] = "被动-驱散异常状态",
 		["counter_type"] = {
 		},
-		["full_desc"] = "赋予敌方流血状态。",
+		["full_desc"] = "每3秒驱散一次自身的负面异常状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[700985] = {
@@ -24643,70 +24632,83 @@ skillgroup = {
 		["full_desc"] = "自身受到的异常状态伤害降低<font color='#green2#'>40%</font>。",
 		["params"] = "res/image/ui/04_skill/defence.png",
 	},
-	[580183] = {
+	[592468] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580183,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580183,
-		["name"] = "白熊",
-		["counter_type"] = {
-		},
-		["full_desc"] = "赋予敌方流血状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592469] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御。",
+		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御，同时降低敌人治疗效果。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592469,
+				["sid"] = 592468,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 592469,
+		["key"] = 592468,
 		["name"] = "被动-领袖集火",
 		["counter_type"] = {
 		},
 		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御；领袖死亡时，对其他队友造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592470] = {
+	[580184] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "战斗进入到后期时，怪物将极大的提升自己的攻击力。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592470,
+				["sid"] = 580184,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 592470,
-		["name"] = "被动-狂暴",
+		["key"] = 580184,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "战斗进入到后期时，怪物将极大的提升自己的攻击力。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521524] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215241,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215242,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215243,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521524,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51010] = {
@@ -24881,26 +24883,26 @@ skillgroup = {
 		["full_desc"] = "自身的群体技能造成伤害时，降低敌方攻击力最高的单位<font color='#green2#'>{id =7009911, index=1, format = 2}</font>的攻击力，持续6秒。",
 		["params"] = "res/image/ui/04_skill/heavybob.png",
 	},
-	[580189] = {
+	[592474] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每当自身受到技能或异常状态伤害时，恢复自身血量。",
+		["simple_desc"] = "第一次能量条清空时，赋予自身伤害增强效果。当敌人释放主动的防御提升技能时，清除伤害增强的效果。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580189,
+				["sid"] = 592474,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580189,
-		["name"] = "被动-受击回复",
+		["key"] = 592474,
+		["name"] = "被动-防御考验",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每当自身受到技能或异常状态伤害时，恢复自身血量。",
+		["full_desc"] = "第一次能量条清空时，赋予自身伤害增强效果。当敌人释放主动的防御提升技能时，清除伤害增强的效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580190] = {
@@ -25921,26 +25923,31 @@ skillgroup = {
 		["full_desc"] = "神圣系技能，英普瑞斯将圣剑化作荣光之翼，攻击<font color='#orange#'>1</font>名<font color='#orange#'>当前攻击力最高</font>的敌人，每层<font color='#orange#'>荣耀</font>提升此伤害<font color='#orange#'>6%</font>。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30609,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30610,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30611,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/Glorytrial.png",
 	},
-	[312701] = {
+	[592514] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 312701,
+				["sid"] = 592514,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 312701,
-		["name"] = "北境叛军男",
+		["key"] = 592514,
+		["name"] = "狮鹫",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[701032] = {
@@ -26119,39 +26126,47 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51013] = {
-		["max_level"] = 1,
+	[102010] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "群体攻击，削弱被致盲敌人的防御。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510131,
+				["sid"] = 30158,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 510132,
+				["sid"] = 30159,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 510133,
+				["sid"] = 30160,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 51013,
-		["simple_desc"] = "攻击目标单体",
+		["key"] = 102010,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["name"] = "护甲崩坏",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "骷髅法师",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击全体敌人，同时削弱被<font color='#orange#'>致盲</font>敌人<font color='#orange#'>{id =301582,index=1,format = 2}</font>的防御，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =301581,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =301591,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =301601,index=1,format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/armorbreak.png",
 	},
 	[70018] = {
 		["max_level"] = 10,
@@ -26326,6 +26341,34 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[80512] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80512,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80512,
+		["name"] = "比南纳尔黑EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "智慧的洞察获得的暴击伤害提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
+	},
 	[572050] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -26499,17 +26542,17 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，艾琳释放的恐惧结束后恢复的血量减少<font color='#green2#'>{id =951011, index=1, format = 2}</font>。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
-	[592530] = {
+	[572055] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗后，降低非组合技技能伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592530,
+				["sid"] = 572055,
 			},
 		},
 		["consume"] = {
@@ -26519,46 +26562,39 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592530,
-		["name"] = "被动-考验组合技",
+		["key"] = 572055,
+		["name"] = "兄弟会刺客",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，降低非组合技技能伤害。",
+		["full_desc"] = "攻击敌方单体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[108410] = {
-		["max_level"] = 10,
+	[592531] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "比南纳尔提升自身的普攻暴击伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30650,
+				["sid"] = 592531,
 			},
 		},
-		["key"] = 108410,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "智慧的洞察",
-		["combo_value"] = 2,
+		["key"] = 592531,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "比南纳尔运用智慧进行炮击，洞察敌人的弱点，当自身普攻暴击时，提升暴击伤害，提升的百分比数值为自身的暴击率数值的<font color='#orange#'>{id =306502,index=1,format = 2}</font>。",
-		["params"] = "res/image/ui/04_skill/passive/wisdompower.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80001] = {
 		["max_level"] = 10,
@@ -26620,17 +26656,17 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[578200] = {
-		["max_level"] = 1,
+	[80513] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次能量条清空时，提升自身暴击率和暴击伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 578200,
+				["sid"] = 80513,
 			},
 		},
 		["consume"] = {
@@ -26640,12 +26676,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 578200,
-		["name"] = "暴击",
+		["key"] = 80513,
+		["name"] = "比南纳尔白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次能量条清空时，提升自身暴击率和暴击伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放智慧之力后，蓄力期间队友的普攻暴击为比南纳尔提供的暴击率提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
 	[592533] = {
 		["max_level"] = 1,
@@ -26942,38 +26979,60 @@ skillgroup = {
 		["full_desc"] = "进战斗后，提升自身<font color='#green1#'>18%</font>攻击力。",
 		["params"] = "res/image/ui/04_skill/judgepower.png",
 	},
-	[80258] = {
-		["max_level"] = 10,
+	[592540] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "进入战斗后，自身获得10层怪物标记，每受到一次伤害清除一层。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80258,
+				["sid"] = 592540,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80258,
-		["name"] = "爱丽丝 黑",
+		["key"] = 592540,
+		["name"] = "怪物标记",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进入战斗后，自身获得10层怪物标记，每受到一次伤害清除一层。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80514] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80514,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80514,
+		["name"] = "比南纳尔白EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "甜蜜梦境普攻闪避效果提升<font color='#green2#'>85%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放智慧之力后，蓄力期间队友的普攻暴击为比南纳尔提供的暴击率提升<font color='#green2#'>60%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
 	[600731] = {
 		["max_level"] = 10,
@@ -28202,33 +28261,38 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90502] = {
+	[70027] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90502,
+				["sid"] = 70036,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 90502,
-		["name"] = "断罪连击",
+		["key"] = 70027,
+		["name"] = "亡者之怒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "触发断罪者后有<font color='#green2#'>50%</font>概率使下一次普攻变成断罪。",
-		["params"] = "res/image/ui/04_skill/passive/judgement.png",
+		["full_desc"] = "死亡后，释放<font color='#green2#'>10</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的20%。",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
 	[80009] = {
 		["max_level"] = 10,
@@ -28681,7 +28745,7 @@ skillgroup = {
 		["name"] = "惊鸿剑技",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，无懈可击可以抵挡的伤害值提升自身<font color='#green2#'>10%</font>的攻击力数值，同时提升艾德蕾妮专属戒指技能“剑士的威压”反弹效果<font color='#green2#'>100%</font>。",
+		["full_desc"] = "与怪物战斗时，无懈可击可以抵挡的伤害值提升自身<font color='#green2#'>10%</font>的攻击力数值，同时提升艾德蕾妮专属戒指技能“剑士的威压”反弹效果<font color='#green2#'>200%</font>。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[600801] = {
@@ -29018,17 +29082,17 @@ skillgroup = {
 		["full_desc"] = "对怪物释放圣枪时，会额外减少其<font color='#green2#'>1层</font>护盾效果。",
 		["params"] = "res/image/ui/04_skill/rhongomyniad.png",
 	},
-	[600812] = {
-		["max_level"] = 10,
+	[521600] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "每次受到攻击时，添加一层面条标记。最高10层。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600812,
+				["sid"] = 5216001,
 			},
 		},
 		["consume"] = {
@@ -29038,13 +29102,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600812,
-		["name"] = "穿透之枪",
+		["key"] = 521600,
+		["name"] = "光弹印记",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放圣枪时，会额外减少其<font color='#green2#'>2层</font>护盾效果。",
-		["params"] = "res/image/ui/04_skill/rhongomyniad.png",
+		["full_desc"] = "每次受到攻击时，添加一层面条标记。最高10层。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[570100] = {
 		["max_level"] = 1,
@@ -29073,37 +29136,33 @@ skillgroup = {
 		["full_desc"] = "初始默认2层标记，每受到一次伤害时减少1层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200431] = {
+	[600813] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200431,
+				["sid"] = 600813,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200431,
-		["simple_desc"] = "锯猫普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 600813,
+		["name"] = "穿透之枪",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "锯猫普攻",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放圣枪时，会额外减少其<font color='#green2#'>3层</font>护盾效果。",
+		["params"] = "res/image/ui/04_skill/rhongomyniad.png",
 	},
 	[106630] = {
 		["max_level"] = 10,
@@ -29177,27 +29236,20 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521602] = {
+	[107910] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "加百列禁止过度作战，并对敌方被驱散单位降下惩罚。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5216021,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5216022,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5216023,
+				["sid"] = 30730,
 			},
 		},
+		["key"] = 107910,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -29205,12 +29257,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521602,
-		["name"] = "骷髅弓箭手",
+		["name"] = "秩序",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "加百列进入战斗后，敌方所有单位所受的伤害总计不超过<font color='#orange#'>10</font>次，我方所有单位所受的伤害总计不超过<font color='#orange#'>10</font>次，每次能量条清空时重置计数；<br/>开场时自身获得<font color='#orange#'>3</font>层秩序标记，每次己方单位<font color='#orange#'>驱散</font>敌方单位的效果成功时，消耗<font color='#orange#'>1</font>层秩序标记进行追击，造成<font color='#orange#'>{id =3073011,index=1,format = 2}</font>攻击力的伤害；<br/>每次有己方天使释放技能时，自身会获得一层天使标记，标记最多存在<font color='#orange#'>3</font>层，每层天使标记在回合开始时会转化为1层秩序标记。",
+		["params"] = "res/image/ui/04_skill/passive/poweroforder.png",
 	},
 	[80013] = {
 		["max_level"] = 10,
@@ -29307,25 +29360,17 @@ skillgroup = {
 		["full_desc"] = "每次受到技能伤害时回复自身血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521604] = {
+	[535300] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每次受到伤害时都会为自身恢复一次血量。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5216041,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5216042,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5216043,
+				["sid"] = 535300,
 			},
 		},
 		["consume"] = {
@@ -29335,11 +29380,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521604,
-		["name"] = "光明会牧师",
+		["key"] = 535300,
+		["name"] = "受击回复",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "每次受到伤害时都会为自身恢复一次血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51020] = {
@@ -29733,24 +29778,33 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[107400] = {
+	[600831] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10057,
+				["sid"] = 600831,
 			},
 		},
-		["skill_type"] = 1,
-		["key"] = 107400,
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
+		["key"] = 600831,
+		["name"] = "恶化",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "普通攻击(艾琳)",
-		["probability"] = 500,
+		["full_desc"] = "对怪物造成技能伤害时，赋予所有怪物减治疗，其释放的治疗效果降低<font color='#green2#'>10%</font>，持续5秒。",
+		["params"] = "res/image/ui/04_skill/nullsphere.png",
 	},
 	[521610] = {
 		["max_level"] = 1,
@@ -30134,17 +30188,25 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60107] = {
-		["max_level"] = 10,
+	[521614] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60107,
+				["sid"] = 5216141,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5216142,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5216143,
 			},
 		},
 		["consume"] = {
@@ -30154,13 +30216,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60107,
-		["name"] = "刃毒",
+		["key"] = 521614,
+		["name"] = "惩罚搜捕者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放水银之刃时，额外释放3枚光弹，每枚光弹对目标造成<font color='#green2#'>{id =601071, index=1, format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/mercury.png",
+		["full_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[600841] = {
 		["max_level"] = 10,
@@ -30390,25 +30451,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时Buff自身，增加与标记层数对应的攻速、暴击率、暴击伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[570133] = {
-		["max_level"] = 1,
+	[90254] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5701331,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5701332,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5701333,
+				["sid"] = 90251,
 			},
 		},
 		["consume"] = {
@@ -30418,12 +30471,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 570133,
-		["name"] = "零岐电击者",
+		["key"] = 90254,
+		["name"] = "骸骨之墙",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "骸骨护盾的亡者之怒额外加成提升至<font color='#green2#'>15%</font>当前生命值。持续时间延长至8秒。",
+		["params"] = "res/image/ui/04_skill/boneshield.png",
 	},
 	[521617] = {
 		["max_level"] = 1,
@@ -30647,17 +30701,25 @@ skillgroup = {
 		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>5%</font>。",
 		["params"] = "res/image/ui/04_skill/magicvacuum.png",
 	},
-	[600852] = {
-		["max_level"] = 10,
+	[521620] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600852,
+				["sid"] = 5216201,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5216202,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5216203,
 			},
 		},
 		["consume"] = {
@@ -30667,13 +30729,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600852,
-		["name"] = "攻击弱化",
+		["key"] = 521620,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>8%</font>。",
-		["params"] = "res/image/ui/04_skill/magicvacuum.png",
+		["full_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51022] = {
 		["max_level"] = 1,
@@ -31274,17 +31335,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600872] = {
-		["max_level"] = 10,
+	[576302] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600872,
+				["sid"] = 576302,
 			},
 		},
 		["consume"] = {
@@ -31294,13 +31355,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600872,
-		["name"] = "恶咒",
+		["key"] = 576302,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>90%</font>概率增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[533305] = {
 		["max_level"] = 1,
@@ -31329,17 +31389,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[576303] = {
-		["max_level"] = 1,
+	[600873] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "提升我方全体攻速和攻击力。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 576303,
+				["sid"] = 600873,
 			},
 		},
 		["consume"] = {
@@ -31349,12 +31409,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 576303,
-		["name"] = "光明会牧师",
+		["key"] = 600873,
+		["name"] = "恶咒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "提升我方全体攻速和攻击力。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>100%</font>概率增加<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
 	[20013] = {
 		["max_level"] = 10,
@@ -31442,27 +31503,33 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580400] = {
-		["max_level"] = 1,
+	[600875] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗一段时间后，逐步提升自身攻击。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580400,
+				["sid"] = 600875,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580400,
-		["name"] = "狂暴",
+		["key"] = 600875,
+		["name"] = "恶咒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "进入战斗一段时间后，逐步提升自身攻击。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>100%</font>概率增加<font color='#green2#'>100%</font>。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
 	[580401] = {
 		["max_level"] = 1,
@@ -31529,27 +31596,27 @@ skillgroup = {
 		["name"] = "致命猛攻",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[95121] = {
-		["max_level"] = 10,
+	[580404] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "与怪物战斗时，维多利亚的诅咒会额外造成异常状态伤害。",
+		["simple_desc"] = "每受到一次伤害，提升一次自身攻击。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 95121,
+				["sid"] = 580404,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 95121,
-		["name"] = "镜之诅咒",
+		["key"] = 580404,
+		["name"] = "怒火",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物作战时，处于维多利亚的诅咒状态下的敌人，因我方角色治疗受到伤害时，再受到<font color='#orange#'>1</font>次<font color='#green2#'>{id =951212, index=1, format = 2}</font>攻击力的额外异常状态伤害，每<font color='#orange#'>6</font>秒最多触发<font color='#orange#'>6</font>次。",
-		["params"] = "res/image/ui/04_skill/sublimation.png",
+		["full_desc"] = "每受到一次伤害，提升一次自身攻击。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580405] = {
 		["max_level"] = 1,
@@ -31634,17 +31701,17 @@ skillgroup = {
 		["full_desc"] = "爆燃伤害提升<font color='#green2#'>50%</font>",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600882] = {
+	[80277] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600882,
+				["sid"] = 80277,
 			},
 		},
 		["consume"] = {
@@ -31654,13 +31721,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600882,
-		["name"] = "魔镜诅咒",
+		["key"] = 80277,
+		["name"] = "薇欧瑞儿 白EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放镜之领域时，有概率赋予前排敌人<font color='#green2#'>1~2</font>层诅咒效果。",
-		["params"] = "res/image/ui/04_skill/mirrorfield.png",
+		["full_desc"] = "薇欧瑞儿释放绽放时，每次恢复的治疗量提升<font color='#green2#'>1倍</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[600883] = {
 		["max_level"] = 10,
@@ -31786,37 +31853,27 @@ skillgroup = {
 		["full_desc"] = "1",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70040] = {
-		["max_level"] = 10,
+	[580411] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["name"] = "防御者战靴",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70053,
+				["sid"] = 580411,
 			},
 		},
-		["key"] = 70040,
-		["counter_type"] = {
-			[1] = 0,
+		["consume"] = {
 		},
-		["full_desc"] = "大苍穹战斗减少<font color='#green2#'>50%</font>补给值消耗，多件装备最高可叠加至90%",
-		["params"] = "res/image/ui/04_skill/defence.png",
+		["key"] = 580411,
+		["name"] = "石头人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580412] = {
 		["max_level"] = 1,
@@ -32094,27 +32151,33 @@ skillgroup = {
 		["full_desc"] = "给队友释放天籁之声时，有<font color='#green2#'>70%</font>概率降低敌人<font color='#green2#'>30%</font>命中。",
 		["params"] = "res/image/ui/04_skill/songfromheaven.png",
 	},
-	[580420] = {
-		["max_level"] = 1,
+	[600895] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的伤害减少。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580420,
+				["sid"] = 600895,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580420,
-		["name"] = "伤害衰减",
+		["key"] = 600895,
+		["name"] = "动摇",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "自身受到的伤害减少。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "给队友释放天籁之声时，有<font color='#green2#'>70%</font>概率降低敌人<font color='#green2#'>40%</font>命中。",
+		["params"] = "res/image/ui/04_skill/songfromheaven.png",
 	},
 	[572231] = {
 		["max_level"] = 1,
@@ -32251,17 +32314,17 @@ skillgroup = {
 		["name"] = "独角兽",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600901] = {
+	[90005] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
+		["simple_desc"] = "攻击差加成",
+		["skill_type"] = 1,
+		["probability"] = 1000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600901,
+				["sid"] = 900051,
 			},
 		},
 		["consume"] = {
@@ -32271,13 +32334,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600901,
-		["name"] = "祝福赞歌",
+		["key"] = 90005,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "给队友释放技能苍蓝赞歌时，有概率为辅助目标额外增加<font color='#green2#'>10%</font>闪避。",
-		["params"] = "res/image/ui/04_skill/bluesong.png",
+		["full_desc"] = "1",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90261] = {
 		["max_level"] = 10,
@@ -32801,17 +32864,17 @@ skillgroup = {
 		["name"] = "瓦恩",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80282] = {
+	[600922] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80282,
+				["sid"] = 600922,
 			},
 		},
 		["consume"] = {
@@ -32821,13 +32884,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80282,
-		["name"] = "米迦勒 白",
+		["key"] = 600922,
+		["name"] = "重伤指令",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "米迦勒释放新星时，降低防御的效果提升至<font color='#green2#'>45%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "给友军赋予重伤指令，其对怪物释放的重伤有<font color='#green2#'>75%</font>概率提升<font color='#green2#'>50%</font>伤害。",
+		["params"] = "res/image/ui/04_skill/bomshoot.png",
 	},
 	[600923] = {
 		["max_level"] = 10,
@@ -33764,17 +33827,17 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90523] = {
-		["max_level"] = 10,
+	[560000] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "战斗进入到后期时，将大幅增加攻击力",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90523,
+				["sid"] = 5600001,
 			},
 		},
 		["consume"] = {
@@ -33784,13 +33847,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90523,
-		["name"] = "冥火余烬",
+		["key"] = 560000,
+		["name"] = "狂暴",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "冥界狱火附加的已损失生命值伤害提升至<font color='#green2#'>24%</font>。",
-		["params"] = "res/image/ui/04_skill/ghostdomfire.png",
+		["full_desc"] = "战斗进入到后期时，将大幅增加攻击力",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[560001] = {
 		["max_level"] = 1,
@@ -33907,17 +33969,17 @@ skillgroup = {
 		["name"] = "普通攻击(罗宾汉)",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600954] = {
+	[80286] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "黑色符文-1升级",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600954,
+				["sid"] = 80286,
 			},
 		},
 		["consume"] = {
@@ -33927,13 +33989,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600954,
-		["name"] = "力量强化",
+		["key"] = 80286,
+		["name"] = "沙利叶 黑EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "与怪物战斗时，每次能量清空后，技能的第一击伤害有<font color='#green2#'>100%</font>概率提高<font color='#green2#'>11%</font>。",
-		["params"] = "res/image/ui/04_skill/holyfaith.png",
+		["full_desc"] = "沙利叶释放安息时，技能1级时在战斗开始、激战阶段、终结阶段的追加伤害系数提升至<font color='#green2#'>125%</font>、<font color='#green2#'>250%</font>、<font color='#green2#'>250%</font>，升级提升幅度不变。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[600955] = {
 		["max_level"] = 10,
@@ -34271,47 +34333,32 @@ skillgroup = {
 		["full_desc"] = "无形之刃的爆炸机关爆炸后，对其他目标赋予重伤的概率提升至<font color='#green2#'>80%</font>。",
 		["params"] = "res/image/ui/04_skill/invisibleblade.png",
 	},
-	[102810] = {
-		["max_level"] = 10,
+	[572301] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "多样的攻击，同时提升队友攻击。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "自身每次受到伤害时，赋予自身一层护盾。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30114,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30116,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30118,
+				["sid"] = 572301,
 			},
 		},
-		["key"] = 102810,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "幻变元素",
-		["combo_value"] = 3,
+		["key"] = 572301,
+		["name"] = "受击加盾",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "召唤不稳定的火焰魔法攻击全体敌人，同提升所有友军<font color='#orange#'>{id =30115,index=1,key='buff_add_gj',format = 2}</font>攻击力，持续<font color='#orange#'>4</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30114,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30116,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30118,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/changeelement.png",
+		["full_desc"] = "自身每次受到伤害时，赋予自身一层护盾。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[533400] = {
 		["max_level"] = 1,
@@ -34618,34 +34665,7 @@ skillgroup = {
 		["full_desc"] = "魔法根源的伤害提升<font color='#green2#'>{id =90525, index=1, format = 2}</font>，每6秒触发上限增加至7次。",
 		["params"] = "res/image/ui/04_skill/passive/magicpower.png",
 	},
-	[41304] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进入战斗后，降低非组合技技能伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 41304,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 41304,
-		["name"] = "考验组合技",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进入战斗后，降低非组合技技能伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[572311] = {
+	[533407] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -34655,7 +34675,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572311,
+				["sid"] = 533407,
 			},
 		},
 		["consume"] = {
@@ -34665,11 +34685,33 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572311,
-		["name"] = "獠牙斧手",
+		["key"] = 533407,
+		["name"] = "狼人",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580501] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身受到的治疗效果提升<font color='#orange#'>30%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580501,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580501,
+		["name"] = "圣物-治疗强化",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身受到的治疗效果提升<font color='#orange#'>3%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580502] = {
@@ -35608,38 +35650,27 @@ skillgroup = {
 		["full_desc"] = "对怪物释放碎星箭时，有概率赋予目标1~2层碎甲。",
 		["params"] = "res/image/ui/04_skill/starthund.png",
 	},
-	[70055] = {
-		["max_level"] = 10,
+	[580531] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "每次释放群体技能时，额外对一个后排怪物释放<font color='#orange#'>1</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70055,
+				["sid"] = 580531,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 70055,
-		["name"] = "伤害缓和",
+		["key"] = 580531,
+		["name"] = "圣物-追加光弹",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>30%</font>概率恢复<font color='#green1#'>40%</font>当前攻击力的血量。3秒内只能触发一次。",
-		["params"] = "res/image/ui/04_skill/healthy.png",
+		["full_desc"] = "每次释放群体技能时，额外对一个后排怪物释放<font color='#orange#'>1</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[41306] = {
 		["max_level"] = 1,
@@ -35933,39 +35964,26 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521702] = {
+	[580541] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>20%</font>。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217021,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217022,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217023,
+				["sid"] = 580541,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521702,
-		["name"] = "骷髅弓箭手",
+		["key"] = 580541,
+		["name"] = "圣物-减攻强化Lv1",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580542] = {
@@ -36462,26 +36480,39 @@ skillgroup = {
 		["full_desc"] = "主动技能释放的提升防御效果提升<font color='#orange#'>35%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580555] = {
+	[521709] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "主动技能释放的提升防御效果提升<font color='#orange#'>40%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580555,
+				["sid"] = 5217091,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217092,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217093,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580555,
-		["name"] = "圣物-防御强化Lv5",
+		["key"] = 521709,
+		["name"] = "死亡骑士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "主动技能释放的提升防御效果提升<font color='#orange#'>40%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103330] = {
@@ -36580,20 +36611,20 @@ skillgroup = {
 		["full_desc"] = "对怪物释放铁臂猛扫造成伤害时，自身治疗提升<font color='#green2#'>90%</font>，持续6秒。",
 		["params"] = "res/image/ui/04_skill/ironhit.png",
 	},
-	[20018] = {
-		["max_level"] = 10,
+	[104610] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "消耗战技状态，赋予全体友军普攻吸血效果。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20018,
+				["sid"] = 30396,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20018,
-		["simple_desc"] = "杨教授普通攻击",
+		["key"] = 104610,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -36606,11 +36637,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["name"] = "游击者",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "杨教授普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "每当能量条清空的时候，若罗宾汉身上有<font color='#orange#'>2</font>层或更多<font color='#orange#'>战技</font>效果时，则消耗所有该效果，赋予全体友军普通攻击吸血<font color='#orange#'>50%</font>的效果，持续<font color='#orange#'>12</font>秒。",
+		["params"] = "res/image/ui/04_skill/passive/guerrilla.png",
 	},
 	[521711] = {
 		["max_level"] = 1,
@@ -36678,6 +36711,39 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[80130] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80130,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80130,
+		["name"] = "珊朵拉黑色专属1",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "神圣试炼的吸血效果提升<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[580561] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -36700,6 +36766,40 @@ skillgroup = {
 		["full_desc"] = "我方释放组合技时，技能伤害提升<font color='#orange#'>15%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[51018] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510181,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510182,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510183,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51018,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["name"] = "零岐监工",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[580562] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -36720,6 +36820,41 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "我方释放组合技时，技能伤害提升<font color='#orange#'>19%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521816] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害，并降低目标的攻击力。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5218161,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5218162,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5218163,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521816,
+		["name"] = "零歧电击者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害，并降低目标的攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580563] = {
@@ -36793,6 +36928,33 @@ skillgroup = {
 		["full_desc"] = "我方释放组合技时，技能伤害提升<font color='#orange#'>27%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[312700] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "进场后降低敌方全体的技能伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312700,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 312700,
+		["name"] = "伤害降低",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进场后降低敌方全体的技能伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[580565] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -36846,6 +37008,40 @@ skillgroup = {
 		},
 		["name"] = "普通木乃伊",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[108510] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "塞西莉娅吸收能量触发主教领域，强化己方全体并切换自身技能。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30660,
+			},
+		},
+		["key"] = 108510,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "主教领域",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "每当自己或者友方释放神圣系技能，则塞西莉娅获得<font color='#orange#'>1</font>层<font color='#orange#'>主教能量</font>印记，最多可获得<font color='#orange#'>6</font>层(主教能量印记不会被驱散)。若塞西莉娅在能量条清空时拥有<font color='#orange#'>6</font>层主教印记，则会释放<font color='#orange#'>主教领域</font>，领域内的所有友军会获得<font color='#orange#'>{id =306604,index=1,format = 2}</font>攻击力提升，<font color='#orange#'>{id =306605,index=1,format = 2}</font>防御力提升，并且每3秒回复<font color='#orange#'>{id =306606,index=1,format = 2}</font>塞西莉娅攻击力的生命值。且塞西莉娅在的基础技能在主教领域内会产生变化。",
+		["params"] = "res/image/ui/04_skill/passive/lightlesscorona.png",
 	},
 	[80041] = {
 		["max_level"] = 10,
@@ -36910,6 +37106,50 @@ skillgroup = {
 		},
 		["key"] = 521715,
 		["name"] = "惩罚搜捕者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[312511] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312511,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 312511,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[312412] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312412,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 312412,
+		["name"] = "呆萌木乃伊",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -37071,39 +37311,26 @@ skillgroup = {
 		["full_desc"] = "攻击全体，造成伤害。并提高己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521717] = {
+	[580571] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "自身的攻速提升效果提升<font color='#orange#'>40%</font>。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217171,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217172,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217173,
+				["sid"] = 580571,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521717,
-		["name"] = "末日裁决者",
+		["key"] = 580571,
+		["name"] = "圣物-攻速强化",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "自身的攻速提升效果提升<font color='#orange#'>40%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[570334] = {
@@ -37157,6 +37384,33 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "自身的攻速提升效果提升<font color='#orange#'>45%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592406] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592406,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592406,
+		["name"] = "兄弟会弩手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580573] = {
@@ -37290,6 +37544,94 @@ skillgroup = {
 		["full_desc"] = "自身的攻速提升效果提升<font color='#orange#'>60%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[592421] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592421,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592421,
+		["name"] = "獠牙斧手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51013] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510131,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510132,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510133,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51013,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["name"] = "骷髅法师",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592434] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592434,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592434,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[521720] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -37325,6 +37667,33 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[592438] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592438,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592438,
+		["name"] = "小火龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[90024] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -37352,6 +37721,33 @@ skillgroup = {
 		},
 		["full_desc"] = "烈焰护盾的拥有者受到攻击时，有<font color='#green2#'>100%</font>的概率额外反弹敌方全体一层灼烧。",
 		["params"] = "res/image/ui/04_skill/fireshield.png",
+	},
+	[592228] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592228,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592228,
+		["name"] = "树妖",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521721] = {
 		["max_level"] = 1,
@@ -37413,6 +37809,76 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "当攻击敌人造成伤害时，额外释放2发黑暗法球。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521022] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5210221,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5210222,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5210223,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521022,
+		["name"] = "狂热冲击",
+		["counter_type"] = {
+		},
+		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521303] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5213031,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5213032,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5213033,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521303,
+		["name"] = "石头人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521722] = {
@@ -37572,37 +38038,109 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80130] = {
-		["max_level"] = 10,
+	[521302] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击全体，附加buf层数的伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80130,
+				["sid"] = 5213021,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5213022,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5213023,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80130,
-		["name"] = "珊朵拉黑色专属1",
+		["key"] = 521302,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "神圣试炼的吸血效果提升<font color='#green2#'>10%</font>。",
+		["full_desc"] = "攻击全体，附加buf层数的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51081] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体，并降低其攻击力",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510811,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510812,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510813,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 51081,
+		["name"] = "北境叛军女",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体，并降低其攻击力",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521301] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5213011,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5213012,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5213013,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521301,
+		["name"] = "森林狼",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521724] = {
@@ -37779,17 +38317,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592024] = {
-		["max_level"] = 1,
+	[90503] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592024,
+				["sid"] = 90503,
 			},
 		},
 		["consume"] = {
@@ -37799,32 +38337,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592024,
-		["name"] = "小火龙",
+		["key"] = 90503,
+		["name"] = "断罪连击",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "触发断罪者后会使下一次普攻变成断罪。",
+		["params"] = "res/image/ui/04_skill/passive/judgement.png",
 	},
-	[521816] = {
+	[5400101] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害，并降低目标的攻击力。",
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5218161,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5218162,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5218163,
+				["sid"] = 5400101,
 			},
 		},
 		["consume"] = {
@@ -37834,58 +38365,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521816,
-		["name"] = "零歧电击者",
+		["key"] = 5400101,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害，并降低目标的攻击力。",
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51008] = {
-		["max_level"] = 1,
+	[90502] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 510081,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510082,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510083,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 51008,
-		["simple_desc"] = "攻击目标单体",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-		},
-		["name"] = "呆萌木乃伊",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[534806] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 534806,
+				["sid"] = 90502,
 			},
 		},
 		["consume"] = {
@@ -37895,55 +38392,83 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 534806,
-		["name"] = "巫师鲁恩",
+		["key"] = 90502,
+		["name"] = "断罪连击",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "触发断罪者后有<font color='#green2#'>50%</font>概率使下一次普攻变成断罪。",
+		["params"] = "res/image/ui/04_skill/passive/judgement.png",
 	},
-	[312652] = {
+	[580627] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>15%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580627,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580627,
+		["name"] = "圣物-普攻减伤Lv7",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>15%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580626] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>14%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580626,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580626,
+		["name"] = "圣物-普攻减伤Lv6",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>14%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[5400121] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 312652,
+				["sid"] = 5400121,
 			},
 		},
 		["consume"] = {
-		},
-		["key"] = 312652,
-		["name"] = "兄弟会刺客",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[312512] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
 			[1] = {
-				["round"] = 0,
-				["sid"] = 312512,
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
 			},
 		},
-		["consume"] = {
-		},
-		["key"] = 312512,
+		["key"] = 5400121,
 		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[20019] = {
@@ -38000,39 +38525,27 @@ skillgroup = {
 		["full_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>7%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[101740] = {
+	[311416] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每当自身释放一次灼烧，有概率再释放一次灼烧。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30470,
+				["sid"] = 311416,
 			},
 		},
-		["key"] = 101740,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["name"] = "烈炎",
-		["combo_value"] = 3,
+		["key"] = 311416,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "每当自身释放一次灼烧，有<font color='#orange#'>50%</font>概率再对敌方随机目标释放<font color='#orange#'>1</font>次，每3秒内最多触发一次。",
-		["params"] = "res/image/ui/04_skill/passive/fireman.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580592] = {
 		["max_level"] = 1,
@@ -38181,27 +38694,38 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580595] = {
-		["max_level"] = 1,
+	[70063] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>11%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580595,
+				["sid"] = 70063,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580595,
-		["name"] = "圣物-技能强化Lv5",
+		["key"] = 70063,
+		["name"] = "神圣庇护",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>11%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "提升自身受到英雄治疗技能的效果<font color='#green1#'>{id =70063, index=1, format = 2}</font>，冷却6秒，最多触发3次。同时提升抗暴击<font color='#green1#'>{id =700631, index=1, format = 1}%</font>。",
+		["params"] = "res/image/ui/04_skill/anglebless.png",
 	},
 	[533503] = {
 		["max_level"] = 1,
@@ -38583,32 +39107,27 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592421] = {
-		["max_level"] = 1,
+	[95061] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "与怪物战斗时，冰霜守护会额外释放冰枪。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592421,
+				["sid"] = 95061,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592421,
-		["name"] = "獠牙斧手",
+		["key"] = 95061,
+		["name"] = "守护之枪",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物战斗时，冰霜守护会额外释放<font color='#orange#'>3</font>次冰枪随机攻击敌方，每次造成<font color='#green2#'>{id =950617, index=1, format = 2}</font>攻击力的伤害，自身每存在<font color='#orange#'>2</font>层<font color='#orange#'>霜冻</font>标记再释放<font color='#orange#'>1</font>次冰枪。",
+		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[572413] = {
 		["max_level"] = 1,
@@ -38637,72 +39156,51 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60033] = {
-		["max_level"] = 10,
+	[51008] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60033,
+				["sid"] = 510081,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510082,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510083,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51008,
+		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 60033,
-		["name"] = "与死亡共舞",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "深渊之击伤害提升<font color='#green2#'>50%</font>",
-		["params"] = "res/image/ui/04_skill/abyssburst.png",
-	},
-	[580604] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>10%</font>。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580604,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580604,
-		["name"] = "圣物-普攻强化Lv4",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>10%</font>。",
+		["name"] = "呆萌木乃伊",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592424] = {
+	[572414] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592424,
+				["sid"] = 572414,
 			},
 		},
 		["consume"] = {
@@ -38712,11 +39210,33 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592424,
-		["name"] = "光明会拳师",
+		["key"] = 572414,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580603] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>9%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580603,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580603,
+		["name"] = "圣物-普攻强化Lv3",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>9%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580605] = {
@@ -38741,17 +39261,17 @@ skillgroup = {
 		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>11%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592434] = {
+	[5400061] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592434,
+				["sid"] = 5400061,
 			},
 		},
 		["consume"] = {
@@ -38761,11 +39281,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592434,
-		["name"] = "光明会狂战",
+		["key"] = 5400061,
+		["name"] = "兄弟会弩手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580606] = {
@@ -38845,32 +39365,47 @@ skillgroup = {
 		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>13%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592438] = {
-		["max_level"] = 1,
+	[102240] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "召唤天使攻击敌方全体。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592438,
+				["sid"] = 30081,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30082,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30083,
 			},
 		},
+		["key"] = 102240,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592438,
-		["name"] = "小火龙",
+		["name"] = "敦请天使",
+		["combo_value"] = 1,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "神圣系技能，召唤天使降下神罚，攻击全体敌人。每当同时有<font color='#orange#'>1</font>个神圣系技能释放，这个伤害提升<font color='#orange#'>50%</font>。<br/><font color='#green1#'>战斗开始</font>：造成最少<font color='#green2#'>{id =30081,index=1,key='sub_hp_by_element',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成最少<font color='#green2#'>{id =30082,index=1,key='sub_hp_by_element',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成最少<font color='#green2#'>{id =30083,index=1,key='sub_hp_by_element',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/callingangel.png",
 	},
 	[601083] = {
 		["max_level"] = 10,
@@ -38900,67 +39435,7 @@ skillgroup = {
 		["full_desc"] = "对怪物释放不协之毒时，有<font color='#green2#'>100%</font>概率对目标释放2次光弹，每发造成<font color='#green2#'>{id =601086, index=1, format = 2}</font>攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/sulphir.png",
 	},
-	[592452] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592452,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592452,
-		["name"] = "獠牙战士",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[60031] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60031,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60031,
-		["name"] = "与死亡共舞",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "深渊之击伤害提升<font color='#green2#'>20%</font>",
-		["params"] = "res/image/ui/04_skill/abyssburst.png",
-	},
-	[5400021] = {
+	[5400041] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -38970,7 +39445,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400021,
+				["sid"] = 5400041,
 			},
 		},
 		["consume"] = {
@@ -38980,32 +39455,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5400021,
-		["name"] = "骷髅弓箭手",
+		["key"] = 5400041,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51081] = {
+	[572053] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体，并降低其攻击力",
+		["simple_desc"] = "攻击敌方单体。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510811,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510812,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510813,
+				["sid"] = 572053,
 			},
 		},
 		["consume"] = {
@@ -39015,32 +39482,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 51081,
-		["name"] = "北境叛军女",
+		["key"] = 572053,
+		["name"] = "石头人",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击目标单体，并降低其攻击力",
+		["full_desc"] = "攻击敌方单体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521302] = {
-		["max_level"] = 1,
+	[903534] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击全体，附加buf层数的伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5213021,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5213022,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5213023,
+				["sid"] = 903534,
 			},
 		},
 		["consume"] = {
@@ -39050,12 +39509,69 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521302,
-		["name"] = "骷髅弓箭手",
+		["key"] = 903534,
+		["name"] = "帝企鹅延迟回血",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "延迟回血",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[574101] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "降低所有非组合技的伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 574101,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 574101,
+		["name"] = "组合技的考验",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击全体，附加buf层数的伤害。",
+		["full_desc"] = "降低所有非组合技的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[108310] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "薇薇安圣剑会激发其他剑灵并随同攻击",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30640,
+			},
+		},
+		["key"] = 108310,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "圣剑之主",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "薇薇安取得了圣剑的认可，在圣剑的庇护下能激发其他剑的剑灵并获得<font color='#orange#'>传承之力</font>。在薇薇安释放技能时会获得<font color='#orange#'>极大的攻速</font>提升直到下次普攻触发，且该次普攻圣剑会驱使其他剑灵<font color='#orange#'>一同攻击</font>。",
+		["params"] = "res/image/ui/04_skill/passive/consciousnessofthechoosen.png",
 	},
 	[572421] = {
 		["max_level"] = 1,
@@ -39133,37 +39649,31 @@ skillgroup = {
 		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80250] = {
-		["max_level"] = 10,
+	[575102] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "每次释放技能极大提升自身防御。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80250,
+				["sid"] = 575102,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80250,
-		["name"] = "薛定谔 黑",
+		["key"] = 575102,
+		["name"] = "攻防一体",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "震撼的击晕概率增加<font color='#green2#'>10%</font>。",
+		["full_desc"] = "每次释放技能极大提升自身防御，终结阶段造成防御加成的伤害值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[572423] = {
@@ -39289,35 +39799,36 @@ skillgroup = {
 		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>13%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[570321] = {
-		["max_level"] = 1,
+	[20018] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5703211,
-			},
-			[2] = {
-				["round"] = 5,
-				["sid"] = 5703212,
+				["sid"] = 20018,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20018,
+		["simple_desc"] = "杨教授普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 570321,
-		["name"] = "兄弟会刺客",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
+		["name"] = "杨教授普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580616] = {
@@ -39342,33 +39853,27 @@ skillgroup = {
 		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>14%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60086] = {
-		["max_level"] = 10,
+	[5801081] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "进场随机增加攻击力。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60086,
+				["sid"] = 5801081,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 60086,
-		["name"] = "震魂曲",
+		["key"] = 5801081,
+		["name"] = "被动-领袖",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，炼狱降低目标的<font color='#green2#'>{id =600861, index=1,key='buff_sub_mz ',format = 2}</font>命中率。",
-		["params"] = "res/image/ui/04_skill/hall.png",
+		["full_desc"] = "进场随机增加2%-8%攻击力。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580617] = {
 		["max_level"] = 1,
@@ -39448,26 +39953,35 @@ skillgroup = {
 		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>16%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580630] = {
+	[530123] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击团体BOSS时会造成大量额外伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580630,
+				["sid"] = 5301231,
+			},
+			[2] = {
+				["round"] = 5,
+				["sid"] = 5301232,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580630,
-		["name"] = "圣物-黑暗法球",
+		["key"] = 530123,
+		["name"] = "海盗喽啰",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击团体BOSS时会造成大量额外伤害。",
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580619] = {
@@ -39492,96 +40006,85 @@ skillgroup = {
 		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>17%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90525] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90525,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90525,
-		["name"] = "冰火之威",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "魔法根源的伤害提升<font color='#green2#'>{id =90525, index=1, format = 2}</font>。",
-		["params"] = "res/image/ui/04_skill/passive/magicpower.png",
-	},
-	[102240] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "召唤天使攻击敌方全体。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30081,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30082,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30083,
-			},
-		},
-		["key"] = 102240,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "敦请天使",
-		["combo_value"] = 1,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "神圣系技能，召唤天使降下神罚，攻击全体敌人。每当同时有<font color='#orange#'>1</font>个神圣系技能释放，这个伤害提升<font color='#orange#'>50%</font>。<br/><font color='#green1#'>战斗开始</font>：造成最少<font color='#green2#'>{id =30081,index=1,key='sub_hp_by_element',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成最少<font color='#green2#'>{id =30082,index=1,key='sub_hp_by_element',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成最少<font color='#green2#'>{id =30083,index=1,key='sub_hp_by_element',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/callingangel.png",
-	},
-	[580628] = {
+	[576506] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>16%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580628,
+				["sid"] = 576506,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580628,
-		["name"] = "圣物-普攻减伤Lv6",
+		["key"] = 576506,
+		["name"] = "菲尼克斯紫",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>16%</font>。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[312602] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体，并治疗目标友军",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312602,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 312602,
+		["name"] = "小火龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体，并治疗目标友军",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[533601] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方全体，造成对方生命上限10%的伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 533601,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 533601,
+		["name"] = "惩罚搜捕者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方全体，造成对方生命上限10%的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580621] = {
@@ -39606,26 +40109,35 @@ skillgroup = {
 		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>9%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580627] = {
+	[530121] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>15%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580627,
+				["sid"] = 5301211,
+			},
+			[2] = {
+				["round"] = 5,
+				["sid"] = 5301212,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580627,
-		["name"] = "圣物-普攻减伤Lv7",
+		["key"] = 530121,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>15%</font>。",
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580622] = {
@@ -39650,20 +40162,20 @@ skillgroup = {
 		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80048] = {
+	[20020] = {
 		["max_level"] = 10,
 		["heros"] = {
-			[1] = 10007,
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80048,
+				["sid"] = 20020,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20020,
+		["simple_desc"] = "零歧电击者普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -39676,12 +40188,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80048,
-		["name"] = "薇薇安",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "薇薇安基础攻击力提升<font color='#green2#'>25%</font>。",
+		["name"] = "零歧电击者普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580623] = {
@@ -39706,31 +40216,26 @@ skillgroup = {
 		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>11%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400061] = {
+	[579127] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
+		["simple_desc"] = "释放技能后，治疗全体友军，恢复全体25%最大生命值。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400061,
+				["sid"] = 579127,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 5400061,
-		["name"] = "兄弟会弩手",
+		["key"] = 579127,
+		["name"] = "被动-追加回复",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["full_desc"] = "释放技能后，治疗全体友军，恢复全体25%最大生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580624] = {
@@ -39755,17 +40260,17 @@ skillgroup = {
 		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>12%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90503] = {
-		["max_level"] = 10,
+	[534606] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方全体，造成130%攻击力伤害，同时附加对方生命上限5%的伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90503,
+				["sid"] = 534606,
 			},
 		},
 		["consume"] = {
@@ -39775,13 +40280,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90503,
-		["name"] = "断罪连击",
+		["key"] = 534606,
+		["name"] = "末日裁决者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "触发断罪者后会使下一次普攻变成断罪。",
-		["params"] = "res/image/ui/04_skill/passive/judgement.png",
+		["full_desc"] = "攻击敌方全体，造成130%攻击力伤害，同时附加对方生命上限5%的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[580625] = {
 		["max_level"] = 1,
@@ -39805,17 +40309,25 @@ skillgroup = {
 		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>13%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400041] = {
+	[51068] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["simple_desc"] = "攻击目标单体，并为队友生成护盾",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400041,
+				["sid"] = 510681,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510682,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510683,
 			},
 		},
 		["consume"] = {
@@ -39825,11 +40337,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5400041,
-		["name"] = "光明会牧师",
+		["key"] = 51068,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["full_desc"] = "攻击目标单体，并为队友生成护盾",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601101] = {
@@ -39860,32 +40372,38 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，混乱的持续时长增加<font color='#green2#'>2</font>秒。",
 		["params"] = "res/image/ui/04_skill/passive/mindgirl.png",
 	},
-	[574101] = {
-		["max_level"] = 1,
+	[70006] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "降低所有非组合技的伤害。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 574101,
+				["sid"] = 70006,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 574101,
-		["name"] = "组合技的考验",
+		["key"] = 70006,
+		["name"] = "狂暴",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "降低所有非组合技的伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "开场时攻击力提升<font color='#green2#'>20%</font>，持续10秒。",
+		["params"] = "res/image/ui/04_skill/firefight.png",
 	},
 	[601102] = {
 		["max_level"] = 10,
@@ -39970,17 +40488,17 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，混乱的持续时长增加<font color='#green2#'>3</font>秒。",
 		["params"] = "res/image/ui/04_skill/passive/mindgirl.png",
 	},
-	[575102] = {
-		["max_level"] = 1,
+	[80463] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次释放技能极大提升自身防御。",
-		["skill_type"] = 3,
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 575102,
+				["sid"] = 80463,
 			},
 		},
 		["consume"] = {
@@ -39990,12 +40508,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 575102,
-		["name"] = "攻防一体",
+		["key"] = 80463,
+		["name"] = "加百列白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次释放技能极大提升自身防御，终结阶段造成防御加成的伤害值。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "加百列的拯救护盾提供的生命值治疗效果提升至<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
 	[601104] = {
 		["max_level"] = 10,
@@ -40147,83 +40666,27 @@ skillgroup = {
 		["full_desc"] = "提尔释放刚拳造成伤害时，有<font color='#green2#'>80%</font>概率对致盲的目标晕眩2秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[575104] = {
+	[51080] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗，全体英雄：减治疗效果极大提升",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 575104,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 575104,
-		["name"] = "降低治疗效果提升",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进入战斗，全体英雄：减治疗效果极大提升",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[90501] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90501,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90501,
-		["name"] = "断罪连击",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "触发断罪者后有<font color='#green2#'>25%</font>概率使下一次普攻变成断罪。",
-		["params"] = "res/image/ui/04_skill/passive/judgement.png",
-	},
-	[104730] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击全体敌人，并降低目标的命中。",
+		["simple_desc"] = "攻击目标单体",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30410,
+				["sid"] = 510801,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30411,
+				["sid"] = 510802,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30412,
+				["sid"] = 510803,
 			},
 		},
-		["key"] = 104730,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -40231,34 +40694,77 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "炎枪",
-		["combo_value"] = 2,
+		["key"] = 51080,
+		["name"] = "北境叛军男",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击全体敌人，造成伤害。在兰斯洛特有<font color='#orange#'>战技</font>状态时，消耗<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态，降低目标<font color='#orange#'>30%</font>的普攻命中，持续<font color='#orange#'>6</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30410,index=1,format = 2}</font>攻击力伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30411,index=1,format = 2}</font>攻击力伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30412,index=1,format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/firespear.png",
+		["full_desc"] = "攻击目标单体",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5801081] = {
+	[580122] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进场随机增加攻击力。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5801081,
+				["sid"] = 580122,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 5801081,
-		["name"] = "被动-领袖",
+		["key"] = 580122,
+		["name"] = "呆萌木乃伊",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进场随机增加2%-8%攻击力。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580136] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580136,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580136,
+		["name"] = "鬼魂",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580126] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580126,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580126,
+		["name"] = "光明会拳师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51038] = {
@@ -40323,17 +40829,17 @@ skillgroup = {
 		["full_desc"] = "神圣轰击造成伤害时还会降低目标<font color='#green2#'>{id =900321, index=1, format = 2}</font>的攻击力。",
 		["params"] = "res/image/ui/04_skill/holybombardment.png",
 	},
-	[576506] = {
-		["max_level"] = 1,
+	[90441] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 576506,
+				["sid"] = 90441,
 			},
 		},
 		["consume"] = {
@@ -40343,12 +40849,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 576506,
-		["name"] = "菲尼克斯紫",
+		["key"] = 90441,
+		["name"] = "重锤",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "铁臂猛扫的晕眩时间增加<font color='#green2#'>1</font>秒。",
+		["params"] = "res/image/ui/04_skill/ironhit.png",
 	},
 	[70068] = {
 		["max_level"] = 10,
@@ -40383,34 +40890,7 @@ skillgroup = {
 		["full_desc"] = "自身释放的重伤，灼烧，诅咒和不协之毒伤害增加<font color='#green1#'>{id =70068, index=1, format = 2}</font>。",
 		["params"] = "res/image/ui/04_skill/duskblade.png",
 	},
-	[534700] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "当敌方释放伤害技能时，若不是三英雄组合技，则降低其伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 534700,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 534700,
-		["name"] = "组合技考验",
-		["counter_type"] = {
-		},
-		["full_desc"] = "当敌方释放伤害技能时，若不是三英雄组合技，则降低其伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[578106] = {
+	[580128] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -40420,38 +40900,84 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 578106,
+				["sid"] = 580128,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 578106,
-		["name"] = "光明会拳师",
+		["key"] = 580128,
+		["name"] = "零岐监工",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[530123] = {
+	[80133] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80133,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80133,
+		["name"] = "珊朵拉白色专属1EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "治愈可以驱散<font color='#green2#'>全体友军</font>的负面效果。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580131] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5301231,
+				["sid"] = 580131,
 			},
-			[2] = {
-				["round"] = 5,
-				["sid"] = 5301232,
+		},
+		["consume"] = {
+		},
+		["key"] = 580131,
+		["name"] = "北境重锤使",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予敌方流血状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80324] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80324,
 			},
 		},
 		["consume"] = {
@@ -40461,24 +40987,53 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 530123,
-		["name"] = "海盗喽啰",
+		["key"] = 80324,
+		["name"] = "马可波罗黑EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害",
+		["full_desc"] = "复颂状态下的单位释放伤害性技能会同时释放一枚造成<font color='#green2#'>100%</font>攻击力伤害的光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[578201] = {
-		["max_level"] = 1,
+	[80332] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "释放技能造成伤害时，若身上有致命标记，则对目标额外造成伤害。",
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80332,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80332,
+		["name"] = "伊露丽黑EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "硫效果提升不协之毒的持续时间额外延长2秒。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[600502] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 578201,
+				["sid"] = 600502,
 			},
 		},
 		["consume"] = {
@@ -40488,69 +41043,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 578201,
-		["name"] = "致命一击",
+		["key"] = 600502,
+		["name"] = "狂热",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "释放技能造成伤害时，若身上有致命标记，则对目标额外造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521712] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5217121,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217122,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217123,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521712,
-		["name"] = "北境叛军女",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[579127] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "释放技能后，治疗全体友军，恢复全体25%最大生命值。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 579127,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 579127,
-		["name"] = "被动-追加回复",
-		["counter_type"] = {
-		},
-		["full_desc"] = "释放技能后，治疗全体友军，恢复全体25%最大生命值。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻速提升效果有<font color='#green2#'>90%</font>概率增加<font color='#green2#'>25%</font>。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
 	},
 	[104620] = {
 		["max_level"] = 10,
@@ -40622,65 +41121,51 @@ skillgroup = {
 		["full_desc"] = "莉莉丝的黑暗奴仆法球伤害提升<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[530121] = {
+	[580138] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5301211,
-			},
-			[2] = {
-				["round"] = 5,
-				["sid"] = 5301212,
+				["sid"] = 580138,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 530121,
-		["name"] = "光明会拳师",
+		["key"] = 580138,
+		["name"] = "刃魔",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[534606] = {
+	[580141] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方全体，造成130%攻击力伤害，同时附加对方生命上限5%的伤害。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 534606,
+				["sid"] = 580141,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 534606,
-		["name"] = "末日裁决者",
+		["key"] = 580141,
+		["name"] = "黑蔷薇剑兵",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方全体，造成130%攻击力伤害，同时附加对方生命上限5%的伤害。",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580117] = {
+	[580143] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -40690,19 +41175,47 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580117,
+				["sid"] = 580143,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580117,
-		["name"] = "惩罚者牧师",
+		["key"] = 580143,
+		["name"] = "罗萨",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580121] = {
+	[60075] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60075,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60075,
+		["name"] = "责罚",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "伊莎贝拉的神圣王权会额外赐福友军，使其普通攻击在命中怪物时减少怪物<font color='#green2#'>{id =600752, index=1,key='buff_sub_gj ',format = 2}</font>攻击力。",
+		["params"] = "res/image/ui/04_skill/holycrowns.png",
+	},
+	[580145] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -40712,103 +41225,51 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580121,
+				["sid"] = 580145,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580121,
-		["name"] = "沙漠毒蝎",
+		["key"] = 580145,
+		["name"] = "魔女娜娜",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70077] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70077,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70077,
-		["name"] = "生命吸收",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "造成伤害时，有20%的概率恢复造成伤害<font color='#green2#'>100%</font>的生命值，每3秒内最多生效1次。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
-	},
-	[80081] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80081,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80081,
-		["name"] = "潘多拉",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "亡者华尔兹伤害提升<font color='#green2#'>8%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[51080] = {
+	[580147] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体",
-		["skill_type"] = 1,
+		["simple_desc"] = "普通攻击命中后会赋予敌人流血状态。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510801,
+				["sid"] = 580147,
 			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510802,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510803,
+		},
+		["consume"] = {
+		},
+		["key"] = 580147,
+		["name"] = "被动-附加异常状态",
+		["counter_type"] = {
+		},
+		["full_desc"] = "普通攻击命中后会赋予敌人流血状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80282] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80282,
 			},
 		},
 		["consume"] = {
@@ -40818,11 +41279,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 51080,
-		["name"] = "北境叛军男",
+		["key"] = 80282,
+		["name"] = "米迦勒 白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击目标单体",
+		["full_desc"] = "米迦勒释放新星时，降低防御的效果提升至<font color='#green2#'>45%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70069] = {
@@ -40907,39 +41369,17 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，星怒对目标附加碎甲，若目标在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951512, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
-	[580126] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580126,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580126,
-		["name"] = "光明会拳师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80463] = {
+	[601022] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80463,
+				["sid"] = 601022,
 			},
 		},
 		["consume"] = {
@@ -40949,13 +41389,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80463,
-		["name"] = "加百列白",
+		["key"] = 601022,
+		["name"] = "治愈强化",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "加百列的拯救护盾提供的生命值治疗效果提升至<font color='#green2#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/passive/singer.png",
+		["full_desc"] = "对怪物释放钢拳造成伤害时，有<font color='#green2#'>90%</font>概率使治疗效果提升<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/ironpunch.png",
+	},
+	[577201] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "每当攻击造成伤害，同时驱散身上的由敌人释放的效果。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 577201,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 577201,
+		["name"] = "自我净化",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每当攻击造成伤害时，驱散身上的由敌人释放的效果。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50015] = {
 		["max_level"] = 10,
@@ -41082,26 +41549,26 @@ skillgroup = {
 		["full_desc"] = "对怪物进行普通攻击时，有<font color='#green2#'>90%</font>概率提升<font color='#green2#'>10%</font>伤害。",
 		["params"] = "res/image/ui/04_skill/magicsowrd.png",
 	},
-	[580129] = {
+	[580151] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
+		["simple_desc"] = "极大地降低敌方英雄的技能伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580129,
+				["sid"] = 580151,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580129,
-		["name"] = "叛军首领",
+		["key"] = 580151,
+		["name"] = "被动-技能削弱",
 		["counter_type"] = {
 		},
-		["full_desc"] = "赋予敌方流血状态。",
+		["full_desc"] = "极大地降低敌方英雄的技能伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601123] = {
@@ -41132,17 +41599,17 @@ skillgroup = {
 		["full_desc"] = "对怪物进行普通攻击时，有<font color='#green2#'>100%</font>概率提升<font color='#green2#'>10%</font>伤害。",
 		["params"] = "res/image/ui/04_skill/magicsowrd.png",
 	},
-	[572312] = {
+	[577200] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "进入战斗后，降低敌方全体技能和dot伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572312,
+				["sid"] = 577200,
 			},
 		},
 		["consume"] = {
@@ -41152,11 +41619,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572312,
-		["name"] = "零歧监工",
+		["key"] = 577200,
+		["name"] = "技能弱化",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "进入战斗后，降低敌方全体技能和异常状态伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601124] = {
@@ -41249,26 +41716,36 @@ skillgroup = {
 		["full_desc"] = "对怪物进行普通攻击时，有<font color='#green2#'>100%</font>概率提升<font color='#green2#'>25%</font>伤害。",
 		["params"] = "res/image/ui/04_skill/magicsowrd.png",
 	},
-	[580135] = {
-		["max_level"] = 1,
+	[20041] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580135,
+				["sid"] = 20041,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20041,
+		["simple_desc"] = "刀猫普攻",
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580135,
-		["name"] = "狼人",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["name"] = "刀猫普攻",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[102830] = {
@@ -41313,114 +41790,98 @@ skillgroup = {
 		["full_desc"] = "召唤魔法黑洞攻击全体敌人，清除敌人身上所有增益状态，同时提升所有友军的攻击力，持续<font color='#orange#'>4</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30120,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，提升友军<font color='#green2#'>{id =301201,index=1,key='buff_add_gj',format = 2}</font>攻击；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30121,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，提升友军<font color='#green2#'>{id =301211,index=1,key='buff_add_gj',format = 2}</font>攻击；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30122,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，提升友军<font color='#green2#'>{id =301221,index=1,key='buff_add_gj',format = 2}</font>攻击，还会降低全体敌人<font color='#orange#'>{id =301222,index=1,key='buff_sub_fy',format = 2}</font>防御，持续<font color='#orange#'>5</font>秒。",
 		["params"] = "res/image/ui/04_skill/magicvacuum.png",
 	},
-	[80133] = {
+	[580420] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身受到的伤害减少。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580420,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580420,
+		["name"] = "伤害衰减",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身受到的伤害减少。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580153] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "释放技能时增加自身攻速与暴击。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580153,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580153,
+		["name"] = "被动-爆裂普攻",
+		["counter_type"] = {
+		},
+		["full_desc"] = "释放技能时增加自身攻速与暴击。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601214] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80133,
+				["sid"] = 601214,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80133,
-		["name"] = "珊朵拉白色专属1EX",
+		["key"] = 601214,
+		["name"] = "深层恐惧",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "治愈可以驱散<font color='#green2#'>全体友军</font>的负面效果。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>100%</font>的概率使伤害值提高<font color='#green2#'>40%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
 	},
-	[580136] = {
+	[5801561] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580136,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580136,
-		["name"] = "鬼魂",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600451] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "进场随机增加攻击力。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600451,
+				["sid"] = 5801561,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 600451,
-		["name"] = "破甲之刃",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "瓦恩的净化之刃会有<font color='#green2#'>80%</font>概率额外减少怪物<font color='#green2#'>{id =600456, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
-		["params"] = "res/image/ui/04_skill/holyzeal.png",
-	},
-	[572301] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身每次受到伤害时，赋予自身一层护盾。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 572301,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572301,
-		["name"] = "受击加盾",
+		["key"] = 5801561,
+		["name"] = "被动-领袖",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身每次受到伤害时，赋予自身一层护盾。",
+		["full_desc"] = "进场随机增加2%-8%攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104110] = {
@@ -41457,31 +41918,26 @@ skillgroup = {
 		["full_desc"] = "每当艾利欧特发动普通攻击的时候，若自身身上有至少<font color='#orange#'>3</font>层<font color='#orange#'>战技</font>效果，则立刻对<font color='#orange#'>1</font>名敌人发动一次迅速的攻击，造成<font color='#orange#'>450%</font>攻击力的伤害。之后清除自身所有<font color='#orange#'>战技</font>状态。",
 		["params"] = "res/image/ui/04_skill/passive/perfectknight.png",
 	},
-	[533407] = {
+	[580157] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 533407,
+				["sid"] = 580157,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 533407,
-		["name"] = "狼人",
+		["key"] = 580157,
+		["name"] = "被动-固守",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80052] = {
@@ -41567,94 +42023,50 @@ skillgroup = {
 		["full_desc"] = "进场随机增加2%-8%攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580141] = {
+	[580158] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
+		["simple_desc"] = "大幅治疗我方全体单位。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580141,
+				["sid"] = 580158,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580141,
-		["name"] = "黑蔷薇剑兵",
+		["key"] = 580158,
+		["name"] = "被动-治疗",
 		["counter_type"] = {
 		},
-		["full_desc"] = "赋予敌方流血状态。",
+		["full_desc"] = "大幅治疗我方全体单位。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580143] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580143,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580143,
-		["name"] = "罗萨",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580145] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580145,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580145,
-		["name"] = "魔女娜娜",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[104640] = {
+	[102910] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予1名友军激励效果，并赋予自己1层战技效果。",
+		["simple_desc"] = "单体攻击。",
 		["skill_type"] = 1,
-		["probability"] = 3400,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30403,
+				["sid"] = 30167,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30404,
+				["sid"] = 30168,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30405,
+				["sid"] = 30169,
 			},
 		},
-		["key"] = 104640,
+		["key"] = 102910,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -41667,56 +42079,123 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "突击指令",
+		["name"] = "球状闪电",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "罗宾汉射出一发信号弹，赋予<font color='#orange#'>1</font>名队友<font color='#orange#'>激励</font>状态，持续<font color='#orange#'>6</font>秒；同时赋予自己<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态(<font color='#orange#'>战技</font>状态在消耗之前永久存在，最多可叠加<font color='#orange#'>5</font>层；每<font color='#orange#'>1</font>层都会使伤害加深提升<font color='#orange#'>5%</font>，加成为加法运算)。<br/><font color='#green1#'>战斗开始</font>：提升<font color='#green2#'>{id =30403,pkgindex=1,index=1,format = 1}%</font>暴击率和<font color='#green2#'>{id =30403,pkgindex=2,index=1,format = 2}</font>暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：提升<font color='#green2#'>{id =30404,pkgindex=1,index=1,format = 1}%</font>暴击率和<font color='#green2#'>{id =30404,pkgindex=2,index=1,format = 2}</font>暴击伤害；<br/><font color='#purple#'>终结阶段</font>：提升<font color='#green2#'>{id =30405,pkgindex=1,index=1,format = 1}%</font>暴击率和<font color='#green2#'>{id =30405,pkgindex=2,index=1,format = 2}</font>暴击伤害。",
-		["params"] = "res/image/ui/04_skill/attackorder.png",
+		["full_desc"] = "攻击<font color='#orange#'>1</font>名敌人，造成伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30167,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30168,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30169,index=1,format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/balllightning.png",
 	},
-	[580149] = {
+	[580159] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
+		["simple_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580149,
+				["sid"] = 580159,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580149,
-		["name"] = "被动-狂暴",
+		["key"] = 580159,
+		["name"] = "被动-链甲",
 		["counter_type"] = {
 		},
-		["full_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
+		["full_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580151] = {
+	[580400] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "极大地降低敌方英雄的技能伤害。",
+		["simple_desc"] = "进入战斗一段时间后，逐步提升自身攻击。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580151,
+				["sid"] = 580400,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580151,
-		["name"] = "被动-技能削弱",
+		["key"] = 580400,
+		["name"] = "狂暴",
 		["counter_type"] = {
 		},
-		["full_desc"] = "极大地降低敌方英雄的技能伤害。",
+		["full_desc"] = "进入战斗一段时间后，逐步提升自身攻击。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[800665] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 800665,
+			},
+		},
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["key"] = 800665,
+		["simple_desc"] = "装备被动",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "自爆2",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51065] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体，并降低其攻击力",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510651,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510652,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510653,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 51065,
+		["name"] = "北境叛军女",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体，并降低其攻击力",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70071] = {
@@ -41779,40 +42258,7 @@ skillgroup = {
 		["full_desc"] = "每次能量条清空时，恢复我方全体巨额血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80203] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80203,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80203,
-		["name"] = "亚巴顿 黑EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "骸骨护盾可额外提升自身<font color='#green2#'>25%</font>的攻击力，持续8秒。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600934] = {
+	[601151] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -41822,7 +42268,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600934,
+				["sid"] = 601151,
 			},
 		},
 		["consume"] = {
@@ -41832,25 +42278,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600934,
-		["name"] = "英勇捍卫",
+		["key"] = 601151,
+		["name"] = "完美的歌姬",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "兰斯洛特与怪物战斗，释放捍卫时，减伤等级提高有<font color='#green2#'>100%</font>概率提高<font color='#green2#'>15</font>级。",
-		["params"] = "res/image/ui/04_skill/protect.png",
+		["full_desc"] = "与怪物作战时，敌方受到治疗时有<font color='#green2#'>50%</font>的概率额外增加1层沉溺。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[577201] = {
+	[572422] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每当攻击造成伤害，同时驱散身上的由敌人释放的效果。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 577201,
+				["sid"] = 572422,
 			},
 		},
 		["consume"] = {
@@ -41860,11 +42306,46 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 577201,
-		["name"] = "自我净化",
+		["key"] = 572422,
+		["name"] = "鬼魂",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每当攻击造成伤害时，驱散身上的由敌人释放的效果。",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521121] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5211211,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211212,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211213,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521121,
+		["name"] = "獠牙酋长",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50016] = {
@@ -41903,26 +42384,37 @@ skillgroup = {
 		["name"] = "苦痛之鞭",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580153] = {
-		["max_level"] = 1,
+	[80220] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "释放技能时增加自身攻速与暴击。",
-		["skill_type"] = 3,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580153,
+				["sid"] = 80220,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580153,
-		["name"] = "被动-爆裂普攻",
+		["key"] = 80220,
+		["name"] = "但丁 白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "释放技能时增加自身攻速与暴击。",
+		["full_desc"] = "神曲给敌我双方额外触发<font color='#green2#'>1</font>次治疗。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80053] = {
@@ -41986,17 +42478,47 @@ skillgroup = {
 		["full_desc"] = "莉莉丝的魔王触发层数降低至<font color='#green2#'>6</font>层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[577200] = {
-		["max_level"] = 1,
+	[95121] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗后，降低敌方全体技能和dot伤害。",
+		["simple_desc"] = "与怪物战斗时，维多利亚的诅咒额外造成伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 577200,
+				["sid"] = 95121,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 95121,
+		["name"] = "镜之诅咒",
+		["counter_type"] = {
+		},
+		["full_desc"] = "与怪物作战时，处于维多利亚的诅咒状态下的敌人，因我方角色治疗受到伤害时，受到<font color='#orange#'>1</font>次<font color='#green2#'>{id =951212, index=1, format = 2}</font>攻击力的异常状态伤害，每<font color='#orange#'>6</font>秒最多触发<font color='#orange#'>6</font>次。",
+		["params"] = "res/image/ui/04_skill/sublimation.png",
+	},
+	[521820] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5218201,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5218202,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5218203,
 			},
 		},
 		["consume"] = {
@@ -42006,27 +42528,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 577200,
-		["name"] = "技能弱化",
+		["key"] = 521820,
+		["name"] = "狮鹫",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，降低敌方全体技能和异常状态伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20041] = {
+	[200491] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20041,
+				["sid"] = 200491,
 			},
 		},
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 20041,
-		["simple_desc"] = "刀猫普攻",
+		["key"] = 200491,
+		["simple_desc"] = "光明会大主教",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -42040,22 +42562,21 @@ skillgroup = {
 			},
 		},
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "刀猫普攻",
+		["name"] = "光明会大主教",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600922] = {
-		["max_level"] = 10,
+	[572412] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600922,
+				["sid"] = 572412,
 			},
 		},
 		["consume"] = {
@@ -42065,34 +42586,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600922,
-		["name"] = "重伤指令",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "给友军赋予重伤指令，其对怪物释放的重伤有<font color='#green2#'>75%</font>概率提升<font color='#green2#'>50%</font>伤害。",
-		["params"] = "res/image/ui/04_skill/bomshoot.png",
-	},
-	[580155] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次受到伤害不超过自身最大生命值的3%。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580155,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580155,
-		["name"] = "被动-伤害受限",
+		["key"] = 572412,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次受到伤害不超过自身最大生命值的3%。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51040] = {
@@ -42213,36 +42711,26 @@ skillgroup = {
 		["full_desc"] = "对怪物释放单体技能时，有<font color='#green2#'>90%</font>概率提升<font color='#green2#'>10%</font>伤害。",
 		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
 	},
-	[80064] = {
-		["max_level"] = 10,
+	[580193] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80064,
+				["sid"] = 580193,
 			},
 		},
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["key"] = 80064,
-		["simple_desc"] = "装备被动",
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 580193,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "杰克",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601143] = {
@@ -42333,26 +42821,26 @@ skillgroup = {
 		["full_desc"] = "对怪物释放单体技能时，有<font color='#green2#'>100%</font>概率提升<font color='#green2#'>20%</font>伤害。",
 		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
 	},
-	[5801561] = {
+	[580194] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进场随机增加攻击力。",
+		["simple_desc"] = "当自身受到技能或异常状态伤害时，释放光弹反击敌人。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5801561,
+				["sid"] = 580194,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 5801561,
-		["name"] = "被动-领袖",
+		["key"] = 580194,
+		["name"] = "被动-反击",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进场随机增加2%-8%攻击力。",
+		["full_desc"] = "当自身受到技能或异常状态伤害时，释放光弹反击敌人。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601145] = {
@@ -42444,115 +42932,113 @@ skillgroup = {
 		["full_desc"] = "范海辛的连弩射击每箭伤害提升<font color='#green2#'>18%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580157] = {
+	[580596] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
+		["simple_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>12%</font>。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580157,
+				["sid"] = 580596,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580157,
-		["name"] = "被动-固守",
+		["key"] = 580596,
+		["name"] = "圣物-技能强化Lv6",
 		["counter_type"] = {
 		},
-		["full_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
+		["full_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>12%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580158] = {
+	[580413] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "大幅治疗我方全体单位。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580158,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580158,
-		["name"] = "被动-治疗",
-		["counter_type"] = {
-		},
-		["full_desc"] = "大幅治疗我方全体单位。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[102910] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "单体攻击。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30167,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30168,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30169,
+				["sid"] = 580413,
 			},
 		},
-		["key"] = 102910,
+		["consume"] = {
+		},
+		["key"] = 580413,
+		["name"] = "冰皇兽",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[572401] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "每次受击时减少伤害量，减少量固定为受击者攻击的45%，最少伤害值为1。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 572401,
+			},
+		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "球状闪电",
-		["combo_value"] = 2,
+		["key"] = 572401,
+		["name"] = "受击减伤",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击<font color='#orange#'>1</font>名敌人，造成伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30167,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30168,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30169,index=1,format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/balllightning.png",
+		["full_desc"] = "每次受击时减少伤害量，减少量固定为受击者攻击的45%，最少伤害值为1。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580160] = {
+	[521218] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予自身若干层破甲印记，该标记每次受到伤害时减少1层。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。有光弹印记时，会额外打出子弹。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580160,
+				["sid"] = 5212181,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5212182,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5212183,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580160,
-		["name"] = "被动-破甲印记",
+		["key"] = 521218,
+		["name"] = "惩罚搜捕者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "赋予自身若干层破甲印记，该标记每次受到伤害时减少1层。",
+		["full_desc"] = "攻击单体，造成伤害。有光弹印记时，会额外打出子弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521815] = {
+	[521217] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -42562,15 +43048,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5218151,
+				["sid"] = 5212171,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5218152,
+				["sid"] = 5212172,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5218153,
+				["sid"] = 5212173,
 			},
 		},
 		["consume"] = {
@@ -42580,34 +43066,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521815,
-		["name"] = "零歧压迫者",
+		["key"] = 521217,
+		["name"] = "独角兽",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580163] = {
-		["max_level"] = 1,
+	[60106] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580163,
+				["sid"] = 60106,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580163,
-		["name"] = "白熊",
+		["key"] = 60106,
+		["name"] = "追踪光弹",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "赋予敌方流血状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放地裂时，每造成一次伤害释放一枚光弹对随机目标造成<font color='#green2#'>{id =601061, index=1, format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/groundfissure.png",
 	},
 	[90292] = {
 		["max_level"] = 10,
@@ -42697,19 +43189,28 @@ skillgroup = {
 		["full_desc"] = "自身释放技能后，驱散目标身上的护盾。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601151] = {
+	[107440] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "艾琳释放羽毛环绕目标单体，并赋予一层恐惧。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601151,
+				["sid"] = 30589,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30590,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30591,
 			},
 		},
+		["key"] = 107440,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -42717,34 +43218,44 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 601151,
-		["name"] = "完美的歌姬",
+		["name"] = "不祥之羽",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "与怪物作战时，敌方受到治疗时有<font color='#green2#'>50%</font>的概率额外增加1层沉溺。",
-		["params"] = "res/image/ui/04_skill/passive/singer.png",
+		["full_desc"] = "艾琳释放羽毛环绕于敌方前排目标，持续<font color='#orange#'>5</font>秒，并赋予<font color='#orange#'>一层</font>恐惧。若目标<font color='#orange#'>死亡</font>则羽毛会吸收亡者的灵魂变为尖刺对最近的单位造成伤害。<br/><font color='#green1#'>战斗开始</font>：爆炸造成<font color='#green1#'>{id =305891,index=1,format = 2}</font>的攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40024,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复<font color='#orange#'>{id =40025,index=1,format = 2}</font>释放者攻击力的生命值；<br/><font color='#blue1#'>激战阶段</font>：爆炸造成<font color='#green1#'>{id =305901,index=1,format = 2}</font>的攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40022,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复释放者<font color='#orange#'>{id =40023,index=1,format = 2}</font>攻击力的生命值；<br/><font color='#purple#'>终结阶段</font>：爆炸造成<font color='#green1#'>{id =305911,index=1,format = 2}</font>的攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40022,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复释放者<font color='#orange#'>{id =40023,index=1,format = 2}</font>攻击力的生命值。",
+		["params"] = "res/image/ui/04_skill/disasterplume.png",
 	},
-	[580166] = {
-		["max_level"] = 1,
+	[20038] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580166,
+				["sid"] = 20038,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20038,
+		["simple_desc"] = "石头人普攻",
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580166,
-		["name"] = "巫师鲁恩",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["name"] = "石头人普攻",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601152] = {
@@ -42896,97 +43407,110 @@ skillgroup = {
 		["full_desc"] = "范海辛的连弩射击每箭伤害提升<font color='#green2#'>36%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601214] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 601214,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 601214,
-		["name"] = "深层恐惧",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>100%</font>的概率使伤害值提高<font color='#green2#'>40%</font>。",
-		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
-	},
-	[5801761] = {
+	[521213] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进场随机增加攻击力。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5801761,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 5801761,
-		["name"] = "被动-领袖",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进场随机增加2%-8%攻击力。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[102330] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "群体攻击，根据敌人数量造成额外伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30100,
+				["sid"] = 5212131,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30101,
+				["sid"] = 5212132,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30102,
+				["sid"] = 5212133,
 			},
 		},
-		["key"] = 102330,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "千刃",
-		["combo_value"] = 1,
+		["key"] = 521213,
+		["name"] = "零歧监工",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "瞬间闪过所有敌人，对全体敌人造成伤害，并有<font color='#orange#'>30%</font>概率赋予被击者<font color='#orange#'>1</font>层重伤效果。同时，千刃会根据敌人数量造成额外伤害，对方有<font color='#orange#'>5</font>名敌人时额外伤害达到最大值。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30100,index=2,key='sub_hp',format = 2}</font>攻击力的基础伤害，每多<font color='#orange#'>1</font>名敌人造成额外<font color='#orange#'>{id =30100,index=1,key='sub_hp_by_popular',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30101,index=2,key='sub_hp',format = 2}</font>攻击力的基础伤害，每多<font color='#orange#'>1</font>名敌人造成额外<font color='#orange#'>{id =30101,index=1,key='sub_hp_by_popular',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30102,index=2,key='sub_hp',format = 2}</font>攻击力的基础伤害，每多<font color='#orange#'>1</font>名敌人造成额外<font color='#orange#'>{id =30102,index=1,key='sub_hp_by_popular',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>重伤</font>效果每1层会造成每秒<font color='#orange#'>{id =40004,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
-		["params"] = "res/image/ui/04_skill/thousandblade.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521719] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5217191,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217192,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217193,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521719,
+		["name"] = "獠牙斧手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521718] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5217181,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217182,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217183,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521718,
+		["name"] = "狮鹫",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[101810] = {
 		["max_level"] = 10,
@@ -43065,25 +43589,17 @@ skillgroup = {
 		["name"] = "大地果冻怪",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51065] = {
-		["max_level"] = 1,
+	[60067] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体，并降低其攻击力",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510651,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510652,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510653,
+				["sid"] = 60067,
 			},
 		},
 		["consume"] = {
@@ -43093,33 +43609,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 51065,
-		["name"] = "北境叛军女",
+		["key"] = 60067,
+		["name"] = "虚影",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击目标单体，并降低其攻击力",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击怪物时，蒂奇的攻击会减少目标的<font color='#green2#'>{id =600671, index=1,key='buff_sub_mz ',format = 2}</font>命中。",
+		["params"] = "res/image/ui/04_skill/teach.png",
 	},
-	[580404] = {
+	[521717] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每受到一次伤害，提升一次自身攻击。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580404,
+				["sid"] = 5217171,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217172,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217173,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580404,
-		["name"] = "怒火",
+		["key"] = 521717,
+		["name"] = "末日裁决者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每受到一次伤害，提升一次自身攻击。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70074] = {
@@ -43155,124 +43685,29 @@ skillgroup = {
 		["full_desc"] = "开场时攻击力提升<font color='#green2#'>{id =70074, index=1, format = 2}</font>，持续25秒。",
 		["params"] = "res/image/ui/04_skill/firefight.png",
 	},
-	[572422] = {
+	[580581] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 572422,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572422,
-		["name"] = "鬼魂",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521820] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5218201,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5218202,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5218203,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521820,
-		["name"] = "狮鹫",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80220] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80220,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80220,
-		["name"] = "但丁 白",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "神曲给敌我双方额外触发<font color='#green2#'>1</font>次治疗。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580194] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "当自身受到技能或异常状态伤害时，释放光弹反击敌人。",
+		["simple_desc"] = "每次释放技能造成伤害时，释放<font color='#orange#'>1</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580194,
+				["sid"] = 580581,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580194,
-		["name"] = "被动-反击",
+		["key"] = 580581,
+		["name"] = "圣物-追加攻击",
 		["counter_type"] = {
 		},
-		["full_desc"] = "当自身受到技能或异常状态伤害时，释放光弹反击敌人。",
+		["full_desc"] = "释放技能造成伤害时，释放<font color='#orange#'>1</font>个<font color='#orange#'>50%</font>攻击力光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572412] = {
+	[521714] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -43282,7 +43717,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572412,
+				["sid"] = 5217141,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217142,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217143,
 			},
 		},
 		["consume"] = {
@@ -43292,8 +43735,99 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572412,
-		["name"] = "骷髅弓箭手",
+		["key"] = 521714,
+		["name"] = "零歧电击者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601012] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601012,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601012,
+		["name"] = "冰暴",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放凛冬已至时，有<font color='#green2#'>100%</font>概率赋予前排1层碎甲。",
+		["params"] = "res/image/ui/04_skill/wintercome.png",
+	},
+	[600792] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600792,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600792,
+		["name"] = "破甲",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "攻击怪物时，有<font color='#green2#'>90%</font>概率额外降低一个目标<font color='#green2#'>{id =600797, index=1,key='buff_sub_fy',format = 2}</font>防御。",
+		["params"] = "res/image/ui/04_skill/armorbreak.png",
+	},
+	[521713] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5217131,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217132,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217133,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521713,
+		["name"] = "北境重锤使",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -43327,20 +43861,19 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，释放冰枪时会额外释放<font color='#green2#'>1</font>次冰枪，造成<font color='#green2#'>{id =6011612, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/icetab.png",
 	},
-	[20022] = {
+	[80056] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20022,
+				["sid"] = 80056,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20022,
-		["simple_desc"] = "零歧压迫者2普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -43353,10 +43886,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 80056,
+		["name"] = "格莱明",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "零歧迫害者普通攻击",
+		["full_desc"] = "提升格莱明暴击伤害<font color='#green2#'>{id =80056,index=1,format = 1}%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601162] = {
@@ -43387,26 +43922,39 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，释放冰枪时会额外释放<font color='#green2#'>2</font>次冰枪，每次造成<font color='#green2#'>{id =6011622, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/icetab.png",
 	},
-	[580596] = {
+	[521712] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>12%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580596,
+				["sid"] = 5217121,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217122,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217123,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580596,
-		["name"] = "圣物-技能强化Lv6",
+		["key"] = 521712,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>12%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601163] = {
@@ -43437,17 +43985,81 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，释放冰枪时会额外释放<font color='#green2#'>3</font>次冰枪，每次造成<font color='#green2#'>{id =6011632, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/icetab.png",
 	},
-	[572401] = {
+	[521708] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次受击时减少伤害量，减少量固定为受击者攻击的45%，最少伤害值为1。",
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5217081,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217082,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217083,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521708,
+		["name"] = "小火龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[106410] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身战技效果达到一定层数，每次伤害获得额外效果。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572401,
+				["sid"] = 30481,
+			},
+		},
+		["key"] = 106410,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "追猎者",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "范海辛进场时会携带<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>效果。当范海辛身上的<font color='#orange#'>战技</font>效果达到<font color='#orange#'>4</font>层或以上时，范海辛造成的任意伤害，都会使被攻击目标受到的治疗效果降低<font color='#orange#'>20%</font>，这个效果最多可以叠加<font color='#orange#'>4</font>层，持续<font color='#orange#'>10</font>秒。",
+		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
+	},
+	[60096] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60096,
 			},
 		},
 		["consume"] = {
@@ -43457,32 +44069,61 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572401,
-		["name"] = "受击减伤",
+		["key"] = 60096,
+		["name"] = "荆棘之刺",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次受击时减少伤害量，减少量固定为受击者攻击的45%，最少伤害值为1。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "薇欧瑞儿与怪物战斗时，生机转移的伤害提高<font color='#green2#'>{id =60096, index=1, format = 2}</font>。",
+		["params"] = "res/image/ui/04_skill/naturalbound.png",
 	},
-	[521218] = {
+	[600921] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600921,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600921,
+		["name"] = "重伤指令",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "给友军赋予重伤指令，其对怪物释放的重伤有<font color='#green2#'>50%</font>概率提升<font color='#green2#'>50%</font>伤害。",
+		["params"] = "res/image/ui/04_skill/bomshoot.png",
+	},
+	[51060] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。有光弹印记时，会额外打出子弹。",
+		["simple_desc"] = "攻击目标单体，并治疗目标友军",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5212181,
+				["sid"] = 510601,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5212182,
+				["sid"] = 510602,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5212183,
+				["sid"] = 510603,
 			},
 		},
 		["consume"] = {
@@ -43492,116 +44133,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521218,
-		["name"] = "惩罚搜捕者",
+		["key"] = 51060,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。有光弹印记时，会额外打出子弹。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521217] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5212171,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5212172,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5212173,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521217,
-		["name"] = "独角兽",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[51063] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击目标单体，并降低其攻击力",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 510631,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510632,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510633,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 51063,
-		["name"] = "鬼魂",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击目标单体，并降低其攻击力",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521825] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5218251,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5218252,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5218253,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521825,
-		["name"] = "光明会拳师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击目标单体，并治疗目标友军",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51531544] = {
@@ -43632,7 +44168,44 @@ skillgroup = {
 		["full_desc"] = "用科学力量制造的电磁风暴，有着摧毁一切的力量。",
 		["params"] = "res/image/ui/04_skill/cutwind.png",
 	},
-	[521213] = {
+	[106430] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击全体敌人，依据自身战技层数造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30486,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30487,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30488,
+			},
+		},
+		["key"] = 106430,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "神圣手雷",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "范海辛投掷一枚充满圣水和银色弹片的手雷，攻击全体敌人；手雷的伤害会随着范海辛身上<font color='#orange#'>战技</font>效果的层数提升而提升，<font color='#orange#'>5</font>层<font color='#orange#'>战技</font>的时候达到最大值。无<font color='#orange#'>战技</font>效果的时候和<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>效果的时候伤害数值一致。<br/><font color='#green1#'>战斗开始</font>：造成基础<font color='#green2#'>{id =30486,index=1,format = 2}</font>攻击力的伤害，每层战技额外提升<font color='#orange#'>25%</font>攻击力的伤害。<br/><font color='#blue1#'>激战阶段</font>：造成基础<font color='#green2#'>{id =30487,index=1,format = 2}</font>攻击力的伤害，每层战技额外提升<font color='#orange#'>40%</font>攻击力的伤害。<br/><font color='#purple#'>终结阶段</font>：造成基础<font color='#green2#'>{id =30488,index=1,format = 2}</font>攻击力的伤害，每层战技额外提升<font color='#orange#'>40%</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/holygrenade.png",
+	},
+	[521704] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -43642,15 +44215,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5212131,
+				["sid"] = 5217041,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5212132,
+				["sid"] = 5217042,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5212133,
+				["sid"] = 5217043,
 			},
 		},
 		["consume"] = {
@@ -43660,33 +44233,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521213,
-		["name"] = "零歧监工",
+		["key"] = 521704,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580581] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次释放技能造成伤害时，释放<font color='#orange#'>1</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580581,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580581,
-		["name"] = "圣物-追加攻击",
-		["counter_type"] = {
-		},
-		["full_desc"] = "释放技能造成伤害时，释放<font color='#orange#'>1</font>个<font color='#orange#'>50%</font>攻击力光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[533600] = {
@@ -43716,25 +44267,17 @@ skillgroup = {
 		["full_desc"] = "进入战斗后立即大幅提升自身免伤，持续25秒。25秒后，每回合损失自身30%的生命。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521719] = {
-		["max_level"] = 1,
+	[600874] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217191,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217192,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217193,
+				["sid"] = 600874,
 			},
 		},
 		["consume"] = {
@@ -43744,12 +44287,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521719,
-		["name"] = "獠牙斧手",
+		["key"] = 600874,
+		["name"] = "恶咒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>100%</font>概率增加<font color='#green2#'>75%</font>。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
 	[108210] = {
 		["max_level"] = 1,
@@ -43780,27 +44324,33 @@ skillgroup = {
 		["full_desc"] = "桑妮正视自己的决心，绽放热情而奔放的烈焰红莲；桑妮的攻击（包括普通攻击、主动释放的技能以及来自桑妮的灼烧）若击破护盾，则此次燃烧将会从护盾燃烧至敌人身上，使目标自身产生更加旺盛的<font color='#orange#'>盛燃红莲</font>，造成<font color='#orange#'>300%</font>加上目标身上<font color='#orange#'>灼烧</font>层数乘以<font color='#orange#'>30%</font>攻击力的伤害，并附加<font color='#orange#'>1</font>层灼烧。",
 		["params"] = "res/image/ui/04_skill/passive/redlotus.png",
 	},
-	[580543] = {
-		["max_level"] = 1,
+	[600872] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>30%</font>。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580543,
+				["sid"] = 600872,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580543,
-		["name"] = "圣物-减攻强化Lv3",
+		["key"] = 600872,
+		["name"] = "恶咒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>90%</font>概率增加<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
 	[533602] = {
 		["max_level"] = 1,
@@ -44132,64 +44682,7 @@ skillgroup = {
 		["full_desc"] = "对怪物释放寒冷时，有<font color='#green2#'>100%</font>概率附加受到冰霜系技能伤害时额外受到<font color='#green2#'>{id =6011732, index=1, format = 2}</font>攻击力伤害的效果，持续7秒。",
 		["params"] = "res/image/ui/04_skill/icefall.png",
 	},
-	[521105] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5211051,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211052,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211053,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521105,
-		["name"] = "沙漠毒蝎",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580583] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次释放技能造成伤害时，释放<font color='#orange#'>3</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580583,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580583,
-		["name"] = "圣物-追加攻击",
-		["counter_type"] = {
-		},
-		["full_desc"] = "释放技能造成伤害时，释放<font color='#orange#'>3</font>个<font color='#orange#'>50%</font>攻击力光弹。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521718] = {
+	[521702] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -44199,15 +44692,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217181,
+				["sid"] = 5217021,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5217182,
+				["sid"] = 5217022,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5217183,
+				["sid"] = 5217023,
 			},
 		},
 		["consume"] = {
@@ -44217,33 +44710,83 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521718,
-		["name"] = "狮鹫",
+		["key"] = 521702,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580511] = {
+	[60107] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60107,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60107,
+		["name"] = "刃毒",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放水银之刃时，额外释放3枚光弹，每枚光弹对目标造成<font color='#green2#'>{id =601071, index=1, format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/mercury.png",
+	},
+	[580171] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>50%</font>。",
+		["simple_desc"] = "极大地降低敌方英雄的技能伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580511,
+				["sid"] = 580171,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580511,
-		["name"] = "圣物-闪避强化",
+		["key"] = 580171,
+		["name"] = "被动-技能削弱",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>50%</font>。",
+		["full_desc"] = "极大地降低敌方英雄的技能伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580167] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580167,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580167,
+		["name"] = "狼人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80058] = {
@@ -44279,70 +44822,29 @@ skillgroup = {
 		["full_desc"] = "血腥一闪附带吸血效果，恢复伤害<font color='#green2#'>15%</font>的生命。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521501] = {
+	[580512] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
-		["skill_type"] = 1,
+		["simple_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>60%</font>。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215011,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215012,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215013,
+				["sid"] = 580512,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521501,
-		["name"] = "森林狼",
+		["key"] = 580512,
+		["name"] = "圣物-闪避强化",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["full_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>60%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601031] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 601031,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 601031,
-		["name"] = "治愈祝福",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放铁臂猛扫造成伤害时，自身治疗提升<font color='#green2#'>30%</font>，持续6秒。",
-		["params"] = "res/image/ui/04_skill/ironhit.png",
-	},
-	[521714] = {
+	[572323] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -44352,15 +44854,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217141,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217142,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217143,
+				["sid"] = 572323,
 			},
 		},
 		["consume"] = {
@@ -44370,14 +44864,36 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521714,
-		["name"] = "零歧电击者",
+		["key"] = 572323,
+		["name"] = "狮鹫",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521713] = {
+	[580161] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580161,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580161,
+		["name"] = "被动-追加光弹",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[581126] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -44387,15 +44903,29 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217131,
+				["sid"] = 581126,
 			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217132,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217133,
+		},
+		["consume"] = {
+		},
+		["key"] = 581126,
+		["name"] = "零岐监工",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[572313] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 572313,
 			},
 		},
 		["consume"] = {
@@ -44405,33 +44935,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521713,
-		["name"] = "北境重锤使",
+		["key"] = 572313,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580413] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580413,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580413,
-		["name"] = "冰皇兽",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[200011] = {
@@ -44494,31 +45002,26 @@ skillgroup = {
 		["full_desc"] = "对怪物释放流水标记时，有<font color='#green2#'>80%</font>概率降低目标普通攻击造成的伤害<font color='#green2#'>10%</font>，持续7秒。",
 		["params"] = "res/image/ui/04_skill/moonlight.png",
 	},
-	[532222] = {
+	[5924692] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "进场随机增加攻击力。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 532222,
+				["sid"] = 5924692,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 532222,
-		["name"] = "兄弟会弩手",
+		["key"] = 5924692,
+		["name"] = "被动-领袖集火",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "进场随机增加9%-15%攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601182] = {
@@ -44549,17 +45052,17 @@ skillgroup = {
 		["full_desc"] = "对怪物释放流水标记时，有<font color='#green2#'>90%</font>概率降低目标普通攻击造成的伤害<font color='#green2#'>10%</font>，持续7秒。",
 		["params"] = "res/image/ui/04_skill/moonlight.png",
 	},
-	[601021] = {
+	[600812] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601021,
+				["sid"] = 600812,
 			},
 		},
 		["consume"] = {
@@ -44569,13 +45072,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 601021,
-		["name"] = "治愈强化",
+		["key"] = 600812,
+		["name"] = "穿透之枪",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放钢拳造成伤害时，有<font color='#green2#'>80%</font>概率使治疗效果提升<font color='#green2#'>10%</font>。",
-		["params"] = "res/image/ui/04_skill/ironpunch.png",
+		["full_desc"] = "对怪物释放圣枪时，会额外减少其<font color='#green2#'>2层</font>护盾效果。",
+		["params"] = "res/image/ui/04_skill/rhongomyniad.png",
 	},
 	[601183] = {
 		["max_level"] = 10,
@@ -44745,35 +45248,7 @@ skillgroup = {
 		["full_desc"] = "血腥一闪附带吸血效果，恢复伤害<font color='#green2#'>30%</font>的生命。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601013] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 601013,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 601013,
-		["name"] = "冰暴",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放凛冬已至时，有<font color='#green2#'>100%</font>概率赋予前排1层碎甲，有<font color='#green2#'>60%</font>概率赋予后排1层。",
-		["params"] = "res/image/ui/04_skill/wintercome.png",
-	},
-	[521709] = {
+	[572311] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -44783,15 +45258,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217091,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217092,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217093,
+				["sid"] = 572311,
 			},
 		},
 		["consume"] = {
@@ -44801,40 +45268,56 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521709,
-		["name"] = "死亡骑士",
+		["key"] = 572311,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601012] = {
-		["max_level"] = 10,
+	[582121] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601012,
+				["sid"] = 582121,
 			},
 		},
 		["consume"] = {
+		},
+		["key"] = 582121,
+		["name"] = "惩罚搜捕者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580186] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
 			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
+				["round"] = 0,
+				["sid"] = 580186,
 			},
 		},
-		["key"] = 601012,
-		["name"] = "冰暴",
-		["counter_type"] = {
-			[1] = 0,
+		["consume"] = {
 		},
-		["full_desc"] = "对怪物释放凛冬已至时，有<font color='#green2#'>100%</font>概率赋予前排1层碎甲。",
-		["params"] = "res/image/ui/04_skill/wintercome.png",
+		["key"] = 580186,
+		["name"] = "巫师鲁恩",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[550000] = {
 		["max_level"] = 1,
@@ -44863,25 +45346,17 @@ skillgroup = {
 		["full_desc"] = "每3秒回复一定数值",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521708] = {
+	[532123] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217081,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217082,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217083,
+				["sid"] = 532123,
 			},
 		},
 		["consume"] = {
@@ -44891,11 +45366,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521708,
-		["name"] = "小火龙",
+		["key"] = 532123,
+		["name"] = "海盗喽啰",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51043] = {
@@ -44960,32 +45435,36 @@ skillgroup = {
 		["full_desc"] = "释放球状闪电时给予辅助目标激励状态，该激励状态暴击伤害提升<font color='#green2#'>{id =900411, index=1, key='buff_add_critn_val', format = 2}</font>。",
 		["params"] = "res/image/ui/04_skill/balllightning.png",
 	},
-	[80312] = {
+	[20040] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80312,
+				["sid"] = 20040,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20040,
+		["simple_desc"] = "狮鹫普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80312,
-		["name"] = "范海辛白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "范海辛的破邪银桩在4层战技下有<font color='#green2#'>80%</font>概率驱散目标1种状态。",
+		["name"] = "狮鹫普攻",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70078] = {
@@ -45021,17 +45500,17 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>30%</font>，提升防御<font color='#green2#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/defencepos.png",
 	},
-	[60096] = {
+	[60071] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60096,
+				["sid"] = 60071,
 			},
 		},
 		["consume"] = {
@@ -45041,13 +45520,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60096,
-		["name"] = "荆棘之刺",
+		["key"] = 60071,
+		["name"] = "冰刺",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "薇欧瑞儿与怪物战斗时，生机转移的伤害提高<font color='#green2#'>{id =60096, index=1, format = 2}</font>。",
-		["params"] = "res/image/ui/04_skill/naturalbound.png",
+		["full_desc"] = "对怪物释放苍蓝冰棺时，会额外降低其<font color='#green2#'>{id =600711, index=1,key='buff_sub_gj ',format = 2}</font>的防御。",
+		["params"] = "res/image/ui/04_skill/icecasket.png",
 	},
 	[601191] = {
 		["max_level"] = 10,
@@ -45138,20 +45617,19 @@ skillgroup = {
 		["full_desc"] = "对怪物释放纯净之水会额外对一名敌人造成<font color='#green2#'>{id =6011921, index=1, format = 2}</font>伤害并有<font color='#green2#'>75%</font>概率赋予一层流水标记。",
 		["params"] = "res/image/ui/04_skill/warterburst.png",
 	},
-	[106310] = {
+	[533402] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "消耗魔王效果，必然释放噬灵烈焰。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30471,
+				["sid"] = 533402,
 			},
 		},
-		["key"] = 106310,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -45159,13 +45637,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "欲望之王",
-		["combo_value"] = 2,
+		["key"] = 533402,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "每当我方角色对受到来自友方角色的攻击时(包括自己和队友)，莉莉丝会获得<font color='#orange#'>1</font>层<font color='#orange#'>魔王</font>效果。当释放技能的时候，若莉莉丝身上<font color='#orange#'>魔王</font>效果达到<font color='#orange#'>8</font>层时，则清除自己身上所有<font color='#orange#'>魔王</font>效果，莉莉丝本次释放的技能必定为<font color='#orange#'>噬灵烈焰</font>。",
-		["params"] = "res/image/ui/04_skill/passive/darklord.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601193] = {
 		["max_level"] = 10,
@@ -45237,7 +45714,49 @@ skillgroup = {
 		["full_desc"] = "罗宾汉射出一发附魔的箭矢，攻击<font color='#orange#'>1</font>名敌人<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30400,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30401,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30402,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/multishot.png",
 	},
-	[600921] = {
+	[103930] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "依据亡者之怒层数，造成单体攻击或者群体攻击，并附带寒冷效果。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30329,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30330,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30331,
+			},
+		},
+		["key"] = 103930,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "冥界打击",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "凝聚着亡灵之力的一击，根据自身<font color='#orange#'>亡者之怒</font>层数造成不同效果；之后清除自身所有<font color='#orange#'>亡者之怒</font>状态。<br/><font color='#green1#'>战斗开始</font>：<br/>0-6层，对<font color='#orange#'>1</font>名敌人造成<font color='#green2#'>{id =303291,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/>4-6层，赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>寒冷</font>效果；<br/>7-10层，攻击全体敌人，造成<font color='#green2#'>{id =303292,index=1,key='sub_hp',format = 2}</font>攻击力伤害，并赋予全体敌人<font color='#orange#'>寒冷</font>效果；<br/><font color='#blue1#'>激战阶段</font>：<br/>0-6层，对<font color='#orange#'>1</font>名敌人造成<font color='#green2#'>{id =303301,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/>4-6层，赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>寒冷</font>效果；<br/>7-10层，攻击全体敌人，造成<font color='#green2#'>{id =303302,index=1,key='sub_hp',format = 2}</font>攻击力伤害，并赋予全体敌人<font color='#orange#'>寒冷</font>效果；<br/><font color='#purple#'>终结阶段</font>：<br/>0-6层，对<font color='#orange#'>1</font>名敌人造成<font color='#green2#'>{id =303311,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/>4-6层，赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>寒冷</font>效果；<br/>7-10层，攻击全体敌人，造成<font color='#green2#'>{id =303312,index=1,key='sub_hp',format = 2}</font>攻击力伤害，并赋予全体敌人<font color='#orange#'>寒冷</font>效果。<br/><font color='#orange#'>寒冷</font>状态下的敌人，其攻击力下降<font color='#orange#'>{id =40002,index=1,key='buff_sub_gj',format = 2}</font>，持续<font color='#orange#'>6</font>秒。",
+		["params"] = "res/image/ui/04_skill/deathstrike.png",
+	},
+	[600451] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -45247,7 +45766,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600921,
+				["sid"] = 600451,
 			},
 		},
 		["consume"] = {
@@ -45257,33 +45776,29 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600921,
-		["name"] = "重伤指令",
+		["key"] = 600451,
+		["name"] = "破甲之刃",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "给友军赋予重伤指令，其对怪物释放的重伤有<font color='#green2#'>50%</font>概率提升<font color='#green2#'>50%</font>伤害。",
-		["params"] = "res/image/ui/04_skill/bomshoot.png",
+		["full_desc"] = "瓦恩的净化之刃会有<font color='#green2#'>80%</font>概率额外减少怪物<font color='#green2#'>{id =600456, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
+		["params"] = "res/image/ui/04_skill/holyzeal.png",
 	},
-	[51060] = {
+	[530331] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体，并治疗目标友军",
+		["simple_desc"] = "攻击全体，造成伤害。并降低目标攻击力。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510601,
+				["sid"] = 5303311,
 			},
 			[2] = {
-				["round"] = 3,
-				["sid"] = 510602,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510603,
+				["round"] = 0,
+				["sid"] = 5303312,
 			},
 		},
 		["consume"] = {
@@ -45293,36 +45808,14 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 51060,
-		["name"] = "骷髅法师",
+		["key"] = 530331,
+		["name"] = "北境重锤使",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击目标单体，并治疗目标友军",
+		["full_desc"] = "攻击全体，造成伤害。并降低目标攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580184] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580184,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580184,
-		["name"] = "骷髅弓箭手",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521704] = {
+	[530421] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -45332,15 +45825,11 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217041,
+				["sid"] = 5304211,
 			},
 			[2] = {
-				["round"] = 3,
-				["sid"] = 5217042,
-			},
-			[3] = {
 				["round"] = 5,
-				["sid"] = 5217043,
+				["sid"] = 5304212,
 			},
 		},
 		["consume"] = {
@@ -45350,68 +45839,46 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521704,
-		["name"] = "光明会拳师",
+		["key"] = 530421,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580167] = {
+	[580555] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580167,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580167,
-		["name"] = "狼人",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580512] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>60%</font>。",
+		["simple_desc"] = "主动技能释放的提升防御效果提升<font color='#orange#'>40%</font>。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580512,
+				["sid"] = 580555,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580512,
-		["name"] = "圣物-闪避强化",
+		["key"] = 580555,
+		["name"] = "圣物-防御强化Lv5",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>60%</font>。",
+		["full_desc"] = "主动技能释放的提升防御效果提升<font color='#orange#'>40%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572323] = {
-		["max_level"] = 1,
+	[601021] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572323,
+				["sid"] = 601021,
 			},
 		},
 		["consume"] = {
@@ -45421,38 +45888,70 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572323,
-		["name"] = "狮鹫",
+		["key"] = 601021,
+		["name"] = "治愈强化",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放钢拳造成伤害时，有<font color='#green2#'>80%</font>概率使治疗效果提升<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/ironpunch.png",
 	},
-	[572313] = {
+	[580611] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>9%</font>。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572313,
+				["sid"] = 580611,
 			},
 		},
 		["consume"] = {
+		},
+		["key"] = 580611,
+		["name"] = "圣物-技能减伤Lv1",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>9%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[50033] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 50033,
+			},
+			[2] = {
+				["round"] = 2,
+				["sid"] = 500332,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50033,
+		["simple_desc"] = "赋予全体友军持续回血的效果，持续6秒",
+		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 572313,
-		["name"] = "獠牙战士",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["name"] = "闪亮巨星",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70079] = {
@@ -45488,26 +45987,35 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>25%</font>，提升防御<font color='#green2#'>15%</font>。",
 		["params"] = "res/image/ui/04_skill/defencepos.png",
 	},
-	[5924692] = {
+	[530322] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进场随机增加攻击力。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5924692,
+				["sid"] = 5303221,
+			},
+			[2] = {
+				["round"] = 0,
+				["sid"] = 5303222,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 5924692,
-		["name"] = "被动-领袖集火",
+		["key"] = 530322,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进场随机增加9%-15%攻击力。",
+		["full_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[95161] = {
@@ -45532,35 +46040,7 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，风之刃对目标附加碎甲，风之圣痕辅助的单位在持有风之圣痕状态期间第一次给目标附加碎甲时，若目标在本次战斗中获得过防御类增益状态的加成，则对其造成<font color='#green2#'>{id =951614, index=1, format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
-	[600761] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600761,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600761,
-		["name"] = "灭魂",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放破灭时，会额外减少其<font color='#green2#'>1层</font>护盾效果。",
-		["params"] = "res/image/ui/04_skill/evaporate.png",
-	},
-	[582121] = {
+	[530321] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -45570,17 +46050,68 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 582121,
+				["sid"] = 5303211,
+			},
+			[2] = {
+				["round"] = 0,
+				["sid"] = 5303212,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 582121,
-		["name"] = "惩罚搜捕者",
+		["key"] = 530321,
+		["name"] = "北境叛军男",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[102720] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "单体攻击，通过引爆灼烧状态造成额外伤害。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30152,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30153,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30154,
+			},
+		},
+		["key"] = 102720,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "爆燃",
+		["combo_value"] = 3,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "火焰系魔法，攻击<font color='#orange#'>1</font>名敌人，并根据目标身上灼烧状态的层数，给予每<font color='#orange#'>2</font>层<font color='#orange#'>80%</font>攻击力的额外伤害，同时清除该敌人身上所有的灼烧状态。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30152,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30153,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30154,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/fireburst.png",
 	},
 	[50020] = {
 		["max_level"] = 10,
@@ -45701,39 +46232,26 @@ skillgroup = {
 		["full_desc"] = "对怪物释放幽冥一击时，释放的无法受治疗效果时间延长<font color='#green2#'>2</font>秒。",
 		["params"] = "res/image/ui/04_skill/ghostdompunish.png",
 	},
-	[521412] = {
+	[5801761] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "进场随机增加攻击力。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214121,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214122,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214123,
+				["sid"] = 5801761,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521412,
-		["name"] = "北境叛军女",
+		["key"] = 5801761,
+		["name"] = "被动-领袖",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "进场随机增加2%-8%攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601203] = {
@@ -45764,20 +46282,19 @@ skillgroup = {
 		["full_desc"] = "对怪物释放幽冥一击时，释放的无法受治疗效果时间延长<font color='#green2#'>3</font>秒。",
 		["params"] = "res/image/ui/04_skill/ghostdompunish.png",
 	},
-	[107840] = {
-		["max_level"] = 10,
+	[578200] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "斯巴达旋转机械盾牌造成多次伤害",
-		["skill_type"] = 1,
-		["probability"] = 3400,
+		["simple_desc"] = "每次能量条清空时，提升自身暴击率和暴击伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30629,
+				["sid"] = 578200,
 			},
 		},
-		["key"] = 107840,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -45785,25 +46302,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "机械切割",
-		["combo_value"] = 2,
+		["key"] = 578200,
+		["name"] = "暴击",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "斯巴达将机械护盾变形，对敌方前排造成<font color='#orange#'>4</font>段伤害。<br/><font color='#green1#'>战斗开始</font>：造成总计<font color='#green1#'>{id =306294,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成总计<font color='#green1#'>{id =306294,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成总计<font color='#green1#'>{id =306294,index=1,format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/stormofwar.png",
+		["full_desc"] = "每次能量条清空时，提升自身暴击率和暴击伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[532123] = {
+	[572056] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
+		["simple_desc"] = "攻击敌方单体。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 532123,
+				["sid"] = 572056,
 			},
 		},
 		["consume"] = {
@@ -45813,11 +46329,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 532123,
+		["key"] = 572056,
 		["name"] = "海盗喽啰",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害",
+		["full_desc"] = "攻击敌方单体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51044] = {
@@ -45854,39 +46370,34 @@ skillgroup = {
 		["name"] = "骷髅法师",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20040] = {
-		["max_level"] = 10,
+	[5400071] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20040,
+				["sid"] = 5400071,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20040,
-		["simple_desc"] = "狮鹫普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 5400071,
+		["name"] = "惩罚搜捕者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "狮鹫普攻",
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70027] = {
+	[600541] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -45896,28 +46407,23 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70036,
+				["sid"] = 600541,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 70027,
-		["name"] = "亡者之怒",
+		["key"] = 600541,
+		["name"] = "深层噩梦",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "死亡后，释放<font color='#green2#'>10</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的20%。",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+		["full_desc"] = "与怪物战斗时，衰弱的减治疗效果有<font color='#green2#'>80%</font>概率提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/puncture.png",
 	},
 	[70080] = {
 		["max_level"] = 10,
@@ -45952,69 +46458,64 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>20%</font>，提升防御<font color='#green2#'>20%</font>",
 		["params"] = "res/image/ui/04_skill/defencepos.png",
 	},
-	[580571] = {
+	[580604] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身的攻速提升效果提升<font color='#orange#'>40%</font>。",
+		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>10%</font>。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580571,
+				["sid"] = 580604,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580571,
-		["name"] = "圣物-攻速强化",
+		["key"] = 580604,
+		["name"] = "圣物-普攻强化Lv4",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身的攻速提升效果提升<font color='#orange#'>40%</font>。",
+		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103930] = {
+	[106940] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "依据亡者之怒层数，造成单体攻击或者群体攻击，并附带寒冷效果。",
+		["simple_desc"] = "消耗自身战技，强化友军，并根据战技降低目标免伤等级。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30329,
+				["sid"] = 30539,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30330,
+				["sid"] = 30540,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30331,
+				["sid"] = 30541,
 			},
 		},
-		["key"] = 103930,
+		["key"] = 106940,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "冥界打击",
+		["name"] = "锁命之刃",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "凝聚着亡灵之力的一击，根据自身<font color='#orange#'>亡者之怒</font>层数造成不同效果；之后清除自身所有<font color='#orange#'>亡者之怒</font>状态。<br/><font color='#green1#'>战斗开始</font>：<br/>0-6层，对<font color='#orange#'>1</font>名敌人造成<font color='#green2#'>{id =303291,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/>4-6层，赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>寒冷</font>效果；<br/>7-10层，攻击全体敌人，造成<font color='#green2#'>{id =303292,index=1,key='sub_hp',format = 2}</font>攻击力伤害，并赋予全体敌人<font color='#orange#'>寒冷</font>效果；<br/><font color='#blue1#'>激战阶段</font>：<br/>0-6层，对<font color='#orange#'>1</font>名敌人造成<font color='#green2#'>{id =303301,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/>4-6层，赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>寒冷</font>效果；<br/>7-10层，攻击全体敌人，造成<font color='#green2#'>{id =303302,index=1,key='sub_hp',format = 2}</font>攻击力伤害，并赋予全体敌人<font color='#orange#'>寒冷</font>效果；<br/><font color='#purple#'>终结阶段</font>：<br/>0-6层，对<font color='#orange#'>1</font>名敌人造成<font color='#green2#'>{id =303311,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/>4-6层，赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>寒冷</font>效果；<br/>7-10层，攻击全体敌人，造成<font color='#green2#'>{id =303312,index=1,key='sub_hp',format = 2}</font>攻击力伤害，并赋予全体敌人<font color='#orange#'>寒冷</font>效果。<br/><font color='#orange#'>寒冷</font>状态下的敌人，其攻击力下降<font color='#orange#'>{id =40002,index=1,key='buff_sub_gj',format = 2}</font>，持续<font color='#orange#'>6</font>秒。",
-		["params"] = "res/image/ui/04_skill/deathstrike.png",
+		["full_desc"] = "拉娜克希娅提升全体友军攻速和命中，并且加速普通攻击动作。同时消耗自身所有战技，降低1名敌人的免伤等级，持续<font color='#orange#'>12</font>秒。<font color='#orange#'>无</font>战技时，降低免伤等级<font color='#orange#'>{id =305391,index=1,format = 1}</font>级；消耗<font color='#orange#'>1</font>层战技时，降低免伤等级<font color='#orange#'>{id =305392,index=1,format = 1}</font>级；消耗<font color='#orange#'>2</font>层及以上的战技时，降低免伤等级<font color='#orange#'>{id =305393,index=1,format = 1}</font>级。<br/><font color='#green1#'>战斗开始</font>：提升全体<font color='#green1#'>{id =30539,index=1,format = 2}</font>攻速和<font color='#green1#'>{id =305390,index=2,format = 2}</font>命中，持续<font color='#orange#'>6</font>秒；<br/><font color='#blue1#'>激战阶段</font>：提升全体<font color='#green1#'>{id =30539,index=1,format = 2}</font>攻速和<font color='#green1#'>{id =305390,index=2,format = 2}</font>命中，持续<font color='#orange#'>6</font>秒；<br/><font color='#purple#'>终结阶段</font>：提升全体<font color='#green1#'>{id =30539,index=1,format = 2}</font>攻速和<font color='#green1#'>{id =305390,index=2,format = 2}</font>命中，持续<font color='#orange#'>6</font>秒。",
+		["params"] = "res/image/ui/04_skill/deadlyblade.png",
 	},
 	[60002] = {
 		["max_level"] = 10,
@@ -46049,19 +46550,20 @@ skillgroup = {
 		["full_desc"] = "提升断罪之力<font color='#green2#'>100%</font>持续时间。",
 		["params"] = "res/image/ui/04_skill/judgepower.png",
 	},
-	[80050] = {
+	[2001711] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80050,
+				["sid"] = 2001711,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 2001711,
+		["simple_desc"] = "鬼魂普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -46074,12 +46576,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80050,
-		["name"] = "格莱明黑色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "破甲射击伤害提升<font color='#green2#'>15%</font>。",
+		["name"] = "鬼魂普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104120] = {
@@ -46124,27 +46624,19 @@ skillgroup = {
 		["full_desc"] = "艾利欧特释放守护的力量，提升自身防御力，持续<font color='#orange#'>5</font>秒；同时赋予自身<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态(<font color='#orange#'>战技</font>状态在消耗之前永久存在，最多可叠加<font color='#orange#'>5</font>层；每<font color='#orange#'>1</font>层都会使伤害加深提升<font color='#orange#'>5%</font>，加成为加法运算)。<br/><font color='#green1#'>战斗开始</font>：提升<font color='#green2#'>{id =30336,index=1,format = 2}</font>防御；<br/><font color='#blue1#'>激战阶段</font>：提升<font color='#green2#'>{id =30337,index=1,format = 2}</font>防御；<br/><font color='#purple#'>终结阶段</font>：提升<font color='#green2#'>{id =30338,index=1,format = 2}</font>防御。<br/>有<font color='#orange#'>1</font>层及以上的<font color='#orange#'>战技</font>状态时，额外提升自身<font color='#orange#'>260%</font>防御。",
 		["params"] = "res/image/ui/04_skill/shieldbash.png",
 	},
-	[521707] = {
-		["max_level"] = 1,
+	[106300] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5217071,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5217072,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5217073,
+				["sid"] = 10045,
 			},
 		},
+		["skill_type"] = 1,
+		["name"] = "普通攻击(莉莉丝)",
+		["probability"] = 500,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -46152,11 +46644,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521707,
-		["name"] = "沙漠地龙",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["key"] = 106300,
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80062] = {
@@ -46192,19 +46683,47 @@ skillgroup = {
 		["full_desc"] = "回旋之刃伤害提升<font color='#green2#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80204] = {
-		["max_level"] = 10,
+	[5400161] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80204,
+				["sid"] = 5400161,
 			},
 		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 5400161,
+		["name"] = "石头人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[2000911] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 2000911,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 2000911,
+		["simple_desc"] = "骷髅法师普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -46217,34 +46736,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80204,
-		["name"] = "亚巴顿 白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "碎魂击伤害提升<font color='#green2#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[582101] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "能量条清空时，增加自身攻速与暴击。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 582101,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 582101,
-		["name"] = "被动-爆裂普攻",
-		["counter_type"] = {
-		},
-		["full_desc"] = "能量条清空时，增加自身攻速与暴击。",
+		["name"] = "骷髅法师普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601211] = {
@@ -46275,32 +46770,47 @@ skillgroup = {
 		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>80%</font>的概率使伤害值提高<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
 	},
-	[592543] = {
-		["max_level"] = 1,
+	[103740] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次释放技能时赋予目标破甲，若存在怪物标记则变为强力破甲。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
+		["simple_desc"] = "群体攻击，依据龙血层数提升伤害。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592543,
+				["sid"] = 30291,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30292,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30293,
 			},
 		},
+		["key"] = 103740,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592543,
-		["name"] = "被动-破甲",
+		["name"] = "破灭",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次释放技能时赋予目标破甲，若存在怪物标记则变为强力破甲。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "利用自身龙血与魔剑发生共鸣，释放龙息攻击全体敌人，并根据自身<font color='#orange#'>龙血</font>效果层数造成伤害。<br/><font color='#orange#'>0</font>层：造成<font color='#green2#'>{id =30291,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>1-4</font>层：造成<font color='#green2#'>{id =30291,index=2,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>5-9</font>层：造成<font color='#green2#'>{id =30291,index=3,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>10-14</font>层：造成<font color='#green2#'>{id =30291,index=4,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>15-19</font>层：造成<font color='#green2#'>{id =30291,index=5,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>20</font>层：造成<font color='#green2#'>{id =30291,index=6,key='sub_hp',format = 2}</font>攻击力的伤害。<br/>任何阶段，破灭效果一致",
+		["params"] = "res/image/ui/04_skill/evaporate.png",
 	},
 	[521800] = {
 		["max_level"] = 1,
@@ -46329,35 +46839,26 @@ skillgroup = {
 		["full_desc"] = "每次受到攻击，则恢复自身血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[530322] = {
+	[580511] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
-		["skill_type"] = 1,
+		["simple_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>50%</font>。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5303221,
-			},
-			[2] = {
-				["round"] = 0,
-				["sid"] = 5303222,
+				["sid"] = 580511,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 530322,
-		["name"] = "北境叛军女",
+		["key"] = 580511,
+		["name"] = "圣物-闪避强化",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
+		["full_desc"] = "自身受到的闪避提升效果提升<font color='#orange#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601213] = {
@@ -46388,36 +46889,47 @@ skillgroup = {
 		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>100%</font>的概率使伤害值提高<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
 	},
-	[530321] = {
-		["max_level"] = 1,
+	[101820] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "群体攻击，造成寒冷效果。对灼烧达8层的敌人造成额外伤害。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5303211,
+				["sid"] = 300681,
 			},
 			[2] = {
-				["round"] = 0,
-				["sid"] = 5303212,
+				["round"] = 3,
+				["sid"] = 300711,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 300741,
 			},
 		},
+		["key"] = 101820,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 530321,
-		["name"] = "北境叛军男",
+		["name"] = "陨冰术",
+		["combo_value"] = 3,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "冰霜系技能，召唤冰陨石攻击敌方全体，并赋予寒冷效果。若敌人身上有超过<font color='#orange#'>8</font>层<font color='#orange#'>灼烧</font>效果，则额外造成伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =300683,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =300713,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =300713,index=2,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =300743,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =300743,index=2,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>寒冷</font>状态下的敌人，其攻击力下降<font color='#orange#'>{id =40002,index=1,key='buff_sub_gj',format = 2}</font>，持续<font color='#orange#'>6</font>秒。",
+		["params"] = "res/image/ui/04_skill/icefall.png",
 	},
 	[521801] = {
 		["max_level"] = 1,
@@ -46454,47 +46966,32 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102720] = {
-		["max_level"] = 10,
+	[5400141] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "单体攻击，通过引爆灼烧状态造成额外伤害。",
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30152,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30153,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30154,
+				["sid"] = 5400141,
 			},
 		},
-		["key"] = 102720,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "爆燃",
-		["combo_value"] = 3,
+		["key"] = 5400141,
+		["name"] = "树妖",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "火焰系魔法，攻击<font color='#orange#'>1</font>名敌人，并根据目标身上灼烧状态的层数，给予每<font color='#orange#'>2</font>层<font color='#orange#'>80%</font>攻击力的额外伤害，同时清除该敌人身上所有的灼烧状态。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30152,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30153,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30154,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/fireburst.png",
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601215] = {
 		["max_level"] = 10,
@@ -46524,26 +47021,31 @@ skillgroup = {
 		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>100%</font>的概率使伤害值提高<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
 	},
-	[580177] = {
+	[592461] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方全体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580177,
+				["sid"] = 592461,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580177,
-		["name"] = "被动-固守",
+		["key"] = 592461,
+		["name"] = "狮蝎",
 		["counter_type"] = {
 		},
-		["full_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
+		["full_desc"] = "攻击敌方全体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521802] = {
@@ -46613,26 +47115,31 @@ skillgroup = {
 		["name"] = "黑暗爆破",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580611] = {
+	[592501] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>9%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580611,
+				["sid"] = 592501,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580611,
-		["name"] = "圣物-技能减伤Lv1",
+		["key"] = 592501,
+		["name"] = "呆萌木乃伊",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>9%</font>。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80063] = {
@@ -46730,41 +47237,20 @@ skillgroup = {
 		["full_desc"] = "每次所受伤害不超过自身生命3%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580191] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580191,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580191,
-		["name"] = "骷髅法师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20060] = {
+	[200451] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20060,
+				["sid"] = 200451,
 			},
 		},
 		["skill_type"] = 1,
-		["name"] = "狂暴亚龙",
 		["probability"] = 10000,
+		["key"] = 200451,
+		["simple_desc"] = "小火龙普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -46778,8 +47264,42 @@ skillgroup = {
 			},
 		},
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["key"] = 20060,
+		["name"] = "小火龙普攻",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80126] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80126,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80126,
+		["name"] = "伊莎贝拉",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "敦请天使有<font color='#green2#'>30%</font>的概率沉默被击敌人6秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521804] = {
@@ -46927,17 +47447,17 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，每次触发无懈可击都会反弹前排<font color='#green2#'>{id =6012211, index=1, format = 2}</font>攻击力的伤害，<font color='#green2#'>6</font>秒内最多触发<font color='#green2#'>6</font>次",
 		["params"] = "res/image/ui/04_skill/passive/warn.png",
 	},
-	[600611] = {
+	[80299] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600611,
+				["sid"] = 80299,
 			},
 		},
 		["consume"] = {
@@ -46947,13 +47467,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600611,
-		["name"] = "圣光洗礼",
+		["key"] = 80299,
+		["name"] = "威廉黑EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放裁决时，会削弱所有怪物<font color='#green2#'>1层</font>护盾效果。",
-		["params"] = "res/image/ui/04_skill/holyblade.png",
+		["full_desc"] = "铸世之神的后裔中，当威廉闪避普通攻击时，对最近的一名敌人造成的伤害提升至<font color='#green2#'>400%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601223] = {
 		["max_level"] = 10,
@@ -47060,34 +47580,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400071] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5400071,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 5400071,
-		["name"] = "惩罚搜捕者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[60057] = {
+	[600511] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -47097,7 +47590,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60057,
+				["sid"] = 600511,
 			},
 		},
 		["consume"] = {
@@ -47107,28 +47600,55 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60057,
-		["name"] = "狂怒烈焰",
+		["key"] = 600511,
+		["name"] = "碎甲弹",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "爆燃在攻击怪物时可额外触发3次伤害，每次造成<font color='#green2#'>{id =600571, index=1,key='sub_hp ',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/fireburst.png",
+		["full_desc"] = "对怪物的减防效果有<font color='#green2#'>80%</font>概率增加<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
 	},
-	[20024] = {
+	[533706] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 533706,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 533706,
+		["name"] = "狮鹫",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80064] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20024,
+				["sid"] = 80064,
 			},
 		},
-		["skill_type"] = 1,
+		["skill_type"] = 4,
 		["probability"] = 10000,
-		["key"] = 20024,
-		["simple_desc"] = "北境重锤使普通攻击",
+		["key"] = 80064,
+		["simple_desc"] = "装备被动",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -47144,7 +47664,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "北境重锤使普通攻击",
+		["name"] = "杰克",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521807] = {
@@ -47182,105 +47702,86 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并增加己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[800665] = {
+	[60059] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 800665,
+				["sid"] = 60059,
 			},
 		},
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["key"] = 800665,
-		["simple_desc"] = "装备被动",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 60059,
+		["name"] = "雷电增幅",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "自爆2",
+		["full_desc"] = "对怪物释放激励射击时，可额外提升自身<font color='#green2#'>{id =600591, index=1,key='buff_add_critn_val',format = 2}</font>的暴击伤害。",
+		["params"] = "res/image/ui/04_skill/magicresponse.png",
+	},
+	[592448] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592448,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592448,
+		["name"] = "惩罚搜捕者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106940] = {
-		["max_level"] = 10,
+	[5924006] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "消耗自身战技，强化友军，并根据战技降低目标免伤等级。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30539,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30540,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30541,
-			},
-		},
-		["key"] = 106940,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "锁命之刃",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "拉娜克希娅提升全体友军攻速和命中，并且加速普通攻击动作。同时消耗自身所有战技，降低1名敌人的免伤等级，持续<font color='#orange#'>12</font>秒。<font color='#orange#'>无</font>战技时，降低免伤等级<font color='#orange#'>{id =305391,index=1,format = 1}</font>级；消耗<font color='#orange#'>1</font>层战技时，降低免伤等级<font color='#orange#'>{id =305392,index=1,format = 1}</font>级；消耗<font color='#orange#'>2</font>层及以上的战技时，降低免伤等级<font color='#orange#'>{id =305393,index=1,format = 1}</font>级。<br/><font color='#green1#'>战斗开始</font>：提升全体<font color='#green1#'>{id =30539,index=1,format = 2}</font>攻速和<font color='#green1#'>{id =305390,index=2,format = 2}</font>命中，持续<font color='#orange#'>6</font>秒；<br/><font color='#blue1#'>激战阶段</font>：提升全体<font color='#green1#'>{id =30539,index=1,format = 2}</font>攻速和<font color='#green1#'>{id =305390,index=2,format = 2}</font>命中，持续<font color='#orange#'>6</font>秒；<br/><font color='#purple#'>终结阶段</font>：提升全体<font color='#green1#'>{id =30539,index=1,format = 2}</font>攻速和<font color='#green1#'>{id =305390,index=2,format = 2}</font>命中，持续<font color='#orange#'>6</font>秒。",
-		["params"] = "res/image/ui/04_skill/deadlyblade.png",
-	},
-	[2001711] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 2001711,
-			},
-		},
-		["skill_type"] = 1,
+		["simple_desc"] = "当能量条清空时，释放若干枚光弹攻击敌人。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
-		["key"] = 2001711,
-		["simple_desc"] = "鬼魂普通攻击",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5924006,
+			},
+		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 5924006,
+		["name"] = "被动-光弹流星",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "鬼魂普通攻击",
+		["full_desc"] = "当能量条清空时，释放20枚光弹攻击敌人，每枚光弹造成100%攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521808] = {
@@ -47318,19 +47819,28 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106300] = {
+	[107320] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "贝瑟芬妮对单体造成伤害，并禁止目标治疗。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10045,
+				["sid"] = 30573,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30574,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30575,
 			},
 		},
-		["skill_type"] = 1,
-		["name"] = "普通攻击(莉莉丝)",
-		["probability"] = 500,
+		["key"] = 107320,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -47338,40 +47848,15 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["key"] = 106300,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[107000] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10053,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 500,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "普通攻击(缪斯)",
+		["name"] = "幽冥一击",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["key"] = 107000,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "贝瑟芬妮打开冥界之门，溢出的冥界气息会<font color='#orange#'>驱散</font>目标身上的治疗效果，并使目标<font color='#orange#'>无法受到治疗效果</font>，同时从门中刺出3根死骑之枪造成大量伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =305732,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =305742,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =305752,index=1,format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/ghostdompunish.png",
 	},
-	[600533] = {
+	[600493] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -47381,7 +47866,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600533,
+				["sid"] = 600493,
 			},
 		},
 		["consume"] = {
@@ -47391,13 +47876,46 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600533,
-		["name"] = "末端爆发",
+		["key"] = 600493,
+		["name"] = "圣光弹",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物施放群体攻击技能时，有<font color='#green2#'>100%</font>概率会对最远的目标造成一次<font color='#green2#'>75%</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+		["full_desc"] = "每次释放技能对怪物造成伤害时，有<font color='#green2#'>100%</font>概率释放一个光弹，造成<font color='#green2#'>{id =600498, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/anglebless.png",
+	},
+	[80197] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80197,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80197,
+		["name"] = "罗宾汉 白EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "游击者的吸血效果提升至<font color='#green2#'>90%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521809] = {
 		["max_level"] = 1,
@@ -47489,26 +48007,31 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，艾琳释放死亡凝视时有<font color='#green2#'>50%</font>的概率同时对敌方前排释放一层绿阶恐惧。",
 		["params"] = "res/image/ui/04_skill/deathstare.png",
 	},
-	[580541] = {
+	[533006] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>20%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580541,
+				["sid"] = 533006,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580541,
-		["name"] = "圣物-减攻强化Lv1",
+		["key"] = 533006,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
 		},
-		["full_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>20%</font>。",
+		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601232] = {
@@ -47666,88 +48189,39 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103740] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "群体攻击，依据龙血层数提升伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30291,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30292,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30293,
-			},
-		},
-		["key"] = 103740,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "破灭",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "利用自身龙血与魔剑发生共鸣，释放龙息攻击全体敌人，并根据自身<font color='#orange#'>龙血</font>效果层数造成伤害。<br/><font color='#orange#'>0</font>层：造成<font color='#green2#'>{id =30291,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>1-4</font>层：造成<font color='#green2#'>{id =30291,index=2,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>5-9</font>层：造成<font color='#green2#'>{id =30291,index=3,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>10-14</font>层：造成<font color='#green2#'>{id =30291,index=4,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>15-19</font>层：造成<font color='#green2#'>{id =30291,index=5,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#orange#'>20</font>层：造成<font color='#green2#'>{id =30291,index=6,key='sub_hp',format = 2}</font>攻击力的伤害。<br/>任何阶段，破灭效果一致",
-		["params"] = "res/image/ui/04_skill/evaporate.png",
-	},
-	[106810] = {
+	[592469] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "当自身释放黑暗系技能时，随机混乱1名敌方目标。",
+		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30522,
+				["sid"] = 592469,
 			},
 		},
-		["key"] = 106810,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["name"] = "禁忌的低语",
-		["combo_value"] = 2,
+		["key"] = 592469,
+		["name"] = "被动-领袖集火",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "当自身释放黑暗系技能时，随机赋予<font color='#orange#'>1</font>名敌人<font color='#orange#'>混乱</font>效果。<br/>(<font color='#orange#'>混乱</font>状态下的目标攻速提升，普通攻击伤害大幅下降，持续<font color='#orange#'>6</font>秒)",
-		["params"] = "res/image/ui/04_skill/passive/mindgirl.png",
+		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御；领袖死亡时，对其他队友造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400141] = {
+	[533306] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400141,
+				["sid"] = 533306,
 			},
 		},
 		["consume"] = {
@@ -47757,11 +48231,33 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5400141,
-		["name"] = "树妖",
+		["key"] = 533306,
+		["name"] = "小火龙",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580185] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580185,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580185,
+		["name"] = "罗萨",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521812] = {
@@ -47833,17 +48329,17 @@ skillgroup = {
 		["name"] = "松鼠",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[578101] = {
+	[534500] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "赋予自身反弹效果，受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 578101,
+				["sid"] = 534500,
 			},
 		},
 		["consume"] = {
@@ -47853,24 +48349,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 578101,
-		["name"] = "松鼠",
+		["key"] = 534500,
+		["name"] = "反伤印记",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "赋予自身反弹效果，受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[903532] = {
+	[600461] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 903532,
+				["sid"] = 600461,
 			},
 		},
 		["consume"] = {
@@ -47880,13 +48376,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 903532,
-		["name"] = "帝企鹅延迟回血",
+		["key"] = 600461,
+		["name"] = "高压改造",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "延迟回血",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "特斯拉的球状闪电有<font color='#green2#'>80%</font>概率对怪物的伤害增加<font color='#green2#'>25%</font>。",
+		["params"] = "res/image/ui/04_skill/balllightning.png",
 	},
 	[521813] = {
 		["max_level"] = 1,
@@ -47955,33 +48451,38 @@ skillgroup = {
 		["name"] = "普通攻击(寇克尔)",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600524] = {
+	[80125] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600524,
+				["sid"] = 80125,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 600524,
-		["name"] = "腥红飞溅",
+		["key"] = 80125,
+		["name"] = "伊莎贝拉白色专属1EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，每次普攻有<font color='#green2#'>100%</font>概率施放一个光弹，造成<font color='#green2#'>{id =600527, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "圣恩治疗效果提高<font color='#green2#'>100%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60004] = {
 		["max_level"] = 10,
@@ -48051,27 +48552,27 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并降低目标的攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[95141] = {
-		["max_level"] = 10,
+	[580117] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "与怪物战斗时，水晶之刃和凛冬已至对碎甲造成额外伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 95141,
+				["sid"] = 580117,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 95141,
-		["name"] = "凛冬王者",
+		["key"] = 580117,
+		["name"] = "惩罚者牧师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "与怪物战斗时，水晶之刃对碎甲单位额外造成<font color='#green2#'>{id =951414, index=1, format = 2}</font>攻击力的伤害，若该单位在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951414, index=2, format = 2}</font>攻击力的伤害；凛冬已至对碎甲单位额外造成<font color='#green2#'>{id =951416, index=1, format = 2}</font>攻击力的伤害，若该单位在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951416, index=2, format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/sublimation.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601241] = {
 		["max_level"] = 10,
@@ -48162,47 +48663,27 @@ skillgroup = {
 		["full_desc"] = "对怪物造成技能伤害时，有<font color='#green2#'>90%</font>的概率使敌方前排受到的减治疗效果提升<font color='#green2#'>30%</font>，持续5秒。",
 		["params"] = "res/image/ui/04_skill/nullsphere.png",
 	},
-	[104440] = {
-		["max_level"] = 10,
+	[312701] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予1名友军3个随机增益效果。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3400,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30382,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30383,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30384,
+				["sid"] = 312701,
 			},
 		},
-		["key"] = 104440,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["name"] = "苍蓝赞歌",
-		["combo_value"] = 2,
+		["key"] = 312701,
+		["name"] = "北境叛军男",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "洛天依演唱悠远的赞歌，随机赋予<font color='#orange#'>1</font>名友军以下增益效果之中的<font color='#orange#'>3</font>个：<br/>防御提升<font color='#green2#'>{id =303851,index=2,format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>闪避提升<font color='#green2#'>{id =303852,index=2,format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>受到伤害时提升<font color='#green2#'>{id =303854,index=1,format = 2}</font>攻击速度，持续<font color='#orange#'>6</font>秒；<br/>受到伤害时，与全体队友共同分担，持续<font color='#orange#'>6</font>秒。",
-		["params"] = "res/image/ui/04_skill/bluesong.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601243] = {
 		["max_level"] = 10,
@@ -48232,17 +48713,17 @@ skillgroup = {
 		["full_desc"] = "对怪物造成技能伤害时，有<font color='#green2#'>100%</font>的概率使敌方前排受到的减治疗效果提升<font color='#green2#'>30%</font>，持续5秒。",
 		["params"] = "res/image/ui/04_skill/nullsphere.png",
 	},
-	[600523] = {
-		["max_level"] = 10,
+	[572222] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600523,
+				["sid"] = 572222,
 			},
 		},
 		["consume"] = {
@@ -48252,13 +48733,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600523,
-		["name"] = "腥红飞溅",
+		["key"] = 572222,
+		["name"] = "零歧压迫者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，每次普攻有<font color='#green2#'>100%</font>概率施放一个光弹，造成<font color='#green2#'>{id =600526, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601244] = {
 		["max_level"] = 10,
@@ -48288,26 +48768,31 @@ skillgroup = {
 		["full_desc"] = "对怪物造成技能伤害时，有<font color='#green2#'>100%</font>的概率使敌方前排受到的减治疗效果提升<font color='#green2#'>40%</font>，持续5秒。",
 		["params"] = "res/image/ui/04_skill/nullsphere.png",
 	},
-	[592468] = {
+	[572221] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御，同时降低敌人治疗效果。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592468,
+				["sid"] = 572221,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 592468,
-		["name"] = "被动-领袖集火",
+		["key"] = 572221,
+		["name"] = "零歧重锤使",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御；领袖死亡时，对其他队友造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601245] = {
@@ -48338,31 +48823,26 @@ skillgroup = {
 		["full_desc"] = "对怪物造成技能伤害时，有<font color='#green2#'>100%</font>的概率使敌方前排受到的减治疗效果提升<font color='#green2#'>50%</font>，持续5秒。",
 		["params"] = "res/image/ui/04_skill/nullsphere.png",
 	},
-	[592502] = {
+	[580176] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升己方全体防御；领袖死亡时，对其他队友造成伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592502,
+				["sid"] = 580176,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592502,
-		["name"] = "执杖木乃伊",
+		["key"] = 580176,
+		["name"] = "被动-追击",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升己方全体防御；领袖死亡时，对其他队友造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521817] = {
@@ -48427,44 +48907,39 @@ skillgroup = {
 		["full_desc"] = "攻击敌方全体，造成300%攻击力的伤害，同时附加对方生命上限7%的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592461] = {
+	[579130] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方全体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "自身受到的减治疗效果大幅提升。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592461,
+				["sid"] = 579130,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592461,
-		["name"] = "狮蝎",
+		["key"] = 579130,
+		["name"] = "被动-减治疗提升",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方全体，造成伤害。",
+		["full_desc"] = "自身受到的减治疗效果大幅提升。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400101] = {
+	[534700] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
+		["simple_desc"] = "当敌方释放伤害技能时，若不是三英雄组合技，则降低其伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400101,
+				["sid"] = 534700,
 			},
 		},
 		["consume"] = {
@@ -48474,11 +48949,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5400101,
-		["name"] = "獠牙斧手",
+		["key"] = 534700,
+		["name"] = "组合技考验",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["full_desc"] = "当敌方释放伤害技能时，若不是三英雄组合技，则降低其伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521818] = {
@@ -48553,19 +49028,28 @@ skillgroup = {
 		["full_desc"] = "火焰系技能，桑妮熟练地使用火焰，点燃<font color='#orange#'>1</font>名敌人，附加<font color='#orange#'>1</font>层灼烧；在点燃有护盾值的护盾时会焚烧护盾，额外减少<font color='#orange#'>{id =309311,index=1,format = 2}</font>攻击力的护盾值，并附加<font color='#orange#'>1</font>层灼烧；同时在<font color='#orange#'>0.5</font>秒之后产生更加旺盛的<font color='#orange#'>盛燃红莲</font>。<br/><font color='#green1#'>战斗开始</font>：<font color='#orange#'>盛燃红莲</font>造成<font color='#green1#'>{id =309313,index=1,format = 2}</font>加上目标身上<font color='#orange#'>灼烧</font>层数乘以<font color='#green1#'>{id =309317,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：<font color='#orange#'>盛燃红莲</font>造成<font color='#green1#'>{id =309313,index=1,format = 2}</font>加上目标身上<font color='#orange#'>灼烧</font>层数乘以<font color='#green1#'>{id =309317,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：<font color='#orange#'>盛燃红莲</font>造成<font color='#green1#'>{id =309313,index=1,format = 2}</font>加上目标身上<font color='#orange#'>灼烧</font>层数乘以<font color='#green1#'>{id =309317,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/combustion.png",
 	},
-	[592456] = {
-		["max_level"] = 1,
+	[104730] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击全体敌人，并降低目标的命中。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592456,
+				["sid"] = 30410,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30411,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30412,
 			},
 		},
+		["key"] = 104730,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -48573,12 +49057,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592456,
-		["name"] = "树妖",
+		["name"] = "炎枪",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击全体敌人，造成伤害。在兰斯洛特有<font color='#orange#'>战技</font>状态时，消耗<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态，降低目标<font color='#orange#'>30%</font>的普攻命中，持续<font color='#orange#'>6</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30410,index=1,format = 2}</font>攻击力伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30411,index=1,format = 2}</font>攻击力伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30412,index=1,format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/firespear.png",
 	},
 	[80067] = {
 		["max_level"] = 10,
@@ -48648,73 +49133,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并增加己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600512] = {
+	[80195] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600512,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600512,
-		["name"] = "碎甲弹",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物的减防效果有<font color='#green2#'>90%</font>概率增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
-	},
-	[601251] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "黑色符文-1升级",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601251,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 601251,
-		["name"] = "正义光弹",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "与怪物作战释放正义之力时，会攻击当前攻击力最高的敌人，造成<font color='#green2#'>150%</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/justiceone.png",
-	},
-	[80070] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80070,
+				["sid"] = 80195,
 			},
 		},
 		["consume"] = {
@@ -48729,13 +49158,93 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80070,
-		["name"] = "尼尔法白色专属1",
+		["key"] = 80195,
+		["name"] = "罗宾汉 黑EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "幻变元素伤害提升<font color='#green2#'>40%</font>。",
+		["full_desc"] = "爆炸射击有概率额外获得<font color='#green2#'>1~2</font>层战技状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[101310] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "濒死触发治疗。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["accompany"] = 1,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30010,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30013,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30016,
+			},
+		},
+		["key"] = 101310,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["full_desc"] = "神圣系技能，赐福<font color='#orange#'>1</font>名友军，当其血量低于30%的时候，立刻恢复其一定量的生命值。赐福持续<font color='#orange#'>20</font>秒。状态持续期间，治疗效果只会触发<font color='#orange#'>1</font>次，同时在触发之后，清除赐福效果。<br/><font color='#green1#'>战斗开始</font>：恢复<font color='#green2#'>{id =3001011,index=1,key='add_hp',format = 2}</font>最大生命；<br/><font color='#blue1#'>激战阶段</font>：恢复<font color='#green2#'>{id =3001311,index=1,key='add_hp',format = 2}</font>最大生命；<br/><font color='#purple#'>终结阶段</font>：恢复<font color='#green2#'>{id =3001611,index=1,key='add_hp',format = 2}</font>最大生命值。<br/><font color='#red#'>没有队友时不会释放</font>",
+		["combo_value"] = 1,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "无畏赐福",
+		["params"] = "res/image/ui/04_skill/unfearbless.png",
+	},
+	[106230] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击1名敌人，命中有碎甲的目标后，减少其受到的治疗效果。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30464,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30465,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30466,
+			},
+		},
+		["key"] = 106230,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "碎星箭",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "艾尔薇射出强力的一箭，攻击<font color='#orange#'>1</font>名敌人；若目标处于<font color='#orange#'>碎甲</font>状态，则会同时降低目标受到的治疗效果，持续<font color='#orange#'>10</font>秒<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30464,index=1,format = 2}</font>攻击力的伤害，降低<font color='#orange#'>90%</font>的治疗效果。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30465,index=1,format = 2}</font>攻击力的伤害，降低<font color='#orange#'>90%</font>的治疗效果。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30466,index=1,format = 2}</font>攻击力的伤害，降低<font color='#orange#'>90%</font>的治疗效果。",
+		["params"] = "res/image/ui/04_skill/starthund.png",
 	},
 	[601252] = {
 		["max_level"] = 10,
@@ -48827,17 +49336,17 @@ skillgroup = {
 		["full_desc"] = "与怪物作战释放正义之力时，会攻击当前攻击力最高的敌人，造成<font color='#green2#'>300%</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/justiceone.png",
 	},
-	[533001] = {
+	[572213] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 533001,
+				["sid"] = 572213,
 			},
 		},
 		["consume"] = {
@@ -48847,11 +49356,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 533001,
-		["name"] = "魔偶",
+		["key"] = 572213,
+		["name"] = "零歧监工",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521821] = {
@@ -48889,56 +49398,28 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并增加己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60059] = {
+	[104740] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60059,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60059,
-		["name"] = "雷电增幅",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放激励射击时，可额外提升自身<font color='#green2#'>{id =600591, index=1,key='buff_add_critn_val',format = 2}</font>的暴击伤害。",
-		["params"] = "res/image/ui/04_skill/magicresponse.png",
-	},
-	[107320] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "贝瑟芬妮对单体造成伤害，并禁止目标治疗。",
+		["simple_desc"] = "攻击1名敌人，并赋予1名友军增益效果，强化其攻击伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30573,
+				["sid"] = 30413,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30574,
+				["sid"] = 30414,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30575,
+				["sid"] = 30415,
 			},
 		},
-		["key"] = 107320,
+		["key"] = 104740,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -48946,13 +49427,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "幽冥一击",
+		["name"] = "精准一击",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "贝瑟芬妮打开冥界之门，溢出的冥界气息会<font color='#orange#'>驱散</font>目标身上的治疗效果，并使目标<font color='#orange#'>无法受到治疗效果</font>，同时从门中刺出3根死骑之枪造成大量伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =305732,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =305742,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =305752,index=1,format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/ghostdompunish.png",
+		["full_desc"] = "攻击1名敌人，造成伤害。且在<font color='#orange#'>6</font>秒内，当兰斯洛特闪避敌人普攻时，赋予目标友军击穿效果，持续<font color='#orange#'>1</font>秒。击穿效果使其攻击造成伤害时赋予目标<font color='#orange#'>1</font>层<font color='#orange#'>流血</font>效果。在兰斯洛特有战技状态时，消耗<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态，增加自身<font color='#orange#'>{id =304132,index=2,format = 2}</font>普攻闪避，持续<font color='#orange#'>6</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30413,index=1,format = 2}</font>攻击力伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30414,index=1,format = 2}</font>攻击力伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30415,index=1,format = 2}</font>攻击力伤害。<br/><font color='#orange#'>流血</font>效果每层会造成每秒<font color='#orange#'>{id =40018,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
+		["params"] = "res/image/ui/04_skill/misstoup.png",
+	},
+	[572212] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 572212,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 572212,
+		["name"] = "北境女叛军",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60005] = {
 		["max_level"] = 10,
@@ -49022,17 +49530,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600503] = {
-		["max_level"] = 10,
+	[572211] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600503,
+				["sid"] = 572211,
 			},
 		},
 		["consume"] = {
@@ -49042,61 +49550,54 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600503,
-		["name"] = "狂热",
+		["key"] = 572211,
+		["name"] = "北境男叛军",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻速提升效果有<font color='#green2#'>100%</font>概率增加<font color='#green2#'>25%</font>。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
-	},
-	[80197] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80197,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80197,
-		["name"] = "罗宾汉 白EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "游击者的吸血效果提升至<font color='#green2#'>90%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80068] = {
+	[592222] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592222,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592222,
+		["name"] = "獠牙战士",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[20025] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80068,
+				["sid"] = 20025,
 			},
 		},
-		["skill_type"] = 4,
+		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 80068,
-		["simple_desc"] = "装备被动",
+		["key"] = 20025,
+		["simple_desc"] = "北境叛军男普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -49112,7 +49613,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "尼尔法",
+		["name"] = "北境叛军男普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521823] = {
@@ -49150,28 +49651,20 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并增加己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102430] = {
+	[20039] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "单体攻击并重伤目标。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30105,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30106,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30107,
+				["sid"] = 20039,
 			},
 		},
-		["key"] = 102430,
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20039,
+		["simple_desc"] = "独角兽普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -49184,25 +49677,23 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "龙尾击",
-		["combo_value"] = 1,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击<font color='#orange#'>1</font>名敌人，并赋予目标<font color='#orange#'>1</font>层重伤效果，同时有<font color='#orange#'>50%</font>概率额外赋予<font color='#orange#'>1</font>层重伤效果。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30108,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30109,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30110,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>重伤</font>效果每1层会造成每秒<font color='#orange#'>{id =40004,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
-		["params"] = "res/image/ui/04_skill/dragontail.png",
+		["name"] = "独角兽普攻",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80125] = {
+	[80194] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
+		["simple_desc"] = "黑色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80125,
+				["sid"] = 80194,
 			},
 		},
 		["consume"] = {
@@ -49217,34 +49708,39 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80125,
-		["name"] = "伊莎贝拉白色专属1EX",
+		["key"] = 80194,
+		["name"] = "罗宾汉 黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "圣恩治疗效果提高<font color='#green2#'>100%</font>。",
+		["full_desc"] = "爆炸射击有概率额外获得<font color='#green2#'>1</font>层战技状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580122] = {
+	[535100] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "提升自身的暴率和攻速。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580122,
+				["sid"] = 592399,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580122,
-		["name"] = "呆萌木乃伊",
+		["key"] = 535100,
+		["name"] = "暴击",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "提升自身的暴率和攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521824] = {
@@ -49342,33 +49838,37 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，有<font color='#green2#'>80%</font>的概率使自身释放的灼烧伤害增加<font color='#green2#'>25%</font>或额外附加寒冷目标<font color='#green2#'>10%</font>的减攻速效果。",
 		["params"] = "res/image/ui/04_skill/elementshield.png",
 	},
-	[60058] = {
+	[50028] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60058,
+				["sid"] = 50028,
 			},
 		},
+		["skill_type"] = 2,
+		["probability"] = 10000,
+		["key"] = 50028,
+		["simple_desc"] = "荆棘",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 60058,
-		["name"] = "天威",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放神圣轰击，会降低其<font color='#green2#'>{id =600581, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
-		["params"] = "res/image/ui/04_skill/holybombardment.png",
+		["name"] = "荆棘",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601262] = {
 		["max_level"] = 10,
@@ -49398,26 +49898,31 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，有<font color='#green2#'>90%</font>的概率使自身释放的灼烧伤害增加<font color='#green2#'>25%</font>或额外附加寒冷目标<font color='#green2#'>10%</font>的减攻速效果。",
 		["params"] = "res/image/ui/04_skill/elementshield.png",
 	},
-	[580120] = {
+	[41313] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "释放技能时，同时恢复我方全体血量。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580120,
+				["sid"] = 41313,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580120,
-		["name"] = "沙漠地龙",
+		["key"] = 41313,
+		["name"] = "治疗",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "释放技能时，同时恢复我方全体血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601263] = {
@@ -49632,20 +50137,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200501] = {
+	[60008] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200501,
+				["sid"] = 60008,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200501,
-		["simple_desc"] = "叛军首领",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -49658,37 +50162,46 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 60008,
+		["name"] = "撕裂之风",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "叛军首领",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "破风圣痕的防御削减效果提升，持续时间提升。",
+		["params"] = "res/image/ui/04_skill/breakstigmata.png",
 	},
-	[592462] = {
-		["max_level"] = 1,
+	[70086] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方全体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592462,
+				["sid"] = 70086,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592462,
-		["name"] = "剧毒亚龙",
+		["key"] = 70086,
+		["name"] = "亡者之怒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方全体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "死亡后，释放<font color='#green2#'>5</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
 	[533700] = {
 		["max_level"] = 1,
@@ -49717,27 +50230,38 @@ skillgroup = {
 		["full_desc"] = "当敌方释放伤害技能时，若不是组合技，则降低其伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580119] = {
-		["max_level"] = 1,
+	[60013] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580119,
+				["sid"] = 60013,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580119,
-		["name"] = "狮鹫",
+		["key"] = 60013,
+		["name"] = "圣锤",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "治愈治疗效果提升<font color='#green2#'>20%</font>。",
+		["params"] = "res/image/ui/04_skill/holyharmer.png",
 	},
 	[533701] = {
 		["max_level"] = 1,
@@ -50019,34 +50543,7 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，原始烈焰的灼烧传递有<font color='#green2#'>70%</font>概率额外触发一次。",
 		["params"] = "res/image/ui/04_skill/originalfire.png",
 	},
-	[533706] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 533706,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 533706,
-		["name"] = "狮鹫",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80196] = {
+	[80070] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -50056,7 +50553,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80196,
+				["sid"] = 80070,
 			},
 		},
 		["consume"] = {
@@ -50071,12 +50568,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80196,
-		["name"] = "罗宾汉 白",
+		["key"] = 80070,
+		["name"] = "尼尔法白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "游击者的吸血效果提升至<font color='#green2#'>70%</font>。",
+		["full_desc"] = "幻变元素伤害提升<font color='#green2#'>40%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521021] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5210211,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5210212,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5210213,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521021,
+		["name"] = "狂热冲击",
+		["counter_type"] = {
+		},
+		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[533707] = {
@@ -50099,6 +50631,95 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[533301] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 533301,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 533301,
+		["name"] = "兄弟会刺客",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[532300] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 532300,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 532300,
+		["name"] = "反伤印记",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521117] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5211171,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211172,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211173,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521117,
+		["name"] = "末日裁决者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60011] = {
@@ -50134,130 +50755,17 @@ skillgroup = {
 		["full_desc"] = "神圣连击每一击会使自身能量恢复速率提升<font color='#green2#'>20%</font>，持续<font color='#green2#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/holycombo.png",
 	},
-	[572222] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 572222,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572222,
-		["name"] = "零歧压迫者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[90002] = {
+	[60006] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "为自身提供非常强的免伤效果，只在战斗开始和激战阶段有效。",
-		["skill_type"] = 1,
-		["probability"] = 1000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 900021,
-			},
-			[2] = {
-				["round"] = 5,
-				["sid"] = 900022,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90002,
-		["name"] = "终极守护",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "1",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[572221] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572221,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572221,
-		["name"] = "零歧重锤使",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592228] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592228,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592228,
-		["name"] = "树妖",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80195] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80195,
+				["sid"] = 60006,
 			},
 		},
 		["consume"] = {
@@ -50272,12 +50780,39 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80195,
-		["name"] = "罗宾汉 黑EX",
+		["key"] = 60006,
+		["name"] = "裁决者",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "爆炸射击有概率额外获得<font color='#green2#'>1~2</font>层战技状态。",
+		["full_desc"] = "裁决会额外攻击<font color='#green2#'>1</font>次，并且会眩晕目标。",
+		["params"] = "res/image/ui/04_skill/judgement.png",
+	},
+	[592430] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592430,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592430,
+		["name"] = "巫师鲁恩",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70089] = {
@@ -50354,17 +50889,25 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，爱丽丝释放的衰弱的基础效果增加<font color='#orange#'>40%</font>，且当敌方在衰弱状态下恢复生命时，降低其<font color='#green2#'>{id =951715, index=1, format = 2}</font>的防御，持续<font color='#orange#'>6</font>秒，至多叠加<font color='#orange#'>3</font>层。",
 		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
-	[592224] = {
+	[521113] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["simple_desc"] = "攻击单体，造成伤害",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592224,
+				["sid"] = 5211131,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211132,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211133,
 			},
 		},
 		["consume"] = {
@@ -50374,24 +50917,32 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592224,
-		["name"] = "小火龙",
+		["key"] = 521113,
+		["name"] = "北境重锤使",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572213] = {
+	[521019] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572213,
+				["sid"] = 5210191,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5210192,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5210193,
 			},
 		},
 		["consume"] = {
@@ -50401,11 +50952,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572213,
-		["name"] = "零歧监工",
+		["key"] = 521019,
+		["name"] = "猛袭",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50025] = {
@@ -50531,36 +51082,39 @@ skillgroup = {
 		["full_desc"] = "烈风对怪物造成群体伤害时，额外对碎甲目标造成<font color='#green2#'>{id =6012821, index=1, format = 2}</font>自身攻击与目标防御差值的伤害。",
 		["params"] = "res/image/ui/04_skill/strongwind.png",
 	},
-	[20039] = {
-		["max_level"] = 10,
+	[521112] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20039,
+				["sid"] = 5211121,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211122,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211123,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20039,
-		["simple_desc"] = "独角兽普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 521112,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "独角兽普攻",
+		["full_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601283] = {
@@ -50592,17 +51146,17 @@ skillgroup = {
 		["full_desc"] = "烈风对怪物造成群体伤害时，额外对碎甲目标造成<font color='#green2#'>{id =6012831, index=1, format = 2}</font>自身攻击与目标防御差值的伤害。",
 		["params"] = "res/image/ui/04_skill/strongwind.png",
 	},
-	[572212] = {
-		["max_level"] = 1,
+	[90525] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572212,
+				["sid"] = 90525,
 			},
 		},
 		["consume"] = {
@@ -50612,38 +51166,34 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572212,
-		["name"] = "北境女叛军",
+		["key"] = 90525,
+		["name"] = "冰火之威",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "魔法根源的伤害提升<font color='#green2#'>{id =90525, index=1, format = 2}</font>。",
+		["params"] = "res/image/ui/04_skill/passive/magicpower.png",
 	},
-	[572211] = {
+	[580139] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572211,
+				["sid"] = 580139,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 572211,
-		["name"] = "北境男叛军",
+		["key"] = 580139,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51049] = {
@@ -50680,19 +51230,42 @@ skillgroup = {
 		["name"] = "沙盗喽啰",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60008] = {
-		["max_level"] = 10,
+	[580137] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "赋予敌方流血状态。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60008,
+				["sid"] = 580137,
 			},
 		},
+		["consume"] = {
+		},
+		["key"] = 580137,
+		["name"] = "死亡骑士",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予敌方流血状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[200231] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200231,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200231,
+		["simple_desc"] = "零歧监工普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -50705,47 +51278,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60008,
-		["name"] = "撕裂之风",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "破风圣痕的防御削减效果提升，持续时间提升。",
-		["params"] = "res/image/ui/04_skill/breakstigmata.png",
-	},
-	[521516] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5215161,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215162,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215163,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521516,
-		["name"] = "零歧电击者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["name"] = "零歧监工普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70090] = {
@@ -50781,70 +51317,55 @@ skillgroup = {
 		["full_desc"] = "主动技能造成伤害时，降低敌人前排目标<font color='#green2#'>30%</font>攻击力，持续3秒，不可叠加。",
 		["params"] = "res/image/ui/04_skill/spiritbreak.png",
 	},
-	[80194] = {
-		["max_level"] = 10,
+	[570321] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80194,
+				["sid"] = 5703211,
+			},
+			[2] = {
+				["round"] = 5,
+				["sid"] = 5703212,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80194,
-		["name"] = "罗宾汉 黑",
+		["key"] = 570321,
+		["name"] = "兄弟会刺客",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "爆炸射击有概率额外获得<font color='#green2#'>1</font>层战技状态。",
+		["full_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50028] = {
+	[107800] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 50028,
+				["sid"] = 10061,
 			},
 		},
-		["skill_type"] = 2,
-		["probability"] = 10000,
-		["key"] = 50028,
-		["simple_desc"] = "荆棘",
+		["skill_type"] = 1,
+		["key"] = 107800,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "荆棘",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["name"] = "普通攻击(斯巴达)",
+		["probability"] = 500,
 	},
 	[60007] = {
 		["max_level"] = 10,
@@ -50879,38 +51400,42 @@ skillgroup = {
 		["full_desc"] = "破风圣痕的防御削减效果提升，持续时间提升。",
 		["params"] = "res/image/ui/04_skill/breakstigmata.png",
 	},
-	[60013] = {
+	[106740] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
+		["simple_desc"] = "单体伤害。同时根据王权印记的层数获得护盾。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60013,
+				["sid"] = 30519,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30520,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30521,
 			},
 		},
+		["key"] = 106740,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 60013,
-		["name"] = "圣锤",
+		["name"] = "绝对王权",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "治愈治疗效果提升<font color='#green2#'>20%</font>。",
-		["params"] = "res/image/ui/04_skill/holyharmer.png",
+		["full_desc"] = "埃德蒙释放菲尼克斯的能力， 消耗所有<font color='#orange#'>炎魔</font>印记攻击<font color='#orange#'>1</font>名敌人，造成伤害；同时赋予自身护盾效果，吸收<font color='#orange#'>100%</font>攻击力的伤害，并反弹<font color='#orange#'>15%</font>受到的伤害，持续<font color='#orange#'>6</font>秒。消耗<font color='#orange#'>1~3</font>层<font color='#orange#'>炎魔</font>印记时，护盾吸收量提升<font color='#orange#'>30%</font>；消耗<font color='#orange#'>4</font>层<font color='#orange#'>炎魔</font>印记时，护盾吸收量提升<font color='#orange#'>60%</font>，护盾反弹的伤害量提升至<font color='#orange#'>30%</font>。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30519,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30520,index=1,format = 2}</font>攻击力的伤害；消耗<font color='#orange#'>1</font>层<font color='#orange#'>王权</font>印记，护盾值额外提升<font color='#orange#'>50%</font>；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30521,index=1,format = 2}</font>攻击力的伤害；消耗<font color='#orange#'>1</font>层<font color='#orange#'>王权</font>印记，护盾值额外提升<font color='#orange#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/firecrown.png",
 	},
 	[104130] = {
 		["max_level"] = 10,
@@ -50954,39 +51479,26 @@ skillgroup = {
 		["full_desc"] = "艾利欧特释放圣枪的力量，攻击全体敌人。每<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>效果，都会使这次伤害提升<font color='#orange#'>80%</font>。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30339,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30340,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30341,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/rhongomyniad.png",
 	},
-	[521021] = {
+	[580149] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5210211,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5210212,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5210213,
+				["sid"] = 580149,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521021,
-		["name"] = "狂热冲击",
+		["key"] = 580149,
+		["name"] = "被动-狂暴",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
+		["full_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[20026] = {
@@ -51021,7 +51533,7 @@ skillgroup = {
 		["name"] = "北境叛军女普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521119] = {
+	[521103] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -51031,15 +51543,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5211191,
+				["sid"] = 5211031,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5211192,
+				["sid"] = 5211032,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5211193,
+				["sid"] = 5211033,
 			},
 		},
 		["consume"] = {
@@ -51049,24 +51561,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521119,
-		["name"] = "獠牙斧手",
+		["key"] = 521103,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[41205] = {
+	[592440] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每当对敌人造成伤害时，恢复自身血量。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 41205,
+				["sid"] = 592440,
 			},
 		},
 		["consume"] = {
@@ -51076,11 +51588,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 41205,
-		["name"] = "吸血",
+		["key"] = 592440,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每当对敌人造成伤害时，恢复自身血量。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601291] = {
@@ -51112,25 +51624,17 @@ skillgroup = {
 		["full_desc"] = "斯巴达普攻对怪物造成伤害时，提升自身<font color='#green2#'>{id =6012912, index=1, format = 2}</font>普攻伤害，最多4层，切换目标层数清零。",
 		["params"] = "res/image/ui/04_skill/passive/artofwar.png",
 	},
-	[521118] = {
+	[592322] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5211181,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211182,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211183,
+				["sid"] = 592322,
 			},
 		},
 		["consume"] = {
@@ -51140,24 +51644,51 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521118,
-		["name"] = "狮鹫",
+		["key"] = 592322,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80017] = {
+	[592226] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592226,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592226,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[70003] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80017,
+				["sid"] = 70003,
 			},
 		},
 		["consume"] = {
@@ -51172,15 +51703,15 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80017,
-		["name"] = "菲娅白色专属1EX",
+		["key"] = 70003,
+		["name"] = "护盾",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "主动释放的灼烧伤害提升<font color='#green2#'>100%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "开场时获得一个吸收<font color='#green2#'>200%</font>攻击力伤害的护盾，持续20秒。",
+		["params"] = "res/image/ui/04_skill/shieldbash.png",
 	},
-	[60006] = {
+	[70004] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -51190,7 +51721,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60006,
+				["sid"] = 70004,
 			},
 		},
 		["consume"] = {
@@ -51205,75 +51736,45 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60006,
-		["name"] = "裁决者",
+		["key"] = 70004,
+		["name"] = "狂暴",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "裁决会额外攻击<font color='#green2#'>1</font>次，并且会眩晕目标。",
-		["params"] = "res/image/ui/04_skill/judgement.png",
+		["full_desc"] = "开场时攻击力提升<font color='#green2#'>10%</font>，持续10秒。",
+		["params"] = "res/image/ui/04_skill/firefight.png",
 	},
-	[600613] = {
+	[80122] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600613,
+				["sid"] = 80122,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 600613,
-		["name"] = "圣光洗礼",
+		["key"] = 80122,
+		["name"] = "伊莎贝拉黑色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放裁决时，会削弱所有怪物<font color='#green2#'>3层</font>护盾效果。",
-		["params"] = "res/image/ui/04_skill/holyblade.png",
-	},
-	[521113] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5211131,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211132,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211133,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521113,
-		["name"] = "北境重锤使",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害",
+		["full_desc"] = "敦请天使伤害提高<font color='#green2#'>15%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70091] = {
@@ -51309,25 +51810,84 @@ skillgroup = {
 		["full_desc"] = "攻击提升<font color='#green2#'>3%</font>，同时每8秒失去<font color='#green2#'>3%</font>生命。",
 		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[521019] = {
+	[51048] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510481,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510482,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510483,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51048,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["name"] = "兄弟会弩手",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[70005] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70005,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70005,
+		["name"] = "狂暴",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "开场时攻击力提升<font color='#green2#'>15%</font>，持续10秒。",
+		["params"] = "res/image/ui/04_skill/firefight.png",
+	},
+	[532231] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击全体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5210191,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5210192,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5210193,
+				["sid"] = 532231,
 			},
 		},
 		["consume"] = {
@@ -51337,91 +51897,45 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521019,
-		["name"] = "猛袭",
+		["key"] = 532231,
+		["name"] = "沙漠地龙",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击全体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521112] = {
-		["max_level"] = 1,
+	[60032] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5211121,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211122,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211123,
+				["sid"] = 60032,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521112,
-		["name"] = "北境叛军女",
+		["key"] = 60032,
+		["name"] = "与死亡共舞",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580137] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580137,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580137,
-		["name"] = "死亡骑士",
-		["counter_type"] = {
-		},
-		["full_desc"] = "赋予敌方流血状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580134] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580134,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580134,
-		["name"] = "北境叛军女",
-		["counter_type"] = {
-		},
-		["full_desc"] = "赋予敌方流血状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "深渊之击伤害提升<font color='#green2#'>30%</font>",
+		["params"] = "res/image/ui/04_skill/abyssburst.png",
 	},
 	[50026] = {
 		["max_level"] = 10,
@@ -51455,31 +51969,37 @@ skillgroup = {
 		["name"] = "骨甲",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592414] = {
-		["max_level"] = 1,
+	[80196] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592414,
+				["sid"] = 80196,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592414,
-		["name"] = "北境叛军女",
+		["key"] = 80196,
+		["name"] = "罗宾汉 白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "游击者的吸血效果提升至<font color='#green2#'>70%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80073] = {
@@ -51515,20 +52035,81 @@ skillgroup = {
 		["full_desc"] = "黑洞伤害提升<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200231] = {
+	[600901] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600901,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600901,
+		["name"] = "祝福赞歌",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "给队友释放技能苍蓝赞歌时，有概率为辅助目标额外增加<font color='#green2#'>10%</font>闪避。",
+		["params"] = "res/image/ui/04_skill/bluesong.png",
+	},
+	[701031] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 701031,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 701031,
+		["name"] = "守护",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "自身主动释放的护盾提升<font color='#green2#'>10%</font>的护盾值。",
+		["params"] = "res/image/ui/04_skill/shieldbash.png",
+	},
+	[200421] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200231,
+				["sid"] = 200421,
 			},
 		},
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 200231,
-		["simple_desc"] = "零歧监工普通攻击",
+		["key"] = 200421,
+		["simple_desc"] = "鞭猫普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -51544,20 +52125,28 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "零歧监工普通攻击",
+		["name"] = "鞭猫普攻",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592444] = {
+	[521514] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592444,
+				["sid"] = 5215141,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215142,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215143,
 			},
 		},
 		["consume"] = {
@@ -51567,91 +52156,35 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592444,
+		["key"] = 521514,
 		["name"] = "北境叛军女",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592422] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592422,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592422,
-		["name"] = "獠牙战士",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[106740] = {
+	[108430] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "单体伤害。同时根据王权印记的层数获得护盾。",
+		["simple_desc"] = "比南纳尔扔出铸世之锤攻击敌人，并引导一次普攻。",
 		["skill_type"] = 1,
 		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30519,
+				["sid"] = 30654,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30520,
+				["sid"] = 30655,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30521,
+				["sid"] = 30656,
 			},
 		},
-		["key"] = 106740,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "绝对王权",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "埃德蒙释放菲尼克斯的能力， 消耗所有<font color='#orange#'>炎魔</font>印记攻击<font color='#orange#'>1</font>名敌人，造成伤害；同时赋予自身护盾效果，吸收<font color='#orange#'>100%</font>攻击力的伤害，并反弹<font color='#orange#'>15%</font>受到的伤害，持续<font color='#orange#'>6</font>秒。消耗<font color='#orange#'>1~3</font>层<font color='#orange#'>炎魔</font>印记时，护盾吸收量提升<font color='#orange#'>30%</font>；消耗<font color='#orange#'>4</font>层<font color='#orange#'>炎魔</font>印记时，护盾吸收量提升<font color='#orange#'>60%</font>，护盾反弹的伤害量提升至<font color='#orange#'>30%</font>。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30519,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30520,index=1,format = 2}</font>攻击力的伤害；消耗<font color='#orange#'>1</font>层<font color='#orange#'>王权</font>印记，护盾值额外提升<font color='#orange#'>50%</font>；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30521,index=1,format = 2}</font>攻击力的伤害；消耗<font color='#orange#'>1</font>层<font color='#orange#'>王权</font>印记，护盾值额外提升<font color='#orange#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/firecrown.png",
-	},
-	[20056] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20056,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20056,
-		["simple_desc"] = "魔女娜娜",
+		["key"] = 108430,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -51664,10 +52197,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["name"] = "铸世之锤",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "魔女娜娜",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "比南纳尔扔出铸世之锤，攻击<font color='#orange#'>1</font>名敌人，使目标受到的普通攻击伤害加深<font color='#orange#'>20%</font>，同时提升自身暴击率，持续<font color='#orange#'>6</font>秒，之后立刻进行一次普通攻击。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30654,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306545,index=1,format = 2}</font>的暴击率；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30655,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306545,index=1,format = 2}</font>的暴击率；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30656,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306545,index=1,format = 2}</font>的暴击率。",
+		["params"] = "res/image/ui/04_skill/hephaistos.png",
 	},
 	[200041] = {
 		["max_level"] = 10,
@@ -51792,28 +52328,19 @@ skillgroup = {
 		["full_desc"] = "攻击提升<font color='#green2#'>9%</font>，同时每8秒失去<font color='#green2#'>2%</font>生命。",
 		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[51050] = {
+	[571121] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510501,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510502,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510503,
+				["sid"] = 571121,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 51050,
-		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -51821,45 +52348,54 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 571121,
+		["name"] = "松鼠",
 		["counter_type"] = {
 		},
-		["name"] = "刃魔",
+		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521103] = {
-		["max_level"] = 1,
+	[101620] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
+		["simple_desc"] = "对战场内所有其他角色造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5211031,
+				["sid"] = 30042,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5211032,
+				["sid"] = 30045,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5211033,
+				["sid"] = 30048,
 			},
 		},
+		["key"] = 101620,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521103,
-		["name"] = "光明会狂战",
+		["name"] = "苦痛之鞭",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "黑暗系技能，攻击全场所有其他角色。<br/><font color='#green1#'>战斗开始</font>：对敌人造成<font color='#green2#'>{id =30042,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，对队友造成<font color='#orange#'>{id =300421,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/><font color='#blue1#'>激战阶段</font>：对敌人造成<font color='#green2#'>{id =30045,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，对队友造成<font color='#orange#'>{id =300451,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：对敌人造成<font color='#green2#'>{id =30048,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，对队友造成<font color='#orange#'>{id =300481,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/painfulwhip.png",
 	},
 	[103620] = {
 		["max_level"] = 10,
@@ -51902,224 +52438,6 @@ skillgroup = {
 		},
 		["full_desc"] = "黑暗系技能，对<font color='#orange#'>1</font>名友军释放蛇毒，提高其<font color='#orange#'>{id =302411,index=2,key='buff_add_dk',format = 2}</font>闪避率，持续<font color='#orange#'>5</font>秒。同时对<font color='#orange#'>1</font>名敌人释放蛇毒，对其造成伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30241,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30242,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30243,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/mysterioussnake.png",
-	},
-	[592343] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592343,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592343,
-		["name"] = "零歧监工",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70004] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70004,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70004,
-		["name"] = "狂暴",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "开场时攻击力提升<font color='#green2#'>10%</font>，持续10秒。",
-		["params"] = "res/image/ui/04_skill/firefight.png",
-	},
-	[70005] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70005,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70005,
-		["name"] = "狂暴",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "开场时攻击力提升<font color='#green2#'>15%</font>，持续10秒。",
-		["params"] = "res/image/ui/04_skill/firefight.png",
-	},
-	[80074] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80074,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80074,
-		["name"] = "潘多拉黑色专属1",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "潘多拉的噬魂深渊初始拥有2层深渊之怒。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[104900] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10040,
-			},
-		},
-		["skill_type"] = 1,
-		["name"] = "普通攻击(米迦勒)",
-		["probability"] = 500,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["key"] = 104900,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70006] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70006,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70006,
-		["name"] = "狂暴",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "开场时攻击力提升<font color='#green2#'>20%</font>，持续10秒。",
-		["params"] = "res/image/ui/04_skill/firefight.png",
-	},
-	[80122] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80122,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80122,
-		["name"] = "伊莎贝拉黑色专属1",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "敦请天使伤害提高<font color='#green2#'>15%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70009] = {
 		["max_level"] = 10,
@@ -52187,28 +52505,27 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>30%</font>，提升防御<font color='#green2#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/defencepos.png",
 	},
-	[51048] = {
+	[521604] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510481,
+				["sid"] = 5216041,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 510482,
+				["sid"] = 5216042,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 510483,
+				["sid"] = 5216043,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 51048,
-		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -52216,22 +52533,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 521604,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
-		["name"] = "兄弟会弩手",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60032] = {
+	[80074] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60032,
+				["sid"] = 80074,
 			},
 		},
 		["consume"] = {
@@ -52246,13 +52565,222 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60032,
-		["name"] = "与死亡共舞",
+		["key"] = 80074,
+		["name"] = "潘多拉黑色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "深渊之击伤害提升<font color='#green2#'>30%</font>",
-		["params"] = "res/image/ui/04_skill/abyssburst.png",
+		["full_desc"] = "潘多拉的噬魂深渊初始拥有2层深渊之怒。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[104900] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10040,
+			},
+		},
+		["skill_type"] = 1,
+		["name"] = "普通攻击(米迦勒)",
+		["probability"] = 500,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["key"] = 104900,
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80121] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80121,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80121,
+		["name"] = "桑妮",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "炽热符文会额外附加1层灼烧效果。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80218] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80218,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80218,
+		["name"] = "但丁 黑",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "炼狱的基础伤害提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[107820] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "斯巴达牺牲自身生命值造成超高额伤害",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30623,
+			},
+		},
+		["key"] = 107820,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "舍身一击",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "斯巴达使出全身的力量投掷大剑，无视自身体能负担对敌方前排造成高额伤害。<br/><font color='#green1#'>战斗开始</font>：牺牲自身当前生命值<font color='#orange#'>{id =30623,index=1,format = 2}</font>的血量，对敌方前排造成目标当前生命值<font color='#green1#'>{id =306231,index=1,format = 2}</font>的伤害；<br/><font color='#blue1#'>激战阶段</font>：牺牲自身当前生命值<font color='#orange#'>{id =30623,index=1,format = 2}</font>的血量，对敌方前排造成目标当前生命值<font color='#green1#'>{id =306231,index=1,format = 2}</font>伤害；<br/><font color='#purple#'>终结阶段</font>：牺牲自身当前生命值<font color='#orange#'>{id =30623,index=1,format = 2}</font>的血量，对敌方前排造成目标当前生命值<font color='#green1#'>{id =306231,index=1,format = 2}</font>伤害。（对目标造成的伤害最低不低于自身攻击力的<font color='#orange#'>300%</font>，最高不超过自身生命值的<font color='#orange#'>30%</font>）",
+		["params"] = "res/image/ui/04_skill/throw.png",
+	},
+	[60003] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60003,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60003,
+		["name"] = "净罪者",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "提升断罪之力<font color='#green2#'>500%</font>持续时间。",
+		["params"] = "res/image/ui/04_skill/judgepower.png",
+	},
+	[582127] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 582127,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 582127,
+		["name"] = "黑蔷薇剑兵",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80057] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80057,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80057,
+		["name"] = "格莱明",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "提升格莱明暴击伤害<font color='#green2#'>{id =80057,index=1,format = 1}%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90312] = {
 		["max_level"] = 10,
@@ -52315,32 +52843,39 @@ skillgroup = {
 		["full_desc"] = "攻击提升<font color='#green2#'>15%</font>，同时每8秒失去<font color='#green2#'>1%</font>生命。",
 		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[572056] = {
+	[102110] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体。",
-		["skill_type"] = 1,
+		["simple_desc"] = "自身攻击力下降，防御力提升。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572056,
+				["sid"] = 30084,
 			},
 		},
+		["key"] = 102110,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 572056,
-		["name"] = "海盗喽啰",
+		["name"] = "年迈的守护者",
+		["combo_value"] = 1,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身攻击力下降<font color='#orange#'>35%</font>，防御力提升<font color='#orange#'>35%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/oldshielder.png",
 	},
 	[601311] = {
 		["max_level"] = 10,
@@ -52372,7 +52907,39 @@ skillgroup = {
 		["full_desc"] = "与怪物作战时，重炮轰击同时提升比南纳尔自身的暴击率<font color='#green2#'>{id =6013111, index=1, format = 2}</font>。",
 		["params"] = "res/image/ui/04_skill/heavycannon.png",
 	},
-	[592441] = {
+	[200221] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200221,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200221,
+		["simple_desc"] = "零歧压迫者2普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "零歧迫害者普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592355] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -52382,7 +52949,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592441,
+				["sid"] = 592355,
 			},
 		},
 		["consume"] = {
@@ -52392,37 +52959,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592441,
-		["name"] = "死亡骑士",
+		["key"] = 592355,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[51045] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5219001,
-			},
-		},
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["key"] = 51045,
-		["simple_desc"] = "自身受到的伤害不超过",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-		},
-		["name"] = "伤害受限",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50027] = {
@@ -52457,25 +52998,17 @@ skillgroup = {
 		["name"] = "腐蚀毒针",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521510] = {
-		["max_level"] = 1,
+	[80304] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215101,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215102,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215103,
+				["sid"] = 80304,
 			},
 		},
 		["consume"] = {
@@ -52485,11 +53018,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521510,
-		["name"] = "骷髅法师",
+		["key"] = 80304,
+		["name"] = "提尔白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "提尔释放刚拳造成伤害时，有<font color='#green2#'>40%</font>概率对致盲的目标晕眩2秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80075] = {
@@ -52553,7 +53087,7 @@ skillgroup = {
 		["full_desc"] = "硫效果提升不协之毒的持续时间额外延长1秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592429] = {
+	[592511] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -52563,7 +53097,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592429,
+				["sid"] = 592511,
 			},
 		},
 		["consume"] = {
@@ -52573,42 +53107,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592429,
-		["name"] = "魔斧手罗萨",
+		["key"] = 592511,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80344] = {
+	[102700] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "普通攻击(菲娅)",
+		["skill_type"] = 1,
+		["probability"] = 500,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80344,
+				["sid"] = 10016,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80344,
-		["name"] = "埃德蒙白EX",
+		["key"] = 102700,
+		["name"] = "普通攻击(菲娅)",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "埃德蒙受到来自友军的攻击时会提升自身<font color='#green2#'>20%</font>的攻击力，持续6秒，该攻击提升效果同一时间只能存在一个。",
+		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10015,index=1,key='sub_hp',format = 1}</font>点伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592408] = {
+	[592352] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -52618,7 +53157,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592408,
+				["sid"] = 592352,
 			},
 		},
 		["consume"] = {
@@ -52628,8 +53167,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592408,
-		["name"] = "小火龙",
+		["key"] = 592352,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -52711,28 +53250,19 @@ skillgroup = {
 		["name"] = "零歧压迫者",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[101620] = {
+	[70031] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "对战场内所有其他角色造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30042,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30045,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30048,
+				["sid"] = 70044,
 			},
 		},
-		["key"] = 101620,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -52745,13 +53275,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "苦痛之鞭",
-		["combo_value"] = 2,
+		["key"] = 70031,
+		["name"] = "枯萎",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "黑暗系技能，攻击全场所有其他角色。<br/><font color='#green1#'>战斗开始</font>：对敌人造成<font color='#green2#'>{id =30042,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，对队友造成<font color='#orange#'>{id =300421,index=1,key='sub_hp',format = 2}</font>攻击力伤害；<br/><font color='#blue1#'>激战阶段</font>：对敌人造成<font color='#green2#'>{id =30045,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，对队友造成<font color='#orange#'>{id =300451,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：对敌人造成<font color='#green2#'>{id =30048,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，对队友造成<font color='#orange#'>{id =300481,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/painfulwhip.png",
+		["full_desc"] = "造成伤害时，降低敌人前排目标<font color='#green2#'>5%</font>攻击力，持续2秒，不可叠加。",
+		["params"] = "res/image/ui/04_skill/spiritbreak.png",
 	},
 	[90313] = {
 		["max_level"] = 10,
@@ -52847,32 +53377,38 @@ skillgroup = {
 		["name"] = "原始烈焰",
 		["params"] = "res/image/ui/04_skill/originalfire.png",
 	},
-	[571121] = {
-		["max_level"] = 1,
+	[70032] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 571121,
+				["sid"] = 70045,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 571121,
-		["name"] = "松鼠",
+		["key"] = 70032,
+		["name"] = "枯萎",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "造成伤害时，降低敌人前排目标<font color='#green2#'>10%</font>攻击力，持续2秒，不可叠加。",
+		["params"] = "res/image/ui/04_skill/spiritbreak.png",
 	},
 	[60009] = {
 		["max_level"] = 10,
@@ -52907,36 +53443,7 @@ skillgroup = {
 		["full_desc"] = "破风圣痕的防御削减效果提升，持续时间提升。",
 		["params"] = "res/image/ui/04_skill/breakstigmata.png",
 	},
-	[107820] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "斯巴达牺牲自身生命值造成超高额伤害",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30623,
-			},
-		},
-		["key"] = 107820,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "舍身一击",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "斯巴达使出全身的力量投掷大剑，无视自身体能负担对敌方前排造成高额伤害。<br/><font color='#green1#'>战斗开始</font>：牺牲自身当前生命值<font color='#orange#'>{id =30623,index=1,format = 2}</font>的血量，对敌方前排造成目标当前生命值<font color='#green1#'>{id =306231,index=1,format = 2}</font>的伤害；<br/><font color='#blue1#'>激战阶段</font>：牺牲自身当前生命值<font color='#orange#'>{id =30623,index=1,format = 2}</font>的血量，对敌方前排造成目标当前生命值<font color='#green1#'>{id =306231,index=1,format = 2}</font>伤害；<br/><font color='#purple#'>终结阶段</font>：牺牲自身当前生命值<font color='#orange#'>{id =30623,index=1,format = 2}</font>的血量，对敌方前排造成目标当前生命值<font color='#green1#'>{id =306231,index=1,format = 2}</font>伤害。（对目标造成的伤害最低不低于自身攻击力的<font color='#orange#'>300%</font>，最高不超过自身生命值的<font color='#orange#'>30%</font>）",
-		["params"] = "res/image/ui/04_skill/throw.png",
-	},
-	[60003] = {
+	[70033] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -52946,7 +53453,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60003,
+				["sid"] = 70046,
 			},
 		},
 		["consume"] = {
@@ -52961,45 +53468,76 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60003,
-		["name"] = "净罪者",
+		["key"] = 70033,
+		["name"] = "枯萎",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "提升断罪之力<font color='#green2#'>500%</font>持续时间。",
-		["params"] = "res/image/ui/04_skill/judgepower.png",
+		["full_desc"] = "造成伤害时，降低敌人前排目标<font color='#green2#'>20%</font>攻击力，持续2秒，不可叠加。",
+		["params"] = "res/image/ui/04_skill/spiritbreak.png",
 	},
-	[2000911] = {
-		["max_level"] = 10,
+	[521007] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 2000911,
+				["sid"] = 5210071,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5210072,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5210073,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 2000911,
-		["simple_desc"] = "骷髅法师普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 521007,
+		["name"] = "拍击",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601321] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601321,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601321,
+		["name"] = "美梦",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "骷髅法师普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物战斗时，甜蜜梦境有<font color='#green2#'>50%</font>概率赋予目标1层衰弱。",
+		["params"] = "res/image/ui/04_skill/cutedream.png",
 	},
 	[20027] = {
 		["max_level"] = 10,
@@ -53033,35 +53571,7 @@ skillgroup = {
 		["name"] = "北境熊普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80332] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80332,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80332,
-		["name"] = "伊露丽黑EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "硫效果提升不协之毒的持续时间额外延长2秒。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80121] = {
+	[601322] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -53071,9 +53581,31 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80121,
+				["sid"] = 601322,
 			},
 		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601322,
+		["name"] = "美梦",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "与怪物战斗时，甜蜜梦境有<font color='#green2#'>75%</font>概率赋予目标1层衰弱。",
+		["params"] = "res/image/ui/04_skill/cutedream.png",
+	},
+	[70040] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["name"] = "防御者战靴",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -53086,15 +53618,20 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80121,
-		["name"] = "桑妮",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70053,
+			},
+		},
+		["key"] = 70040,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "炽热符文会额外附加1层灼烧效果。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "大苍穹战斗减少<font color='#green2#'>50%</font>补给值消耗，多件装备最高可叠加至90%",
+		["params"] = "res/image/ui/04_skill/defence.png",
 	},
-	[80057] = {
+	[601323] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -53104,70 +53641,37 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80057,
+				["sid"] = 601323,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80057,
-		["name"] = "格莱明",
+		["key"] = 601323,
+		["name"] = "美梦",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "提升格莱明暴击伤害<font color='#green2#'>{id =80057,index=1,format = 1}%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物战斗时，甜蜜梦境有<font color='#green2#'>100%</font>概率赋予目标1层衰弱。",
+		["params"] = "res/image/ui/04_skill/cutedream.png",
 	},
-	[592028] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592028,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592028,
-		["name"] = "黑蔷薇剑兵",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[102130] = {
+	[70054] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予自身伤害减免效果，根据自身攻击力提升幅度额外附加效果。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30088,
+				["sid"] = 70054,
 			},
 		},
-		["key"] = 102130,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -53180,50 +53684,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "胜利之盾",
-		["combo_value"] = 1,
+		["key"] = 70054,
+		["name"] = "伤害缓和",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "神圣系技能，提升罗兰<font color='#green2#'>{id =30088,pkgindex=1,index=2,format = 2}</font>伤害免疫，持续12秒，同时使自身免疫<font color='#orange#'>3</font>秒内的异常状态伤害。<br/>当攻击力超过初始攻击力的<font color='#orange#'>120%</font>时，额外赋予<font color='#green2#'>{id =30088,pkgindex=2,index=2,format = 2}</font>免伤，持续12秒，同时驱散自身<font color='#orange#'>1</font>个负面效果；<br/>当攻击力超过初始攻击力的<font color='#orange#'>200%</font>时，额外赋予<font color='#green2#'>{id =30088,pkgindex=3,index=2,format = 2}</font>免伤，持续12秒，同时驱散自身<font color='#orange#'>2</font>个负面效果。<br/>任何阶段，胜利之盾的效果一致。",
-		["params"] = "res/image/ui/04_skill/shieldbash.png",
+		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>10%</font>概率恢复<font color='#green1#'>40%</font>当前攻击力的血量。3秒内只能触发一次。",
+		["params"] = "res/image/ui/04_skill/healthy.png",
 	},
-	[582135] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 582135,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 582135,
-		["name"] = "罗萨",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[50023] = {
+	[70055] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 50023,
+				["sid"] = 70055,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50023,
-		["simple_desc"] = "鬼魂重伤",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -53236,10 +53717,72 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 70055,
+		["name"] = "伤害缓和",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "灵魂破损",
+		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>30%</font>概率恢复<font color='#green1#'>40%</font>当前攻击力的血量。3秒内只能触发一次。",
+		["params"] = "res/image/ui/04_skill/healthy.png",
+	},
+	[60031] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60031,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60031,
+		["name"] = "与死亡共舞",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "深渊之击伤害提升<font color='#green2#'>20%</font>",
+		["params"] = "res/image/ui/04_skill/abyssburst.png",
+	},
+	[592345] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592345,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592345,
+		["name"] = "零歧压迫者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90314] = {
@@ -53303,83 +53846,50 @@ skillgroup = {
 		["full_desc"] = "攻击提升<font color='#green2#'>38%</font>，同时每8秒失去<font color='#green2#'>1%</font>生命。",
 		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[70031] = {
+	[70056] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70044,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70031,
-		["name"] = "枯萎",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "造成伤害时，降低敌人前排目标<font color='#green2#'>5%</font>攻击力，持续2秒，不可叠加。",
-		["params"] = "res/image/ui/04_skill/spiritbreak.png",
-	},
-	[70032] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70045,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70032,
-		["name"] = "枯萎",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "造成伤害时，降低敌人前排目标<font color='#green2#'>10%</font>攻击力，持续2秒，不可叠加。",
-		["params"] = "res/image/ui/04_skill/spiritbreak.png",
-	},
-	[80304] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80304,
+				["sid"] = 70056,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70056,
+		["name"] = "伤害缓和",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>40%</font>概率恢复<font color='#green1#'>{id =700561, index=1, format = 2}</font>当前攻击力的血量。3秒内只能触发一次。",
+		["params"] = "res/image/ui/04_skill/healthy.png",
+	},
+	[592344] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592344,
 			},
 		},
 		["consume"] = {
@@ -53389,25 +53899,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80304,
-		["name"] = "提尔白",
+		["key"] = 592344,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "提尔释放刚拳造成伤害时，有<font color='#green2#'>40%</font>概率对致盲的目标晕眩2秒。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80303] = {
+	[600531] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80303,
+				["sid"] = 600531,
 			},
 		},
 		["consume"] = {
@@ -53417,12 +53926,39 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80303,
-		["name"] = "提尔黑EX",
+		["key"] = 600531,
+		["name"] = "末端爆发",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "提尔释放铁臂猛扫时，对致盲目标的额外伤害提升<font color='#green2#'>60%</font>。",
+		["full_desc"] = "对怪物施放群体攻击技能时，有<font color='#green2#'>80%</font>概率会对最远的目标造成一次<font color='#green2#'>75%</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+	},
+	[592342] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592342,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592342,
+		["name"] = "鬼魂",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[108230] = {
@@ -53462,19 +53998,20 @@ skillgroup = {
 		["full_desc"] = "火焰系技能，桑妮操控烈焰之灵附身在辅助目标身上，持续<font color='#orange#'>4</font>秒，使其每次在造成伤害或减少护盾值时，赋予目标<font color='#orange#'>1</font>层灼烧；烈焰之灵在攻击有护盾值的护盾时会使对方的护盾变为火之囚笼，降低目标的防御。<br/><font color='#green1#'>战斗开始</font>：降低<font color='#green1#'>{id =309342,index=1,format = 2}</font>的防御，持续<font color='#green1#'>{id =309341,index=1,format = 1}</font>秒；<br/><font color='#blue1#'>激战阶段</font>：降低<font color='#green1#'>{id =309342,index=1,format = 2}</font>的防御，持续<font color='#green1#'>{id =309341,index=1,format = 1}</font>秒；<br/><font color='#purple#'>终结阶段</font>：降低<font color='#green1#'>{id =309342,index=1,format = 2}</font>的防御，持续<font color='#green1#'>{id =309341,index=1,format = 1}</font>秒。",
 		["params"] = "res/image/ui/04_skill/firespirit.png",
 	},
-	[70054] = {
+	[102130] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "赋予自身伤害减免效果，根据自身攻击力提升幅度额外附加效果。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70054,
+				["sid"] = 30088,
 			},
 		},
+		["key"] = 102130,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -53487,13 +54024,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70054,
-		["name"] = "伤害缓和",
+		["name"] = "胜利之盾",
+		["combo_value"] = 1,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>10%</font>概率恢复<font color='#green1#'>40%</font>当前攻击力的血量。3秒内只能触发一次。",
-		["params"] = "res/image/ui/04_skill/healthy.png",
+		["full_desc"] = "神圣系技能，提升罗兰<font color='#green2#'>{id =30088,pkgindex=1,index=2,format = 2}</font>伤害免疫，持续12秒，同时使自身免疫<font color='#orange#'>3</font>秒内的异常状态伤害。<br/>当攻击力超过初始攻击力的<font color='#orange#'>120%</font>时，额外赋予<font color='#green2#'>{id =30088,pkgindex=2,index=2,format = 2}</font>免伤，持续12秒，同时驱散自身<font color='#orange#'>1</font>个负面效果；<br/>当攻击力超过初始攻击力的<font color='#orange#'>200%</font>时，额外赋予<font color='#green2#'>{id =30088,pkgindex=3,index=2,format = 2}</font>免伤，持续12秒，同时驱散自身<font color='#orange#'>2</font>个负面效果。<br/>任何阶段，胜利之盾的效果一致。",
+		["params"] = "res/image/ui/04_skill/shieldbash.png",
 	},
 	[80077] = {
 		["max_level"] = 10,
@@ -53556,17 +54093,17 @@ skillgroup = {
 		["full_desc"] = "伊露丽水银触发的流弹击中单位时有<font color='#green2#'>50%</font>的概率附加一层不协之毒",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102700] = {
+	[70075] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "普通攻击(菲娅)",
-		["skill_type"] = 1,
-		["probability"] = 500,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10016,
+				["sid"] = 70075,
 			},
 		},
 		["consume"] = {
@@ -53581,13 +54118,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 102700,
-		["name"] = "普通攻击(菲娅)",
+		["key"] = 70075,
+		["name"] = "狂暴",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10015,index=1,key='sub_hp',format = 1}</font>点伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "开场时攻击力提升<font color='#green2#'>30%</font>，持续25秒。",
+		["params"] = "res/image/ui/04_skill/firefight.png",
 	},
 	[601331] = {
 		["max_level"] = 10,
@@ -53617,17 +54154,17 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，盛燃攻击有护盾值的护盾时会赋予目标<font color='#green2#'>1</font>层灼烧。",
 		["params"] = "res/image/ui/04_skill/combustion.png",
 	},
-	[592356] = {
-		["max_level"] = 1,
+	[80295] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592356,
+				["sid"] = 80295,
 			},
 		},
 		["consume"] = {
@@ -53637,11 +54174,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592356,
-		["name"] = "树妖",
+		["key"] = 80295,
+		["name"] = "艾尔薇黑ex",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "每当队友释放碎甲时，艾尔薇有<font color='#green2#'>80%</font>概率额外获得一层强弓效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601332] = {
@@ -53767,36 +54305,29 @@ skillgroup = {
 		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10015,index=1,key='sub_hp',format = 1}</font>点伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106410] = {
+	[582101] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身战技效果达到一定层数，每次伤害获得额外效果。",
+		["simple_desc"] = "能量条清空时，增加自身攻速与暴击。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30481,
+				["sid"] = 582101,
 			},
 		},
-		["key"] = 106410,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["name"] = "追猎者",
-		["combo_value"] = 2,
+		["key"] = 582101,
+		["name"] = "被动-爆裂普攻",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "范海辛进场时会携带<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>效果。当范海辛身上的<font color='#orange#'>战技</font>效果达到<font color='#orange#'>4</font>层或以上时，范海辛造成的任意伤害，都会使被攻击目标受到的治疗效果降低<font color='#orange#'>20%</font>，这个效果最多可以叠加<font color='#orange#'>4</font>层，持续<font color='#orange#'>10</font>秒。",
-		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
+		["full_desc"] = "能量条清空时，增加自身攻速与暴击。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70056] = {
+	[70064] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -53806,7 +54337,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70056,
+				["sid"] = 70064,
 			},
 		},
 		["consume"] = {
@@ -53821,15 +54352,15 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70056,
-		["name"] = "伤害缓和",
+		["key"] = 70064,
+		["name"] = "野性",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>40%</font>概率恢复<font color='#green1#'>{id =700561, index=1, format = 2}</font>当前攻击力的血量。3秒内只能触发一次。",
-		["params"] = "res/image/ui/04_skill/healthy.png",
+		["full_desc"] = "进入战斗后，自身攻速提升<font color='#green1#'>{id =70064, index=1, format = 2}</font>，持续25秒。",
+		["params"] = "res/image/ui/04_skill/bloodyshining.png",
 	},
-	[70057] = {
+	[70065] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -53839,7 +54370,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70057,
+				["sid"] = 70065,
 			},
 		},
 		["consume"] = {
@@ -53854,13 +54385,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70057,
-		["name"] = "伤害缓和",
+		["key"] = 70065,
+		["name"] = "野性",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>50%</font>概率恢复<font color='#green1#'>80%</font>当前攻击力的血量。3秒内只能触发一次。",
-		["params"] = "res/image/ui/04_skill/healthy.png",
+		["full_desc"] = "进入战斗后，自身攻速提升<font color='#green1#'>60%</font>，持续25秒。",
+		["params"] = "res/image/ui/04_skill/bloodyshining.png",
 	},
 	[60010] = {
 		["max_level"] = 10,
@@ -53895,25 +54426,25 @@ skillgroup = {
 		["full_desc"] = "神圣连击每一击会使自身能量恢复速率提升<font color='#green2#'>20%</font>，持续<font color='#green2#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/holycombo.png",
 	},
-	[521007] = {
+	[521003] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击目标单体",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5210071,
+				["sid"] = 5210031,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5210072,
+				["sid"] = 5210032,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5210073,
+				["sid"] = 5210033,
 			},
 		},
 		["consume"] = {
@@ -53923,14 +54454,14 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521007,
-		["name"] = "拍击",
+		["key"] = 521003,
+		["name"] = "狂暴三连",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70058] = {
+	[70067] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -53940,7 +54471,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70058,
+				["sid"] = 70067,
 			},
 		},
 		["consume"] = {
@@ -53955,15 +54486,15 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70058,
-		["name"] = "绝境复苏",
+		["key"] = 70067,
+		["name"] = "护甲切割",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "战斗中血量低于<font color='#orange#'>20%</font>时，恢复自身<font color='#green1#'>{id =700581, index=1, format = 2}</font>最大生命值，6秒内只能触发一次，最多触发4次。",
-		["params"] = "res/image/ui/04_skill/udeadshielder.png",
+		["full_desc"] = "造成伤害时降低前排目标<font color='#green1#'>{id =700671, index=1, format = 2}</font>的防御，持续10秒，最多叠加5层，不可驱散。",
+		["params"] = "res/image/ui/04_skill/armorbreak.png",
 	},
-	[70059] = {
+	[70070] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -53973,7 +54504,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70059,
+				["sid"] = 70070,
 			},
 		},
 		["consume"] = {
@@ -53988,13 +54519,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70059,
-		["name"] = "绝境复苏",
+		["key"] = 70070,
+		["name"] = "堡垒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "战斗中血量低于<font color='#orange#'>20%</font>时，恢复自身<font color='#green1#'>{id =700591, index=1, format = 2}</font>最大生命值，6秒内只能触发一次，最多触发4次。",
-		["params"] = "res/image/ui/04_skill/udeadshielder.png",
+		["full_desc"] = "战斗开始后，提升自身防御<font color='#green1#'>{id =70070, index=1, format = 2}</font>。",
+		["params"] = "res/image/ui/04_skill/defence.png",
 	},
 	[80078] = {
 		["max_level"] = 10,
@@ -54056,19 +54587,19 @@ skillgroup = {
 		["full_desc"] = "伊露丽水银触发的流弹击中单位时有<font color='#green2#'>100%</font>的概率附加一层不协之毒",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70060] = {
+	[103210] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70060,
+				["sid"] = 30188,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["simple_desc"] = "正义，如风暴般来袭。",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -54081,25 +54612,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70060,
-		["name"] = "全体虚弱",
+		["combo_value"] = 2,
+		["key"] = 103210,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，降低敌人全体<font color='#green1#'>{id =70060, index=1, format = 2}</font>的攻击力，持续25秒。",
-		["params"] = "res/image/ui/04_skill/moonlight.png",
+		["name"] = "神圣旋风",
+		["params"] = "res/image/ui/04_skill/holywind.png",
 	},
-	[80294] = {
-		["max_level"] = 10,
+	[592331] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80294,
+				["sid"] = 592331,
 			},
 		},
 		["consume"] = {
@@ -54109,25 +54640,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80294,
-		["name"] = "艾尔薇黑",
+		["key"] = 592331,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "每当队友释放碎甲时，艾尔薇有<font color='#green2#'>40%</font>概率额外获得一层强弓效果。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80289] = {
-		["max_level"] = 10,
+	[534806] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80289,
+				["sid"] = 534806,
 			},
 		},
 		["consume"] = {
@@ -54137,60 +54667,54 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80289,
-		["name"] = "沙利叶 白EX",
+		["key"] = 534806,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "沙利叶释放治愈的神迹时，治疗提升<font color='#green2#'>50%</font>。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70061] = {
-		["max_level"] = 10,
+	[592016] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70061,
+				["sid"] = 592016,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 70061,
-		["name"] = "全体虚弱",
+		["key"] = 592016,
+		["name"] = "零歧电击者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，降低敌人全体<font color='#green1#'>35%</font>的攻击力，持续25秒。",
-		["params"] = "res/image/ui/04_skill/moonlight.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80276] = {
-		["max_level"] = 10,
+	[51045] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80276,
+				["sid"] = 5219001,
 			},
 		},
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["key"] = 51045,
+		["simple_desc"] = "自身受到的伤害不超过",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -54198,12 +54722,9 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80276,
-		["name"] = "薇欧瑞儿 白",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "薇欧瑞儿释放绽放时，每次恢复的治疗量提升<font color='#green2#'>一半</font>。",
+		["name"] = "伤害受限",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601341] = {
@@ -54234,17 +54755,17 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，流星连击变为对攻击力最高的敌人3连击并附加额外伤害，每次攻击的伤害变为全体攻击时的<font color='#green2#'>60%</font>。",
 		["params"] = "res/image/ui/04_skill/meteorfulldown.png",
 	},
-	[80269] = {
-		["max_level"] = 10,
+	[592325] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80269,
+				["sid"] = 592325,
 			},
 		},
 		["consume"] = {
@@ -54254,12 +54775,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80269,
-		["name"] = "兰斯洛特 白EX",
+		["key"] = 592325,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "释放炎枪后的6秒内，当兰斯洛特闪避普攻时，有<font color='#green2#'>90%</font>概率赋予目标友军击穿效果，持续1秒。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[601342] = {
@@ -54290,32 +54810,38 @@ skillgroup = {
 		["full_desc"] = "与怪物战斗时，流星连击变为对攻击力最高的敌人3连击并附加额外伤害，每次攻击的伤害变为全体攻击时的<font color='#green2#'>80%</font>。",
 		["params"] = "res/image/ui/04_skill/meteorfulldown.png",
 	},
-	[592345] = {
-		["max_level"] = 1,
+	[70081] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592345,
+				["sid"] = 70081,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592345,
-		["name"] = "零歧压迫者",
+		["key"] = 70081,
+		["name"] = "守卫者",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>10%</font>，提升防御<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/defencepos.png",
 	},
 	[601343] = {
 		["max_level"] = 10,
@@ -54374,37 +54900,31 @@ skillgroup = {
 		["full_desc"] = "蔻洛尔赋予己方全体一层元素护盾，护盾从以下护盾随机生成：<br/>烈焰之盾：每当护盾抵挡伤害，反弹攻击者一层<font color='#orange#'>灼烧</font>效果（内置冷却2秒）。<br/>冰霜之盾：每当护盾抵挡伤害，反弹攻击者一层<font color='#orange#'>寒冷</font>效果，并反弹<font color='#orange#'>20%</font>护盾的抵挡伤害（内置冷却2秒）。<br/><font color='#green1#'>战斗开始</font>：赋予已方全体<font color='#green1#'>{id =306131,index=1,format = 2}</font>攻击力的护盾值；<br/><font color='#blue1#'>激战阶段</font>：赋予已方全体<font color='#green1#'>{id =306131,index=1,format = 2}</font>攻击力的护盾值；<br/><font color='#purple#'>终结阶段</font>：赋予已方全体<font color='#green1#'>{id =306131,index=1,format = 2}</font>攻击力的护盾值。<br/><font color='#orange#'>灼烧</font>效果每1层会在前三秒造成每秒<font color='#orange#'>{id =400013,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，共3次伤害，<font color='#orange#'>灼烧</font>效果持续<font color='#orange#'>10</font>秒。<br/><font color='#orange#'>寒冷</font>状态下的敌人，其攻击力下降<font color='#orange#'>{id =40002,index=1,key='buff_sub_gj',format = 2}</font>，持续<font color='#orange#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/elementshield.png",
 	},
-	[80260] = {
-		["max_level"] = 10,
+	[5400151] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80260,
+				["sid"] = 5400151,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80260,
-		["name"] = "爱丽丝 白",
+		["key"] = 5400151,
+		["name"] = "森林狼",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "梦魇的减治疗效果提升至<font color='#green2#'>50%</font>。",
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50029] = {
@@ -54439,7 +54959,7 @@ skillgroup = {
 		["name"] = "碎甲",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70075] = {
+	[70082] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -54449,7 +54969,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70075,
+				["sid"] = 70082,
 			},
 		},
 		["consume"] = {
@@ -54464,13 +54984,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70075,
-		["name"] = "狂暴",
+		["key"] = 70082,
+		["name"] = "献身",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "开场时攻击力提升<font color='#green2#'>30%</font>，持续25秒。",
-		["params"] = "res/image/ui/04_skill/firefight.png",
+		["full_desc"] = "死亡后，恢复全体队友<font color='#green2#'>{id =700821, index=1, format = 2}</font>生命。",
+		["params"] = "res/image/ui/04_skill/callingangel.png",
 	},
 	[80079] = {
 		["max_level"] = 10,
@@ -54504,40 +55024,7 @@ skillgroup = {
 		["name"] = "潘多拉",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80024] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80024,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80024,
-		["name"] = "瓦恩白色专属1",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "瓦恩不灭信仰额外提升<font color='#green2#'>30%</font>的基础防御力。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592342] = {
+	[592323] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -54547,7 +55034,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592342,
+				["sid"] = 592323,
 			},
 		},
 		["consume"] = {
@@ -54557,35 +55044,26 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592342,
-		["name"] = "鬼魂",
+		["key"] = 592323,
+		["name"] = "獠牙酋长",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102010] = {
+	[20061] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "群体攻击，削弱被致盲敌人的防御。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30158,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30159,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30160,
+				["sid"] = 20061,
 			},
 		},
-		["key"] = 102010,
+		["skill_type"] = 1,
+		["name"] = "剧毒魔眼",
+		["probability"] = 10000,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -54598,66 +55076,49 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "护甲崩坏",
-		["combo_value"] = 2,
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击全体敌人，同时削弱被<font color='#orange#'>致盲</font>敌人<font color='#orange#'>{id =301582,index=1,format = 2}</font>的防御，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =301581,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =301591,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =301601,index=1,format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/armorbreak.png",
+		["key"] = 20061,
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103210] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30188,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["simple_desc"] = "正义，如风暴般来袭。",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["combo_value"] = 2,
-		["key"] = 103210,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "神圣旋风",
-		["params"] = "res/image/ui/04_skill/holywind.png",
-	},
-	[521003] = {
+	[521300] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体",
+		["simple_desc"] = "赋予自身一层怒火buff，该标记受到伤害清除一层",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5213001,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521300,
+		["name"] = "复仇印记",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予自身一层怒火buff，该标记受到伤害清除一层",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[5400131] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5210031,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5210032,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5210033,
+				["sid"] = 5400131,
 			},
 		},
 		["consume"] = {
@@ -54667,8 +55128,43 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521003,
-		["name"] = "狂暴三连",
+		["key"] = 5400131,
+		["name"] = "狮鹫",
+		["counter_type"] = {
+		},
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521825] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5218251,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5218252,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5218253,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521825,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -54736,28 +55232,52 @@ skillgroup = {
 		["full_desc"] = "菲儿的天使赐福每次发射圣光弹时增加一枚<font color='#green2#'>{id =900612, index=1, format = 2}</font>攻击力的圣光弹。",
 		["params"] = "res/image/ui/04_skill/anglebless.png",
 	},
-	[51018] = {
-		["max_level"] = 1,
+	[70084] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510181,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510182,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510183,
+				["sid"] = 70084,
 			},
 		},
-		["skill_type"] = 1,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70084,
+		["name"] = "亡者之怒",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "死亡后，释放<font color='#green2#'>1</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+	},
+	[80297] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
-		["key"] = 51018,
-		["simple_desc"] = "攻击目标单体",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80297,
+			},
+		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -54765,76 +55285,41 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 80297,
+		["name"] = "艾尔薇白EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "零岐监工",
+		["full_desc"] = "碎星箭的伤害系数提升<font color='#green2#'>36%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70082] = {
+	[600504] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70082,
+				["sid"] = 600504,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 70082,
-		["name"] = "献身",
+		["key"] = 600504,
+		["name"] = "狂热",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "死亡后，恢复全体队友<font color='#green2#'>{id =700821, index=1, format = 2}</font>生命。",
-		["params"] = "res/image/ui/04_skill/callingangel.png",
-	},
-	[70083] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70083,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70083,
-		["name"] = "献身",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "死亡后，恢复全体队友<font color='#green2#'>42%</font>生命。",
-		["params"] = "res/image/ui/04_skill/callingangel.png",
+		["full_desc"] = "攻速提升效果有<font color='#green2#'>100%</font>概率增加<font color='#green2#'>35%</font>。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
 	},
 	[601351] = {
 		["max_level"] = 10,
@@ -54887,44 +55372,17 @@ skillgroup = {
 		["full_desc"] = "开场时携带2层光弹印记。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592332] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592332,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592332,
-		["name"] = "骷髅弓箭手",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70084] = {
+	[60030] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70084,
+				["sid"] = 60030,
 			},
 		},
 		["consume"] = {
@@ -54939,13 +55397,99 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70084,
-		["name"] = "亡者之怒",
+		["key"] = 60030,
+		["name"] = "苦痛狂热",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "死亡后，释放<font color='#green2#'>1</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+		["full_desc"] = "痛苦之力攻速提增幅效果提升<font color='#green2#'>100%</font>",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
+	},
+	[592314] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592314,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592314,
+		["name"] = "北境叛军女",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592315] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592315,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592315,
+		["name"] = "零歧压迫者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[20028] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200051,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20028,
+		["simple_desc"] = "兰德璐10帧远程攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "果冻怪10帧攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[70085] = {
 		["max_level"] = 10,
@@ -54980,112 +55524,28 @@ skillgroup = {
 		["full_desc"] = "死亡后，释放<font color='#green2#'>3</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
-	[20028] = {
+	[102640] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 200051,
-			},
-		},
+		["simple_desc"] = "群体攻击，根据觉醒层数造成额外伤害。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20028,
-		["simple_desc"] = "兰德璐10帧远程攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "果冻怪10帧攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[572101] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身每次受到伤害时，恢复自身一定血量。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572101,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572101,
-		["name"] = "受击回复",
-		["counter_type"] = {
-		},
-		["full_desc"] = "自身每次受到伤害时，恢复自身一定血量。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[51023] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 510231,
+				["sid"] = 30143,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 510232,
+				["sid"] = 30144,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 510233,
+				["sid"] = 30145,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 51023,
-		["simple_desc"] = "攻击目标单体",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-		},
-		["name"] = "惩罚搜捕者",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70065] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70065,
-			},
-		},
+		["key"] = 102640,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -55098,13 +55558,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70065,
-		["name"] = "野性",
+		["name"] = "多重射击",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，自身攻速提升<font color='#green1#'>60%</font>，持续25秒。",
-		["params"] = "res/image/ui/04_skill/bloodyshining.png",
+		["full_desc"] = "攻击敌人全体，并根据格莱明身上<font color='#orange#'>觉醒印记</font>层数造成额外伤害。<br/><font color='#green1#'>战斗开始</font>：<br/>造成<font color='#green2#'>{id =30143,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>2-3层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30143,index=2,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>4层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30143,index=3,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：<br/>造成<font color='#green2#'>{id =30144,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>2-3层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30144,index=2,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>4层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30144,index=3,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：<br/>造成<font color='#green2#'>{id =30145,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>2-3层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30145,index=2,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>4层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30145,index=3,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/multipleshoot.png",
+	},
+	[592311] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592311,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592311,
+		["name"] = "死亡骑士",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312003] = {
 		["max_level"] = 1,
@@ -55128,17 +55615,17 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400151] = {
+	[592308] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400151,
+				["sid"] = 592308,
 			},
 		},
 		["consume"] = {
@@ -55148,26 +55635,35 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5400151,
-		["name"] = "森林狼",
+		["key"] = 592308,
+		["name"] = "小火龙",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20061] = {
+	[103720] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "单体攻击，并使自身受到的普通攻击伤害提升。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20061,
+				["sid"] = 30271,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30272,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30273,
 			},
 		},
-		["skill_type"] = 1,
-		["name"] = "剧毒魔眼",
-		["probability"] = 10000,
+		["key"] = 103720,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -55180,10 +55676,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["name"] = "魔剑解放",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["key"] = 20061,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放魔剑的魔力灼伤<font color='#orange#'>1</font>名敌人，造成<font color='#orange#'>3</font>次伤害。同时赋予自己<font color='#orange#'>脆弱</font>状态(受到普通攻击时，会对自己造成<font color='#orange#'>{id =30275,index=1,key='sub_hp',format = 2}</font>攻击力的伤害)。<br/><font color='#green1#'>战斗开始</font>：每次造成<font color='#green2#'>{id =302711,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：每次造成<font color='#green2#'>{id =302721,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：每次造成<font color='#green2#'>{id =302731,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/magicsowrd.png",
 	},
 	[90062] = {
 		["max_level"] = 10,
@@ -55291,32 +55790,27 @@ skillgroup = {
 		["full_desc"] = "艾丽西亚受到冰霜元素的眷顾，在场时提升<font color='#orange#'>水系</font>与<font color='#orange#'>冰霜系</font>的技能伤害<font color='#orange#'>5%</font>。<br/>艾丽西亚战斗时会影响周围的环境，使自身逐渐变强。每次释放技能后赋予自身<font color='#orange#'>1</font>层<font color='#orange#'>霜冻</font>标记，最高<font color='#orange#'>6</font>层，永久存在，不可驱散。",
 		["params"] = "res/image/ui/04_skill/passive/iceheart.png",
 	},
-	[533301] = {
-		["max_level"] = 1,
+	[95181] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "与怪物战斗时，圣日之铠降低敌前排防御且额外造成伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 533301,
+				["sid"] = 95181,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 533301,
-		["name"] = "兄弟会刺客",
+		["key"] = 95181,
+		["name"] = "圣日无垠",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物战斗时，圣日之铠同时降低敌方前排<font color='#green2#'>{id =951812, index=1, format = 2}</font>的防御力，若该单位在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951813, index=1, format = 2}</font>攻击力的伤害；新星造成伤害时，若该单位在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951813, index=1, format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[312005] = {
 		["max_level"] = 1,
@@ -55340,17 +55834,17 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592514] = {
-		["max_level"] = 1,
+	[90481] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592514,
+				["sid"] = 90481,
 			},
 		},
 		["consume"] = {
@@ -55360,12 +55854,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592514,
-		["name"] = "狮鹫",
+		["key"] = 90481,
+		["name"] = "侵蚀之毒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放侵蚀时，会对随机目标额外赋予一层不协之毒，重复<font color='#green2#'>1</font>次。",
+		["params"] = "res/image/ui/04_skill/salt.png",
 	},
 	[50030] = {
 		["max_level"] = 10,
@@ -55450,29 +55945,83 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[101320] = {
+	[107430] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击增益，使1名友军攻击时能恢复生命。",
+		["simple_desc"] = "艾琳提升友军的技能伤害并提供回复效果。",
 		["skill_type"] = 1,
 		["probability"] = 3300,
-		["accompany"] = 1,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30011,
+				["sid"] = 30586,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30014,
+				["sid"] = 30587,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30017,
+				["sid"] = 30588,
 			},
 		},
-		["key"] = 101320,
+		["key"] = 107430,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "死亡凝视",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "艾琳与辅助目标共享乌鸦的视野，使辅助目标能轻松瞄准目标的弱点，若攻击目标死亡，渡鸦还会吸收亡者的灵魂来治愈辅助目标。<br/><font color='#green1#'>战斗开始</font>：增加下一次的技能伤害<font color='#orange#'>30%</font>，持续<font color='#orange#'>5</font>秒，若击杀单位则恢复<font color='#green1#'>{id =305862,index=1,format = 2}</font>艾琳攻击力的生命值；<br/><font color='#blue1#'>激战阶段</font>：增加下一次的技能伤害<font color='#orange#'>60%</font>，持续<font color='#orange#'>5</font>秒，若击杀单位则恢复<font color='#green1#'>{id =305872,index=1,format = 2}</font>艾琳攻击力的生命值；<br/><font color='#purple#'>终结阶段</font>：增加下一次的技能伤害<font color='#orange#'>60%</font>，持续<font color='#orange#'>5</font>秒，若击杀单位则恢复<font color='#green1#'>{id =305882,index=1,format = 2}</font>艾琳攻击力的生命值。",
+		["params"] = "res/image/ui/04_skill/deathstare.png",
+	},
+	[592304] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592304,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592304,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80147] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80147,
+			},
+		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -55485,68 +56034,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["full_desc"] = "神圣系技能，赐福目标友军，使其造成伤害时,恢复造成伤害一定百分比的生命值。神圣试炼效果持续<font color='#orange#'>2</font>秒。<br/><font color='#green1#'>战斗开始</font>：恢复<font color='#green2#'>{id =300112,index=1,key='add_hp',format=2}</font>造成伤害的生命；<br/><font color='#blue1#'>激战阶段</font>：恢复<font color='#green2#'>{id =300142,index=1,key='add_hp',format=2}</font>造成伤害的生命；<br/><font color='#purple#'>终结阶段</font>：恢复<font color='#green2#'>{id =300172,index=1,key='add_hp',format=2}</font>造成伤害的生命。<br/><font color='#red#'>没有队友时不会释放</font>",
-		["combo_value"] = 1,
+		["key"] = 80147,
+		["name"] = "特斯拉 黑1EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "神圣试炼",
-		["params"] = "res/image/ui/04_skill/holychallenge.png",
-	},
-	[5400131] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5400131,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 5400131,
-		["name"] = "狮鹫",
-		["counter_type"] = {
-		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["full_desc"] = "激励射击可赋予<font color='#green2#'>全体</font>友军。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600853] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600853,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600853,
-		["name"] = "攻击弱化",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>11%</font>。",
-		["params"] = "res/image/ui/04_skill/magicvacuum.png",
 	},
 	[312007] = {
 		["max_level"] = 1,
@@ -55570,7 +56064,7 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592454] = {
+	[592302] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -55580,7 +56074,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592454,
+				["sid"] = 592302,
 			},
 		},
 		["consume"] = {
@@ -55590,8 +56084,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592454,
-		["name"] = "光明会拳师",
+		["key"] = 592302,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -55659,67 +56153,25 @@ skillgroup = {
 		["full_desc"] = "菲儿的天使赐福每次发射圣光弹时增加一枚<font color='#green2#'>{id =900632, index=1, format = 2}</font>攻击力的圣光弹。",
 		["params"] = "res/image/ui/04_skill/anglebless.png",
 	},
-	[103720] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "单体攻击，并使自身受到的普通攻击伤害提升。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30271,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30272,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30273,
-			},
-		},
-		["key"] = 103720,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "魔剑解放",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "释放魔剑的魔力灼伤<font color='#orange#'>1</font>名敌人，造成<font color='#orange#'>3</font>次伤害。同时赋予自己<font color='#orange#'>脆弱</font>状态(受到普通攻击时，会对自己造成<font color='#orange#'>{id =30275,index=1,key='sub_hp',format = 2}</font>攻击力的伤害)。<br/><font color='#green1#'>战斗开始</font>：每次造成<font color='#green2#'>{id =302711,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：每次造成<font color='#green2#'>{id =302721,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：每次造成<font color='#green2#'>{id =302731,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/magicsowrd.png",
-	},
-	[521215] = {
+	[51070] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击目标单体",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5212151,
+				["sid"] = 510701,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5212152,
+				["sid"] = 510702,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5212153,
+				["sid"] = 510703,
 			},
 		},
 		["consume"] = {
@@ -55729,47 +56181,68 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521215,
-		["name"] = "零歧压迫者",
+		["key"] = 51070,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击目标单体",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60030] = {
-		["max_level"] = 10,
+	[592223] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592223,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592223,
+		["name"] = "獠牙酋长",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592300] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "大幅提升自身伤害减免效果，持续25秒。25秒之后，每6秒损失自身30%生命。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60030,
+				["sid"] = 5923001,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 60030,
-		["name"] = "苦痛狂热",
+		["key"] = 592300,
+		["name"] = "固守",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "痛苦之力攻速提增幅效果提升<font color='#green2#'>100%</font>",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
+		["full_desc"] = "提升自身前4回合免伤等级。第5回合开始，每回合损失30%生命。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592313] = {
+	[592424] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -55779,7 +56252,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592313,
+				["sid"] = 592424,
 			},
 		},
 		["consume"] = {
@@ -55789,8 +56262,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592313,
-		["name"] = "零歧监工",
+		["key"] = 592424,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -55829,28 +56302,19 @@ skillgroup = {
 		["full_desc"] = "神圣连击每一击会使自身能量恢复速率提升<font color='#green2#'>20%</font>，持续<font color='#green2#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/holycombo.png",
 	},
-	[107430] = {
-		["max_level"] = 10,
+	[578101] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "艾琳提升友军的技能伤害并提供回复效果。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30586,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30587,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30588,
+				["sid"] = 578101,
 			},
 		},
-		["key"] = 107430,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -55858,13 +56322,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "死亡凝视",
-		["combo_value"] = 2,
+		["key"] = 578101,
+		["name"] = "松鼠",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "艾琳与辅助目标共享乌鸦的视野，使辅助目标能轻松瞄准目标的弱点，若攻击目标死亡，渡鸦还会吸收亡者的灵魂来治愈辅助目标。<br/><font color='#green1#'>战斗开始</font>：增加下一次的技能伤害<font color='#orange#'>30%</font>，持续<font color='#orange#'>5</font>秒，若击杀单位则恢复<font color='#green1#'>{id =305862,index=1,format = 2}</font>艾琳攻击力的生命值；<br/><font color='#blue1#'>激战阶段</font>：增加下一次的技能伤害<font color='#orange#'>60%</font>，持续<font color='#orange#'>5</font>秒，若击杀单位则恢复<font color='#green1#'>{id =305872,index=1,format = 2}</font>艾琳攻击力的生命值；<br/><font color='#purple#'>终结阶段</font>：增加下一次的技能伤害<font color='#orange#'>60%</font>，持续<font color='#orange#'>5</font>秒，若击杀单位则恢复<font color='#green1#'>{id =305882,index=1,format = 2}</font>艾琳攻击力的生命值。",
-		["params"] = "res/image/ui/04_skill/deathstare.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104140] = {
 		["max_level"] = 10,
@@ -55908,39 +56371,26 @@ skillgroup = {
 		["full_desc"] = "艾利欧特释放不屈的力量守护自己，每次受到伤害时，会依据自身攻击力获取生命，持续<font color='#orange#'>5</font>秒(恢复效果拥有<font color='#orange#'>2.5</font>秒的内置冷却时间)；同时赋予自身<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态(<font color='#orange#'>战技</font>状态在消耗之前永久存在，最多可叠加<font color='#orange#'>5</font>层；每<font color='#orange#'>1</font>层都会使伤害加深提升<font color='#orange#'>5%</font>，加成为加法运算)。<br/><font color='#green1#'>战斗开始</font>：每次受伤恢复<font color='#green2#'>{id =303421,index=1,format = 2}</font>攻击力的生命；<br/><font color='#blue1#'>激战阶段</font>：每次受伤恢复<font color='#green2#'>{id =303431,index=1,format = 2}</font>攻击力的生命；<br/><font color='#purple#'>终结阶段</font>：每次受伤恢复<font color='#green2#'>{id =303441,index=1,format = 2}</font>攻击力的生命。",
 		["params"] = "res/image/ui/04_skill/udeadshielder.png",
 	},
-	[51070] = {
+	[580189] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体",
-		["skill_type"] = 1,
+		["simple_desc"] = "每当自身受到技能或异常状态伤害时，恢复自身血量。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510701,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510702,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510703,
+				["sid"] = 580189,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 51070,
-		["name"] = "光明会狂战",
+		["key"] = 580189,
+		["name"] = "被动-受击回复",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击目标单体",
+		["full_desc"] = "每当自身受到技能或异常状态伤害时，恢复自身血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80082] = {
@@ -55976,189 +56426,6 @@ skillgroup = {
 		["full_desc"] = "炎拳会额外附带1层灼烧效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102640] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "群体攻击，根据觉醒层数造成额外伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30143,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30144,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30145,
-			},
-		},
-		["key"] = 102640,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "多重射击",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "攻击敌人全体，并根据格莱明身上<font color='#orange#'>觉醒印记</font>层数造成额外伤害。<br/><font color='#green1#'>战斗开始</font>：<br/>造成<font color='#green2#'>{id =30143,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>2-3层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30143,index=2,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>4层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30143,index=3,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：<br/>造成<font color='#green2#'>{id =30144,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>2-3层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30144,index=2,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>4层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30144,index=3,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：<br/>造成<font color='#green2#'>{id =30145,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>2-3层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30145,index=2,key='sub_hp',format = 2}</font>攻击力的伤害，<br/>4层<font color='#orange#'>觉醒印记</font>，额外<font color='#green2#'>{id =30145,index=3,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/multipleshoot.png",
-	},
-	[108240] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "桑妮降下火雨焚烧全体敌人，并附加灼烧。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30937,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30938,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30939,
-			},
-		},
-		["key"] = 108240,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "火雨",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "火焰系技能，桑妮降下火雨焚烧全体敌人，并附加全体<font color='#orange#'>1</font>层灼烧，火雨在攻击有护盾值的护盾时会焚烧护盾，额外减少其护盾值。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30937,index=1,format = 2}</font>攻击力的伤害，额外减少<font color='#green1#'>{id =309371,index=1,format = 2}</font>攻击力的护盾值；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30938,index=1,format = 2}</font>攻击力的伤害，额外减少<font color='#green1#'>{id =309371,index=1,format = 2}</font>攻击力的护盾值；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30939,index=1,format = 2}</font>攻击力的伤害，额外减少<font color='#green1#'>{id =309371,index=1,format = 2}</font>攻击力的护盾值。",
-		["params"] = "res/image/ui/04_skill/firerain.png",
-	},
-	[51072] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击目标单体，并提升自身防御",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 510721,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510722,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510723,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 51072,
-		["name"] = "石头人",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击目标单体，并提升自身防御",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[533601] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方全体，造成对方生命上限10%的伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 533601,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 533601,
-		["name"] = "惩罚搜捕者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方全体，造成对方生命上限10%的伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[102920] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "治疗全体友军，并赋予激励状态。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30170,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30171,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30172,
-			},
-		},
-		["key"] = 102920,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "魔能爆发",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "引发雷电的力量，治疗全体友军，并赋予所有友军<font color='#red#'>激励</font>状态，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：恢复<font color='#green2#'>{id =301701,index=1,format = 2}</font>攻击力的生命，激励状态提升<font color='#orange#'>{id =301701,index=2,format = 1}%</font>普通攻击暴击率和<font color='#orange#'>30%</font>暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：恢复<font color='#green2#'>{id =301711,index=1,format = 2}</font>攻击力的生命，激励状态提升<font color='#orange#'>{id =301711,index=2,format = 1}%</font>普通攻击暴击率和<font color='#orange#'>30%</font>暴击伤害；<br/><font color='#purple#'>终结阶段</font>：恢复<font color='#green2#'>{id =301721,index=1,format = 2}</font>攻击力的生命，激励状态提升<font color='#orange#'>{id =301721,index=2,format = 1}%</font>普通攻击暴击率和<font color='#orange#'>30%</font>暴击伤害。",
-		["params"] = "res/image/ui/04_skill/failure.png",
-	},
 	[578202] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -56184,6 +56451,162 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "每次能量条清空时，赋予自身6层致命印记。每次受到普攻伤害时，清除1层标记。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[5400031] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5400031,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 5400031,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601371] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601371,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601371,
+		["name"] = "圣光的加持",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "与怪物作战时，自身会获得3层标记，每次释放主动治疗时消耗一层标记来提升的<font color='#green2#'>{id =601371, index=1, format = 2}</font>治疗效果。",
+		["params"] = "res/image/ui/04_skill/passive/lightlesscorona.png",
+	},
+	[574131] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 574131,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 574131,
+		["name"] = "魔能狂暴者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[108420] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "比南纳尔架起重炮，进行攻击，并引导一次普攻。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30651,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30652,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30653,
+			},
+		},
+		["key"] = 108420,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "重炮轰击",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "比南纳尔架起重炮，攻击<font color='#orange#'>1</font>名敌人，同时提升自身的暴击伤害，持续<font color='#orange#'>6</font>秒，并驱散自身<font color='#orange#'>1</font>个由敌人施加的状态，技能释放后比南纳尔在炮火掩护下立刻进行一次普通攻击。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30651,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306512,index=1,format = 2}</font>的暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30652,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306512,index=1,format = 2}</font>的暴击伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30653,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306512,index=1,format = 2}</font>的暴击伤害。",
+		["params"] = "res/image/ui/04_skill/heavycannon.png",
+	},
+	[200301] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200301,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200301,
+		["simple_desc"] = "末日审判者普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "末日审判者普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90064] = {
@@ -56268,7 +56691,29 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592232] = {
+	[580191] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580191,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580191,
+		["name"] = "骷髅法师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592231] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -56278,7 +56723,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592232,
+				["sid"] = 592231,
 			},
 		},
 		["consume"] = {
@@ -56288,84 +56733,51 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592232,
-		["name"] = "巫师鲁恩",
+		["key"] = 592231,
+		["name"] = "魔斧手罗萨",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592301] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592301,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592301,
-		["name"] = "骷髅战士",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80229] = {
+	[106500] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80229,
+				["sid"] = 10047,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 500,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80229,
-		["name"] = "维多利亚 白EX",
+		["name"] = "普通攻击(马可波罗)",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "镜之领域随机给<font color='#green2#'>2</font>个敌方目标赋予<font color='#green2#'>1</font>层诅咒。",
+		["key"] = 106500,
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[574131] = {
-		["max_level"] = 1,
+	[600474] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 574131,
+				["sid"] = 600474,
 			},
 		},
 		["consume"] = {
@@ -56375,12 +56787,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 574131,
-		["name"] = "魔能狂暴者",
+		["key"] = 600474,
+		["name"] = "烟幕",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "触发致盲时，有<font color='#green2#'>100%</font>概率对其他怪物目标造成致盲效果，减少其<font color='#green2#'>{id =600479, index=1,key='buff_sub_mz  ',format = 2}</font>命中。",
+		["params"] = "res/image/ui/04_skill/burstshoot.png",
 	},
 	[50031] = {
 		["max_level"] = 10,
@@ -56414,26 +56827,36 @@ skillgroup = {
 		["name"] = "寒冰箭",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580133] = {
-		["max_level"] = 1,
+	[20037] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580133,
+				["sid"] = 20037,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20037,
+		["simple_desc"] = "小沙盗普通攻击",
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580133,
-		["name"] = "北境叛军男",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "赋予敌方流血状态。",
+		["name"] = "小沙盗普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80083] = {
@@ -56469,112 +56892,91 @@ skillgroup = {
 		["full_desc"] = "炎拳会额外附带2层灼烧效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600484] = {
-		["max_level"] = 10,
+	[580127] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600484,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600484,
-		["name"] = "神圣之怒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "菲儿的裁决有<font color='#green2#'>100%</font>概率对怪物的伤害增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/judgement.png",
-	},
-	[600483] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600483,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600483,
-		["name"] = "神圣之怒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "菲儿的裁决有<font color='#green2#'>100%</font>概率对怪物的伤害增加<font color='#green2#'>25%</font>。",
-		["params"] = "res/image/ui/04_skill/judgement.png",
-	},
-	[60075] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60075,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60075,
-		["name"] = "责罚",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "伊莎贝拉的神圣王权会额外赐福友军，使其普通攻击在命中怪物时减少怪物<font color='#green2#'>{id =600752, index=1,key='buff_sub_gj ',format = 2}</font>攻击力。",
-		["params"] = "res/image/ui/04_skill/holycrowns.png",
-	},
-	[108420] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "比南纳尔架起重炮，进行攻击，并引导一次普攻。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30651,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30652,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30653,
+				["sid"] = 580127,
 			},
 		},
-		["key"] = 108420,
+		["consume"] = {
+		},
+		["key"] = 580127,
+		["name"] = "零岐压迫者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[90483] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 90483,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90483,
+		["name"] = "侵蚀之毒",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "释放侵蚀时，会对随机目标额外赋予一层不协之毒，重复<font color='#green2#'>3</font>次。",
+		["params"] = "res/image/ui/04_skill/salt.png",
+	},
+	[580152] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580152,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580152,
+		["name"] = "被动-反伤",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[60029] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60029,
+			},
+		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -56587,35 +56989,46 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "重炮轰击",
-		["combo_value"] = 2,
+		["key"] = 60029,
+		["name"] = "苦痛狂热",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "比南纳尔架起重炮，攻击<font color='#orange#'>1</font>名敌人，同时提升自身的暴击伤害，持续<font color='#orange#'>6</font>秒，并驱散自身<font color='#orange#'>1</font>个由敌人施加的状态，技能释放后比南纳尔在炮火掩护下立刻进行一次普通攻击。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30651,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306512,index=1,format = 2}</font>的暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30652,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306512,index=1,format = 2}</font>的暴击伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30653,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306512,index=1,format = 2}</font>的暴击伤害。",
-		["params"] = "res/image/ui/04_skill/heavycannon.png",
+		["full_desc"] = "痛苦之力攻速提增幅效果提升<font color='#green2#'>67%</font>",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[580154] = {
-		["max_level"] = 1,
+	[700961] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每当自身受到异常状态和普攻伤害时，反击目标。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580154,
+				["sid"] = 700961,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580154,
-		["name"] = "被动-反制",
+		["key"] = 700961,
+		["name"] = "弱点打击",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每当自身受到异常状态和普攻伤害时，反击目标。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "普通攻击造成伤害时，自身的暴击伤害提升<font color='#green2#'>{id =7009611, index=1, format = 2}</font>，持续3秒。",
+		["params"] = "res/image/ui/04_skill/deadlyblade.png",
 	},
 	[200061] = {
 		["max_level"] = 10,
@@ -56649,17 +57062,18 @@ skillgroup = {
 		["name"] = "刃魔普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400031] = {
-		["max_level"] = 1,
+	[601381] = {
+		["max_level"] = 10,
 		["heros"] = {
+			[1] = 10066,
 		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5400031,
+				["sid"] = 601381,
 			},
 		},
 		["consume"] = {
@@ -56669,12 +57083,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5400031,
-		["name"] = "光明会狂战",
+		["key"] = 601381,
+		["name"] = "光辉大主教",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物作战时，塞西莉娅释放主教的威严造成伤害时，会恢复全体友军<font color='#green2#'>{id =601382, index=1, format = 2}</font>塞西莉娅攻击力的血量。",
+		["params"] = "res/image/ui/04_skill/bishopcoercion.png",
 	},
 	[90321] = {
 		["max_level"] = 10,
@@ -56703,6 +57118,38 @@ skillgroup = {
 		},
 		["full_desc"] = "生机转移会赐福目标队友使其下一击造成伤害时恢复<font color='#green2#'>{id =903212, index=1, key='add_hp', format = 2}</font>薇欧瑞儿攻击力的生命值。",
 		["params"] = "res/image/ui/04_skill/growing.png",
+	},
+	[103300] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10024,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 500,
+		["key"] = 103300,
+		["simple_desc"] = "普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "普通攻击(比南纳尔)",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[107940] = {
 		["max_level"] = 10,
@@ -56741,66 +57188,26 @@ skillgroup = {
 		["full_desc"] = "加百列吹响号角，召唤<font color='#orange#'>2</font>道毁灭闪光攻击随机目标，并号召所有天使进行攻击。<br/><font color='#green1#'>战斗开始</font>：毁灭闪光造成<font color='#green1#'>{id =30737,index=1,format = 2}</font>攻击力伤害，自身每存在<font color='#orange#'>1</font>层天使标记额外召唤<font color='#orange#'>1</font>道毁灭闪光，毁灭闪光击中的目标会进入<font color='#orange#'>封锁</font>状态（无法受到来自友军的效果），持续<font color='#orange#'>3</font>秒，可以被驱散；<br/><font color='#blue1#'>激战阶段</font>：毁灭闪光造成<font color='#green1#'>{id =30738,index=1,format = 2}</font>攻击力伤害，自身每存在<font color='#orange#'>1</font>层天使标记额外召唤<font color='#orange#'>1</font>道毁灭闪光，毁灭闪光击中的目标会进入<font color='#orange#'>封锁</font>状态（无法受到来自友军的效果），持续<font color='#orange#'>3</font>秒，可以被驱散；<br/><font color='#purple#'>终结阶段</font>：毁灭闪光造成<font color='#green1#'>{id =30739,index=1,format = 2}</font>攻击力伤害，自身每存在<font color='#orange#'>1</font>层天使标记额外召唤<font color='#orange#'>1</font>道毁灭闪光，毁灭闪光击中的目标会进入<font color='#orange#'>封锁</font>状态（无法受到来自友军的效果），持续<font color='#orange#'>3</font>秒，可以被驱散。",
 		["params"] = "res/image/ui/04_skill/deathhorn.png",
 	},
-	[106500] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10047,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 500,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "普通攻击(马可波罗)",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["key"] = 106500,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521810] = {
+	[579115] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害，并恢复己方全体血量。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每次所受伤害不超过最大生命值的2%。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5218101,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5218102,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5218103,
+				["sid"] = 579115,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521810,
-		["name"] = "骷髅法师",
+		["key"] = 579115,
+		["name"] = "被动-伤害受限",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害，并恢复己方全体血量。",
+		["full_desc"] = "每次所受伤害不超过最大生命值的2%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103630] = {
@@ -56845,39 +57252,17 @@ skillgroup = {
 		["full_desc"] = "黑暗系技能，美杜莎召唤吞世魔蛇冲出地面，攻击全体敌人。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30251,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30252,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30253,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/jormangund.png",
 	},
-	[580125] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580125,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580125,
-		["name"] = "光明会牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80218] = {
+	[700962] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80218,
+				["sid"] = 700962,
 			},
 		},
 		["consume"] = {
@@ -56892,15 +57277,50 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80218,
-		["name"] = "但丁 黑",
+		["key"] = 700962,
+		["name"] = "弱点打击",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "炼狱的基础伤害提升<font color='#green2#'>30%</font>。",
+		["full_desc"] = "普通攻击造成伤害时，自身的暴击伤害提升<font color='#green2#'>{id =7009621, index=1, format = 2}</font>，持续3秒。",
+		["params"] = "res/image/ui/04_skill/deadlyblade.png",
+	},
+	[51071] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体，并治疗目标友军",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510711,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510712,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510713,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 51071,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体，并治疗目标友军",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592325] = {
+	[580166] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -56910,37 +57330,31 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592325,
+				["sid"] = 580166,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592325,
-		["name"] = "光明会牧师",
+		["key"] = 580166,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20029] = {
+	[80084] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20029,
+				["sid"] = 80084,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20029,
-		["simple_desc"] = "狼人普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -56953,10 +57367,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 80084,
+		["name"] = "帝隆白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "狼人普通攻击",
+		["full_desc"] = "赤红斗气的治疗量额外增加<font color='#green2#'>5%</font>最大生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104910] = {
@@ -56988,136 +57404,17 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，降低对方全体<font color='#orange#'>25%</font>技能伤害和异常状态伤害，持续<font color='#orange#'>25</font>秒，此效果不可驱散。",
 		["params"] = "res/image/ui/04_skill/passive/eversunshine.png",
 	},
-	[580602] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>8%</font>。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580602,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580602,
-		["name"] = "圣物-普攻强化Lv2",
-		["counter_type"] = {
-		},
-		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>8%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20037] = {
+	[80236] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20037,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20037,
-		["simple_desc"] = "小沙盗普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "小沙盗普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[103300] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10024,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 500,
-		["key"] = 103300,
-		["simple_desc"] = "普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "普通攻击(比南纳尔)",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70036] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70052,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70036,
-		["name"] = "地狱之力",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "进入战斗后，攻击提升<font color='#green2#'>30%</font>，此后每8秒失去<font color='#green2#'>1%</font>生命。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
-	},
-	[701031] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 701031,
+				["sid"] = 80236,
 			},
 		},
 		["consume"] = {
@@ -57132,15 +57429,64 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 701031,
-		["name"] = "守护",
+		["key"] = 80236,
+		["name"] = "洛天依 白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "自身主动释放的护盾提升<font color='#green2#'>10%</font>的护盾值。",
-		["params"] = "res/image/ui/04_skill/shieldbash.png",
+		["full_desc"] = "苍蓝赞歌治愈辅助目标<font color='#green2#'>1</font>次，治愈量为攻击力的<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60029] = {
+	[592544] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "每次释放技能时若存在怪物标记则附加光弹伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592544,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592544,
+		["name"] = "被动-光弹",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每次释放技能时若存在怪物标记则附加光弹伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580119] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580119,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580119,
+		["name"] = "狮鹫",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[600453] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -57150,7 +57496,35 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60029,
+				["sid"] = 600453,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600453,
+		["name"] = "破甲之刃",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "瓦恩的净化之刃会有<font color='#green2#'>100%</font>概率额外减少怪物<font color='#green2#'>{id =600456, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
+		["params"] = "res/image/ui/04_skill/holyzeal.png",
+	},
+	[80115] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80115,
 			},
 		},
 		["consume"] = {
@@ -57165,13 +57539,48 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60029,
-		["name"] = "苦痛狂热",
+		["key"] = 80115,
+		["name"] = "桑妮黑色专属1EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "痛苦之力攻速提增幅效果提升<font color='#green2#'>67%</font>",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
+		["full_desc"] = "大火球会额外触发<font color='#green2#'>2层</font>灼烧。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[50083] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 500831,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 500832,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 500833,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50083,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "执杖木乃伊技能",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90322] = {
 		["max_level"] = 10,
@@ -57255,62 +57664,17 @@ skillgroup = {
 		["full_desc"] = "每当自身受到异常状态和普攻伤害时，反击目标。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[104740] = {
+	[60109] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击1名敌人，并赋予1名友军增益效果，强化其攻击伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30413,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30414,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30415,
-			},
-		},
-		["key"] = 104740,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "精准一击",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "攻击1名敌人，造成伤害。且在<font color='#orange#'>6</font>秒内，当兰斯洛特闪避敌人普攻时，赋予目标友军击穿效果，持续<font color='#orange#'>1</font>秒。击穿效果使其攻击造成伤害时赋予目标<font color='#orange#'>1</font>层<font color='#orange#'>流血</font>效果。在兰斯洛特有战技状态时，消耗<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态，增加自身<font color='#orange#'>{id =304132,index=2,format = 2}</font>普攻闪避，持续<font color='#orange#'>6</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30413,index=1,format = 2}</font>攻击力伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30414,index=1,format = 2}</font>攻击力伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30415,index=1,format = 2}</font>攻击力伤害。<br/><font color='#orange#'>流血</font>效果每层会造成每秒<font color='#orange#'>{id =40018,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
-		["params"] = "res/image/ui/04_skill/misstoup.png",
-	},
-	[51090] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击目标单体，并治疗目标友军",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510901,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510902,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510903,
+				["sid"] = 601091,
 			},
 		},
 		["consume"] = {
@@ -57320,47 +57684,73 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 51090,
-		["name"] = "骷髅法师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击目标单体，并治疗目标友军",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[50083] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 500831,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 500832,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 500833,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50083,
-		["simple_desc"] = "攻击目标单体",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
+		["key"] = 60109,
+		["name"] = "炎神的暴虐",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "执杖木乃伊技能",
+		["full_desc"] = "与怪物战斗时，暴虐的伤害提升<font color='#green2#'>{id =601091, index=1, format = 2}</font>。",
+		["params"] = "res/image/ui/04_skill/firecycle.png",
+	},
+	[592530] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "进入战斗后，降低非组合技技能伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592530,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592530,
+		["name"] = "被动-考验组合技",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进入战斗后，降低非组合技技能伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[70007] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70007,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70007,
+		["name"] = "生命吸收",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "造成伤害时，可以恢复造成伤害<font color='#green2#'>10%</font>的生命。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
 	},
 	[50032] = {
 		["max_level"] = 10,
@@ -57394,27 +57784,24 @@ skillgroup = {
 		["name"] = "雪崩",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[579115] = {
-		["max_level"] = 1,
+	[107500] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次所受伤害不超过最大生命值的2%。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 579115,
+				["sid"] = 10058,
 			},
 		},
+		["skill_type"] = 1,
+		["key"] = 107500,
 		["consume"] = {
 		},
-		["key"] = 579115,
-		["name"] = "被动-伤害受限",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次所受伤害不超过最大生命值的2%。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["name"] = "普通攻击(艾德蕾妮)",
+		["probability"] = 500,
 	},
 	[80085] = {
 		["max_level"] = 10,
@@ -57477,19 +57864,20 @@ skillgroup = {
 		["full_desc"] = "埃德蒙复活后驱散敌方<font color='#green2#'>前排</font>目标的防御提升状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80004] = {
+	[200391] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80004,
+				["sid"] = 200391,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200391,
+		["simple_desc"] = "独角兽普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -57502,33 +57890,23 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80004,
-		["name"] = "虚弱",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "造成伤害时，附带攻击降低<font color='#green2#'>10%</font>的效果，持续2秒。",
-		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
+		["name"] = "独角兽普攻",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51071] = {
+	[572057] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体，并治疗目标友军",
+		["simple_desc"] = "攻击敌方单体。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510711,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510712,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510713,
+				["sid"] = 572057,
 			},
 		},
 		["consume"] = {
@@ -57538,110 +57916,49 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 51071,
+		["key"] = 572057,
+		["name"] = "海盗头目",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521425] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5214251,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214252,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214253,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521425,
 		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击目标单体，并治疗目标友军",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102820] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "为敌人召唤两个会爆炸的虚无法球。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30123,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30124,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30125,
-			},
-		},
-		["key"] = 102820,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "虚无法球",
-		["combo_value"] = 3,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "召唤<font color='#orange#'>2</font>个虚无法球。虚无法球为敌方目标，继承尼尔法<font color='#orange#'>100%</font>攻击力和<font color='#orange#'>1%</font>生命值，不会移动和攻击。在虚无法球死亡的时候，对全部敌人造成伤害。<br/><font color='#green1#'>战斗开始</font>：爆炸造成<font color='#green2#'>{id =301232,index=1,key='sub_hp',format = 2}</font>虚无法球攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：爆炸造成<font color='#green2#'>{id =301242,index=1,key='sub_hp',format = 2}</font>虚无法球攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：爆炸造成<font color='#green2#'>{id =301252,index=1,key='sub_hp',format = 2}</font>虚无法球攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/nullsphere.png",
-	},
-	[580115] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580115,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580115,
-		["name"] = "树妖",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20038] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20038,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20038,
-		["simple_desc"] = "石头人普攻",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "石头人普攻",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[60109] = {
+	[70059] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -57651,9 +57968,51 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601091,
+				["sid"] = 70059,
 			},
 		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70059,
+		["name"] = "绝境复苏",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "战斗中血量低于<font color='#orange#'>20%</font>时，恢复自身<font color='#green1#'>{id =700591, index=1, format = 2}</font>最大生命值，6秒内只能触发一次，最多触发4次。",
+		["params"] = "res/image/ui/04_skill/udeadshielder.png",
+	},
+	[106220] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击1名敌人，命中有碎甲的目标后，提升自身技能伤害。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30461,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30462,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30463,
+			},
+		},
+		["key"] = 106220,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -57661,13 +58020,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60109,
-		["name"] = "炎神的暴虐",
+		["name"] = "星怒",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "与怪物战斗时，暴虐的伤害提升<font color='#green2#'>{id =601091, index=1, format = 2}</font>。",
-		["params"] = "res/image/ui/04_skill/firecycle.png",
+		["full_desc"] = "艾尔薇射出流星般的一箭，攻击<font color='#orange#'>1</font>名敌人。若目标处于<font color='#orange#'>碎甲</font>状态，则会提升自身技能伤害，持续<font color='#orange#'>8</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30461,index=1,format = 2}</font>攻击力的伤害，提升<font color='#orange#'>50%</font>技能伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30462,index=1,format = 2}</font>攻击力的伤害，提升<font color='#orange#'>50%</font>技能伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30463,index=1,format = 2}</font>攻击力的伤害，提升<font color='#orange#'>50%</font>技能伤害。",
+		["params"] = "res/image/ui/04_skill/starfallen.png",
+	},
+	[51042] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510421,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510422,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510423,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51042,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["name"] = "海之果冻怪",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90323] = {
 		["max_level"] = 10,
@@ -57697,19 +58090,20 @@ skillgroup = {
 		["full_desc"] = "生机转移会赐福目标队友使其下一击造成伤害时恢复<font color='#green2#'>{id =903232, index=1, key='add_hp', format = 2}</font>薇欧瑞儿攻击力的生命值。",
 		["params"] = "res/image/ui/04_skill/growing.png",
 	},
-	[70034] = {
+	[20051] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70050,
+				["sid"] = 20051,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20051,
+		["simple_desc"] = "魔偶",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -57722,13 +58116,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70034,
-		["name"] = "地狱之力",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，攻击提升<font color='#green2#'>10%</font>，此后每8秒失去<font color='#green2#'>3%</font>生命。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
+		["name"] = "魔偶",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103120] = {
 		["max_level"] = 10,
@@ -57818,61 +58209,55 @@ skillgroup = {
 		["full_desc"] = "治愈治疗效果提升<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/holyharmer.png",
 	},
-	[80115] = {
-		["max_level"] = 10,
+	[521421] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80115,
+				["sid"] = 5214211,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214212,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214213,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80115,
-		["name"] = "桑妮黑色专属1EX",
+		["key"] = 521421,
+		["name"] = "獠牙酋长",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "大火球会额外触发<font color='#green2#'>2层</font>灼烧。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51042] = {
+	[50065] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510421,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510422,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510423,
+				["sid"] = 50065,
 			},
 		},
-		["skill_type"] = 1,
+		["skill_type"] = 3,
 		["probability"] = 10000,
-		["key"] = 51042,
-		["simple_desc"] = "攻击目标单体",
+		["key"] = 50065,
+		["simple_desc"] = "普攻降低10%防御（暂时没用）",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -57881,8 +58266,9 @@ skillgroup = {
 			},
 		},
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "海之果冻怪",
+		["name"] = "剧痛",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104400] = {
@@ -57978,7 +58364,7 @@ skillgroup = {
 		["full_desc"] = "埃德蒙复活后驱散敌方<font color='#green2#'>全体</font>目标的防御提升状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521403] = {
+	[521420] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -57988,15 +58374,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214031,
+				["sid"] = 5214201,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5214032,
+				["sid"] = 5214202,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5214033,
+				["sid"] = 5214203,
 			},
 		},
 		["consume"] = {
@@ -58006,8 +58392,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521403,
-		["name"] = "光明会狂战",
+		["key"] = 521420,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -58035,40 +58421,56 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[101540] = {
+	[579103] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "受到伤害时获得一层鲜血蓄积效果",
+		["simple_desc"] = "每次受到技能伤害，回复自身血量。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 300281,
+				["sid"] = 579103,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 579103,
+		["name"] = "被动-受击回复",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每次受到技能伤害，回复自身血量。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[572001] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "开场时携带2层光弹印记。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 572001,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 101540,
-		["name"] = "鲜血蓄积",
+		["key"] = 572001,
+		["name"] = "光弹印记",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "每次受到伤害,将会获得<font color='#orange#'>1</font>层<font color='#orange#'>鲜血蓄积</font>状态(鲜血蓄积不会被驱散)。",
-		["params"] = "res/image/ui/04_skill/passive/bloodcellection.png",
+		["full_desc"] = "开场时携带2层光弹印记。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80286] = {
+	[80267] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -58078,7 +58480,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80286,
+				["sid"] = 80267,
 			},
 		},
 		["consume"] = {
@@ -58088,32 +58490,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80286,
-		["name"] = "沙利叶 黑EX",
+		["key"] = 80267,
+		["name"] = "兰斯洛特 黑EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "沙利叶释放安息时，技能1级时在战斗开始、激战阶段、终结阶段的追加伤害系数提升至<font color='#green2#'>125%</font>、<font color='#green2#'>250%</font>、<font color='#green2#'>250%</font>，升级提升幅度不变。",
+		["full_desc"] = "兰斯洛特被动中，每当队友受到伤害时增加的伤害减免等级有<font color='#green2#'>60%</font>概率提升<font color='#green2#'>1</font>级。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[107500] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10058,
-			},
-		},
-		["skill_type"] = 1,
-		["key"] = 107500,
-		["consume"] = {
-		},
-		["counter_type"] = {
-		},
-		["name"] = "普通攻击(艾德蕾妮)",
-		["probability"] = 500,
 	},
 	[311004] = {
 		["max_level"] = 1,
@@ -58241,27 +58624,20 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521425] = {
+	[106310] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "消耗魔王效果，必然释放噬灵烈焰。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214251,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214252,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214253,
+				["sid"] = 30471,
 			},
 		},
+		["key"] = 106310,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -58269,53 +58645,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521425,
-		["name"] = "光明会牧师",
+		["name"] = "欲望之王",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "每当我方角色对受到来自友方角色的攻击时(包括自己和队友)，莉莉丝会获得<font color='#orange#'>1</font>层<font color='#orange#'>魔王</font>效果。当释放技能的时候，若莉莉丝身上<font color='#orange#'>魔王</font>效果达到<font color='#orange#'>8</font>层时，则清除自己身上所有<font color='#orange#'>魔王</font>效果，莉莉丝本次释放的技能必定为<font color='#orange#'>噬灵烈焰</font>。",
+		["params"] = "res/image/ui/04_skill/passive/darklord.png",
 	},
-	[592520] = {
-		["max_level"] = 1,
+	[60028] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御，同时降低敌人治疗效果。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592520,
+				["sid"] = 60028,
 			},
 		},
-		["consume"] = {
-		},
-		["key"] = 592520,
-		["name"] = "被动-领袖集火",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御；领袖死亡时，对其他队友造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[50033] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 50033,
-			},
-			[2] = {
-				["round"] = 2,
-				["sid"] = 500332,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50033,
-		["simple_desc"] = "赋予全体友军持续回血的效果，持续6秒",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -58328,11 +58678,50 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 60028,
+		["name"] = "苦痛狂热",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "闪亮巨星",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "痛苦之力攻速提增幅效果提升<font color='#green2#'>33%</font>",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
+	},
+	[108240] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "桑妮降下火雨焚烧全体敌人，并附加灼烧。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30937,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30938,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30939,
+			},
+		},
+		["key"] = 108240,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "火雨",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "火焰系技能，桑妮降下火雨焚烧全体敌人，并附加全体<font color='#orange#'>1</font>层灼烧，火雨在攻击有护盾值的护盾时会焚烧护盾，额外减少其护盾值。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30937,index=1,format = 2}</font>攻击力的伤害，额外减少<font color='#green1#'>{id =309371,index=1,format = 2}</font>攻击力的护盾值；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30938,index=1,format = 2}</font>攻击力的伤害，额外减少<font color='#green1#'>{id =309371,index=1,format = 2}</font>攻击力的护盾值；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30939,index=1,format = 2}</font>攻击力的伤害，额外减少<font color='#green1#'>{id =309371,index=1,format = 2}</font>攻击力的护盾值。",
+		["params"] = "res/image/ui/04_skill/firerain.png",
 	},
 	[311006] = {
 		["max_level"] = 1,
@@ -58417,47 +58806,40 @@ skillgroup = {
 		["full_desc"] = "埃德蒙受到来自友军的攻击时会提升自身<font color='#green2#'>{id =803431, index=1,format = 2}</font>的攻击力，持续6秒，该攻击提升效果同一时间只能存在一个。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103810] = {
-		["max_level"] = 10,
+	[521416] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "德古拉为友军灌注魔力，使其周期性释放子弹。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30301,
+				["sid"] = 5214161,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30302,
+				["sid"] = 5214162,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30303,
+				["sid"] = 5214163,
 			},
 		},
-		["key"] = 103810,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "残酷赐福",
-		["combo_value"] = 2,
+		["key"] = 521416,
+		["name"] = "惩罚者牧师",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "为最前排的1名友军释放魔人的力量，为其附加<font color='#orange#'>6</font>层<font color='#orange#'>残酷</font>状态，持续<font color='#orange#'>6</font>秒。持有该状态的角色，每受到<font color='#orange#'>1</font>次普攻伤害，会失去<font color='#orange#'>2</font>层<font color='#orange#'>残酷</font>状态；持有该状态的角色每<font color='#orange#'>2</font>秒释放等同于<font color='#orange#'>残酷</font>层数数量的黑色法球攻击敌人，每枚法球造成<font color='#green2#'>{id =303011,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/>任何阶段，残酷赐福效果一致<br/>",
-		["params"] = "res/image/ui/04_skill/cruelbuff.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[101330] = {
 		["max_level"] = 10,
@@ -58501,38 +58883,27 @@ skillgroup = {
 		["full_desc"] = "神圣系技能，治愈所有友军，使被赐福的角色每秒恢复生命，效果持续<font color='#orange#'>3</font>秒。<br/><font color='#green1#'>战斗开始</font>：每秒恢复<font color='#green2#'>{id =30012,index=1,key='buff_add_hp',format = 2}</font>珊朵拉攻击力的生命；<br/><font color='#blue1#'>激战阶段</font>：每秒恢复<font color='#green2#'>{id =30015,index=1,key='buff_add_hp',format = 2}</font>珊朵拉攻击力的生命；<br/><font color='#purple#'>终结阶段</font>：每秒恢复<font color='#green2#'>{id =300181,index=1,key='buff_add_hp',format = 2}</font>珊朵拉攻击力的生命。",
 		["params"] = "res/image/ui/04_skill/healthy.png",
 	},
-	[70081] = {
-		["max_level"] = 10,
+	[579100] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "每次所受伤害不超过最大生命值的3%。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70081,
+				["sid"] = 579100,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 70081,
-		["name"] = "守卫者",
+		["key"] = 579100,
+		["name"] = "被动-伤害受限",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>10%</font>，提升防御<font color='#green2#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/defencepos.png",
+		["full_desc"] = "每次所受伤害不超过最大生命值的3%。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521900] = {
 		["max_level"] = 1,
@@ -58561,57 +58932,19 @@ skillgroup = {
 		["full_desc"] = "每次受到一次攻击，则增加一层嗜血标记，最高20层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106220] = {
+	[80028] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击1名敌人，命中有碎甲的目标后，提升自身技能伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30461,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30462,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30463,
-			},
-		},
-		["key"] = 106220,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "星怒",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "艾尔薇射出流星般的一箭，攻击<font color='#orange#'>1</font>名敌人。若目标处于<font color='#orange#'>碎甲</font>状态，则会提升自身技能伤害，持续<font color='#orange#'>8</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30461,index=1,format = 2}</font>攻击力的伤害，提升<font color='#orange#'>50%</font>技能伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30462,index=1,format = 2}</font>攻击力的伤害，提升<font color='#orange#'>50%</font>技能伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30463,index=1,format = 2}</font>攻击力的伤害，提升<font color='#orange#'>50%</font>技能伤害。",
-		["params"] = "res/image/ui/04_skill/starfallen.png",
-	},
-	[104610] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "消耗战技状态，赋予全体友军普攻吸血效果。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30396,
+				["sid"] = 80028,
 			},
 		},
-		["key"] = 104610,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -58624,13 +58957,55 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "游击者",
+		["key"] = 80028,
+		["name"] = "瓦恩",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "神圣轰击伤害提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[103810] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "德古拉为友军灌注魔力，使其周期性释放子弹。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30301,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30302,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30303,
+			},
+		},
+		["key"] = 103810,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "残酷赐福",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "每当能量条清空的时候，若罗宾汉身上有<font color='#orange#'>2</font>层或更多<font color='#orange#'>战技</font>效果时，则消耗所有该效果，赋予全体友军普通攻击吸血<font color='#orange#'>50%</font>的效果，持续<font color='#orange#'>12</font>秒。",
-		["params"] = "res/image/ui/04_skill/passive/guerrilla.png",
+		["full_desc"] = "为最前排的1名友军释放魔人的力量，为其附加<font color='#orange#'>6</font>层<font color='#orange#'>残酷</font>状态，持续<font color='#orange#'>6</font>秒。持有该状态的角色，每受到<font color='#orange#'>1</font>次普攻伤害，会失去<font color='#orange#'>2</font>层<font color='#orange#'>残酷</font>状态；持有该状态的角色每<font color='#orange#'>2</font>秒释放等同于<font color='#orange#'>残酷</font>层数数量的黑色法球攻击敌人，每枚法球造成<font color='#green2#'>{id =303011,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/>任何阶段，残酷赐福效果一致<br/>",
+		["params"] = "res/image/ui/04_skill/cruelbuff.png",
 	},
 	[102610] = {
 		["max_level"] = 1,
@@ -58700,20 +59075,55 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20051] = {
+	[521415] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5214151,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214152,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214153,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521415,
+		["name"] = "惩罚搜捕者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[200121] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20051,
+				["sid"] = 200121,
 			},
 		},
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 20051,
-		["simple_desc"] = "魔偶",
+		["key"] = 200121,
+		["simple_desc"] = "普通木乃伊普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -58727,43 +59137,9 @@ skillgroup = {
 			},
 		},
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["name"] = "魔偶",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521421] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5214211,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214212,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214213,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521421,
-		["name"] = "獠牙酋长",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["name"] = "普通木乃伊普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60015] = {
@@ -58834,23 +59210,28 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50065] = {
-		["max_level"] = 1,
+	[50018] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 50065,
+				["sid"] = 301241,
 			},
 		},
 		["skill_type"] = 3,
 		["probability"] = 10000,
-		["key"] = 50065,
-		["simple_desc"] = "普攻降低10%防御（暂时没用）",
+		["key"] = 50018,
+		["simple_desc"] = "对战场内所有其他角色造成伤害。",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
@@ -58858,12 +59239,46 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "剧痛",
+		["name"] = "1虚无法球自爆",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[700961] = {
+	[80164] = {
 		["max_level"] = 10,
 		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80164,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80164,
+		["name"] = "布伦希尔德 白",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "女武神有概率额外为自己增加<font color='#green2#'>1</font>层战技状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80088] = {
+		["max_level"] = 10,
+		["heros"] = {
+			[1] = 10015,
 		},
 		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
@@ -58871,7 +59286,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 700961,
+				["sid"] = 80088,
 			},
 		},
 		["consume"] = {
@@ -58886,44 +59301,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 700961,
-		["name"] = "弱点打击",
+		["key"] = 80088,
+		["name"] = "帝隆",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "普通攻击造成伤害时，自身的暴击伤害提升<font color='#green2#'>{id =7009611, index=1, format = 2}</font>，持续3秒。",
-		["params"] = "res/image/ui/04_skill/deadlyblade.png",
-	},
-	[20030] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20030,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20030,
-		["simple_desc"] = "末日审判者普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "末日审判者普通攻击",
+		["full_desc"] = "帝隆防御提升<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521903] = {
@@ -58961,28 +59344,6 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[579103] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次受到技能伤害，回复自身血量。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 579103,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 579103,
-		["name"] = "被动-受击回复",
-		["counter_type"] = {
-		},
-		["full_desc"] = "每次受到技能伤害，回复自身血量。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[70035] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -59016,32 +59377,70 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，攻击提升<font color='#green2#'>15%</font>，此后每8秒失去<font color='#green2#'>2.5%</font>生命。",
 		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[80267] = {
+	[101100] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "普通攻击（菲儿）",
+		["skill_type"] = 1,
+		["probability"] = 500,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80267,
+				["sid"] = 10002,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80267,
-		["name"] = "兰斯洛特 黑EX",
+		["key"] = 101100,
+		["name"] = "普通攻击（菲儿）",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "兰斯洛特被动中，每当队友受到伤害时增加的伤害减免等级有<font color='#green2#'>60%</font>概率提升<font color='#green2#'>1</font>级。",
+		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10002,index=1,key='sub_hp',format = 1}</font>点伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80008] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80008,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80008,
+		["name"] = "莉可丽丝白色专属1",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "死亡绽放会额外附带<font color='#green2#'>1</font>层重伤效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521904] = {
@@ -59111,6 +59510,33 @@ skillgroup = {
 		["name"] = "剑骷髅普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[575000] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "怪物在十个回合后会进入狂暴状态，每次技能附带目标最大生命值的伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5750001,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 575000,
+		["name"] = "狂暴",
+		["counter_type"] = {
+		},
+		["full_desc"] = "怪物在十个回合后会进入狂暴状态，每次技能附带最大生命值的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[107040] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -59148,39 +59574,6 @@ skillgroup = {
 		["full_desc"] = "缪斯的歌声引爆目标敌人的心智，根据其拥有的<font color='#orange#'>沉溺</font>效果，产生额外效果：<br/><font color='#orange#'>沉溺</font>效果层数≤<font color='#orange#'>9</font>时，造成伤害；<br/><font color='#orange#'>沉溺</font>效果层数≤<font color='#orange#'>19</font>时，减少其受到的治疗效果，持续<font color='#orange#'>10</font>秒；<br/><font color='#orange#'>沉溺</font>效果层数≥<font color='#orange#'>20</font>时，总伤害的<font color='#orange#'>70%</font>会无视防御。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30547,index=1,format = 2}</font>攻击力的伤害，减少<font color='#orange#'>20%</font>受到的治疗效果；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30548,index=1,format = 2}</font>攻击力的伤害，减少<font color='#orange#'>35%</font>受到的治疗效果；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30548,index=1,format = 2}</font>攻击力的伤害，减少<font color='#orange#'>35%</font>受到的治疗效果。",
 		["params"] = "res/image/ui/04_skill/vocative.png",
 	},
-	[60028] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60028,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60028,
-		["name"] = "苦痛狂热",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "痛苦之力攻速提增幅效果提升<font color='#green2#'>33%</font>",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
-	},
 	[521905] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -59216,25 +59609,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521415] = {
+	[592512] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214151,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214152,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214153,
+				["sid"] = 592512,
 			},
 		},
 		["consume"] = {
@@ -59244,33 +59629,44 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521415,
-		["name"] = "惩罚搜捕者",
+		["key"] = 592512,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[579100] = {
-		["max_level"] = 1,
+	[80076] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次所受伤害不超过最大生命值的3%。",
-		["skill_type"] = 3,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 579100,
+				["sid"] = 80076,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 579100,
-		["name"] = "被动-伤害受限",
+		["key"] = 80076,
+		["name"] = "潘多拉白色专属1",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次所受伤害不超过最大生命值的3%。",
+		["full_desc"] = "深渊之击额外获得1层深渊之怒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[107730] = {
@@ -59465,38 +59861,20 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[108300] = {
+	[107840] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "斯巴达旋转机械盾牌造成多次伤害",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10066,
+				["sid"] = 30629,
 			},
 		},
-		["skill_type"] = 1,
-		["key"] = 108300,
-		["consume"] = {
-		},
-		["counter_type"] = {
-		},
-		["name"] = "普通攻击（天选者薇薇安）",
-		["probability"] = 500,
-	},
-	[532241] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 532241,
-			},
-		},
+		["key"] = 107840,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -59504,14 +59882,37 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 532241,
-		["name"] = "沙盗头目",
+		["name"] = "机械切割",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "斯巴达将机械护盾变形，对敌方前排造成<font color='#orange#'>4</font>段伤害。<br/><font color='#green1#'>战斗开始</font>：造成总计<font color='#green1#'>{id =306294,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成总计<font color='#green1#'>{id =306294,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成总计<font color='#green1#'>{id =306294,index=1,format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/stormofwar.png",
+	},
+	[580630] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击团体BOSS时会造成大量额外伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580630,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580630,
+		["name"] = "圣物-黑暗法球",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。并降低目标的攻击力。",
+		["full_desc"] = "攻击团体BOSS时会造成大量额外伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80156] = {
+	[80016] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -59521,7 +59922,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80156,
+				["sid"] = 80016,
 			},
 		},
 		["consume"] = {
@@ -59536,12 +59937,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80156,
-		["name"] = "哥伦布 白1",
+		["key"] = 80016,
+		["name"] = "菲娅白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "释放技能致盲目标时，释放<font color='#green2#'>1</font>道光弹，造成100%攻击力伤害。",
+		["full_desc"] = "主动释放的灼烧伤害提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521908] = {
@@ -59640,37 +60041,33 @@ skillgroup = {
 		["full_desc"] = "薇薇安每次被赋予神圣系状态时恢复自身<font color='#green2#'>{id =900711, index=1, format = 2}</font>攻击力的血量。",
 		["params"] = "res/image/ui/04_skill/holychallenge.png",
 	},
-	[200121] = {
+	[60063] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200121,
+				["sid"] = 60063,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200121,
-		["simple_desc"] = "普通木乃伊普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 60063,
+		["name"] = "双重快感",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "普通木乃伊普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放嗜虐快感时，会额外提升自身<font color='#green2#'>{id =600631, index=1,key='buff_sub_skill_idle ',format = 2}</font>攻击速度。",
+		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
 	},
 	[521909] = {
 		["max_level"] = 1,
@@ -59707,58 +60104,70 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[533402] = {
-		["max_level"] = 1,
+	[80140] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 533402,
+				["sid"] = 80140,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 533402,
-		["name"] = "骷髅弓箭手",
+		["key"] = 80140,
+		["name"] = "黛丝 白1",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "痛苦之力可额外提升目标<font color='#green2#'>10%</font>的基础攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592026] = {
-		["max_level"] = 1,
+	[80020] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592026,
+				["sid"] = 80020,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592026,
-		["name"] = "光明会狂战",
+		["key"] = 80020,
+		["name"] = "菲娅",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "爆燃伤害提升<font color='#green2#'>30%</font>",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60016] = {
@@ -59829,25 +60238,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521410] = {
+	[592503] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214101,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214102,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214103,
+				["sid"] = 592503,
 			},
 		},
 		["consume"] = {
@@ -59857,44 +60258,38 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521410,
-		["name"] = "骷髅法师",
+		["key"] = 592503,
+		["name"] = "沙漠地龙",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[101100] = {
-		["max_level"] = 10,
+	[592504] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "普通攻击（菲儿）",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 500,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10002,
+				["sid"] = 592504,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 101100,
-		["name"] = "普通攻击（菲儿）",
+		["key"] = 592504,
+		["name"] = "小火龙",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10002,index=1,key='sub_hp',format = 1}</font>点伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80090] = {
@@ -59965,74 +60360,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600771] = {
+	[20059] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600771,
+				["sid"] = 20059,
 			},
 		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600771,
-		["name"] = "灵魂囚禁",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放影牢时，会附带1层衰弱效果，降低目标<font color='#green2#'>20%</font>治疗效果。",
-		["params"] = "res/image/ui/04_skill/shadowtrap.png",
-	},
-	[575000] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "怪物在十个回合后会进入狂暴状态，每次技能附带目标最大生命值的伤害。",
-		["skill_type"] = 3,
+		["skill_type"] = 1,
+		["name"] = "荒岩狮蝎",
 		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5750001,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 575000,
-		["name"] = "狂暴",
-		["counter_type"] = {
-		},
-		["full_desc"] = "怪物在十个回合后会进入狂暴状态，每次技能附带最大生命值的伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80029] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80029,
-			},
-		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -60045,13 +60385,80 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80029,
-		["name"] = "瓦恩",
+		["counter_type"] = {
+		},
+		["key"] = 20059,
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[104640] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "赋予1名友军激励效果，并赋予自己1层战技效果。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30403,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30404,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30405,
+			},
+		},
+		["key"] = 104640,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "突击指令",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "神圣轰击伤害提升<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "罗宾汉射出一发信号弹，赋予<font color='#orange#'>1</font>名队友<font color='#orange#'>激励</font>状态，持续<font color='#orange#'>6</font>秒；同时赋予自己<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>状态(<font color='#orange#'>战技</font>状态在消耗之前永久存在，最多可叠加<font color='#orange#'>5</font>层；每<font color='#orange#'>1</font>层都会使伤害加深提升<font color='#orange#'>5%</font>，加成为加法运算)。<br/><font color='#green1#'>战斗开始</font>：提升<font color='#green2#'>{id =30403,pkgindex=1,index=1,format = 1}%</font>暴击率和<font color='#green2#'>{id =30403,pkgindex=2,index=1,format = 2}</font>暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：提升<font color='#green2#'>{id =30404,pkgindex=1,index=1,format = 1}%</font>暴击率和<font color='#green2#'>{id =30404,pkgindex=2,index=1,format = 2}</font>暴击伤害；<br/><font color='#purple#'>终结阶段</font>：提升<font color='#green2#'>{id =30405,pkgindex=1,index=1,format = 1}%</font>暴击率和<font color='#green2#'>{id =30405,pkgindex=2,index=1,format = 2}</font>暴击伤害。",
+		["params"] = "res/image/ui/04_skill/attackorder.png",
+	},
+	[600503] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600503,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600503,
+		["name"] = "狂热",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "攻速提升效果有<font color='#green2#'>100%</font>概率增加<font color='#green2#'>25%</font>。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
 	},
 	[521912] = {
 		["max_level"] = 1,
@@ -60088,17 +60495,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592511] = {
-		["max_level"] = 1,
+	[600854] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592511,
+				["sid"] = 600854,
 			},
 		},
 		["consume"] = {
@@ -60108,11 +60515,44 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592511,
-		["name"] = "獠牙斧手",
+		["key"] = 600854,
+		["name"] = "攻击弱化",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>14%</font>。",
+		["params"] = "res/image/ui/04_skill/magicvacuum.png",
+	},
+	[20036] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 20036,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20036,
+		["simple_desc"] = "沙盗头子普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "沙盗头子普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[20031] = {
@@ -60147,17 +60587,17 @@ skillgroup = {
 		["name"] = "末日裁决者普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592504] = {
+	[41205] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每当对敌人造成伤害时，恢复自身血量。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592504,
+				["sid"] = 41205,
 			},
 		},
 		["consume"] = {
@@ -60167,46 +60607,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592504,
-		["name"] = "小火龙",
+		["key"] = 41205,
+		["name"] = "吸血",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521913] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5219131,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5219132,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5219133,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521913,
-		["name"] = "北境重锤使",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "每当对敌人造成伤害时，恢复自身血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[107220] = {
@@ -60246,49 +60651,42 @@ skillgroup = {
 		["full_desc"] = "冰霜系技能，艾丽西亚凝聚冰霜元素环绕于友军，强化全体友军的<font color='#orange#'>防御</font>能力，持续<font color='#orange#'>12</font>秒。<br/><font color='#green1#'>战斗开始</font>：提升<font color='#green1#'>{id =30569,index=1,format = 2}</font>防御力；<br/><font color='#blue1#'>激战阶段</font>：提升<font color='#green1#'>{id =30570,index=1,format = 2}</font>防御力；<br/><font color='#purple#'>终结阶段</font>：提升<font color='#green1#'>{id =30571,index=1,format = 2}</font>防御力。",
 		["params"] = "res/image/ui/04_skill/blueend.png",
 	},
-	[20059] = {
+	[95191] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "与怪物战斗时，治愈的神迹附加攻击，安息附加额外效果。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20059,
+				["sid"] = 95191,
 			},
 		},
-		["skill_type"] = 1,
-		["name"] = "荒岩狮蝎",
-		["probability"] = 10000,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 95191,
+		["name"] = "圣夜无疆",
 		["counter_type"] = {
 		},
-		["key"] = 20059,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物战斗时，治愈的神迹会释放1次月光攻击1名敌人，造成<font color='#green2#'>{id =951911, index=1, format = 2}</font>攻击力的伤害；圣夜无疆以及安息攻击怪物时，都会使怪物在<font color='#orange#'>1</font>秒内受到封锁，无法受到<font color='#orange#'>恢复</font>和<font color='#orange#'>护盾</font>的增益加成（安息仅主动释放的伤害有效）。",
+		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
-	[592222] = {
+	[106910] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每当自身普攻2次后，第3次普攻必定附加额外伤害。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592222,
+				["sid"] = 30532,
 			},
 		},
+		["key"] = 106910,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -60296,12 +60694,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592222,
-		["name"] = "獠牙战士",
+		["name"] = "断罪者",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "每当自身普攻<font color='#orange#'>2</font>次后，第<font color='#orange#'>3</font>次普攻时必定额外附加目标最大生命值<font color='#orange#'>5%</font>的普攻伤害（最高不超过自身当前攻击力的600%）。",
+		["params"] = "res/image/ui/04_skill/passive/judgement.png",
 	},
 	[521914] = {
 		["max_level"] = 1,
@@ -60370,31 +60769,36 @@ skillgroup = {
 		["name"] = "死冥冲击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[575101] = {
-		["max_level"] = 1,
+	[108500] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次释放技能回复群体血量。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 575101,
+				["sid"] = 10068,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 500,
+		["key"] = 108500,
+		["simple_desc"] = "普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 575101,
-		["name"] = "群体治疗",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次释放技能回复群体血量",
+		["name"] = "普通攻击(塞西莉娅)",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80091] = {
@@ -60465,46 +60869,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，同时恢复自身生命。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106710] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "受到技能或异常状态死亡后重生。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30512,
-			},
-		},
-		["key"] = 106710,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "涅槃之魔",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "埃德蒙会携带<font color='#orange#'>3</font>层<font color='#orange#'>王权</font>印记进入战斗。<br/>每当我方角色受到来自自身或队友的攻击时，埃德蒙都会获得<font color='#orange#'>1</font>层<font color='#orange#'>炎魔</font>印记，最多可叠加至<font color='#orange#'>4</font>层。<br/>若埃德蒙因技能伤害或异常状态死亡，会以生命值全满的状态<font color='#orange#'>重生</font>。重生效果1场战斗只能触发<font color='#orange#'>1</font>次。",
-		["params"] = "res/image/ui/04_skill/passive/reborn.png",
-	},
-	[80032] = {
+	[70058] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80032,
+				["sid"] = 70058,
 			},
 		},
 		["consume"] = {
@@ -60519,28 +60894,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80032,
-		["name"] = "菲儿黑色专属1EX",
+		["key"] = 70058,
+		["name"] = "绝境复苏",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "断罪之力额外提升目标<font color='#green2#'>60%</font>防御力，持续6秒。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "战斗中血量低于<font color='#orange#'>20%</font>时，恢复自身<font color='#green1#'>{id =700581, index=1, format = 2}</font>最大生命值，6秒内只能触发一次，最多触发4次。",
+		["params"] = "res/image/ui/04_skill/udeadshielder.png",
 	},
-	[106910] = {
+	[592450] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每当自身普攻2次后，第3次普攻必定附加额外伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30532,
+				["sid"] = 592450,
 			},
 		},
-		["key"] = 106910,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -60548,13 +60922,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "断罪者",
-		["combo_value"] = 2,
+		["key"] = 592450,
+		["name"] = "狮鹫",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "每当自身普攻<font color='#orange#'>2</font>次后，第<font color='#orange#'>3</font>次普攻时必定额外附加目标最大生命值<font color='#orange#'>5%</font>的普攻伤害（最高不超过自身当前攻击力的600%）。",
-		["params"] = "res/image/ui/04_skill/passive/judgement.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521118] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5211181,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211182,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211183,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521118,
+		["name"] = "狮鹫",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521916] = {
 		["max_level"] = 1,
@@ -60586,126 +60994,6 @@ skillgroup = {
 		},
 		["key"] = 521916,
 		["name"] = "末日审判者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80171] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80171,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80171,
-		["name"] = "齐格飞 黑EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "黄昏之刃的伤害提升<font color='#green2#'>100%</font>害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580193] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580193,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580193,
-		["name"] = "巫师鲁恩",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20058] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20058,
-			},
-		},
-		["skill_type"] = 1,
-		["name"] = "蒂翁",
-		["probability"] = 10000,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-		},
-		["key"] = 20058,
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521917] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5219171,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5219172,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5219173,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521917,
-		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -60746,26 +61034,161 @@ skillgroup = {
 		["name"] = "烈焰赋予",
 		["params"] = "res/image/ui/04_skill/firegift.png",
 	},
-	[592474] = {
+	[521921] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "第一次能量条清空时，赋予自身伤害增强效果。当敌人释放主动的防御提升技能时，清除伤害增强的效果。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592474,
+				["sid"] = 5219211,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5219212,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5219213,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 592474,
-		["name"] = "被动-防御考验",
+		["key"] = 521921,
+		["name"] = "狮鹫",
 		["counter_type"] = {
 		},
-		["full_desc"] = "第一次能量条清空时，赋予自身伤害增强效果。当敌人释放主动的防御提升技能时，清除伤害增强的效果。",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80032] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80032,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80032,
+		["name"] = "菲儿黑色专属1EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "断罪之力额外提升目标<font color='#green2#'>60%</font>防御力，持续6秒。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521917] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5219171,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5219172,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5219173,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521917,
+		["name"] = "獠牙斧手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592334] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592334,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592334,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592408] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592408,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592408,
+		["name"] = "小火龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60017] = {
@@ -60836,20 +61259,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20036] = {
+	[80116] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20036,
+				["sid"] = 80116,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20036,
-		["simple_desc"] = "沙盗头子普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -60862,37 +61284,45 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 80116,
+		["name"] = "桑妮白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "沙盗头子普通攻击",
+		["full_desc"] = "烈焰赋予额外增加<font color='#green2#'>10%</font>攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572006] = {
-		["max_level"] = 1,
+	[80017] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572006,
+				["sid"] = 80017,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 572006,
-		["name"] = "树妖",
+		["key"] = 80017,
+		["name"] = "菲娅白色专属1EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
+		["full_desc"] = "主动释放的灼烧伤害提升<font color='#green2#'>100%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312050] = {
@@ -60952,7 +61382,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[700981] = {
+	[80072] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -60962,7 +61392,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 700981,
+				["sid"] = 80072,
 			},
 		},
 		["consume"] = {
@@ -60977,28 +61407,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 700981,
-		["name"] = "加护之风",
+		["key"] = 80072,
+		["name"] = "尼尔法",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "自身受到的异常状态伤害降低<font color='#green2#'>4%</font>。",
-		["params"] = "res/image/ui/04_skill/defence.png",
+		["full_desc"] = "黑洞伤害提升<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50004] = {
+	[80040] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 50004,
+				["sid"] = 80040,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50004,
-		["simple_desc"] = "远程刺客攻击后排",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -61011,10 +61440,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 80040,
+		["name"] = "菲儿",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "远程刺客",
+		["full_desc"] = "裁决现在受到同时释放的神圣技能数量加成，每个神圣技能会使裁决伤害提升<font color='#green2#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312051] = {
@@ -61074,28 +61505,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50068] = {
+	[592445] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 500681,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 500682,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 500683,
+				["sid"] = 592445,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50068,
-		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -61103,26 +61525,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 592445,
+		["name"] = "零歧压迫者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "撕咬",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103710] = {
-		["max_level"] = 1,
+	[200501] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "减少齐格飞受到的伤害，每次被攻击效果都会削弱。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 3026,
+				["sid"] = 200501,
 			},
 		},
-		["key"] = 103710,
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200501,
+		["simple_desc"] = "叛军首领",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -61135,13 +61558,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "龙血",
-		["combo_value"] = 2,
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "齐格飞入场时附带<font color='#orange#'>20</font>层<font color='#orange#'>龙血</font>效果，每层龙血状态提升齐格飞<font color='#orange#'>{id =40009,index=1,key='buff_add_fy',format = 2}</font>防御。每当齐格飞受到普通攻击伤害时，减少<font color='#orange#'>1</font>层<font color='#orange#'>龙血</font>效果。",
-		["params"] = "res/image/ui/04_skill/passive/dragonblood.png",
+		["name"] = "叛军首领",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312052] = {
 		["max_level"] = 1,
@@ -61192,76 +61612,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。并强化魔斧，使其在普攻时，赋予被击目标重伤状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[533006] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 533006,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 533006,
-		["name"] = "巫师鲁恩",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70039] = {
+	[80156] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["name"] = "防御者战靴",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70053,
-			},
-		},
-		["key"] = 70039,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "大苍穹战斗减少<font color='#green2#'>30%</font>补给值消耗，多件装备最高可叠加至90%",
-		["params"] = "res/image/ui/04_skill/defence.png",
-	},
-	[700962] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 700962,
+				["sid"] = 80156,
 			},
 		},
 		["consume"] = {
@@ -61276,13 +61637,80 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 700962,
-		["name"] = "弱点打击",
+		["key"] = 80156,
+		["name"] = "哥伦布 白1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "普通攻击造成伤害时，自身的暴击伤害提升<font color='#green2#'>{id =7009621, index=1, format = 2}</font>，持续3秒。",
-		["params"] = "res/image/ui/04_skill/deadlyblade.png",
+		["full_desc"] = "释放技能致盲目标时，释放<font color='#green2#'>1</font>道光弹，造成100%攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[103710] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "减少齐格飞受到的伤害，每次被攻击效果都会削弱。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 3026,
+			},
+		},
+		["key"] = 103710,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "龙血",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "齐格飞入场时附带<font color='#orange#'>20</font>层<font color='#orange#'>龙血</font>效果，每层龙血状态提升齐格飞<font color='#orange#'>{id =40009,index=1,key='buff_add_fy',format = 2}</font>防御。每当齐格飞受到普通攻击伤害时，减少<font color='#orange#'>1</font>层<font color='#orange#'>龙血</font>效果。",
+		["params"] = "res/image/ui/04_skill/passive/dragonblood.png",
+	},
+	[80170] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80170,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80170,
+		["name"] = "齐格飞 黑",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "黄昏之刃的伤害提升<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521922] = {
 		["max_level"] = 1,
@@ -61351,32 +61779,38 @@ skillgroup = {
 		["name"] = "撕咬",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592335] = {
-		["max_level"] = 1,
+	[700972] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592335,
+				["sid"] = 700972,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592335,
-		["name"] = "兄弟会刺客",
+		["key"] = 700972,
+		["name"] = "守势",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "普通攻击造成伤害时，提升自身<font color='#green2#'>{id =7009721, index=1, format = 2}</font>的防御，持续3秒，可叠加3层。",
+		["params"] = "res/image/ui/04_skill/unfearbless.png",
 	},
 	[80093] = {
 		["max_level"] = 10,
@@ -61446,84 +61880,64 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80045] = {
-		["max_level"] = 10,
+	[581124] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80045,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80045,
-		["name"] = "薇薇安白色专属1EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "神圣连击额外增加2次伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[200401] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 200401,
-			},
-		},
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 200401,
-		["simple_desc"] = "狮鹫普攻",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 581124,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 581124,
+		["name"] = "零岐监工",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[104710] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "当其他队友受到伤害时，增加全体友军伤害减免效果。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30406,
+			},
+		},
+		["key"] = 104710,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["name"] = "守护骑士",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "狮鹫普攻",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "进入战斗后，携带<font color='#orange#'>4</font>层<font color='#orange#'>战技</font>状态，有战技状态时，增加全体队友<font color='#orange#'>{id =304065,index=1,format = 2}</font>的防御。每当有其他队友受伤害时，提升全体免伤等级<font color='#orange#'>{id =304061,index=2,format = 1}</font>级，最高<font color='#orange#'>70</font>级，持续<font color='#orange#'>3</font>秒。",
+		["params"] = "res/image/ui/04_skill/passive/perfectknight.png",
 	},
-	[80040] = {
+	[70039] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80040,
-			},
-		},
+		["skill_type"] = 3,
+		["name"] = "防御者战靴",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -61536,13 +61950,18 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80040,
-		["name"] = "菲儿",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70053,
+			},
+		},
+		["key"] = 70039,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "裁决现在受到同时释放的神圣技能数量加成，每个神圣技能会使裁决伤害提升<font color='#green2#'>10%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "大苍穹战斗减少<font color='#green2#'>30%</font>补给值消耗，多件装备最高可叠加至90%",
+		["params"] = "res/image/ui/04_skill/defence.png",
 	},
 	[521924] = {
 		["max_level"] = 1,
@@ -61611,7 +62030,7 @@ skillgroup = {
 		["name"] = "弓骷髅普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592412] = {
+	[592458] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -61621,7 +62040,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592412,
+				["sid"] = 592458,
 			},
 		},
 		["consume"] = {
@@ -61631,8 +62050,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592412,
-		["name"] = "鬼魂",
+		["key"] = 592458,
+		["name"] = "黑蔷薇杖兵",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -61666,61 +62085,19 @@ skillgroup = {
 		["full_desc"] = "净化之光有<font color='#green2#'>20%</font>概率驱散2个状态。",
 		["params"] = "res/image/ui/04_skill/purelight.png",
 	},
-	[70011] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70014,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70011,
-		["name"] = "守卫者",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>20%</font>，提升防御<font color='#green2#'>20%</font>。",
-		["params"] = "res/image/ui/04_skill/defencepos.png",
-	},
-	[51028] = {
+	[592030] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510281,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510282,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510283,
+				["sid"] = 592030,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 51028,
-		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -61728,12 +62105,41 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 592030,
+		["name"] = "魔斧手罗萨",
 		["counter_type"] = {
 		},
-		["name"] = "狮鹫",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580116] = {
+	[572005] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 572005,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 572005,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592454] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -61743,13 +62149,18 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580116,
+				["sid"] = 592454,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580116,
-		["name"] = "惩罚搜捕者",
+		["key"] = 592454,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -61788,47 +62199,41 @@ skillgroup = {
 		["full_desc"] = "无畏赐福持续时间变为<font color='#green2#'>20</font>秒，防御提升百分比提高<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/unfearbless.png",
 	},
-	[592400] = {
+	[592472] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "当能量条清空时，释放若干枚光弹攻击敌人。",
+		["simple_desc"] = "当自身受到技能或异常状态伤害时，回复自身血量。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592400,
+				["sid"] = 592472,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592400,
-		["name"] = "被动-光弹连射",
+		["key"] = 592472,
+		["name"] = "被动-受击回复",
 		["counter_type"] = {
 		},
-		["full_desc"] = "当能量条清空时，释放3枚光弹攻击敌人，每枚光弹造成100%攻击力伤害。",
+		["full_desc"] = "当自身受到技能或异常状态伤害时，回复自身血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200451] = {
+	[20058] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200451,
+				["sid"] = 20058,
 			},
 		},
 		["skill_type"] = 1,
+		["name"] = "蒂翁",
 		["probability"] = 10000,
-		["key"] = 200451,
-		["simple_desc"] = "小火龙普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -61842,36 +62247,30 @@ skillgroup = {
 			},
 		},
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "小火龙普攻",
+		["key"] = 20058,
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592403] = {
+	[592470] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "战斗进入到后期时，怪物将极大的提升自己的攻击力。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592403,
+				["sid"] = 592470,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592403,
-		["name"] = "光明会狂战",
+		["key"] = 592470,
+		["name"] = "被动-狂暴",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "战斗进入到后期时，怪物将极大的提升自己的攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80094] = {
@@ -61944,40 +62343,42 @@ skillgroup = {
 		["full_desc"] = "米迦勒散发烈阳的力量保护自己，提升自身<font color='#green2#'>{id =30421,index=2,format = 2}</font>防御，持续<font color='#orange#'>6</font>秒。同时自身攻击提升越高，防御提升越高。<br/><font color='#green1#'>战斗开始</font>：战斗中，攻击力每提升<font color='#orange#'>5%</font>，防御提升<font color='#orange#'>1%</font>。<br/><font color='#blue1#'>激战阶段</font>：战斗中，攻击力每提升<font color='#orange#'>5%</font>，防御提升<font color='#orange#'>2%</font>。<br/><font color='#purple#'>终结阶段</font>：战斗中，攻击力每提升<font color='#orange#'>5%</font>，防御提升<font color='#orange#'>2%</font>。",
 		["params"] = "res/image/ui/04_skill/sun.png",
 	},
-	[70008] = {
-		["max_level"] = 10,
+	[521119] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70008,
+				["sid"] = 5211191,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211192,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211193,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 70008,
-		["name"] = "生命吸收",
+		["key"] = 521119,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "造成伤害时，可以恢复造成伤害<font color='#green2#'>15%</font>的生命。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "攻击单体，造成伤害",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[581124] = {
+	[521403] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -61987,54 +62388,17 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 581124,
+				["sid"] = 5214031,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214032,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214033,
 			},
 		},
-		["consume"] = {
-		},
-		["key"] = 581124,
-		["name"] = "零岐监工",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580188] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580188,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580188,
-		["name"] = "鬼魂",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[107910] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "加百列禁止过度作战，并对敌方被驱散单位降下惩罚。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30730,
-			},
-		},
-		["key"] = 107910,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -62042,13 +62406,71 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "秩序",
+		["key"] = 521403,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[107930] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "加百列赋予友军护盾，并驱散敌方前排",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30734,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30735,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30736,
+			},
+		},
+		["key"] = 107930,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "拯救",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "加百列进入战斗后，敌方所有单位所受的伤害总计不超过<font color='#orange#'>10</font>次，我方所有单位所受的伤害总计不超过<font color='#orange#'>10</font>次，每次能量条清空时重置计数；<br/>开场时自身获得<font color='#orange#'>3</font>层秩序标记，每次己方单位<font color='#orange#'>驱散</font>敌方单位的效果成功时，消耗<font color='#orange#'>1</font>层秩序标记进行追击，造成<font color='#orange#'>{id =3073011,index=1,format = 2}</font>攻击力的伤害；<br/>每次有己方天使释放技能时，自身会获得一层天使标记，标记最多存在<font color='#orange#'>3</font>层，每层天使标记在回合开始时会转化为1层秩序标记。",
-		["params"] = "res/image/ui/04_skill/passive/poweroforder.png",
+		["full_desc"] = "加百列驱散敌方前排目标<font color='#orange#'>1</font>个效果，并赋予生命值百分比最低的友军单位一层护盾，持续<font color='#orange#'>5</font>秒，护盾存在期间目标的治疗效果提升<font color='#orange#'>20%</font>。<br/><font color='#green1#'>战斗开始</font>：赋予生命值百分比最低的友军<font color='#orange#'>1</font>层自身攻击力<font color='#green1#'>{id =307341,index=1,format = 2}</font>的护盾；<br/><font color='#blue1#'>激战阶段</font>：赋予生命值百分比最低的友军<font color='#orange#'>1</font>层自身攻击力<font color='#green1#'>{id =307351,index=1,format = 2}</font>的护盾；<br/><font color='#purple#'>终结阶段</font>：赋予生命值百分比最低的友军<font color='#orange#'>1</font>层自身攻击力<font color='#green1#'>{id =307361,index=1,format = 2}</font>的护盾。",
+		["params"] = "res/image/ui/04_skill/save.png",
+	},
+	[580602] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>8%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580602,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580602,
+		["name"] = "圣物-普攻强化Lv2",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>8%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[106200] = {
 		["max_level"] = 10,
@@ -62076,35 +62498,38 @@ skillgroup = {
 		["key"] = 106200,
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80060] = {
-		["max_level"] = 10,
+	[51050] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80060,
+				["sid"] = 510501,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510502,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510503,
 			},
 		},
-		["skill_type"] = 4,
-		["name"] = "杰克",
+		["skill_type"] = 1,
 		["probability"] = 10000,
+		["key"] = 51050,
+		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["key"] = 80060,
+		["name"] = "刃魔",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90332] = {
@@ -62162,6 +62587,41 @@ skillgroup = {
 		["full_desc"] = "每当自身受到敌人伤害时，恢复自身血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[521502] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215021,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215022,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215023,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521502,
+		["name"] = "骷髅弓箭手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[592409] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -62189,42 +62649,19 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592472] = {
+	[592465] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "当自身受到技能或异常状态伤害时，回复自身血量。",
+		["simple_desc"] = "进入战斗后，降低非组合技技能伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592472,
+				["sid"] = 592465,
 			},
 		},
-		["consume"] = {
-		},
-		["key"] = 592472,
-		["name"] = "被动-受击回复",
-		["counter_type"] = {
-		},
-		["full_desc"] = "当自身受到技能或异常状态伤害时，回复自身血量。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[104840] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "治疗全体队友，并赐福目标队友。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30419,
-			},
-		},
-		["key"] = 104840,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -62232,27 +62669,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "绽放",
-		["combo_value"] = 2,
+		["key"] = 592465,
+		["name"] = "被动-考验组合技",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "薇欧瑞儿利用大自然的力量治疗全体队友，使队友每<font color='#orange#'>2</font>秒恢复一次生命，持续<font color='#orange#'>6</font>秒。同时赐福目标队友，使其下一击伤害提高<font color='#orange#'>100%</font>。群体攻击和多段攻击只有<font color='#orange#'>1个</font>伤害有效。<br/><font color='#green1#'>战斗开始</font>：每次恢复<font color='#green2#'>{id =30419,index=1,format = 2}</font>攻击力生命值。<br/><font color='#blue1#'>激战阶段</font>：每次恢复<font color='#green2#'>{id =30419,index=1,format = 2}</font>攻击力的生命值。<br/><font color='#purple#'>终结阶段</font>：每次恢复<font color='#green2#'>{id =30419,index=1,format = 2}</font>攻击力的生命值。",
-		["params"] = "res/image/ui/04_skill/blossom.png",
+		["full_desc"] = "进入战斗后，降低非组合技技能伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70086] = {
+	[20021] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70086,
+				["sid"] = 20021,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20021,
+		["simple_desc"] = "零歧压迫者1普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -62265,13 +62702,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70086,
-		["name"] = "亡者之怒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "死亡后，释放<font color='#green2#'>5</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+		["name"] = "零歧压迫者1普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50037] = {
 		["max_level"] = 10,
@@ -62313,28 +62748,27 @@ skillgroup = {
 		["name"] = "鬼怪",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[107930] = {
-		["max_level"] = 10,
+	[521219] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "加百列赋予友军护盾，并驱散敌方前排",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30734,
+				["sid"] = 5212191,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30735,
+				["sid"] = 5212192,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30736,
+				["sid"] = 5212193,
 			},
 		},
-		["key"] = 107930,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -62342,13 +62776,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "拯救",
-		["combo_value"] = 2,
+		["key"] = 521219,
+		["name"] = "末日裁决者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "加百列驱散敌方前排目标<font color='#orange#'>1</font>个效果，并赋予生命值百分比最低的友军单位一层护盾，持续<font color='#orange#'>5</font>秒，护盾存在期间目标的治疗效果提升<font color='#orange#'>20%</font>。<br/><font color='#green1#'>战斗开始</font>：赋予生命值百分比最低的友军<font color='#orange#'>1</font>层自身攻击力<font color='#green1#'>{id =307341,index=1,format = 2}</font>的护盾；<br/><font color='#blue1#'>激战阶段</font>：赋予生命值百分比最低的友军<font color='#orange#'>1</font>层自身攻击力<font color='#green1#'>{id =307351,index=1,format = 2}</font>的护盾；<br/><font color='#purple#'>终结阶段</font>：赋予生命值百分比最低的友军<font color='#orange#'>1</font>层自身攻击力<font color='#green1#'>{id =307361,index=1,format = 2}</font>的护盾。",
-		["params"] = "res/image/ui/04_skill/save.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80095] = {
 		["max_level"] = 10,
@@ -62411,87 +62844,71 @@ skillgroup = {
 		["full_desc"] = "希娜的怨灵伤害提升<font color='#green2#'>25%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521117] = {
+	[581114] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5211171,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211172,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211173,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521117,
-		["name"] = "末日裁决者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592467] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "一定时间驱散自身的负面异常状态。",
+		["simple_desc"] = "进场自身携带若干层增伤印记。增伤印记会提升所有伤害，印记每受到一次伤害时会减少一层。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592467,
+				["sid"] = 581114,
 			},
 		},
 		["consume"] = {
+		},
+		["key"] = 581114,
+		["name"] = "被动-增伤印记",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进场自身携带若干层增伤印记。增伤印记会提升所有伤害，印记每受到一次伤害时会减少一层。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80108] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80108,
+			},
+		},
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["key"] = 80108,
+		["simple_desc"] = "白色符文-1",
+		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592467,
-		["name"] = "被动-驱散异常状态",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每3秒驱散一次自身的负面异常状态。",
+		["name"] = "罗兰",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521420] = {
+	[592316] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214201,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214202,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214203,
+				["sid"] = 592316,
 			},
 		},
 		["consume"] = {
@@ -62501,24 +62918,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521420,
-		["name"] = "獠牙战士",
+		["key"] = 592316,
+		["name"] = "零歧电击者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592466] = {
+	[592463] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次受到伤害不超过最大生命值的5%。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方全体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592466,
+				["sid"] = 592463,
 			},
 		},
 		["consume"] = {
@@ -62528,11 +62945,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592466,
-		["name"] = "被动-伤害受限",
+		["key"] = 592463,
+		["name"] = "大眼",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次受到伤害不超过最大生命值的5%。",
+		["full_desc"] = "攻击敌方全体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51061] = {
@@ -62570,31 +62987,37 @@ skillgroup = {
 		["full_desc"] = "攻击目标单体",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[500131] = {
-		["max_level"] = 1,
+	[80149] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 500131,
+				["sid"] = 80149,
 			},
 		},
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["key"] = 500131,
-		["simple_desc"] = "死亡骑士的暴击伤害提升100%",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 80149,
+		["name"] = "特斯拉 白1EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "冥界之怒",
+		["full_desc"] = "激励的暴击伤害可额外增加<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90333] = {
@@ -62625,17 +63048,17 @@ skillgroup = {
 		["full_desc"] = "净化之光有<font color='#green2#'>80%</font>概率驱散2个状态。",
 		["params"] = "res/image/ui/04_skill/purelight.png",
 	},
-	[592465] = {
+	[592414] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗后，降低非组合技技能伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592465,
+				["sid"] = 592414,
 			},
 		},
 		["consume"] = {
@@ -62645,11 +63068,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592465,
-		["name"] = "被动-考验组合技",
+		["key"] = 592414,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，降低非组合技技能伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103130] = {
@@ -62685,27 +63108,20 @@ skillgroup = {
 		["name"] = "秘法之力",
 		["params"] = "res/image/ui/04_skill/magicone.png",
 	},
-	[521526] = {
+	[500131] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215261,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215262,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215263,
+				["sid"] = 500131,
 			},
 		},
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["key"] = 500131,
+		["simple_desc"] = "死亡骑士的暴击伤害提升100%",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -62713,11 +63129,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521526,
-		["name"] = "光明会牧师",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["name"] = "冥界之怒",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[60019] = {
@@ -62753,49 +63168,54 @@ skillgroup = {
 		["full_desc"] = "猩红一闪伤害提升<font color='#green2#'>10%</font>。",
 		["params"] = "res/image/ui/04_skill/bloodyshining.png",
 	},
-	[80108] = {
+	[108040] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "希尔芬对全体单位造成伤害并随机赋予碎甲状态。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80108,
+				["sid"] = 30637,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30638,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30639,
 			},
 		},
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["key"] = 80108,
-		["simple_desc"] = "白色符文-1",
+		["key"] = 108040,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["name"] = "烈风",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "罗兰",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "希尔芬将不可控制的暴躁风元素投掷到敌方中心，风元素在远离希尔芬之后开始暴怒并逐渐变成烈风，对全体敌方单位造成<font color='#orange#'>1</font>次伤害并随后造成<font color='#orange#'>多</font>次随机单体伤害并赋予碎甲状态，多次受到烈风伤害的单位<font color='#orange#'>会且仅会受到一层</font>碎甲效果。<br/><font color='#green1#'>战斗开始</font>：对敌方全体造成<font color='#green1#'>{id =30637,index=1,format = 2}</font>攻击力的伤害，随后造成<font color='#orange#'>3</font>次<font color='#green1#'>{id =306371,index=1,format = 2}</font>攻击力的随机单体伤害；<br/><font color='#blue1#'>激战阶段</font>：对敌方全体造成<font color='#green1#'>{id =30637,index=1,format = 2}</font>攻击力的伤害，随后造成<font color='#orange#'>3</font>次<font color='#green1#'>{id =306371,index=1,format = 2}</font>攻击力的随机单体伤害；<br/><font color='#purple#'>终结阶段</font>：对敌方全体造成<font color='#green1#'>{id =30637,index=1,format = 2}</font>攻击力的伤害，随后造成<font color='#orange#'>3</font>次<font color='#green1#'>{id =306371,index=1,format = 2}</font>攻击力的随机单体伤害。<br/>（<font color='#orange#'>碎甲</font>效果会降低持有该效果的角色<font color='#green2#'>{id =40019,index=2,format = 2}</font>防御，持续<font color='#orange#'>6</font>秒。碎甲效果最多叠加2层。)",
+		["params"] = "res/image/ui/04_skill/strongwind.png",
 	},
-	[592464] = {
+	[592459] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次受到伤害，生成一层护盾。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592464,
+				["sid"] = 592459,
 			},
 		},
 		["consume"] = {
@@ -62805,11 +63225,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592464,
-		["name"] = "被动-受击加盾",
+		["key"] = 592459,
+		["name"] = "魔斧手罗萨",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次受到伤害，生成一层护盾。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104410] = {
@@ -62846,19 +63266,20 @@ skillgroup = {
 		["full_desc"] = "每当洛天依释放技能时，会获得<font color='#orange#'>1</font>层<font color='#orange#'>音律</font>效果。每当能量条清空的时候，若洛天依身上有<font color='#orange#'>3</font>层<font color='#orange#'>音律</font>效果时，则消耗所有该效果，并对<font color='#orange#'>1</font>名敌人造成<font color='#orange#'>5</font>次<font color='#orange#'>{id =303752,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/passive/musicsoul.png",
 	},
-	[80096] = {
+	[20032] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80096,
+				["sid"] = 20032,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20032,
+		["simple_desc"] = "惩罚者牧师普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -62871,12 +63292,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80096,
-		["name"] = "奥菲莉亚白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "龙魂提供的效果变为永久。",
+		["name"] = "惩罚者牧师普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80352] = {
@@ -62907,99 +63326,19 @@ skillgroup = {
 		["full_desc"] = "希娜的怨灵伤害提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580186] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580186,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580186,
-		["name"] = "巫师鲁恩",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592314] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592314,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592314,
-		["name"] = "北境叛军女",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[581114] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进场自身携带若干层增伤印记。增伤印记会提升所有伤害，印记每受到一次伤害时会减少一层。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 581114,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 581114,
-		["name"] = "被动-增伤印记",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进场自身携带若干层增伤印记。增伤印记会提升所有伤害，印记每受到一次伤害时会减少一层。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[102120] = {
+	[70002] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "单体攻击，根据自身攻击力提升幅度额外附加效果。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30085,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30086,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30087,
+				["sid"] = 70002,
 			},
 		},
-		["key"] = 102120,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -63012,25 +63351,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "圣耀之刃",
-		["combo_value"] = 1,
+		["key"] = 70002,
+		["name"] = "护盾",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "神圣系技能，攻击<font color='#orange#'>1</font>名敌人。若罗兰的攻击力超过初始攻击力<font color='#orange#'>120%</font>的时候，额外击晕敌人<font color='#orange#'>1</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30085,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，若罗兰的攻击力超过初始攻击力<font color='#orange#'>200%</font>，则治疗罗兰<font color='#green2#'>{id =300851,index=1,key='add_hp',format = 2}</font>攻击力的生命；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30086,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，若罗兰的攻击力超过初始攻击力<font color='#orange#'>200%</font>，则治疗罗兰<font color='#green2#'>{id =300861,index=1,key='add_hp',format = 2}</font>攻击力的生命；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30087,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，若罗兰的攻击力超过初始攻击力<font color='#orange#'>200%</font>，则治疗罗兰<font color='#green2#'>{id =300871,index=1,key='add_hp',format = 2}</font>攻击力的生命。",
-		["params"] = "res/image/ui/04_skill/divineblade.png",
+		["full_desc"] = "开场时获得一个吸收<font color='#green2#'>150%</font>攻击力伤害的护盾，持续20秒。",
+		["params"] = "res/image/ui/04_skill/shieldbash.png",
 	},
-	[592449] = {
-		["max_level"] = 1,
+	[80493] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592449,
+				["sid"] = 80493,
 			},
 		},
 		["consume"] = {
@@ -63040,14 +63379,108 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592449,
-		["name"] = "末日裁决者",
+		["key"] = 80493,
+		["name"] = "桑妮SP白",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "烈焰之灵辅助的目标攻击护盾时，桑妮SP将额外削减<font color='#green2#'>100%</font>攻击力的护盾值。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
+	},
+	[80060] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80060,
+			},
+		},
+		["skill_type"] = 4,
+		["name"] = "杰克",
+		["probability"] = 10000,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["key"] = 80060,
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521526] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215261,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215262,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215263,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521526,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592452] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592452,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592452,
+		["name"] = "獠牙战士",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592460] = {
+	[592455] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -63057,7 +63490,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592460,
+				["sid"] = 592455,
 			},
 		},
 		["consume"] = {
@@ -63067,8 +63500,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592460,
-		["name"] = "巫师鲁恩",
+		["key"] = 592455,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -63129,39 +63562,134 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580132] = {
-		["max_level"] = 1,
+	[103820] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
+		["simple_desc"] = "德古拉将目标敌人束缚在影牢之中,其普通攻击会治疗友军。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580132,
+				["sid"] = 30311,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30312,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30313,
 			},
 		},
+		["key"] = 103820,
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580132,
-		["name"] = "零岐电击使",
+		["name"] = "影牢",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "赋予敌方流血状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "德古拉召唤杀戮之影，束缚<font color='#orange#'>1</font>名敌人，并将目标敌人的普通攻击变为治疗技能(其每次攻击都会治疗被攻击者)，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30311,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30312,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30313,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/shadowtrap.png",
 	},
-	[592459] = {
+	[50078] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 500781,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 500782,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 500783,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50078,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "射击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[20022] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 20022,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20022,
+		["simple_desc"] = "零歧压迫者2普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "零歧迫害者普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51095] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592459,
+				["sid"] = 510951,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510952,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510953,
 			},
 		},
 		["consume"] = {
@@ -63171,60 +63699,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592459,
-		["name"] = "魔斧手罗萨",
+		["key"] = 51095,
+		["name"] = "树妖",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580146] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580146,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580146,
-		["name"] = "骷髅法师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592348] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592348,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592348,
-		["name"] = "惩罚搜捕者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击目标单体",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50038] = {
@@ -63267,26 +63746,31 @@ skillgroup = {
 		["name"] = "骷髅",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580109] = {
+	[592351] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580109,
+				["sid"] = 592351,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580109,
-		["name"] = "被动-固守",
+		["key"] = 592351,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80097] = {
@@ -63350,32 +63834,38 @@ skillgroup = {
 		["full_desc"] = "怨灵附身的单位会恢复怨灵造成伤害<font color='#green2#'>25%</font>的生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592455] = {
-		["max_level"] = 1,
+	[103310] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592455,
+				["sid"] = 30191,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["simple_desc"] = "撼动世界之基柱！",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592455,
-		["name"] = "光明会牧师",
+		["combo_value"] = 2,
+		["key"] = 103310,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["name"] = "重炮轰击",
+		["params"] = "res/image/ui/04_skill/heavycannon.png",
 	},
 	[101340] = {
 		["max_level"] = 1,
@@ -63399,25 +63889,17 @@ skillgroup = {
 		["full_desc"] = "当有己方角色濒死(生命值小于<font color='#orange#'>30%</font>)的时候，珊朵拉攻击力提升<font color='#orange#'>{id =301471,index=1,key='buff_add_gj',format = 2}</font>，持续<font color='#orange#'>5</font>秒(救赎效果不会被驱散)。",
 		["params"] = "res/image/ui/04_skill/passive/savior.png",
 	},
-	[521525] = {
+	[592451] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215251,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215252,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215253,
+				["sid"] = 592451,
 			},
 		},
 		["consume"] = {
@@ -63427,46 +63909,33 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521525,
-		["name"] = "光明会拳师",
+		["key"] = 592451,
+		["name"] = "獠牙斧手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50078] = {
+	[581103] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "每次受到的伤害不超过上限的3%。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 500781,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 500782,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 500783,
+				["sid"] = 581103,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50078,
-		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 581103,
+		["name"] = "被动-伤害受限",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "射击",
+		["full_desc"] = "每次受到的伤害不超过上限的3%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51062] = {
@@ -63504,19 +63973,20 @@ skillgroup = {
 		["full_desc"] = "攻击目标单体",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70064] = {
+	[20035] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70064,
+				["sid"] = 20035,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20035,
+		["simple_desc"] = "小海盗普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -63529,13 +63999,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70064,
-		["name"] = "野性",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，自身攻速提升<font color='#green1#'>{id =70064, index=1, format = 2}</font>，持续25秒。",
-		["params"] = "res/image/ui/04_skill/bloodyshining.png",
+		["name"] = "小海盗普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[102620] = {
 		["max_level"] = 10,
@@ -63579,81 +64047,70 @@ skillgroup = {
 		["full_desc"] = "狙击<font color='#orange#'>1</font>名敌人，当格莱明身上<font color='#orange#'>觉醒印记</font>为<font color='#orange#'>2</font>层或更多时，造成额外伤害，并且驱散敌人身上的<font color='#orange#'>2</font>个增益效果。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30137,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =301372,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30138,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =301382,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30139,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =301392,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/snipe.png",
 	},
-	[521524] = {
+	[582126] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215241,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215242,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215243,
+				["sid"] = 582126,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521524,
-		["name"] = "光明会狂战",
+		["key"] = 582126,
+		["name"] = "零岐监工",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592231] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592231,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592231,
-		["name"] = "魔斧手罗萨",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80084] = {
+	[80344] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
+		["simple_desc"] = "白色符文-1升级",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80084,
+				["sid"] = 80344,
 			},
 		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80344,
+		["name"] = "埃德蒙白EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "埃德蒙受到来自友军的攻击时会提升自身<font color='#green2#'>20%</font>的攻击力，持续6秒，该攻击提升效果同一时间只能存在一个。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[103910] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "敌人释放治疗时会获得亡者之怒效果。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30325,
+			},
+		},
+		["key"] = 103910,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -63666,13 +64123,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80084,
-		["name"] = "帝隆白色专属1",
+		["name"] = "冥界守卫",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "赤红斗气的治疗量额外增加<font color='#green2#'>5%</font>最大生命值。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "每当敌人受治疗时，获取<font color='#orange#'>1</font>层<font color='#orange#'>亡者之怒</font>状态；当亚巴顿受到来自敌人的治疗时，则获得<font color='#orange#'>4</font>层<font color='#orange#'>亡者之怒</font>效果。",
+		["params"] = "res/image/ui/04_skill/passive/knight.png",
 	},
 	[60020] = {
 		["max_level"] = 10,
@@ -63739,36 +64196,38 @@ skillgroup = {
 		["name"] = "亚巴顿普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[530421] = {
-		["max_level"] = 1,
+	[60025] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5304211,
-			},
-			[2] = {
-				["round"] = 5,
-				["sid"] = 5304212,
+				["sid"] = 60025,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 530421,
-		["name"] = "骷髅战士",
+		["key"] = 60025,
+		["name"] = "嗜虐成性",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "嗜虐快感恢复量和攻击增幅提升<font color='#green2#'>20%</font>。",
+		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
 	},
 	[311050] = {
 		["max_level"] = 1,
@@ -63853,37 +64312,31 @@ skillgroup = {
 		["full_desc"] = "怨灵附身的单位会恢复怨灵造成伤害<font color='#green2#'>50%</font>的生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102800] = {
-		["max_level"] = 10,
+	[592449] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "普通攻击(尼尔法)",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 500,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10009,
+				["sid"] = 592449,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 102800,
-		["name"] = "普通攻击(尼尔法)",
+		["key"] = 592449,
+		["name"] = "末日裁决者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10015,index=1,key='sub_hp',format = 1}</font>点伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[311051] = {
@@ -63908,7 +64361,7 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70002] = {
+	[70061] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -63918,7 +64371,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70002,
+				["sid"] = 70061,
 			},
 		},
 		["consume"] = {
@@ -63933,40 +64386,55 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70002,
-		["name"] = "护盾",
+		["key"] = 70061,
+		["name"] = "全体虚弱",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "开场时获得一个吸收<font color='#green2#'>150%</font>攻击力伤害的护盾，持续20秒。",
-		["params"] = "res/image/ui/04_skill/shieldbash.png",
+		["full_desc"] = "进入战斗后，降低敌人全体<font color='#green1#'>35%</font>的攻击力，持续25秒。",
+		["params"] = "res/image/ui/04_skill/moonlight.png",
 	},
-	[592411] = {
-		["max_level"] = 1,
+	[102810] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "多样的攻击，同时提升队友攻击。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592411,
+				["sid"] = 30114,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30116,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30118,
 			},
 		},
+		["key"] = 102810,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592411,
-		["name"] = "死亡骑士",
+		["name"] = "幻变元素",
+		["combo_value"] = 3,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "召唤不稳定的火焰魔法攻击全体敌人，同提升所有友军<font color='#orange#'>{id =30115,index=1,key='buff_add_gj',format = 2}</font>攻击力，持续<font color='#orange#'>4</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30114,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30116,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30118,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/changeelement.png",
 	},
 	[200091] = {
 		["max_level"] = 10,
@@ -64022,27 +64490,47 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580173] = {
-		["max_level"] = 1,
+	[102630] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "释放技能时增加自身攻速与暴击。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
+		["simple_desc"] = "根据觉醒层数，削减对应数量敌人防御。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580173,
+				["sid"] = 30140,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30141,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30142,
 			},
 		},
+		["key"] = 102630,
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580173,
-		["name"] = "被动-爆裂普攻",
+		["name"] = "破甲射击",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "释放技能时增加自身攻速与暴击。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击格莱明身上<font color='#orange#'>觉醒印记</font>层数数量的敌人，降低其<font color='#orange#'>15%</font>的防御，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =301401,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =301411,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =301421,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
 	},
 	[41209] = {
 		["max_level"] = 1,
@@ -64071,17 +64559,17 @@ skillgroup = {
 		["full_desc"] = "自身每次受到的伤害不超过生命上限的3%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70067] = {
+	[70011] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70067,
+				["sid"] = 70014,
 			},
 		},
 		["consume"] = {
@@ -64096,13 +64584,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70067,
-		["name"] = "护甲切割",
+		["key"] = 70011,
+		["name"] = "守卫者",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "造成伤害时降低前排目标<font color='#green1#'>{id =700671, index=1, format = 2}</font>的防御，持续10秒，最多叠加5层，不可驱散。",
-		["params"] = "res/image/ui/04_skill/armorbreak.png",
+		["full_desc"] = "进入战斗后，降低自身攻击<font color='#green2#'>20%</font>，提升防御<font color='#green2#'>20%</font>。",
+		["params"] = "res/image/ui/04_skill/defencepos.png",
 	},
 	[311053] = {
 		["max_level"] = 1,
@@ -64155,27 +64643,38 @@ skillgroup = {
 		["full_desc"] = "蔻洛尔召唤灼热冰晶汇聚在敌方中心，赋予敌方全体每个单位随机一层<font color='#orange#'>灼烧</font>或者<font color='#orange#'>寒冷</font>状态，并进入<font color='#orange#'>元素同调</font>状态。<br/>元素同调状态:<br/><font color='#green1#'>战斗开始</font>：每当友军赋予敌方一层灼烧，自身有<font color='#green1#'>{id =306194, index=1, format =1}%</font>的概率额外赋予一层灼烧，每6秒内最多释放12次。每当友军赋予一层寒冷，有<font color='#green1#'>{id =306194, index=1, format =1}%</font>的概率提升100%的寒冷效果；<br/><font color='#blue1#'>激战阶段</font>：每当友军赋予敌方一层灼烧，自身有<font color='#green1#'>{id =306194, index=1, format =1}%</font>的概率额外赋予一层灼烧，每6秒内最多释放12次。每当友军赋予一层寒冷，有<font color='#green1#'>{id =306194, index=1, format =1}%</font>的概率额外提升100%的寒冷效果；<br/><font color='#purple#'>终结阶段</font>：每当友军赋予敌方一层灼烧，自身有<font color='#green1#'>{id =306194, index=1, format =1}%</font>的概率额外赋予一层灼烧，每6秒内最多释放12次。每当友军赋予一层寒冷，有<font color='#green1#'>{id =306194, index=1, format =1}%</font>的概率额外提升100%的寒冷效果。<br/><font color='#orange#'>灼烧</font>效果每1层会在前三秒造成每秒<font color='#orange#'>{id =400013,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，共3次伤害，<font color='#orange#'>灼烧</font>效果持续<font color='#orange#'>10</font>秒。<br/><font color='#orange#'>寒冷</font>状态下的敌人，其攻击力下降<font color='#orange#'>{id =40002,index=1,key='buff_sub_gj',format = 2}</font>，持续<font color='#orange#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/fireice.png",
 	},
-	[581103] = {
-		["max_level"] = 1,
+	[70008] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次受到的伤害不超过上限的3%。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 581103,
+				["sid"] = 70008,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 581103,
-		["name"] = "被动-伤害受限",
+		["key"] = 70008,
+		["name"] = "生命吸收",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次受到的伤害不超过上限的3%。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "造成伤害时，可以恢复造成伤害<font color='#green2#'>15%</font>的生命。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
 	},
 	[50039] = {
 		["max_level"] = 10,
@@ -64217,36 +64716,31 @@ skillgroup = {
 		["name"] = "森林狼",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20035] = {
-		["max_level"] = 10,
+	[592447] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20035,
+				["sid"] = 592447,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20035,
-		["simple_desc"] = "小海盗普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 592447,
+		["name"] = "独角兽",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "小海盗普通攻击",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80099] = {
@@ -64282,28 +64776,19 @@ skillgroup = {
 		["full_desc"] = "陨冰术伤害提升<font color='#green2#'>40%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50073] = {
+	[592464] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "每次受到伤害，生成一层护盾。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 500731,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 500732,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 500733,
+				["sid"] = 592464,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50073,
-		["simple_desc"] = "攻击目标单体，每层重伤额外增加30%攻击力的伤害，并消除重伤效果",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -64311,26 +64796,27 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 592464,
+		["name"] = "被动-受击加盾",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "赎罪惩击",
+		["full_desc"] = "每次受到伤害，生成一层护盾。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200221] = {
+	[50023] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200221,
+				["sid"] = 50023,
 			},
 		},
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 200221,
-		["simple_desc"] = "零歧压迫者2普通攻击",
+		["key"] = 50023,
+		["simple_desc"] = "鬼魂重伤",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -64346,355 +64832,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "零歧迫害者普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[103910] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "敌人释放治疗时会获得亡者之怒效果。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30325,
-			},
-		},
-		["key"] = 103910,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "冥界守卫",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "每当敌人受治疗时，获取<font color='#orange#'>1</font>层<font color='#orange#'>亡者之怒</font>状态；当亚巴顿受到来自敌人的治疗时，则获得<font color='#orange#'>4</font>层<font color='#orange#'>亡者之怒</font>效果。",
-		["params"] = "res/image/ui/04_skill/passive/knight.png",
-	},
-	[60025] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60025,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60025,
-		["name"] = "嗜虐成性",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "嗜虐快感恢复量和攻击增幅提升<font color='#green2#'>20%</font>。",
-		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
-	},
-	[592447] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592447,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592447,
-		["name"] = "独角兽",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[102110] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身攻击力下降，防御力提升。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30084,
-			},
-		},
-		["key"] = 102110,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "年迈的守护者",
-		["combo_value"] = 1,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "自身攻击力下降<font color='#orange#'>35%</font>，防御力提升<font color='#orange#'>35%</font>。",
-		["params"] = "res/image/ui/04_skill/passive/oldshielder.png",
-	},
-	[90081] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90081,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90081,
-		["name"] = "救赎之力",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "珊朵拉的治疗效果提升<font color='#green2#'>{id =90081, index=1, format = 2}</font>。",
-		["params"] = "res/image/ui/04_skill/passive/savior.png",
-	},
-	[521521] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5215211,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215212,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215213,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521521,
-		["name"] = "獠牙斧手",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70033] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70046,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70033,
-		["name"] = "枯萎",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "造成伤害时，降低敌人前排目标<font color='#green2#'>20%</font>攻击力，持续2秒，不可叠加。",
-		["params"] = "res/image/ui/04_skill/spiritbreak.png",
-	},
-	[102630] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "根据觉醒层数，削减对应数量敌人防御。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30140,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30141,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30142,
-			},
-		},
-		["key"] = 102630,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "破甲射击",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "攻击格莱明身上<font color='#orange#'>觉醒印记</font>层数数量的敌人，降低其<font color='#orange#'>15%</font>的防御，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =301401,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =301411,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =301421,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
-	},
-	[592453] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592453,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592453,
-		["name"] = "獠牙酋长",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[60021] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60021,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60021,
-		["name"] = "瞬闪",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "猩红一闪伤害提升<font color='#green2#'>25%</font>，攻击目标变为2名敌人。",
-		["params"] = "res/image/ui/04_skill/bloodyshining.png",
-	},
-	[580172] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580172,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580172,
-		["name"] = "被动-反伤",
-		["counter_type"] = {
-		},
-		["full_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
+		["name"] = "灵魂破损",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521520] = {
@@ -64732,46 +64870,20 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572005] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 572005,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572005,
-		["name"] = "光明会牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80100] = {
+	[20023] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80100,
+				["sid"] = 20023,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20023,
+		["simple_desc"] = "零歧监工普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -64784,13 +64896,106 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80100,
-		["name"] = "卡缇白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "冰盾现在可以同时为2位友军释放。",
+		["name"] = "零歧监工普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[800675] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 800675,
+			},
+		},
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["key"] = 800675,
+		["simple_desc"] = "装备被动",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "自爆2",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51063] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体，并降低其攻击力",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510631,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510632,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510633,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 51063,
+		["name"] = "鬼魂",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体，并降低其攻击力",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[90081] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 90081,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90081,
+		["name"] = "救赎之力",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "珊朵拉的治疗效果提升<font color='#green2#'>{id =90081, index=1, format = 2}</font>。",
+		["params"] = "res/image/ui/04_skill/passive/savior.png",
 	},
 	[521519] = {
 		["max_level"] = 1,
@@ -64859,6 +65064,301 @@ skillgroup = {
 		["name"] = "杨教授普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[592441] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592441,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592441,
+		["name"] = "死亡骑士",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521518] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215181,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215182,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215183,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521518,
+		["name"] = "惩罚搜捕者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[60021] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60021,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60021,
+		["name"] = "瞬闪",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "猩红一闪伤害提升<font color='#green2#'>25%</font>，攻击目标变为2名敌人。",
+		["params"] = "res/image/ui/04_skill/bloodyshining.png",
+	},
+	[20057] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 20057,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20057,
+		["simple_desc"] = "阿扎格托斯",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["name"] = "阿扎格托斯",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521517] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215171,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215172,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215173,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521517,
+		["name"] = "独角兽",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[70062] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70062,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70062,
+		["name"] = "神圣庇护",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "提升自身受到英雄治疗技能的效果<font color='#green1#'>{id =70062, index=1, format = 2}</font>，冷却6秒，最多触发3次。同时提升抗暴击<font color='#green1#'>{id =700621, index=1, format = 1}%</font>。",
+		["params"] = "res/image/ui/04_skill/anglebless.png",
+	},
+	[80100] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80100,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80100,
+		["name"] = "卡缇白色专属1",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "冰盾现在可以同时为2位友军释放。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[531903] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5319031,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5319032,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5319033,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 531903,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[70060] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70060,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70060,
+		["name"] = "全体虚弱",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "进入战斗后，降低敌人全体<font color='#green1#'>{id =70060, index=1, format = 2}</font>的攻击力，持续25秒。",
+		["params"] = "res/image/ui/04_skill/moonlight.png",
+	},
 	[531900] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -64886,36 +65386,31 @@ skillgroup = {
 		["full_desc"] = "每次受击伤害不超过最大生命的5%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[2001311] = {
-		["max_level"] = 10,
+	[592435] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 2001311,
+				["sid"] = 592435,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 2001311,
-		["simple_desc"] = "执杖木乃伊普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 592435,
+		["name"] = "兄弟会刺客",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "执杖木乃伊普通攻击",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531901] = {
@@ -64953,42 +65448,38 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并给友军全体增加护盾。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[107920] = {
+	[70087] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "加百列降下天罚，对目标造成无视防御的伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30731,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30732,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30733,
+				["sid"] = 70087,
 			},
 		},
-		["key"] = 107920,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "天罚",
-		["combo_value"] = 2,
+		["key"] = 70087,
+		["name"] = "亡者之怒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "加百列对敌方前排目标降下天罚，被天罚命中的目标会获得降低自身所受伤害<font color='#orange#'>10%</font>的庇护效果，持续<font color='#orange#'>12</font>秒，可同时存在多个，可以驱散。<br/><font color='#green1#'>战斗开始</font>：对敌方前排造成无视防御的<font color='#green1#'>{id =30731,index=1,format = 2}</font>攻击力伤害；<br/><font color='#blue1#'>激战阶段</font>：对敌方前排造成无视防御的<font color='#green1#'>{id =30732,index=1,format = 2}</font>攻击力伤害；<br/><font color='#purple#'>终结阶段</font>：对敌方前排造成无视防御的<font color='#green1#'>{id =30733,index=1,format = 2}</font>伤害。",
-		["params"] = "res/image/ui/04_skill/godsjudgment.png",
+		["full_desc"] = "死亡后，释放<font color='#green2#'>7</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
 	[531902] = {
 		["max_level"] = 1,
@@ -65025,19 +65516,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80072] = {
+	[103320] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80072,
+				["sid"] = 30192,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["simple_desc"] = "创造万象之原初！",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -65050,13 +65541,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80072,
-		["name"] = "尼尔法",
+		["combo_value"] = 2,
+		["key"] = 103320,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "黑洞伤害提升<font color='#green2#'>10%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["name"] = "铸世之锤",
+		["params"] = "res/image/ui/04_skill/hephaistos.png",
 	},
 	[41210] = {
 		["max_level"] = 1,
@@ -65157,40 +65648,38 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并使自身在3秒内持续恢复生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521518] = {
-		["max_level"] = 1,
+	[70066] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215181,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215182,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215183,
+				["sid"] = 70066,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521518,
-		["name"] = "惩罚搜捕者",
+		["key"] = 70066,
+		["name"] = "护甲切割",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "造成伤害时降低前排目标<font color='#green1#'>{id =700661, index=1, format = 2}</font>的防御，持续10秒，最多叠加5层，不可驱散。",
+		["params"] = "res/image/ui/04_skill/armorbreak.png",
 	},
 	[531905] = {
 		["max_level"] = 1,
@@ -65366,35 +65855,31 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并给友军全体增加护盾。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20057] = {
-		["max_level"] = 10,
+	[592433] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20057,
+				["sid"] = 592433,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20057,
-		["simple_desc"] = "阿扎格托斯",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 592433,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
 		},
-		["name"] = "阿扎格托斯",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531908] = {
@@ -65570,36 +66055,31 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并使自身在3秒内持续恢复生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20025] = {
-		["max_level"] = 10,
+	[592400] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "当能量条清空时，释放若干枚光弹攻击敌人。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20025,
+				["sid"] = 592400,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20025,
-		["simple_desc"] = "北境叛军男普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 592400,
+		["name"] = "被动-光弹连射",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "北境叛军男普通攻击",
+		["full_desc"] = "当能量条清空时，释放3枚光弹攻击敌人，每枚光弹造成100%攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531911] = {
@@ -65637,39 +66117,36 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521517] = {
-		["max_level"] = 1,
+	[200171] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215171,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215172,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215173,
+				["sid"] = 200171,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200171,
+		["simple_desc"] = "鬼魂普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521517,
-		["name"] = "独角兽",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["name"] = "鬼魂普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531912] = {
@@ -65775,40 +66252,31 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[50013] = {
-		["max_level"] = 10,
+	[592403] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 50013,
-			},
-			[2] = {
-				["round"] = 1,
-				["sid"] = 500132,
+				["sid"] = 592403,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50013,
-		["simple_desc"] = "死亡骑士攻击单体，并提升自身暴击率100%",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 592403,
+		["name"] = "光明会狂战",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "死亡脉冲",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531914] = {
@@ -65913,27 +66381,28 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并使自身在3秒内持续恢复生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[531919] = {
-		["max_level"] = 1,
+	[106920] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "消耗自身战技，提升攻速，并且提升自身受到的激励效果。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5319191,
+				["sid"] = 30533,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5319192,
+				["sid"] = 30534,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5319193,
+				["sid"] = 30535,
 			},
 		},
+		["key"] = 106920,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -65941,12 +66410,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 531919,
-		["name"] = "獠牙酋长",
+		["name"] = "处刑",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "拉娜克希娅提升自身攻速，并且加速普通攻击动作。同时消耗自身所有战技，赋予自身状态：当受到来自队友的<font color='#orange#'>激励</font>效果时，效果提升，持续<font color='#orange#'>12</font>秒。<font color='#orange#'>无</font>战技时，激励效果提升<font color='#orange#'>10%</font>；消耗<font color='#orange#'>1</font>层战技时，激励效果提升<font color='#orange#'>50%</font>；消耗<font color='#orange#'>2</font>层及以上战技时，激励效果提升<font color='#orange#'>100%</font>。<br/><font color='#green1#'>战斗开始</font>：提升自身<font color='#green1#'>{id =30533,index=2,format = 2}</font>攻速，持续<font color='#orange#'>6</font>秒；<br/><font color='#blue1#'>激战阶段</font>：提升自身<font color='#green1#'>{id =30533,index=2,format = 2}</font>攻速，持续<font color='#orange#'>6</font>秒；<br/><font color='#purple#'>终结阶段</font>：提升自身<font color='#green1#'>{id =30533,index=2,format = 2}</font>攻速，持续<font color='#orange#'>6</font>秒。",
+		["params"] = "res/image/ui/04_skill/sentence.png",
 	},
 	[531916] = {
 		["max_level"] = 1,
@@ -65983,17 +66453,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521500] = {
+	[592431] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每受到一次攻击，则增加一层怒火标记，最高20层。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215001,
+				["sid"] = 592431,
 			},
 		},
 		["consume"] = {
@@ -66003,11 +66473,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521500,
-		["name"] = "怒火印记",
+		["key"] = 592431,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每受到一次攻击，则增加一层怒火标记，最高20层。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531917] = {
@@ -66045,31 +66515,35 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592435] = {
-		["max_level"] = 1,
+	[20056] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592435,
+				["sid"] = 20056,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20056,
+		["simple_desc"] = "魔女娜娜",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592435,
-		["name"] = "兄弟会刺客",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["name"] = "魔女娜娜",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531918] = {
@@ -66239,38 +66713,40 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，并增加自身的防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103320] = {
-		["max_level"] = 10,
+	[521513] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30192,
+				["sid"] = 5215131,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215132,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215133,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["simple_desc"] = "创造万象之原初！",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["combo_value"] = 2,
-		["key"] = 103320,
+		["key"] = 521513,
+		["name"] = "零歧监工",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "铸世之锤",
-		["params"] = "res/image/ui/04_skill/hephaistos.png",
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531921] = {
 		["max_level"] = 1,
@@ -66441,28 +66917,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106920] = {
-		["max_level"] = 10,
+	[572101] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "消耗自身战技，提升攻速，并且提升自身受到的激励效果。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "自身每次受到伤害时，恢复自身一定血量。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30533,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30534,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30535,
+				["sid"] = 572101,
 			},
 		},
-		["key"] = 106920,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -66470,13 +66937,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "处刑",
-		["combo_value"] = 2,
+		["key"] = 572101,
+		["name"] = "受击回复",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "拉娜克希娅提升自身攻速，并且加速普通攻击动作。同时消耗自身所有战技，赋予自身状态：当受到来自队友的<font color='#orange#'>激励</font>效果时，效果提升，持续<font color='#orange#'>12</font>秒。<font color='#orange#'>无</font>战技时，激励效果提升<font color='#orange#'>10%</font>；消耗<font color='#orange#'>1</font>层战技时，激励效果提升<font color='#orange#'>50%</font>；消耗<font color='#orange#'>2</font>层及以上战技时，激励效果提升<font color='#orange#'>100%</font>。<br/><font color='#green1#'>战斗开始</font>：提升自身<font color='#green1#'>{id =30533,index=2,format = 2}</font>攻速，持续<font color='#orange#'>6</font>秒；<br/><font color='#blue1#'>激战阶段</font>：提升自身<font color='#green1#'>{id =30533,index=2,format = 2}</font>攻速，持续<font color='#orange#'>6</font>秒；<br/><font color='#purple#'>终结阶段</font>：提升自身<font color='#green1#'>{id =30533,index=2,format = 2}</font>攻速，持续<font color='#orange#'>6</font>秒。",
-		["params"] = "res/image/ui/04_skill/sentence.png",
+		["full_desc"] = "自身每次受到伤害时，恢复自身一定血量。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[531924] = {
 		["max_level"] = 1,
@@ -66513,7 +66979,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592433] = {
+	[592411] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -66523,7 +66989,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592433,
+				["sid"] = 592411,
 			},
 		},
 		["consume"] = {
@@ -66533,14 +66999,14 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592433,
-		["name"] = "光明会狂战",
+		["key"] = 592411,
+		["name"] = "死亡骑士",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521514] = {
+	[521512] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -66550,15 +67016,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215141,
+				["sid"] = 5215121,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5215142,
+				["sid"] = 5215122,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5215143,
+				["sid"] = 5215123,
 			},
 		},
 		["consume"] = {
@@ -66568,8 +67034,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521514,
-		["name"] = "北境叛军女",
+		["key"] = 521512,
+		["name"] = "鬼魂",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -66605,97 +67071,6 @@ skillgroup = {
 			[1] = 0,
 		},
 		["name"] = "沙漠蝎子普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600831] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600831,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600831,
-		["name"] = "恶化",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物造成技能伤害时，赋予所有怪物减治疗，其释放的治疗效果降低<font color='#green2#'>10%</font>，持续5秒。",
-		["params"] = "res/image/ui/04_skill/nullsphere.png",
-	},
-	[90341] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90341,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90341,
-		["name"] = "圣月夜",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "圣夜的效果提升至<font color='#green2#'>24%</font>。",
-		["params"] = "res/image/ui/04_skill/passive/evernight.png",
-	},
-	[521504] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5215041,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215042,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215043,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521504,
-		["name"] = "树妖",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[101910] = {
@@ -66740,17 +67115,17 @@ skillgroup = {
 		["full_desc"] = "火焰系技能，发射一枚巨大的火球,攻击<font color='#orange#'>1</font>名敌人，并赋予其<font color='#orange#'>1</font>层<font color='#orange#'>灼烧</font>状态。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30058,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30061,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30064,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>灼烧</font>效果每1层会在前三秒造成每秒<font color='#orange#'>{id =400013,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，共3次伤害,<font color='#orange#'>灼烧</font>效果持续<font color='#orange#'>10</font>秒。",
 		["params"] = "res/image/ui/04_skill/fireball.png",
 	},
-	[600522] = {
+	[90341] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600522,
+				["sid"] = 90341,
 			},
 		},
 		["consume"] = {
@@ -66760,13 +67135,109 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600522,
-		["name"] = "腥红飞溅",
+		["key"] = 90341,
+		["name"] = "圣月夜",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，每次普攻有<font color='#green2#'>90%</font>概率施放一个光弹，造成<font color='#green2#'>{id =600526, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "圣夜的效果提升至<font color='#green2#'>24%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/evernight.png",
+	},
+	[70083] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70083,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70083,
+		["name"] = "献身",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "死亡后，恢复全体队友<font color='#green2#'>42%</font>生命。",
+		["params"] = "res/image/ui/04_skill/callingangel.png",
+	},
+	[521511] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215111,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215112,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215113,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521511,
+		["name"] = "狼人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601024] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601024,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601024,
+		["name"] = "治愈强化",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放钢拳造成伤害时，有<font color='#green2#'>100%</font>概率使治疗效果提升<font color='#green2#'>25%</font>。",
+		["params"] = "res/image/ui/04_skill/ironpunch.png",
 	},
 	[60023] = {
 		["max_level"] = 10,
@@ -66801,25 +67272,17 @@ skillgroup = {
 		["full_desc"] = "回旋之刃伤害提升<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/circlingknife.png",
 	},
-	[521513] = {
+	[592425] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215131,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215132,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215133,
+				["sid"] = 592425,
 			},
 		},
 		["consume"] = {
@@ -66829,27 +67292,56 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521513,
-		["name"] = "零歧监工",
+		["key"] = 592425,
+		["name"] = "光明会牧师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200201] = {
+	[107810] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "斯巴达的血量越低，自身的攻速与吸血就越高。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30620,
+			},
+		},
+		["key"] = 107810,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "狂战士",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "自身血量每降低<font color='#orange#'>1%</font>，攻击速度提升<font color='#orange#'>1%</font>，同时加速普通攻击动作，吸血提升<font color='#orange#'>2%</font>（效果随生命值变动而变动）。",
+		["params"] = "res/image/ui/04_skill/passive/artofwar.png",
+	},
+	[20034] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200201,
+				["sid"] = 20034,
 			},
 		},
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 200201,
-		["simple_desc"] = "零歧电击者普通攻击",
+		["key"] = 20034,
+		["simple_desc"] = "海盗头子普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -66865,41 +67357,8 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "零歧电击者普通攻击",
+		["name"] = "海盗头子普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70087] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70087,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70087,
-		["name"] = "亡者之怒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "死亡后，释放<font color='#green2#'>7</font>个亡魂攻击随机敌人，亡魂伤害为自身攻击力的<font color='#green2#'>20%</font>。",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
 	[80104] = {
 		["max_level"] = 10,
@@ -66970,40 +67429,7 @@ skillgroup = {
 		["full_desc"] = "米迦勒召唤圣日之光攻击<font color='#orange#'>1</font>名敌人，造成伤害。同时驱散目标敌人身上<font color='#orange#'>1</font>个由敌方施加的状态。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30424,index=1,format = 2}</font>攻击力伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30425,index=1,format = 2}</font>攻击力伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30426,index=1,format = 2}</font>攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/purelight.png",
 	},
-	[103430] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30196,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 3400,
-		["simple_desc"] = "尘归尘，土归土！",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["combo_value"] = 2,
-		["key"] = 103430,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "湮灭",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
-	},
-	[521512] = {
+	[521510] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -67013,15 +67439,15 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215121,
+				["sid"] = 5215101,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5215122,
+				["sid"] = 5215102,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5215123,
+				["sid"] = 5215103,
 			},
 		},
 		["consume"] = {
@@ -67031,24 +67457,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521512,
-		["name"] = "鬼魂",
+		["key"] = 521510,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80188] = {
+	[80050] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
+		["simple_desc"] = "黑色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80188,
+				["sid"] = 80050,
 			},
 		},
 		["consume"] = {
@@ -67063,15 +67489,15 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80188,
-		["name"] = "美杜莎 白",
+		["key"] = 80050,
+		["name"] = "格莱明黑色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "石化魔眼的降攻速效果提升至<font color='#green2#'>65%</font>。",
+		["full_desc"] = "破甲射击伤害提升<font color='#green2#'>15%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592427] = {
+	[592423] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -67081,7 +67507,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592427,
+				["sid"] = 592423,
 			},
 		},
 		["consume"] = {
@@ -67091,41 +67517,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592427,
-		["name"] = "黑蔷薇剑兵",
+		["key"] = 592423,
+		["name"] = "獠牙酋长",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[106210] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "消耗强弓效果，提升自身技能伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30460,
-			},
-		},
-		["key"] = 106210,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "守望者",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "每当我方角色对敌人施加<font color='#orange#'>碎甲</font>效果时，艾尔薇会获得<font color='#orange#'>1</font>层<font color='#orange#'>强弓</font>效果。当能量条清空的时候，若艾尔薇身上<font color='#orange#'>强弓</font>效果达到<font color='#orange#'>8</font>层时，则清除自己身上所有<font color='#orange#'>强弓</font>效果，并提升自身<font color='#orange#'>35%</font>技能伤害，持续<font color='#orange#'>12</font>秒。",
-		["params"] = "res/image/ui/04_skill/passive/guardian.png",
 	},
 	[521507] = {
 		["max_level"] = 1,
@@ -67157,6 +67554,70 @@ skillgroup = {
 		},
 		["key"] = 521507,
 		["name"] = "沙盗头目",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[106210] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "消耗强弓效果，提升自身技能伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30460,
+			},
+		},
+		["key"] = 106210,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "守望者",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "每当我方角色对敌人施加<font color='#orange#'>碎甲</font>效果时，艾尔薇会获得<font color='#orange#'>1</font>层<font color='#orange#'>强弓</font>效果。当能量条清空的时候，若艾尔薇身上<font color='#orange#'>强弓</font>效果达到<font color='#orange#'>8</font>层时，则清除自己身上所有<font color='#orange#'>强弓</font>效果，并提升自身<font color='#orange#'>35%</font>技能伤害，持续<font color='#orange#'>12</font>秒。",
+		["params"] = "res/image/ui/04_skill/passive/guardian.png",
+	},
+	[521509] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5215091,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215092,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215093,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521509,
+		["name"] = "刃魔",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
@@ -67217,25 +67678,49 @@ skillgroup = {
 		["full_desc"] = "进入战斗后，赋予自身防御提升效果，此效果无法被驱散。当自身受到防御降低效果时，清除进场的防御提升效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521511] = {
+	[50012] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 50012,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50012,
+		["simple_desc"] = "攻击全体敌人",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "愤怒圣树",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592419] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215111,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215112,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215113,
+				["sid"] = 592419,
 			},
 		},
 		["consume"] = {
@@ -67245,33 +67730,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521511,
-		["name"] = "狼人",
+		["key"] = 592419,
+		["name"] = "末日裁决者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580161] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580161,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580161,
-		["name"] = "被动-追加光弹",
-		["counter_type"] = {
-		},
-		["full_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312101] = {
@@ -67294,55 +67757,6 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "自身每次受到伤害时，恢复自身一定血量。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592425] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592425,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592425,
-		["name"] = "光明会牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[579119] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 579119,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 579119,
-		["name"] = "末日审判者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[701021] = {
@@ -67377,6 +67791,61 @@ skillgroup = {
 		},
 		["full_desc"] = "普通攻击造成伤害时，有<font color='#green2#'>{id =7010212, index=1, format = 1}%</font>概率驱散自身一个异常状态伤害。",
 		["params"] = "res/image/ui/04_skill/holyzeal.png",
+	},
+	[592417] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592417,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592417,
+		["name"] = "独角兽",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[90121] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 90121,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90121,
+		["name"] = "元素法球",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "尼尔法释放幻变元素时，有<font color='#green2#'>50%</font>概率召唤出一个法球。",
+		["params"] = "res/image/ui/04_skill/changeelement.png",
 	},
 	[80105] = {
 		["max_level"] = 10,
@@ -67438,245 +67907,6 @@ skillgroup = {
 		["full_desc"] = "拉娜克希娅的普通攻击会降低目标<font color='#green2#'>{id =803611, index=1,format = 2}</font>的防御力，可叠加4层，持续3秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592423] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592423,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592423,
-		["name"] = "獠牙酋长",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[90122] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90122,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90122,
-		["name"] = "元素法球",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "尼尔法释放幻变元素时，有<font color='#green2#'>100%</font>概率召唤出一个法球。",
-		["params"] = "res/image/ui/04_skill/changeelement.png",
-	},
-	[50012] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 50012,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 50012,
-		["simple_desc"] = "攻击全体敌人",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "愤怒圣树",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[107810] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "斯巴达的血量越低，自身的攻速与吸血就越高。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30620,
-			},
-		},
-		["key"] = 107810,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "狂战士",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "自身血量每降低<font color='#orange#'>1%</font>，攻击速度提升<font color='#orange#'>1%</font>，同时加速普通攻击动作，吸血提升<font color='#orange#'>2%</font>（效果随生命值变动而变动）。",
-		["params"] = "res/image/ui/04_skill/passive/artofwar.png",
-	},
-	[51066] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击目标单体",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 510661,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510662,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510663,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 51066,
-		["name"] = "北境重锤使",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击目标单体",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[572057] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 572057,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 572057,
-		["name"] = "海盗头目",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[90343] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90343,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90343,
-		["name"] = "圣月夜",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "圣夜的效果提升至<font color='#green2#'>36%</font>。",
-		["params"] = "res/image/ui/04_skill/passive/evernight.png",
-	},
-	[80008] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80008,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80008,
-		["name"] = "莉可丽丝白色专属1",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "死亡绽放会额外附带<font color='#green2#'>1</font>层重伤效果。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[592415] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -67704,51 +67934,28 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20034] = {
+	[102820] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20034,
-			},
-		},
+		["simple_desc"] = "为敌人召唤两个会爆炸的虚无法球。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20034,
-		["simple_desc"] = "海盗头子普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "海盗头子普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[60024] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60024,
+				["sid"] = 30123,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30124,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30125,
 			},
 		},
+		["key"] = 102820,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -67761,13 +67968,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60024,
-		["name"] = "重刃",
+		["name"] = "虚无法球",
+		["combo_value"] = 3,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "回旋之刃伤害提升<font color='#green2#'>50%</font>，防御削减效果提升<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/circlingknife.png",
+		["full_desc"] = "召唤<font color='#orange#'>2</font>个虚无法球。虚无法球为敌方目标，继承尼尔法<font color='#orange#'>100%</font>攻击力和<font color='#orange#'>1%</font>生命值，不会移动和攻击。在虚无法球死亡的时候，对全部敌人造成伤害。<br/><font color='#green1#'>战斗开始</font>：爆炸造成<font color='#green2#'>{id =301232,index=1,key='sub_hp',format = 2}</font>虚无法球攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：爆炸造成<font color='#green2#'>{id =301242,index=1,key='sub_hp',format = 2}</font>虚无法球攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：爆炸造成<font color='#green2#'>{id =301252,index=1,key='sub_hp',format = 2}</font>虚无法球攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/nullsphere.png",
 	},
 	[521505] = {
 		["max_level"] = 1,
@@ -67804,7 +68011,64 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80012] = {
+	[580543] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>30%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580543,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580543,
+		["name"] = "圣物-减攻强化Lv3",
+		["counter_type"] = {
+		},
+		["full_desc"] = "主动技能释放的减攻效果提升<font color='#orange#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51066] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510661,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510662,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510663,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 51066,
+		["name"] = "北境重锤使",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[90523] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -67814,7 +68078,63 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80012,
+				["sid"] = 90523,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90523,
+		["name"] = "冥火余烬",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "冥界狱火附加的已损失生命值伤害提升至<font color='#green2#'>24%</font>。",
+		["params"] = "res/image/ui/04_skill/ghostdomfire.png",
+	},
+	[90343] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 90343,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90343,
+		["name"] = "圣月夜",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "圣夜的效果提升至<font color='#green2#'>36%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/evernight.png",
+	},
+	[101540] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "受到伤害时获得一层鲜血蓄积效果",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 300281,
 			},
 		},
 		["consume"] = {
@@ -67829,12 +68149,166 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80012,
-		["name"] = "莉可丽丝-装备",
+		["key"] = 101540,
+		["name"] = "鲜血蓄积",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "死亡绽放伤害提升<font color='#green2#'>10%</font>。",
+		["full_desc"] = "每次受到伤害,将会获得<font color='#orange#'>1</font>层<font color='#orange#'>鲜血蓄积</font>状态(鲜血蓄积不会被驱散)。",
+		["params"] = "res/image/ui/04_skill/passive/bloodcellection.png",
+	},
+	[200201] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200201,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200201,
+		["simple_desc"] = "零歧电击者普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "零歧电击者普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[108000] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10063,
+			},
+		},
+		["skill_type"] = 1,
+		["key"] = 108000,
+		["consume"] = {
+		},
+		["counter_type"] = {
+		},
+		["name"] = "普通攻击(希尔芬)",
+		["probability"] = 500,
+	},
+	[60024] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60024,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60024,
+		["name"] = "重刃",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "回旋之刃伤害提升<font color='#green2#'>50%</font>，防御削减效果提升<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/circlingknife.png",
+	},
+	[521417] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5214171,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214172,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214173,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521417,
+		["name"] = "末日裁决者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[531919] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5319191,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5319192,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5319193,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 531919,
+		["name"] = "獠牙酋长",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104420] = {
@@ -67940,74 +68414,61 @@ skillgroup = {
 		["full_desc"] = "拉娜克希娅的普通攻击会降低目标<font color='#green2#'>{id =803621, index=1,format = 2}</font>的防御力，可叠加4层，持续3秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580603] = {
+	[580114] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>9%</font>。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580603,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580603,
-		["name"] = "圣物-普攻强化Lv3",
-		["counter_type"] = {
-		},
-		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>9%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521503] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215031,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215032,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215033,
+				["sid"] = 580114,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521503,
-		["name"] = "石头人",
+		["key"] = 580114,
+		["name"] = "森林狼",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80016] = {
+	[580111] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580111,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580111,
+		["name"] = "被动-链甲",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80171] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
+		["simple_desc"] = "黑色符文-1升级",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80016,
+				["sid"] = 80171,
 			},
 		},
 		["consume"] = {
@@ -68022,15 +68483,84 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80016,
-		["name"] = "菲娅白色专属1",
+		["key"] = 80171,
+		["name"] = "齐格飞 黑EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "主动释放的灼烧伤害提升<font color='#green2#'>50%</font>。",
+		["full_desc"] = "黄昏之刃的伤害提升<font color='#green2#'>100%</font>害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80020] = {
+	[107920] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "加百列降下天罚，对目标造成无视防御的伤害。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30731,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30732,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30733,
+			},
+		},
+		["key"] = 107920,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "天罚",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "加百列对敌方前排目标降下天罚，被天罚命中的目标会获得降低自身所受伤害<font color='#orange#'>10%</font>的庇护效果，持续<font color='#orange#'>12</font>秒，可同时存在多个，可以驱散。<br/><font color='#green1#'>战斗开始</font>：对敌方前排造成无视防御的<font color='#green1#'>{id =30731,index=1,format = 2}</font>攻击力伤害；<br/><font color='#blue1#'>激战阶段</font>：对敌方前排造成无视防御的<font color='#green1#'>{id =30732,index=1,format = 2}</font>攻击力伤害；<br/><font color='#purple#'>终结阶段</font>：对敌方前排造成无视防御的<font color='#green1#'>{id =30733,index=1,format = 2}</font>伤害。",
+		["params"] = "res/image/ui/04_skill/godsjudgment.png",
+	},
+	[2001311] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 2001311,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 2001311,
+		["simple_desc"] = "执杖木乃伊普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "执杖木乃伊普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80029] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -68040,7 +68570,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80020,
+				["sid"] = 80029,
 			},
 		},
 		["consume"] = {
@@ -68055,66 +68585,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80020,
-		["name"] = "菲娅",
+		["key"] = 80029,
+		["name"] = "瓦恩",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "爆燃伤害提升<font color='#green2#'>30%</font>",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[108000] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10063,
-			},
-		},
-		["skill_type"] = 1,
-		["key"] = 108000,
-		["consume"] = {
-		},
-		["counter_type"] = {
-		},
-		["name"] = "普通攻击(希尔芬)",
-		["probability"] = 500,
-	},
-	[521416] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5214161,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214162,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214163,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521416,
-		["name"] = "惩罚者牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "神圣轰击伤害提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90344] = {
@@ -68172,25 +68648,52 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521402] = {
+	[572006] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214021,
+				["sid"] = 572006,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 572006,
+		["name"] = "树妖",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体。若携带光弹印记，则释放光弹。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521023] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5210231,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5214022,
+				["sid"] = 5210232,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5214023,
+				["sid"] = 5210233,
 			},
 		},
 		["consume"] = {
@@ -68200,130 +68703,71 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521402,
-		["name"] = "骷髅弓箭手",
+		["key"] = 521023,
+		["name"] = "狂热冲击",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[41108] = {
+	[580182] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 41108,
+				["sid"] = 580182,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 41108,
-		["name"] = "巫师鲁恩",
+		["key"] = 580182,
+		["name"] = "叛军首领",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80028] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80028,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80028,
-		["name"] = "瓦恩",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "神圣轰击伤害提升<font color='#green2#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580114] = {
+	[580177] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580114,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580114,
-		["name"] = "森林狼",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580111] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["simple_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580111,
+				["sid"] = 580177,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580111,
-		["name"] = "被动-链甲",
+		["key"] = 580177,
+		["name"] = "被动-固守",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["full_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70063] = {
+	[20033] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70063,
+				["sid"] = 20033,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20033,
+		["simple_desc"] = "惩罚搜捕者普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -68336,13 +68780,43 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70063,
-		["name"] = "神圣庇护",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "提升自身受到英雄治疗技能的效果<font color='#green1#'>{id =70063, index=1, format = 2}</font>，冷却6秒，最多触发3次。同时提升抗暴击<font color='#green1#'>{id =700631, index=1, format = 1}%</font>。",
-		["params"] = "res/image/ui/04_skill/anglebless.png",
+		["name"] = "惩罚搜捕者普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[800672] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 800672,
+			},
+		},
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["key"] = 800672,
+		["simple_desc"] = "装备被动",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "自爆1",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80107] = {
 		["max_level"] = 10,
@@ -68405,60 +68879,50 @@ skillgroup = {
 		["full_desc"] = "拉娜克希娅每次触发断罪者时会获得一层<font color='#green2#'>{id =803632, index=1,format = 2}</font>攻击力的护盾值持续6秒，且处刑持续时间内时会提升<font color='#green2#'>{id =803634, index=1,format = 2}</font>的命中。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70062] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70062,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70062,
-		["name"] = "神圣庇护",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "提升自身受到英雄治疗技能的效果<font color='#green1#'>{id =70062, index=1, format = 2}</font>，冷却6秒，最多触发3次。同时提升抗暴击<font color='#green1#'>{id =700621, index=1, format = 1}%</font>。",
-		["params"] = "res/image/ui/04_skill/anglebless.png",
-	},
-	[531903] = {
+	[580168] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5319031,
+				["sid"] = 580168,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580168,
+		["name"] = "鬼魂",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[50073] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 500731,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5319032,
+				["sid"] = 500732,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5319033,
+				["sid"] = 500733,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50073,
+		["simple_desc"] = "攻击目标单体，每层重伤额外增加30%攻击力的伤害，并消除重伤效果",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -68466,11 +68930,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 531903,
-		["name"] = "光明会狂战",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["name"] = "赎罪惩击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312111] = {
@@ -68495,36 +68958,26 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[800675] = {
-		["max_level"] = 10,
+	[580601] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>7%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 800675,
+				["sid"] = 580601,
 			},
 		},
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["key"] = 800675,
-		["simple_desc"] = "装备被动",
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 580601,
+		["name"] = "圣物-普攻强化Lv1",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "自爆2",
+		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>7%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51067] = {
@@ -68562,17 +69015,17 @@ skillgroup = {
 		["full_desc"] = "攻击目标单体，并提升自身防御",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[533306] = {
+	[592460] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 533306,
+				["sid"] = 592460,
 			},
 		},
 		["consume"] = {
@@ -68582,11 +69035,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 533306,
-		["name"] = "小火龙",
+		["key"] = 592460,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312112] = {
@@ -68611,17 +69064,72 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80076] = {
+	[102800] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
+		["simple_desc"] = "普通攻击(尼尔法)",
+		["skill_type"] = 1,
+		["probability"] = 500,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10009,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 102800,
+		["name"] = "普通攻击(尼尔法)",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10015,index=1,key='sub_hp',format = 1}</font>点伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[582131] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 582131,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 582131,
+		["name"] = "沙漠地龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[70057] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80076,
+				["sid"] = 70057,
 			},
 		},
 		["consume"] = {
@@ -68636,77 +69144,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80076,
-		["name"] = "潘多拉白色专属1",
+		["key"] = 70057,
+		["name"] = "伤害缓和",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "深渊之击额外获得1层深渊之怒。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20033] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20033,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20033,
-		["simple_desc"] = "惩罚搜捕者普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "惩罚搜捕者普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20023] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20023,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20023,
-		["simple_desc"] = "零歧监工普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "零歧监工普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "受到技能伤害时，有<font color='#green1#'>50%</font>概率恢复<font color='#green1#'>80%</font>当前攻击力的血量。3秒内只能触发一次。",
+		["params"] = "res/image/ui/04_skill/healthy.png",
 	},
 	[312113] = {
 		["max_level"] = 1,
@@ -68752,7 +69196,7 @@ skillgroup = {
 		["full_desc"] = "当自身受到技能伤害时，反弹所受伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80080] = {
+	[90442] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -68762,28 +69206,23 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80080,
+				["sid"] = 90441,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80080,
-		["name"] = "潘多拉",
+		["key"] = 90442,
+		["name"] = "重锤",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "亡者华尔兹伤害提升<font color='#green2#'>3%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "铁臂猛扫的晕眩时间增加<font color='#green2#'>2</font>秒。",
+		["params"] = "res/image/ui/04_skill/ironhit.png",
 	},
 	[581102] = {
 		["max_level"] = 1,
@@ -68857,31 +69296,37 @@ skillgroup = {
 		["full_desc"] = "拉娜克希娅每次触发断罪者时会获得一层<font color='#green2#'>{id =803642, index=1,format = 2}</font>攻击力的护盾值持续6秒，且处刑持续时间内时会提升<font color='#green2#'>{id =803643, index=1,format = 2}</font>的命中。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592463] = {
-		["max_level"] = 1,
+	[80080] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方全体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592463,
+				["sid"] = 80080,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592463,
-		["name"] = "大眼",
+		["key"] = 80080,
+		["name"] = "潘多拉",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方全体，造成伤害。",
+		["full_desc"] = "亡者华尔兹伤害提升<font color='#green2#'>3%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581104] = {
@@ -68982,26 +69427,31 @@ skillgroup = {
 		["name"] = "地龙普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[582131] = {
+	[592341] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 582131,
+				["sid"] = 592341,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 582131,
-		["name"] = "沙漠地龙",
+		["key"] = 592341,
+		["name"] = "死亡骑士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312116] = {
@@ -69026,47 +69476,159 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580501] = {
+	[80092] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80092,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80092,
+		["name"] = "奥菲莉亚",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "龙枪变为攻击敌人全体，伤害降低<font color='#green2#'>40%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[200411] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200411,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200411,
+		["simple_desc"] = "刀猫普攻",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "刀猫普攻",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80096] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80096,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80096,
+		["name"] = "奥菲莉亚白色专属1",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "龙魂提供的效果变为永久。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580142] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的治疗效果提升<font color='#orange#'>30%</font>。",
+		["simple_desc"] = "赋予敌方流血状态。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580142,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580142,
+		["name"] = "黑蔷薇杖兵",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予敌方流血状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580129] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "赋予敌方流血状态。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580129,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580129,
+		["name"] = "叛军首领",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予敌方流血状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[578201] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "释放技能造成伤害时，若身上有致命标记，则对目标额外造成伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580501,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580501,
-		["name"] = "圣物-治疗强化",
-		["counter_type"] = {
-		},
-		["full_desc"] = "自身受到的治疗效果提升<font color='#orange#'>3%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521523] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5215231,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215232,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215233,
+				["sid"] = 578201,
 			},
 		},
 		["consume"] = {
@@ -69076,102 +69638,14 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521523,
-		["name"] = "獠牙酋长",
+		["key"] = 578201,
+		["name"] = "致命一击",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["full_desc"] = "释放技能造成伤害时，若身上有致命标记，则对目标额外造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[800672] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 800672,
-			},
-		},
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["key"] = 800672,
-		["simple_desc"] = "装备被动",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "自爆1",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[582126] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 582126,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 582126,
-		["name"] = "零岐监工",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80088] = {
-		["max_level"] = 10,
-		["heros"] = {
-			[1] = 10015,
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80088,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80088,
-		["name"] = "帝隆",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "帝隆防御提升<font color='#green2#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592351] = {
+	[580116] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -69181,56 +69655,16 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592351,
+				["sid"] = 580116,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592351,
-		["name"] = "獠牙斧手",
+		["key"] = 580116,
+		["name"] = "惩罚搜捕者",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[51095] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击目标单体",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 510951,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 510952,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 510953,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 51095,
-		["name"] = "树妖",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击目标单体",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80109] = {
@@ -69287,31 +69721,26 @@ skillgroup = {
 		["full_desc"] = "当自身受到技能伤害时，反弹所受伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592341] = {
+	[580154] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "每当自身受到异常状态和普攻伤害时，反击目标。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592341,
+				["sid"] = 580154,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592341,
-		["name"] = "死亡骑士",
+		["key"] = 580154,
+		["name"] = "被动-反制",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "每当自身受到异常状态和普攻伤害时，反击目标。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581112] = {
@@ -69336,28 +69765,20 @@ skillgroup = {
 		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103820] = {
-		["max_level"] = 10,
+	[102410] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "德古拉将目标敌人束缚在影牢之中,其普通攻击会治疗友军。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
+		["simple_desc"] = "死亡后提升全体友方攻击力。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30311,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30312,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30313,
+				["sid"] = 30103,
 			},
 		},
-		["key"] = 103820,
+		["key"] = 102410,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -69370,13 +69791,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "影牢",
-		["combo_value"] = 2,
+		["name"] = "龙魂",
+		["combo_value"] = 1,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "德古拉召唤杀戮之影，束缚<font color='#orange#'>1</font>名敌人，并将目标敌人的普通攻击变为治疗技能(其每次攻击都会治疗被攻击者)，持续<font color='#orange#'>5</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30311,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30312,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30313,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/shadowtrap.png",
+		["full_desc"] = "奥菲莉亚死亡之后，提升全体友军<font color='#orange#'>20%</font>攻击力,持续<font color='#orange#'>10</font>秒。",
+		["params"] = "res/image/ui/04_skill/passive/dragonsoul.png",
 	},
 	[581113] = {
 		["max_level"] = 1,
@@ -69400,40 +69821,47 @@ skillgroup = {
 		["full_desc"] = "每次受到的伤害不超过上限的2%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[51068] = {
-		["max_level"] = 1,
+	[102120] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击目标单体，并为队友生成护盾",
+		["simple_desc"] = "单体攻击，根据自身攻击力提升幅度额外附加效果。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 510681,
+				["sid"] = 30085,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 510682,
+				["sid"] = 30086,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 510683,
+				["sid"] = 30087,
 			},
 		},
+		["key"] = 102120,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 51068,
-		["name"] = "骷髅战士",
+		["name"] = "圣耀之刃",
+		["combo_value"] = 1,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击目标单体，并为队友生成护盾",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "神圣系技能，攻击<font color='#orange#'>1</font>名敌人。若罗兰的攻击力超过初始攻击力<font color='#orange#'>120%</font>的时候，额外击晕敌人<font color='#orange#'>1</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30085,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，若罗兰的攻击力超过初始攻击力<font color='#orange#'>200%</font>，则治疗罗兰<font color='#green2#'>{id =300851,index=1,key='add_hp',format = 2}</font>攻击力的生命；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30086,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，若罗兰的攻击力超过初始攻击力<font color='#orange#'>200%</font>，则治疗罗兰<font color='#green2#'>{id =300861,index=1,key='add_hp',format = 2}</font>攻击力的生命；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30087,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，若罗兰的攻击力超过初始攻击力<font color='#orange#'>200%</font>，则治疗罗兰<font color='#green2#'>{id =300871,index=1,key='add_hp',format = 2}</font>攻击力的生命。",
+		["params"] = "res/image/ui/04_skill/divineblade.png",
 	},
 	[90091] = {
 		["max_level"] = 10,
@@ -69463,36 +69891,31 @@ skillgroup = {
 		["full_desc"] = "嗜虐快感的伤害提升<font color='#green2#'>{id =90091, index=1, format = 2}</font>",
 		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
 	},
-	[200411] = {
-		["max_level"] = 10,
+	[592418] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200411,
+				["sid"] = 592418,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200411,
-		["simple_desc"] = "刀猫普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 592418,
+		["name"] = "惩罚搜捕者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "刀猫普攻",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581115] = {
@@ -69517,17 +69940,25 @@ skillgroup = {
 		["full_desc"] = "能量条清空时，释放若干发光弹，对敌方单体造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572055] = {
+	[521503] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体。",
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572055,
+				["sid"] = 5215031,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215032,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215033,
 			},
 		},
 		["consume"] = {
@@ -69537,11 +69968,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572055,
-		["name"] = "兄弟会刺客",
+		["key"] = 521503,
+		["name"] = "石头人",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体。",
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103400] = {
@@ -69609,41 +70040,20 @@ skillgroup = {
 		["full_desc"] = "嗜虐快感恢复量和攻击增幅提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
 	},
-	[580152] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580152,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580152,
-		["name"] = "被动-反伤",
-		["counter_type"] = {
-		},
-		["full_desc"] = "每次受技能攻击时，反弹所受到的伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80149] = {
+	[20024] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80149,
+				["sid"] = 20024,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20024,
+		["simple_desc"] = "北境重锤使普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -69656,28 +70066,53 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80149,
-		["name"] = "特斯拉 白1EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "激励的暴击伤害可额外增加<font color='#green2#'>20%</font>。",
+		["name"] = "北境重锤使普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[102410] = {
+	[521500] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "死亡后提升全体友方攻击力。",
+		["simple_desc"] = "每受到一次攻击，则增加一层怒火标记，最高20层。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30103,
+				["sid"] = 5215001,
 			},
 		},
-		["key"] = 102410,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521500,
+		["name"] = "怒火印记",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每受到一次攻击，则增加一层怒火标记，最高20层。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[103700] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10028,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 500,
+		["key"] = 103700,
+		["simple_desc"] = "齐格飞普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -69690,13 +70125,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "龙魂",
-		["combo_value"] = 1,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "奥菲莉亚死亡之后，提升全体友军<font color='#orange#'>20%</font>攻击力,持续<font color='#orange#'>10</font>秒。",
-		["params"] = "res/image/ui/04_skill/passive/dragonsoul.png",
+		["name"] = "普通攻击(齐格飞)",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80110] = {
 		["max_level"] = 10,
@@ -69731,17 +70164,25 @@ skillgroup = {
 		["full_desc"] = "圣耀之刃的击晕时长延长2秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592316] = {
+	[521401] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592316,
+				["sid"] = 5214011,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214012,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214013,
 			},
 		},
 		["consume"] = {
@@ -69751,26 +70192,68 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592316,
-		["name"] = "零歧电击者",
+		["key"] = 521401,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592450] = {
-		["max_level"] = 1,
+	[80204] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592450,
+				["sid"] = 80204,
 			},
 		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80204,
+		["name"] = "亚巴顿 白",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "碎魂击伤害提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51028] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510281,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510282,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510283,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51028,
+		["simple_desc"] = "攻击目标单体",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -69778,49 +70261,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592450,
+		["counter_type"] = {
+		},
 		["name"] = "狮鹫",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580138] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580138,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580138,
-		["name"] = "刃魔",
-		["counter_type"] = {
-		},
-		["full_desc"] = "赋予敌方流血状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20032] = {
+	[80068] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20032,
+				["sid"] = 80068,
 			},
 		},
-		["skill_type"] = 1,
+		["skill_type"] = 4,
 		["probability"] = 10000,
-		["key"] = 20032,
-		["simple_desc"] = "惩罚者牧师普通攻击",
+		["key"] = 80068,
+		["simple_desc"] = "装备被动",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -69836,7 +70295,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "惩罚者牧师普通攻击",
+		["name"] = "尼尔法",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581121] = {
@@ -69861,20 +70320,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20021] = {
+	[80024] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20021,
+				["sid"] = 80024,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20021,
-		["simple_desc"] = "零歧压迫者1普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -69887,10 +70345,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 80024,
+		["name"] = "瓦恩白色专属1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "零歧压迫者1普通攻击",
+		["full_desc"] = "瓦恩不灭信仰额外提升<font color='#green2#'>30%</font>的基础防御力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581122] = {
@@ -69915,25 +70375,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521502] = {
-		["max_level"] = 1,
+	[600652] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215021,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5215022,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5215023,
+				["sid"] = 600652,
 			},
 		},
 		["consume"] = {
@@ -69943,12 +70395,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521502,
-		["name"] = "骷髅弓箭手",
+		["key"] = 600652,
+		["name"] = "血影",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "杰克攻击怪物时，释放血腥一闪的同时提升杰克<font color='#green2#'>{id =6006521, index=1,key='buff_add_gj ',format = 2}</font>的攻击力。",
+		["params"] = "res/image/ui/04_skill/bloodyshining.png",
 	},
 	[581123] = {
 		["max_level"] = 1,
@@ -70031,20 +70484,19 @@ skillgroup = {
 		["full_desc"] = "自身每次受到伤害时，恢复自身一定血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103700] = {
+	[700981] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10028,
+				["sid"] = 700981,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 500,
-		["key"] = 103700,
-		["simple_desc"] = "齐格飞普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -70057,11 +70509,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
+		["key"] = 700981,
+		["name"] = "加护之风",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "普通攻击(齐格飞)",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身受到的异常状态伤害降低<font color='#green2#'>4%</font>。",
+		["params"] = "res/image/ui/04_skill/defence.png",
 	},
 	[581125] = {
 		["max_level"] = 1,
@@ -70085,54 +70539,79 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592303] = {
-		["max_level"] = 1,
+	[50004] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592303,
+				["sid"] = 50004,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 50004,
+		["simple_desc"] = "远程刺客攻击后排",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592303,
-		["name"] = "光明会狂战",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["name"] = "远程刺客",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[581126] = {
-		["max_level"] = 1,
+	[108520] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "塞西莉娅用圣光治疗所有角色，主教领域内用神圣能力攻击全体敌人。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 581126,
+				["sid"] = 30661,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30662,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30663,
 			},
 		},
+		["key"] = 108520,
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 581126,
-		["name"] = "零岐监工",
+		["name"] = "裁决之杖",
+		["combo_value"] = 2,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "塞西莉娅举起主教之杖引导圣光，治愈场上所有角色。张开主教领域后，塞西莉娅拔出杖剑，将凝聚的神圣能量倾泻而出，对敌方全体造成伤害，若击中存在回馈标记的单位，则会消耗一层标记并治愈己方全体角色（同时击中多个标记单位也仅会触发一次治愈）。<br/><font color='#green1#'>战斗开始</font>：恢复全体友军<font color='#green2#'>{id =30661,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命，恢复全体敌人<font color='#orange#'>{id =306611,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命，并赋予敌方全体一层回馈标记，标记可以叠加，持续至被消耗；<br/>在主教领域内，神圣能量造成<font color='#green2#'>{id =306612,index=1,format = 2}</font>塞西莉娅攻击力的伤害，回馈恢复全体友军<font color='#green2#'>{id =306614,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命值。<br/><font color='#blue1#'>激战阶段</font>：恢复全体友军<font color='#green2#'>{id =30662,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命，恢复全体敌人<font color='#orange#'>{id =306621,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命，并赋予敌方全体一层回馈标记，标记可以叠加，持续至被消耗；<br/>张开主教领域之后，神圣能量造成<font color='#green2#'>{id =306622,index=1,format = 2}</font>塞西莉娅攻击力的伤害，回馈恢复全体友军<font color='#green2#'>{id =306614,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命值；<br/><font color='#purple#'>终结阶段</font>：恢复全体友军<font color='#green2#'>{id =30663,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命，恢复全体敌人<font color='#orange#'>{id =306631,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命，并赋予敌方全体一层回馈标记，持续至被消耗；<br/>张开主教领域之后，神圣能量造成<font color='#green2#'>{id =306632,index=1,format = 2}</font>塞西莉娅攻击力的伤害，回馈恢复全体友军<font color='#green2#'>{id =306614,index=1,key='add_hp',format = 2}</font>塞西莉娅攻击力的生命值。",
+		["params"] = "res/image/ui/04_skill/staffofjudgement.png",
 	},
 	[80111] = {
 		["max_level"] = 10,
@@ -70189,26 +70668,31 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580181] = {
+	[578106] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580181,
+				["sid"] = 578106,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580181,
-		["name"] = "被动-追加光弹",
+		["key"] = 578106,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次能量条清空时，释放若干枚光弹攻击敌人。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581128] = {
@@ -70355,19 +70839,20 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80170] = {
+	[20029] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80170,
+				["sid"] = 20029,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20029,
+		["simple_desc"] = "狼人普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -70380,12 +70865,10 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80170,
-		["name"] = "齐格飞 黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "黄昏之刃的伤害提升<font color='#green2#'>50%</font>。",
+		["name"] = "狼人普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581131] = {
@@ -70410,20 +70893,20 @@ skillgroup = {
 		["full_desc"] = "攻击全体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[104710] = {
+	[106710] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "当其他队友受到伤害时，增加全体友军伤害减免效果。",
+		["simple_desc"] = "受到技能或异常状态死亡后重生。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30406,
+				["sid"] = 30512,
 			},
 		},
-		["key"] = 104710,
+		["key"] = 106710,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -70431,13 +70914,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "守护骑士",
+		["name"] = "涅槃之魔",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "进入战斗后，携带<font color='#orange#'>4</font>层<font color='#orange#'>战技</font>状态，有战技状态时，增加全体队友<font color='#orange#'>{id =304065,index=1,format = 2}</font>的防御。每当有其他队友受伤害时，提升全体免伤等级<font color='#orange#'>{id =304061,index=2,format = 1}</font>级，最高<font color='#orange#'>70</font>级，持续<font color='#orange#'>3</font>秒。",
-		["params"] = "res/image/ui/04_skill/passive/perfectknight.png",
+		["full_desc"] = "埃德蒙会携带<font color='#orange#'>3</font>层<font color='#orange#'>王权</font>印记进入战斗。<br/>每当我方角色受到来自自身或队友的攻击时，埃德蒙都会获得<font color='#orange#'>1</font>层<font color='#orange#'>炎魔</font>印记，最多可叠加至<font color='#orange#'>4</font>层。<br/>若埃德蒙因技能伤害或异常状态死亡，会以生命值全满的状态<font color='#orange#'>重生</font>。重生效果1场战斗只能触发<font color='#orange#'>1</font>次。",
+		["params"] = "res/image/ui/04_skill/passive/reborn.png",
 	},
 	[581132] = {
 		["max_level"] = 1,
@@ -70516,17 +70999,25 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80296] = {
-		["max_level"] = 10,
+	[521522] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80296,
+				["sid"] = 5215221,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5215222,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5215223,
 			},
 		},
 		["consume"] = {
@@ -70536,12 +71027,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80296,
-		["name"] = "艾尔薇白",
+		["key"] = 521522,
+		["name"] = "零歧监工",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "碎星箭的伤害系数提升<font color='#green2#'>18%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581134] = {
@@ -70621,39 +71111,26 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521023] = {
+	[580183] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5210231,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5210232,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5210233,
+				["sid"] = 580183,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 521023,
-		["name"] = "狂热冲击",
+		["key"] = 580183,
+		["name"] = "白熊",
 		["counter_type"] = {
 		},
-		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
+		["full_desc"] = "赋予敌方流血状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[581136] = {
@@ -70678,56 +71155,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[3120021] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身减伤效果提升。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 3120021,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 3120021,
-		["name"] = "前排加减伤",
-		["counter_type"] = {
-		},
-		["full_desc"] = "自身减伤效果提升。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592030] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592030,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592030,
-		["name"] = "魔斧手罗萨",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600822] = {
+	[70036] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -70737,43 +71165,48 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600822,
+				["sid"] = 70052,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 600822,
-		["name"] = "致命重伤",
+		["key"] = 70036,
+		["name"] = "地狱之力",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放精准射击时，有概率赋予其<font color='#green2#'>1~2</font>层重伤效果。",
-		["params"] = "res/image/ui/04_skill/multishot.png",
+		["full_desc"] = "进入战斗后，攻击提升<font color='#green2#'>30%</font>，此后每8秒失去<font color='#green2#'>1%</font>生命。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
-	[521921] = {
+	[521810] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害，并恢复己方全体血量。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5219211,
+				["sid"] = 5218101,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5219212,
+				["sid"] = 5218102,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5219213,
+				["sid"] = 5218103,
 			},
 		},
 		["consume"] = {
@@ -70783,12 +71216,79 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521921,
-		["name"] = "狮鹫",
+		["key"] = 521810,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害，并恢复己方全体血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80015] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80015,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80015,
+		["name"] = "菲娅黑色专属1EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "烈焰护盾会额外吸收一定量的伤害，数值相当于菲娅<font color='#green2#'>100%</font>的攻击。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[108410] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "比南纳尔提升自身的普攻暴击伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30650,
+			},
+		},
+		["key"] = 108410,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "智慧的洞察",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "比南纳尔运用智慧进行炮击，洞察敌人的弱点，当自身普攻暴击时，提升暴击伤害，提升的百分比数值为自身的暴击率数值的<font color='#orange#'>{id =306502,index=1,format = 2}</font>。",
+		["params"] = "res/image/ui/04_skill/passive/wisdompower.png",
 	},
 	[106730] = {
 		["max_level"] = 10,
@@ -70827,148 +71327,40 @@ skillgroup = {
 		["full_desc"] = "埃德蒙挥舞烈焰魔剑，消耗所有<font color='#orange#'>炎魔</font>印记攻击<font color='#orange#'>1</font>名敌人，攻击，造成伤害。消耗<font color='#orange#'>1~3</font>层<font color='#orange#'>炎魔</font>印记时，伤害提升<font color='#orange#'>30%</font>；消耗<font color='#orange#'>4</font>层<font color='#orange#'>炎魔</font>印记时，伤害提升<font color='#orange#'>60%</font>。同时赋予自身护盾效果，吸收<font color='#orange#'>100%</font>攻击力的伤害，并反弹<font color='#orange#'>15%</font>受到的伤害，持续<font color='#orange#'>6</font>秒。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30513,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30514,index=1,format = 2}</font>攻击力的伤害；消耗<font color='#orange#'>1</font>层<font color='#orange#'>王权</font>印记，护盾值额外提升<font color='#orange#'>50%</font>；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30515,index=1,format = 2}</font>攻击力的伤害；消耗<font color='#orange#'>1</font>层<font color='#orange#'>王权</font>印记，护盾值额外提升<font color='#orange#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/fireblade.png",
 	},
-	[580187] = {
+	[51090] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击目标单体，并治疗目标友军",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580187,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580187,
-		["name"] = "狼人",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[20052] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 20052,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20052,
-		["simple_desc"] = "黑蔷薇剑兵",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
+				["sid"] = 510901,
 			},
 			[2] = {
-				[1] = 4,
+				["round"] = 3,
+				["sid"] = 510902,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510903,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
+		["key"] = 51090,
+		["name"] = "骷髅法师",
 		["counter_type"] = {
 		},
-		["name"] = "黑蔷薇剑兵",
+		["full_desc"] = "攻击目标单体，并治疗目标友军",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600794] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600794,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600794,
-		["name"] = "破甲",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "攻击怪物时，有<font color='#green2#'>100%</font>概率额外降低一个目标<font color='#green2#'>{id =600799, index=1,key='buff_sub_fy',format = 2}</font>防御。",
-		["params"] = "res/image/ui/04_skill/armorbreak.png",
-	},
-	[80140] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80140,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80140,
-		["name"] = "黛丝 白1",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "痛苦之力可额外提升目标<font color='#green2#'>10%</font>的基础攻击力。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[108010] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "风怒标记达到一定层数时会释放一道风刃。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30630,
-			},
-		},
-		["key"] = 108010,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "破碎之风",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "每当己方单位赋予敌方单位碎甲时，自身获得<font color='#orange#'>1</font>层风怒标记，当风怒标记达到<font color='#orange#'>6</font>层时，会消耗全部风怒标记立即释放一道<font color='#orange#'>风刃</font>，造成<font color='#orange#'>{id =306303,index=1,format = 2}</font>攻击力的伤害，可触发风之刃的额外效果。风怒标记在消耗之前永久存在，不可驱散。",
-		["params"] = "res/image/ui/04_skill/passive/windprotection.png",
 	},
 	[80146] = {
 		["max_level"] = 10,
@@ -71003,17 +71395,52 @@ skillgroup = {
 		["full_desc"] = "激励射击可额外赋予<font color='#green2#'>1</font>名友军。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80147] = {
+	[521913] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5219131,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5219132,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5219133,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521913,
+		["name"] = "北境重锤使",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80148] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
+		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80147,
+				["sid"] = 80148,
 			},
 		},
 		["consume"] = {
@@ -71028,12 +71455,103 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80147,
-		["name"] = "特斯拉 黑1EX",
+		["key"] = 80148,
+		["name"] = "特斯拉 白1",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "激励射击可赋予<font color='#green2#'>全体</font>友军。",
+		["full_desc"] = "激励的暴击伤害可额外增加<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[108010] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "风怒标记达到一定层数时会释放一道风刃。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30630,
+			},
+		},
+		["key"] = 108010,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "破碎之风",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "每当己方单位赋予敌方单位碎甲时，自身获得<font color='#orange#'>1</font>层风怒标记，当风怒标记达到<font color='#orange#'>6</font>层时，会消耗全部风怒标记立即释放一道<font color='#orange#'>风刃</font>，造成<font color='#orange#'>{id =306303,index=1,format = 2}</font>攻击力的伤害，可触发风之刃的额外效果。风怒标记在消耗之前永久存在，不可驱散。",
+		["params"] = "res/image/ui/04_skill/passive/windprotection.png",
+	},
+	[41108] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 41108,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 41108,
+		["name"] = "巫师鲁恩",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521410] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5214101,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214102,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214103,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521410,
+		["name"] = "骷髅法师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80113] = {
@@ -71069,37 +71587,39 @@ skillgroup = {
 		["full_desc"] = "圣耀之刃额外附加罗兰防御力<font color='#green2#'>100%</font>的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80148] = {
-		["max_level"] = 10,
+	[521411] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80148,
+				["sid"] = 5214111,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214112,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214113,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80148,
-		["name"] = "特斯拉 白1",
+		["key"] = 521411,
+		["name"] = "北境叛军男",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "激励的暴击伤害可额外增加<font color='#green2#'>10%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[575001] = {
@@ -71178,39 +71698,37 @@ skillgroup = {
 		["full_desc"] = "自身释放技能造成伤害时，若自身有防御标记，则提升我方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521411] = {
-		["max_level"] = 1,
+	[80045] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214111,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214112,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214113,
+				["sid"] = 80045,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521411,
-		["name"] = "北境叛军男",
+		["key"] = 80045,
+		["name"] = "薇薇安白色专属1EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "神圣连击额外增加2次伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[575003] = {
@@ -71388,39 +71906,37 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521417] = {
-		["max_level"] = 1,
+	[80172] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5214171,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5214172,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5214173,
+				["sid"] = 80172,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 521417,
-		["name"] = "末日裁决者",
+		["key"] = 80172,
+		["name"] = "齐格飞 白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "魔剑解放的脆弱伤害增加10%，同时技能伤害提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579102] = {
@@ -71603,19 +72119,19 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[103310] = {
+	[70034] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30191,
+				["sid"] = 70050,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["simple_desc"] = "撼动世界之基柱！",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -71628,13 +72144,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["combo_value"] = 2,
-		["key"] = 103310,
+		["key"] = 70034,
+		["name"] = "地狱之力",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "重炮轰击",
-		["params"] = "res/image/ui/04_skill/heavycannon.png",
+		["full_desc"] = "进入战斗后，攻击提升<font color='#green2#'>10%</font>，此后每8秒失去<font color='#green2#'>3%</font>生命。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
 	[579106] = {
 		["max_level"] = 1,
@@ -71702,38 +72218,33 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70007] = {
+	[90504] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70007,
+				["sid"] = 90504,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 70007,
-		["name"] = "生命吸收",
+		["key"] = 90504,
+		["name"] = "断罪连击",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "造成伤害时，可以恢复造成伤害<font color='#green2#'>10%</font>的生命。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "触发断罪者后会使下一次普攻变成断罪，并提升该次断罪的额外伤害至<font color='#green2#'>7%</font>目标生命值。",
+		["params"] = "res/image/ui/04_skill/passive/judgement.png",
 	},
 	[579108] = {
 		["max_level"] = 1,
@@ -71801,33 +72312,38 @@ skillgroup = {
 		["full_desc"] = "释放技能后，释放5发魔法球，魔法球攻击单体造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90504] = {
+	[80188] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90504,
+				["sid"] = 80188,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 90504,
-		["name"] = "断罪连击",
+		["key"] = 80188,
+		["name"] = "美杜莎 白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "触发断罪者后会使下一次普攻变成断罪，并提升该次断罪的额外伤害至<font color='#green2#'>7%</font>目标生命值。",
-		["params"] = "res/image/ui/04_skill/passive/judgement.png",
+		["full_desc"] = "石化魔眼的降攻速效果提升至<font color='#green2#'>65%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579110] = {
 		["max_level"] = 1,
@@ -71851,20 +72367,24 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200391] = {
+	[50013] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200391,
+				["sid"] = 50013,
+			},
+			[2] = {
+				["round"] = 1,
+				["sid"] = 500132,
 			},
 		},
 		["skill_type"] = 1,
 		["probability"] = 10000,
-		["key"] = 200391,
-		["simple_desc"] = "独角兽普攻",
+		["key"] = 50013,
+		["simple_desc"] = "死亡骑士攻击单体，并提升自身暴击率100%",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -71880,7 +72400,7 @@ skillgroup = {
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["name"] = "独角兽普攻",
+		["name"] = "死亡脉冲",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579111] = {
@@ -71955,31 +72475,26 @@ skillgroup = {
 		["full_desc"] = "释放技能后，治疗全体友军。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592230] = {
+	[580135] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592230,
+				["sid"] = 580135,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592230,
-		["name"] = "黑蔷薇杖兵",
+		["key"] = 580135,
+		["name"] = "狼人",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579113] = {
@@ -72004,33 +72519,37 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90121] = {
+	[20030] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90121,
+				["sid"] = 20030,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20030,
+		["simple_desc"] = "末日审判者普通攻击",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 90121,
-		["name"] = "元素法球",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "尼尔法释放幻变元素时，有<font color='#green2#'>50%</font>概率召唤出一个法球。",
-		["params"] = "res/image/ui/04_skill/changeelement.png",
+		["name"] = "末日审判者普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579114] = {
 		["max_level"] = 1,
@@ -72054,17 +72573,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600453] = {
-		["max_level"] = 10,
+	[592324] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600453,
+				["sid"] = 592324,
 			},
 		},
 		["consume"] = {
@@ -72074,13 +72593,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600453,
-		["name"] = "破甲之刃",
+		["key"] = 592324,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "瓦恩的净化之刃会有<font color='#green2#'>100%</font>概率额外减少怪物<font color='#green2#'>{id =600456, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
-		["params"] = "res/image/ui/04_skill/holyzeal.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90353] = {
 		["max_level"] = 10,
@@ -72110,17 +72628,17 @@ skillgroup = {
 		["full_desc"] = "延迟回血",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[534300] = {
-		["max_level"] = 1,
+	[90122] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次受击伤害不超过最大生命的2%。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 534300,
+				["sid"] = 90122,
 			},
 		},
 		["consume"] = {
@@ -72130,12 +72648,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 534300,
-		["name"] = "守护印记",
+		["key"] = 90122,
+		["name"] = "元素法球",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "每次受击伤害不超过最大生命的2%。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "尼尔法释放幻变元素时，有<font color='#green2#'>100%</font>概率召唤出一个法球。",
+		["params"] = "res/image/ui/04_skill/changeelement.png",
 	},
 	[579116] = {
 		["max_level"] = 1,
@@ -72159,26 +72678,35 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580613] = {
-		["max_level"] = 1,
+	[20052] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>11%</font>。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580613,
+				["sid"] = 20052,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 20052,
+		["simple_desc"] = "黑蔷薇剑兵",
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580613,
-		["name"] = "圣物-技能减伤Lv3",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>11%</font>。",
+		["name"] = "黑蔷薇剑兵",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579117] = {
@@ -72203,37 +72731,26 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80015] = {
-		["max_level"] = 10,
+	[580595] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>11%</font>。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80015,
+				["sid"] = 580595,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 80015,
-		["name"] = "菲娅黑色专属1EX",
+		["key"] = 580595,
+		["name"] = "圣物-技能强化Lv5",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "烈焰护盾会额外吸收一定量的伤害，数值相当于菲娅<font color='#green2#'>100%</font>的攻击。",
+		["full_desc"] = "自身释放的技能伤害或异常状态伤害提升<font color='#orange#'>11%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579118] = {
@@ -72300,37 +72817,26 @@ skillgroup = {
 		["full_desc"] = "洛天依施展动感的歌声，治愈<font color='#orange#'>1</font>名友军，同时随机赋予其以下增益效果之中的<font color='#orange#'>2</font>个：<br/>防御提升<font color='#green2#'>{id =303851,index=2,format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>闪避提升<font color='#green2#'>{id =303852,index=2,format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>受到伤害时提升<font color='#green2#'>{id =303854,index=1,format = 2}</font>攻击速度，持续<font color='#orange#'>6</font>秒；<br/>受到伤害时，与全体队友共同分担，持续<font color='#orange#'>6</font>秒。<br/><font color='#green1#'>战斗开始</font>：每秒恢复<font color='#green2#'>{id =30379,index=2,key='buff_add_hp',format = 2}</font>攻击力的生命，持续<font color='#orange#'>5</font>秒；<br/><font color='#blue1#'>激战阶段</font>：每秒恢复<font color='#green2#'>{id =30380,index=2,key='buff_add_hp',format = 2}</font>攻击力的生命，持续<font color='#orange#'>5</font>秒；<br/><font color='#purple#'>终结阶段</font>：每秒恢复<font color='#green2#'>{id =30381,index=2,key='buff_add_hp',format = 2}</font>攻击力的生命，持续<font color='#orange#'>5</font>秒。",
 		["params"] = "res/image/ui/04_skill/shiningsong.png",
 	},
-	[80116] = {
-		["max_level"] = 10,
+	[579119] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80116,
+				["sid"] = 579119,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 80116,
-		["name"] = "桑妮白色专属1",
+		["key"] = 579119,
+		["name"] = "末日审判者",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "烈焰赋予额外增加<font color='#green2#'>10%</font>攻击力。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80372] = {
@@ -72432,33 +72938,38 @@ skillgroup = {
 		["full_desc"] = "每次受到伤害，为自身生成一层护盾。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600474] = {
+	[103430] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600474,
+				["sid"] = 30196,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 3400,
+		["simple_desc"] = "尘归尘，土归土！",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 600474,
-		["name"] = "烟幕",
+		["combo_value"] = 2,
+		["key"] = 103430,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "触发致盲时，有<font color='#green2#'>100%</font>概率对其他怪物目标造成致盲效果，减少其<font color='#green2#'>{id =600479, index=1,key='buff_sub_mz  ',format = 2}</font>命中。",
-		["params"] = "res/image/ui/04_skill/burstshoot.png",
+		["name"] = "湮灭",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
 	[579122] = {
 		["max_level"] = 1,
@@ -72482,7 +72993,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600492] = {
+	[600483] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -72492,7 +73003,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600492,
+				["sid"] = 600483,
 			},
 		},
 		["consume"] = {
@@ -72502,13 +73013,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600492,
-		["name"] = "圣光弹",
+		["key"] = 600483,
+		["name"] = "神圣之怒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "每次释放技能对怪物造成伤害时，有<font color='#green2#'>90%</font>概率释放一个光弹，造成<font color='#green2#'>{id =600497, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/anglebless.png",
+		["full_desc"] = "菲儿的裁决有<font color='#green2#'>100%</font>概率对怪物的伤害增加<font color='#green2#'>25%</font>。",
+		["params"] = "res/image/ui/04_skill/judgement.png",
 	},
 	[579123] = {
 		["max_level"] = 1,
@@ -72532,7 +73043,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600461] = {
+	[600484] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -72542,7 +73053,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600461,
+				["sid"] = 600484,
 			},
 		},
 		["consume"] = {
@@ -72552,13 +73063,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600461,
-		["name"] = "高压改造",
+		["key"] = 600484,
+		["name"] = "神圣之怒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "特斯拉的球状闪电有<font color='#green2#'>80%</font>概率对怪物的伤害增加<font color='#green2#'>25%</font>。",
-		["params"] = "res/image/ui/04_skill/balllightning.png",
+		["full_desc"] = "菲儿的裁决有<font color='#green2#'>100%</font>概率对怪物的伤害增加<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/judgement.png",
 	},
 	[579124] = {
 		["max_level"] = 1,
@@ -72582,26 +73093,36 @@ skillgroup = {
 		["full_desc"] = "释放技能后，释放8发魔法球，魔法球攻击单体造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580131] = {
-		["max_level"] = 1,
+	[200401] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予敌方流血状态。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580131,
+				["sid"] = 200401,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200401,
+		["simple_desc"] = "狮鹫普攻",
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580131,
-		["name"] = "北境重锤使",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "赋予敌方流血状态。",
+		["name"] = "狮鹫普攻",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[579125] = {
@@ -72675,17 +73196,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592300] = {
+	[592301] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "大幅提升自身伤害减免效果，持续25秒。25秒之后，每6秒损失自身30%生命。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5923001,
+				["sid"] = 592301,
 			},
 		},
 		["consume"] = {
@@ -72695,11 +73216,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592300,
-		["name"] = "固守",
+		["key"] = 592301,
+		["name"] = "骷髅战士",
 		["counter_type"] = {
 		},
-		["full_desc"] = "提升自身前4回合免伤等级。第5回合开始，每回合损失30%生命。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80117] = {
@@ -72785,55 +73306,6 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592304] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592304,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592304,
-		["name"] = "光明会牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[579129] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 579129,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 579129,
-		["name"] = "巫师鲁恩",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[592305] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -72861,26 +73333,95 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[579130] = {
+	[579129] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的减治疗效果大幅提升。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 579130,
+				["sid"] = 579129,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 579130,
-		["name"] = "被动-减治疗提升",
+		["key"] = 579129,
+		["name"] = "巫师鲁恩",
 		["counter_type"] = {
 		},
-		["full_desc"] = "自身受到的减治疗效果大幅提升。",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51023] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510231,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510232,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510233,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 51023,
+		["simple_desc"] = "攻击目标单体",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["name"] = "惩罚搜捕者",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[51072] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击目标单体，并提升自身防御",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 510721,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 510722,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 510723,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 51072,
+		["name"] = "石头人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击目标单体，并提升自身防御",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[5400091] = {
@@ -72938,33 +73479,6 @@ skillgroup = {
 		["full_desc"] = "随机破甲",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592311] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592311,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592311,
-		["name"] = "死亡骑士",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[20053] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -72994,6 +73508,33 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["name"] = "黑蔷薇杖兵",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592313] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592313,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592313,
+		["name"] = "零歧监工",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[5924008] = {
@@ -73092,60 +73633,71 @@ skillgroup = {
 		["full_desc"] = "制造一股骸骨护盾保护自己，按照自身<font color='#orange#'>亡者之怒</font>层数吸收一定量伤害，护盾在被耗尽或是持续<font color='#orange#'>6</font>秒后消失；同时对<font color='#orange#'>1</font>名敌人造成按照自身<font color='#orange#'>亡者之怒</font>层数计算的伤害；之后清除自身所有<font color='#orange#'>亡者之怒</font>状态。<br/><font color='#green1#'>战斗开始</font>：吸收<font color='#green2#'>{id =30326, index=1,format = 2}</font>亚巴顿生命值的伤害，造成<font color='#green2#'>{id =303261, index=1,format = 2}</font>攻击力的伤害，当自身<font color='#orange#'>亡者之怒</font>层数达到1-3层，4-6层，7-10层时，均会额外增加<font color='#orange#'>5%</font>生命值的吸收量以及<font color='#orange#'>30%</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：吸收<font color='#green2#'>{id =30327, index=1,format = 2}</font>亚巴顿生命值的伤害，造成<font color='#green2#'>{id =303271, index=1,format = 2}</font>攻击力的伤害，当自身<font color='#orange#'>亡者之怒</font>层数达到1-3层，4-6层，7-10层时，均会额外增加<font color='#orange#'>5%</font>生命值的吸收量以及<font color='#orange#'>30%</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：吸收<font color='#green2#'>{id =30328, index=1,format = 2}</font>亚巴顿生命值的伤害，造成<font color='#green2#'>{id =303281, index=1,format = 2}</font>攻击力的伤害，当自身<font color='#orange#'>亡者之怒</font>层数达到1-3层，4-6层，7-10层时，均会额外增加<font color='#orange#'>5%</font>生命值的吸收量以及<font color='#orange#'>30%</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/boneshield.png",
 	},
-	[592315] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592315,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592315,
-		["name"] = "零歧压迫者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600504] = {
+	[80242] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600504,
+				["sid"] = 80242,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 600504,
-		["name"] = "狂热",
+		["key"] = 80242,
+		["name"] = "疾风 黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻速提升效果有<font color='#green2#'>100%</font>概率增加<font color='#green2#'>35%</font>。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "心眼增加<font color='#green2#'>50%</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80243] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80243,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80243,
+		["name"] = "疾风 黑EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "心眼增加<font color='#green2#'>100%</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80118] = {
 		["max_level"] = 10,
@@ -73208,58 +73760,56 @@ skillgroup = {
 		["full_desc"] = "每层沉溺效果会降低该单位造成伤害的<font color='#green2#'>2%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[592223] = {
-		["max_level"] = 1,
+	[107400] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592223,
+				["sid"] = 10057,
 			},
 		},
+		["skill_type"] = 1,
+		["key"] = 107400,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592223,
-		["name"] = "獠牙酋长",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["name"] = "普通攻击(艾琳)",
+		["probability"] = 500,
 	},
-	[592323] = {
-		["max_level"] = 1,
+	[80244] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592323,
+				["sid"] = 80244,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592323,
-		["name"] = "獠牙酋长",
+		["key"] = 80244,
+		["name"] = "疾风 白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "奥义:破风的闪避率提升至<font color='#green2#'>65%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521000] = {
@@ -73289,31 +73839,37 @@ skillgroup = {
 		["full_desc"] = "赋予自身一层怪物标记，该标记每次受到伤害清除一层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592324] = {
-		["max_level"] = 1,
+	[80245] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592324,
+				["sid"] = 80245,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592324,
-		["name"] = "光明会拳师",
+		["key"] = 80245,
+		["name"] = "疾风 白EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "奥义:破风的闪避率提升至<font color='#green2#'>80%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[200131] = {
@@ -73346,6 +73902,74 @@ skillgroup = {
 			[1] = 0,
 		},
 		["name"] = "执杖木乃伊普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80250] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80250,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80250,
+		["name"] = "薛定谔 黑",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "震撼的击晕概率增加<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521001] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5210011,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5210012,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5210013,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521001,
+		["name"] = "怒击",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[104330] = {
@@ -73390,69 +74014,7 @@ skillgroup = {
 		["full_desc"] = "维多利亚召唤恶毒的虚影，攻击<font color='#orange#'>1</font>名敌人，同时随机赋予<font color='#orange#'>2</font>名敌人各<font color='#orange#'>1</font>层<font color='#orange#'>诅咒</font>效果。(处于<font color='#orange#'>诅咒</font>状态下的敌人，在每次我方角色获得治疗时，会受到<font color='#green2#'>{id =400171,index=1,format = 2}</font>攻击力的基础伤害，伤害数值随<font color='#orange#'>诅咒</font>效果层数提高而提高)。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30369,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30370,index=1,format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30371,index=1,format = 2}</font>攻击力的伤害。<br><font color='#orange#'>诅咒</font>效果每1层会在前三秒造成每秒<font color='#green1#'>{id =400172,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，共3次伤害，<font color='#orange#'>诅咒</font>效果持续<font color='#orange#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/phantasm.png",
 	},
-	[521001] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5210011,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5210012,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5210013,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521001,
-		["name"] = "怒击",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[521600] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次受到攻击时，添加一层面条标记。最高10层。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5216001,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521600,
-		["name"] = "光弹印记",
-		["counter_type"] = {
-		},
-		["full_desc"] = "每次受到攻击时，添加一层面条标记。最高10层。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80242] = {
+	[80258] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -73462,7 +74024,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80242,
+				["sid"] = 80258,
 			},
 		},
 		["consume"] = {
@@ -73477,39 +74039,45 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80242,
-		["name"] = "疾风 黑",
+		["key"] = 80258,
+		["name"] = "爱丽丝 黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "心眼增加<font color='#green2#'>50%</font>攻击力伤害。",
+		["full_desc"] = "甜蜜梦境普攻闪避效果提升<font color='#green2#'>85%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592331] = {
-		["max_level"] = 1,
+	[80260] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592331,
+				["sid"] = 80260,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592331,
-		["name"] = "骷髅战士",
+		["key"] = 80260,
+		["name"] = "爱丽丝 白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "梦魇的减治疗效果提升至<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521002] = {
@@ -73547,6 +74115,61 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[80269] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80269,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80269,
+		["name"] = "兰斯洛特 白EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "释放炎枪后的6秒内，当兰斯洛特闪避普攻时，有<font color='#green2#'>90%</font>概率赋予目标友军击穿效果，持续1秒。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592332] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592332,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592332,
+		["name"] = "骷髅弓箭手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[592333] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -73572,66 +74195,6 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592334] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592334,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592334,
-		["name"] = "光明会狂战",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80244] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80244,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80244,
-		["name"] = "疾风 白",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "奥义:破风的闪避率提升至<font color='#green2#'>65%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80119] = {
@@ -73667,70 +74230,59 @@ skillgroup = {
 		["full_desc"] = "火球现在会攻击全体敌人，伤害减少<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80245] = {
+	[80276] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
+		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80245,
+				["sid"] = 80276,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80245,
-		["name"] = "疾风 白EX",
+		["key"] = 80276,
+		["name"] = "薇欧瑞儿 白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "奥义:破风的闪避率提升至<font color='#green2#'>80%</font>。",
+		["full_desc"] = "薇欧瑞儿释放绽放时，每次恢复的治疗量提升<font color='#green2#'>一半</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80253] = {
-		["max_level"] = 10,
+	[592335] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80253,
+				["sid"] = 592335,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80253,
-		["name"] = "薛定谔 白EX",
+		["key"] = 592335,
+		["name"] = "兄弟会刺客",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "撼地之锤降低目标<font color='#green2#'>20%</font>攻击力。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[573002] = {
@@ -73795,17 +74347,17 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592344] = {
-		["max_level"] = 1,
+	[80296] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592344,
+				["sid"] = 80296,
 			},
 		},
 		["consume"] = {
@@ -73815,11 +74367,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592344,
-		["name"] = "北境叛军女",
+		["key"] = 80296,
+		["name"] = "艾尔薇白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "碎星箭的伤害系数提升<font color='#green2#'>18%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51073] = {
@@ -73947,7 +74500,7 @@ skillgroup = {
 		["full_desc"] = "每次受到伤害，治疗自身。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80278] = {
+	[80298] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -73957,7 +74510,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80278,
+				["sid"] = 80298,
 			},
 		},
 		["consume"] = {
@@ -73967,12 +74520,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80278,
-		["name"] = "米迦勒 黑",
+		["key"] = 80298,
+		["name"] = "威廉黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "米迦勒释放圣日之铠时，攻击力每提升5%，三个阶段的防御提升的幅度依次提升至<font color='#green2#'>4%</font>、<font color='#green2#'>5%</font>、<font color='#green2#'>5%</font>。",
+		["full_desc"] = "铸世之神的后裔中，当威廉闪避普通攻击时，对最近的一名敌人造成的伤害提升至<font color='#green2#'>300%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103410] = {
@@ -74043,50 +74596,45 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[101300] = {
+	[80300] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "普通攻击（珊朵拉）",
-		["skill_type"] = 1,
-		["probability"] = 500,
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 10003,
+				["sid"] = 80300,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 101300,
-		["name"] = "普通攻击（珊朵拉）",
+		["key"] = 80300,
+		["name"] = "威廉白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10003,index=1,key='sub_hp',format = 1}</font>点伤害。",
+		["full_desc"] = "威廉释放水晶之刃造成伤害时，有<font color='#green2#'>40%</font>概率额外获得1层霜怒效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592352] = {
+	[533001] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592352,
+				["sid"] = 533001,
 			},
 		},
 		["consume"] = {
@@ -74096,14 +74644,14 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592352,
-		["name"] = "獠牙战士",
+		["key"] = 533001,
+		["name"] = "魔偶",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592353] = {
+	[592348] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -74113,7 +74661,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592353,
+				["sid"] = 592348,
 			},
 		},
 		["consume"] = {
@@ -74123,8 +74671,8 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592353,
-		["name"] = "獠牙酋长",
+		["key"] = 592348,
+		["name"] = "惩罚搜捕者",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击敌方单体，造成伤害。",
@@ -74163,71 +74711,45 @@ skillgroup = {
 		["full_desc"] = "炽热符文会额外附加1层灼烧效果，伤害减少<font color='#green2#'>25%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592354] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592354,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592354,
-		["name"] = "光明会拳师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[592355] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592355,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592355,
-		["name"] = "光明会牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80297] = {
+	[600533] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600533,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600533,
+		["name"] = "末端爆发",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物施放群体攻击技能时，有<font color='#green2#'>100%</font>概率会对最远的目标造成一次<font color='#green2#'>75%</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+	},
+	[80302] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80297,
+				["sid"] = 80302,
 			},
 		},
 		["consume"] = {
@@ -74237,12 +74759,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80297,
-		["name"] = "艾尔薇白EX",
+		["key"] = 80302,
+		["name"] = "提尔黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "碎星箭的伤害系数提升<font color='#green2#'>36%</font>。",
+		["full_desc"] = "提尔释放铁臂猛扫时，对致盲目标的额外伤害提升<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80303] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80303,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80303,
+		["name"] = "提尔黑EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "提尔释放铁臂猛扫时，对致盲目标的额外伤害提升<font color='#green2#'>60%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521008] = {
@@ -74280,17 +74830,17 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600511] = {
-		["max_level"] = 10,
+	[592353] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600511,
+				["sid"] = 592353,
 			},
 		},
 		["consume"] = {
@@ -74300,34 +74850,38 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600511,
-		["name"] = "碎甲弹",
+		["key"] = 592353,
+		["name"] = "獠牙酋长",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物的减防效果有<font color='#green2#'>80%</font>概率增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/armorbreakshoot.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[582127] = {
+	[592354] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 582127,
+				["sid"] = 592354,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 582127,
-		["name"] = "黑蔷薇剑兵",
+		["key"] = 592354,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90102] = {
@@ -74421,17 +74975,17 @@ skillgroup = {
 		["full_desc"] = "马可波罗被动标记触发的防御持续时长增加至<font color='#green2#'>15</font>秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[533003] = {
+	[592356] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 533003,
+				["sid"] = 592356,
 			},
 		},
 		["consume"] = {
@@ -74441,11 +74995,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 533003,
-		["name"] = "黑蔷薇剑兵",
+		["key"] = 592356,
+		["name"] = "树妖",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80322] = {
@@ -74511,45 +75065,50 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80323] = {
+	[80253] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
+		["simple_desc"] = "白色符文-1升级",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80323,
+				["sid"] = 80253,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80323,
-		["name"] = "马可波罗黑",
+		["key"] = 80253,
+		["name"] = "薛定谔 白EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "复颂状态下的单位释放伤害性技能会同时释放一枚造成<font color='#green2#'>50%</font>攻击力伤害的光弹。",
+		["full_desc"] = "撼地之锤降低目标<font color='#green2#'>20%</font>攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80324] = {
-		["max_level"] = 10,
+	[592343] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80324,
+				["sid"] = 592343,
 			},
 		},
 		["consume"] = {
@@ -74559,41 +75118,54 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80324,
-		["name"] = "马可波罗黑EX",
+		["key"] = 592343,
+		["name"] = "零歧监工",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "复颂状态下的单位释放伤害性技能会同时释放一枚造成<font color='#green2#'>100%</font>攻击力伤害的光弹。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90482] = {
+	[108530] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "塞西莉娅引导圣光守护目标，主教领域内强化全体友军。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90482,
+				["sid"] = 30664,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30665,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30666,
 			},
 		},
+		["key"] = 108530,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 90482,
-		["name"] = "侵蚀之毒",
+		["name"] = "圣光的引导",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "释放侵蚀时，会对随机目标额外赋予一层不协之毒，重复<font color='#green2#'>2</font>次。",
-		["params"] = "res/image/ui/04_skill/salt.png",
+		["full_desc"] = "塞西莉娅引导圣光环绕自身，提升自身的防御力并降低自身的攻击力，同时获得每受一次技能伤害，恢复自身<font color='#orange#'>{id =306654,index=1,format = 2}</font>最大生命值的效果，可触发<font color='#orange#'>3</font>次，永久存在，若自身生命值在<font color='#orange#'>75%</font>以上，则该效果提升至<font color='#orange#'>5</font>次。张开主教领域之后，塞西莉娅引导圣光强化全体友军，提升全体友军普攻伤害与暴击伤害；若塞西莉娅生命值在<font color='#orange#'>75%</font>以上，则塞西莉娅会积蓄一部分神圣能量，在下次能量条清空时强化全体友军。<br/><font color='#green1#'>战斗开始</font>：提升<font color='#green1#'>{id =30664,index=1,format = 2}</font>防御，降低自身<font color='#green1#'>{id =306641,index=1,format = 2}</font>的攻击力；<br/>张开主教领域之后，提升全体友军<font color='#green1#'>{id =306646,index=1,format = 2}</font>的普攻伤害，提升全体友军<font color='#green1#'>{id =306645,index=1,format = 2}</font>的暴击伤害；<br/><font color='#blue1#'>激战阶段</font>：提升<font color='#green1#'>{id =30665,index=1,format = 2}</font>防御，降低自身<font color='#green1#'>{id =306651,index=1,format = 2}</font>的攻击力；<br/>张开主教领域之后，提升全体友军<font color='#green1#'>{id =306656,index=1,format = 2}</font>的普攻伤害，提升全体友军<font color='#green1#'>{id =306655,index=1,format = 2}</font>的暴击伤害；<br/><font color='#purple#'>终结阶段</font>：提升<font color='#green1#'>{id =30666,index=1,format = 2}</font>防御，降低自身<font color='#green1#'>{id =306661,index=1,format = 2}</font>的攻击力；<br/>张开主教领域之后，提升全体友军<font color='#green1#'>{id =306666,index=1,format = 2}</font>的普攻伤害，提升全体友军<font color='#green1#'>{id =306665,index=1,format = 2}</font>的暴击伤害。",
+		["params"] = "res/image/ui/04_skill/apocalypse.png",
 	},
 	[521011] = {
 		["max_level"] = 1,
@@ -74630,17 +75202,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80295] = {
-		["max_level"] = 10,
+	[533003] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80295,
+				["sid"] = 533003,
 			},
 		},
 		["consume"] = {
@@ -74650,88 +75222,68 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80295,
-		["name"] = "艾尔薇黑ex",
+		["key"] = 533003,
+		["name"] = "黑蔷薇剑兵",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "每当队友释放碎甲时，艾尔薇有<font color='#green2#'>80%</font>概率额外获得一层强弓效果。",
+		["full_desc"] = "攻击敌方单体，造成300%攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[108430] = {
+	[592303] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592303,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592303,
+		["name"] = "光明会狂战",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[104840] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "比南纳尔扔出铸世之锤攻击敌人，并引导一次普攻。",
+		["simple_desc"] = "治疗全体队友，并赐福目标队友。",
 		["skill_type"] = 1,
 		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30654,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30655,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30656,
+				["sid"] = 30419,
 			},
 		},
-		["key"] = 108430,
+		["key"] = 104840,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["name"] = "铸世之锤",
+		["name"] = "绽放",
 		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "比南纳尔扔出铸世之锤，攻击<font color='#orange#'>1</font>名敌人，使目标受到的普通攻击伤害加深<font color='#orange#'>20%</font>，同时提升自身暴击率，持续<font color='#orange#'>6</font>秒，之后立刻进行一次普通攻击。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30654,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306545,index=1,format = 2}</font>的暴击率；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30655,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306545,index=1,format = 2}</font>的暴击率；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30656,index=1,format = 2}</font>攻击力的伤害，提升自身<font color='#green1#'>{id =306545,index=1,format = 2}</font>的暴击率。",
-		["params"] = "res/image/ui/04_skill/hephaistos.png",
-	},
-	[80243] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80243,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80243,
-		["name"] = "疾风 黑EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "心眼增加<font color='#green2#'>100%</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "薇欧瑞儿利用大自然的力量治疗全体队友，使队友每<font color='#orange#'>2</font>秒恢复一次生命，持续<font color='#orange#'>6</font>秒。同时赐福目标队友，使其下一击伤害提高<font color='#orange#'>100%</font>。群体攻击和多段攻击只有<font color='#orange#'>1个</font>伤害有效。<br/><font color='#green1#'>战斗开始</font>：每次恢复<font color='#green2#'>{id =30419,index=1,format = 2}</font>攻击力生命值。<br/><font color='#blue1#'>激战阶段</font>：每次恢复<font color='#green2#'>{id =30419,index=1,format = 2}</font>攻击力的生命值。<br/><font color='#purple#'>终结阶段</font>：每次恢复<font color='#green2#'>{id =30419,index=1,format = 2}</font>攻击力的生命值。",
+		["params"] = "res/image/ui/04_skill/blossom.png",
 	},
 	[521012] = {
 		["max_level"] = 1,
@@ -74768,36 +75320,26 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200421] = {
-		["max_level"] = 10,
+	[580583] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "每次释放技能造成伤害时，释放<font color='#orange#'>3</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200421,
+				["sid"] = 580583,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200421,
-		["simple_desc"] = "鞭猫普攻",
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 580583,
+		["name"] = "圣物-追加攻击",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "鞭猫普攻",
+		["full_desc"] = "释放技能造成伤害时，释放<font color='#orange#'>3</font>个<font color='#orange#'>50%</font>攻击力光弹。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[51074] = {
@@ -75020,79 +75562,61 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592544] = {
+	[580613] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次释放技能时若存在怪物标记则附加光弹伤害。",
+		["simple_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>11%</font>。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592544,
+				["sid"] = 580613,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 592544,
-		["name"] = "被动-光弹",
+		["key"] = 580613,
+		["name"] = "圣物-技能减伤Lv3",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次释放技能时若存在怪物标记则附加光弹伤害。",
+		["full_desc"] = "自身受到的技能伤害或异常状态伤害减少<font color='#orange#'>11%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521620] = {
+	[580109] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5216201,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5216202,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5216203,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521620,
-		["name"] = "光明会拳师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[534500] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "赋予自身反弹效果，受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
+		["simple_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 534500,
+				["sid"] = 580109,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580109,
+		["name"] = "被动-固守",
+		["counter_type"] = {
+		},
+		["full_desc"] = "大幅提升自身防御，持续一定时间，之后自身每秒损失大量生命值。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80413] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "白色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80413,
 			},
 		},
 		["consume"] = {
@@ -75102,12 +75626,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 534500,
-		["name"] = "反伤印记",
+		["key"] = 80413,
+		["name"] = "贝瑟芬妮白",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "赋予自身反弹效果，受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "贝瑟芬妮的幽冥一击附带特效会同时对<font color='#green2#'>2</font>名敌人生效。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
 	[521015] = {
 		["max_level"] = 1,
@@ -75144,17 +75669,17 @@ skillgroup = {
 		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80277] = {
+	[80501] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
+		["simple_desc"] = "黑色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80277,
+				["sid"] = 80501,
 			},
 		},
 		["consume"] = {
@@ -75164,57 +75689,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80277,
-		["name"] = "薇欧瑞儿 白EX",
+		["key"] = 80501,
+		["name"] = "薇薇安SP黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "薇欧瑞儿释放绽放时，每次恢复的治疗量提升<font color='#green2#'>1倍</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放克拉伦特后增加<font color='#green2#'>50%</font>的暴击伤害，持续3秒。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[200171] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 200171,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200171,
-		["simple_desc"] = "鬼魂普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "鬼魂普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[572001] = {
+	[580121] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "开场时携带2层光弹印记。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572001,
+				["sid"] = 580121,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580121,
+		["name"] = "沙漠毒蝎",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592405] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592405,
 			},
 		},
 		["consume"] = {
@@ -75224,11 +75739,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572001,
-		["name"] = "光弹印记",
+		["key"] = 592405,
+		["name"] = "兄弟会刺客",
 		["counter_type"] = {
 		},
-		["full_desc"] = "开场时携带2层光弹印记。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521016] = {
@@ -75266,35 +75781,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80413] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80413,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80413,
-		["name"] = "贝瑟芬妮白",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "贝瑟芬妮的幽冥一击附带特效会同时对<font color='#green2#'>2</font>名敌人生效。",
-		["params"] = "res/image/ui/04_skill/passive/singer.png",
-	},
-	[90254] = {
+	[903553] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -75304,7 +75791,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90251,
+				["sid"] = 903553,
 			},
 		},
 		["consume"] = {
@@ -75314,13 +75801,40 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90254,
-		["name"] = "骸骨之墙",
+		["key"] = 903553,
+		["name"] = "帝企鹅随机回血",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "骸骨护盾的亡者之怒额外加成提升至<font color='#green2#'>15%</font>当前生命值。持续时间延长至8秒。",
-		["params"] = "res/image/ui/04_skill/boneshield.png",
+		["full_desc"] = "随机破甲",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[592410] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 592410,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 592410,
+		["name"] = "骷髅法师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90104] = {
 		["max_level"] = 10,
@@ -75385,17 +75899,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[903534] = {
+	[80289] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "白色符文-1升级",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 903534,
+				["sid"] = 80289,
 			},
 		},
 		["consume"] = {
@@ -75405,25 +75919,33 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 903534,
-		["name"] = "帝企鹅延迟回血",
+		["key"] = 80289,
+		["name"] = "沙利叶 白EX",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "延迟回血",
+		["full_desc"] = "沙利叶释放治愈的神迹时，治疗提升<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592413] = {
+	[521412] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592413,
+				["sid"] = 5214121,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214122,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214123,
 			},
 		},
 		["consume"] = {
@@ -75433,40 +75955,44 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592413,
-		["name"] = "零歧监工",
+		["key"] = 521412,
+		["name"] = "北境叛军女",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80501] = {
+	[200431] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80501,
+				["sid"] = 200431,
 			},
 		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200431,
+		["simple_desc"] = "锯猫普攻",
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80501,
-		["name"] = "薇薇安SP黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "释放克拉伦特后增加<font color='#green2#'>50%</font>的暴击伤害，持续3秒。",
-		["params"] = "res/image/ui/04_skill/passive/singer.png",
+		["name"] = "锯猫普攻",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[521018] = {
 		["max_level"] = 1,
@@ -75580,27 +76106,33 @@ skillgroup = {
 		["name"] = "冰霜之羽",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580139] = {
-		["max_level"] = 1,
+	[600613] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580139,
+				["sid"] = 600613,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580139,
-		["name"] = "骷髅战士",
+		["key"] = 600613,
+		["name"] = "圣光洗礼",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放裁决时，会削弱所有怪物<font color='#green2#'>3层</font>护盾效果。",
+		["params"] = "res/image/ui/04_skill/holyblade.png",
 	},
 	[80123] = {
 		["max_level"] = 10,
@@ -75635,26 +76167,31 @@ skillgroup = {
 		["full_desc"] = "敦请天使伤害提高<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580531] = {
+	[592429] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次释放群体技能时，额外对一个后排怪物释放<font color='#orange#'>1</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580531,
+				["sid"] = 592429,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580531,
-		["name"] = "圣物-追加光弹",
+		["key"] = 592429,
+		["name"] = "魔斧手罗萨",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次释放群体技能时，额外对一个后排怪物释放<font color='#orange#'>1</font>个光弹，造成<font color='#orange#'>50%</font>攻击力伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[101110] = {
@@ -75700,42 +76237,24 @@ skillgroup = {
 		["name"] = "断罪之力",
 		["params"] = "res/image/ui/04_skill/judgepower.png",
 	},
-	[107440] = {
+	[108300] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "艾琳释放羽毛环绕目标单体，并赋予一层恐惧。",
-		["skill_type"] = 1,
-		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30589,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30590,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30591,
+				["sid"] = 10066,
 			},
 		},
-		["key"] = 107440,
+		["skill_type"] = 1,
+		["key"] = 108300,
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["name"] = "不祥之羽",
-		["combo_value"] = 2,
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "艾琳释放羽毛环绕于敌方前排目标，持续<font color='#orange#'>5</font>秒，并赋予<font color='#orange#'>一层</font>恐惧。若目标<font color='#orange#'>死亡</font>则羽毛会吸收亡者的灵魂变为尖刺对最近的单位造成伤害。<br/><font color='#green1#'>战斗开始</font>：爆炸造成<font color='#green1#'>{id =305891,index=1,format = 2}</font>的攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40024,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复<font color='#orange#'>{id =40025,index=1,format = 2}</font>释放者攻击力的生命值；<br/><font color='#blue1#'>激战阶段</font>：爆炸造成<font color='#green1#'>{id =305901,index=1,format = 2}</font>的攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40022,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复释放者<font color='#orange#'>{id =40023,index=1,format = 2}</font>攻击力的生命值；<br/><font color='#purple#'>终结阶段</font>：爆炸造成<font color='#green1#'>{id =305911,index=1,format = 2}</font>的攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40022,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复释放者<font color='#orange#'>{id =40023,index=1,format = 2}</font>攻击力的生命值。",
-		["params"] = "res/image/ui/04_skill/disasterplume.png",
+		["name"] = "普通攻击（天选者薇薇安）",
+		["probability"] = 500,
 	},
 	[521020] = {
 		["max_level"] = 1,
@@ -75772,17 +76291,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[41204] = {
-		["max_level"] = 1,
+	[60056] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。并赋予全体友军攻速和暴击状态。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 41204,
+				["sid"] = 60056,
 			},
 		},
 		["consume"] = {
@@ -75792,12 +76311,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 41204,
-		["name"] = "巫师鲁恩",
+		["key"] = 60056,
+		["name"] = "锯齿刃",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。并赋予全体友军攻速和暴击状态。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放死亡绽放，会额外触发3次攻击，每次造成<font color='#green2#'>{id =600561, index=1,key='sub_hp ',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/lycoris.png",
 	},
 	[200141] = {
 		["max_level"] = 10,
@@ -75831,17 +76351,17 @@ skillgroup = {
 		["name"] = "匕首刺客普通攻击",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60056] = {
-		["max_level"] = 10,
+	[41304] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "进入战斗后，降低非组合技技能伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60056,
+				["sid"] = 41304,
 			},
 		},
 		["consume"] = {
@@ -75851,13 +76371,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60056,
-		["name"] = "锯齿刃",
+		["key"] = 41304,
+		["name"] = "考验组合技",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放死亡绽放，会额外触发3次攻击，每次造成<font color='#green2#'>{id =600561, index=1,key='sub_hp ',format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/lycoris.png",
+		["full_desc"] = "进入战斗后，降低非组合技技能伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90361] = {
 		["max_level"] = 10,
@@ -75887,37 +76406,31 @@ skillgroup = {
 		["full_desc"] = "女武神的制裁有<font color='#green2#'>50%</font>概率额外赋予一层灼烧或重伤。",
 		["params"] = "res/image/ui/04_skill/passive/heromaker.png",
 	},
-	[80164] = {
-		["max_level"] = 10,
+	[578112] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80164,
+				["sid"] = 578112,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80164,
-		["name"] = "布伦希尔德 白",
+		["key"] = 578112,
+		["name"] = "魔女娜娜",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "女武神有概率额外为自己增加<font color='#green2#'>1</font>层战技状态。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[592442] = {
@@ -75947,7 +76460,7 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[70066] = {
+	[600991] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -75957,7 +76470,35 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70066,
+				["sid"] = 600991,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600991,
+		["name"] = "多重碎甲",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放碎甲时，有<font color='#green2#'>80%</font>概率对前排目标再释放1次，3秒冷却。",
+		["params"] = "res/image/ui/04_skill/armorbreak.png",
+	},
+	[60033] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60033,
 			},
 		},
 		["consume"] = {
@@ -75972,33 +76513,47 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70066,
-		["name"] = "护甲切割",
+		["key"] = 60033,
+		["name"] = "与死亡共舞",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "造成伤害时降低前排目标<font color='#green1#'>{id =700661, index=1, format = 2}</font>的防御，持续10秒，最多叠加5层，不可驱散。",
-		["params"] = "res/image/ui/04_skill/armorbreak.png",
+		["full_desc"] = "深渊之击伤害提升<font color='#green2#'>50%</font>",
+		["params"] = "res/image/ui/04_skill/abyssburst.png",
 	},
-	[521022] = {
+	[580163] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "赋予敌方流血状态。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5210221,
+				["sid"] = 580163,
 			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5210222,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5210223,
+		},
+		["consume"] = {
+		},
+		["key"] = 580163,
+		["name"] = "白熊",
+		["counter_type"] = {
+		},
+		["full_desc"] = "赋予敌方流血状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80278] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80278,
 			},
 		},
 		["consume"] = {
@@ -76008,33 +76563,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521022,
-		["name"] = "狂热冲击",
+		["key"] = 80278,
+		["name"] = "米迦勒 黑",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "增强自身攻速，有狂暴印记时，额外获得暴击效果。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580164] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 580164,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 580164,
-		["name"] = "骷髅弓箭手",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "米迦勒释放圣日之铠时，攻击力每提升5%，三个阶段的防御提升的幅度依次提升至<font color='#green2#'>4%</font>、<font color='#green2#'>5%</font>、<font color='#green2#'>5%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80165] = {
@@ -76070,33 +76604,6 @@ skillgroup = {
 		["full_desc"] = "女武神有概率额外为自己增加<font color='#green2#'>1~2</font>层战技状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592448] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592448,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592448,
-		["name"] = "惩罚搜捕者",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[80124] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -76130,118 +76637,39 @@ skillgroup = {
 		["full_desc"] = "圣恩治疗效果提高<font color='#green2#'>50%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[903512] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 903512,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 903512,
-		["name"] = "帝企鹅",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "蒂奇每<font color='#green2#'>3</font>秒赋予随机敌人碎甲，并在消失时将<font color='#green2#'>{id =903542, index=1, format = 2}</font>剩余生命值平均治疗全体友军。",
-		["params"] = "res/image/ui/04_skill/teach.png",
-	},
-	[41310] = {
+	[3120021] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "当攻击敌人造成伤害时，治疗自身。",
+		["simple_desc"] = "自身减伤效果提升。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 41310,
+				["sid"] = 3120021,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 41310,
-		["name"] = "吸血",
+		["key"] = 3120021,
+		["name"] = "前排加减伤",
 		["counter_type"] = {
 		},
-		["full_desc"] = "当攻击敌人造成伤害时，治疗自身。",
+		["full_desc"] = "自身减伤效果提升。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[107800] = {
+	[80294] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 10061,
-			},
-		},
-		["skill_type"] = 1,
-		["key"] = 107800,
-		["consume"] = {
-		},
-		["counter_type"] = {
-		},
-		["name"] = "普通攻击(斯巴达)",
-		["probability"] = 500,
-	},
-	[41313] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "释放技能时，同时恢复我方全体血量。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 41313,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 41313,
-		["name"] = "治疗",
-		["counter_type"] = {
-		},
-		["full_desc"] = "释放技能时，同时恢复我方全体血量。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80300] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "白色符文-1",
+		["simple_desc"] = "黑色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80300,
+				["sid"] = 80294,
 			},
 		},
 		["consume"] = {
@@ -76251,36 +76679,35 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80300,
-		["name"] = "威廉白",
+		["key"] = 80294,
+		["name"] = "艾尔薇黑",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "威廉释放水晶之刃造成伤害时，有<font color='#green2#'>40%</font>概率额外获得1层霜怒效果。",
+		["full_desc"] = "每当队友释放碎甲时，艾尔薇有<font color='#green2#'>40%</font>概率额外获得一层强弓效果。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[106230] = {
-		["max_level"] = 10,
+	[521523] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击1名敌人，命中有碎甲的目标后，减少其受到的治疗效果。",
+		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
 		["skill_type"] = 1,
-		["probability"] = 3300,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 30464,
+				["sid"] = 5215231,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 30465,
+				["sid"] = 5215232,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 30466,
+				["sid"] = 5215233,
 			},
 		},
-		["key"] = 106230,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -76288,13 +76715,93 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["name"] = "碎星箭",
-		["combo_value"] = 2,
+		["key"] = 521523,
+		["name"] = "獠牙酋长",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[90002] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "为自身提供非常强的免伤效果，只在战斗开始和激战阶段有效。",
+		["skill_type"] = 1,
+		["probability"] = 1000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 900021,
+			},
+			[2] = {
+				["round"] = 5,
+				["sid"] = 900022,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90002,
+		["name"] = "终极守护",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "艾尔薇射出强力的一箭，攻击<font color='#orange#'>1</font>名敌人；若目标处于<font color='#orange#'>碎甲</font>状态，则会同时降低目标受到的治疗效果，持续<font color='#orange#'>10</font>秒<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30464,index=1,format = 2}</font>攻击力的伤害，降低<font color='#orange#'>90%</font>的治疗效果。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30465,index=1,format = 2}</font>攻击力的伤害，降低<font color='#orange#'>90%</font>的治疗效果。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30466,index=1,format = 2}</font>攻击力的伤害，降低<font color='#orange#'>90%</font>的治疗效果。",
-		["params"] = "res/image/ui/04_skill/starthund.png",
+		["full_desc"] = "1",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580169] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580169,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580169,
+		["name"] = "被动-狂暴",
+		["counter_type"] = {
+		},
+		["full_desc"] = "战斗进入到后期时，将大幅增加攻击力，同时会附加目标生命百分比的额外伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[5400021] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5400021,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 5400021,
+		["name"] = "骷髅弓箭手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[90004] = {
 		["max_level"] = 10,
@@ -76352,26 +76859,31 @@ skillgroup = {
 		["full_desc"] = "女武神的制裁有<font color='#green2#'>100%</font>概率额外赋予一层灼烧或重伤。",
 		["params"] = "res/image/ui/04_skill/passive/heromaker.png",
 	},
-	[580178] = {
+	[592457] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "大幅治疗我方全体单位。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580178,
+				["sid"] = 592457,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580178,
-		["name"] = "被动-治疗",
+		["key"] = 592457,
+		["name"] = "黑蔷薇剑兵",
 		["counter_type"] = {
 		},
-		["full_desc"] = "大幅治疗我方全体单位。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[600434] = {
@@ -76431,54 +76943,48 @@ skillgroup = {
 		["full_desc"] = "艾德蕾妮是一名技艺高超的剑术家，弱小的攻击能一眼看穿并抵挡。艾德蕾妮在进场时会赋予<font color='#orange#'>自身</font>及<font color='#orange#'>辅助目标</font>一层<font color='#orange#'>守护</font>状态，持有此状态的单位如果受到的伤害值<font color='#orange#'>低于</font>艾德蕾妮<font color='#orange#'>{id =30592,index=1,format = 2}</font>攻击力，则完全抵挡该伤害。该状态不可驱散。",
 		["params"] = "res/image/ui/04_skill/passive/warn.png",
 	},
-	[600454] = {
-		["max_level"] = 10,
+	[580178] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "大幅治疗我方全体单位。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600454,
+				["sid"] = 580178,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 600454,
-		["name"] = "破甲之刃",
+		["key"] = 580178,
+		["name"] = "被动-治疗",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "瓦恩的净化之刃会有<font color='#green2#'>100%</font>概率额外减少怪物<font color='#green2#'>{id =600457, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
-		["params"] = "res/image/ui/04_skill/holyzeal.png",
+		["full_desc"] = "大幅治疗我方全体单位。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580185] = {
+	[580179] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580185,
+				["sid"] = 580179,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580185,
-		["name"] = "罗萨",
+		["key"] = 580179,
+		["name"] = "被动-链甲",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "进入战斗后，大幅提升自身防御。当受到主动技能的减防效果后，防御提升效果清除。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[50052] = {
@@ -76513,7 +77019,7 @@ skillgroup = {
 		["name"] = "海盗头子",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600482] = {
+	[600454] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -76523,7 +77029,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600482,
+				["sid"] = 600454,
 			},
 		},
 		["consume"] = {
@@ -76533,13 +77039,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600482,
-		["name"] = "神圣之怒",
+		["key"] = 600454,
+		["name"] = "破甲之刃",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "菲儿的裁决有<font color='#green2#'>90%</font>概率对怪物的伤害增加<font color='#green2#'>25%</font>。",
-		["params"] = "res/image/ui/04_skill/judgement.png",
+		["full_desc"] = "瓦恩的净化之刃会有<font color='#green2#'>100%</font>概率额外减少怪物<font color='#green2#'>{id =600457, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
+		["params"] = "res/image/ui/04_skill/holyzeal.png",
 	},
 	[571001] = {
 		["max_level"] = 1,
@@ -76596,17 +77102,17 @@ skillgroup = {
 		["full_desc"] = "夏洛特的水龙造成的伤害提高<font color='#green2#'>70%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[600502] = {
-		["max_level"] = 10,
+	[592466] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "每次受到伤害不超过最大生命值的5%。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600502,
+				["sid"] = 592466,
 			},
 		},
 		["consume"] = {
@@ -76616,13 +77122,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600502,
-		["name"] = "狂热",
+		["key"] = 592466,
+		["name"] = "被动-伤害受限",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻速提升效果有<font color='#green2#'>90%</font>概率增加<font color='#green2#'>25%</font>。",
-		["params"] = "res/image/ui/04_skill/bloodknife.png",
+		["full_desc"] = "每次受到伤害不超过最大生命值的5%。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[532100] = {
 		["max_level"] = 1,
@@ -76651,38 +77156,33 @@ skillgroup = {
 		["full_desc"] = "赋予自身3层破甲印记，该标记每次受到伤害时减少1层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[700972] = {
+	[60058] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 700972,
+				["sid"] = 60058,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 700972,
-		["name"] = "守势",
+		["key"] = 60058,
+		["name"] = "天威",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "普通攻击造成伤害时，提升自身<font color='#green2#'>{id =7009721, index=1, format = 2}</font>的防御，持续3秒，可叠加3层。",
-		["params"] = "res/image/ui/04_skill/unfearbless.png",
+		["full_desc"] = "对怪物释放神圣轰击，会降低其<font color='#green2#'>{id =600581, index=1,key='buff_sub_fy ',format = 2}</font>防御。",
+		["params"] = "res/image/ui/04_skill/holybombardment.png",
 	},
 	[5400081] = {
 		["max_level"] = 1,
@@ -76711,17 +77211,39 @@ skillgroup = {
 		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90021] = {
+	[580188] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580188,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580188,
+		["name"] = "鬼魂",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[600482] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90021,
+				["sid"] = 600482,
 			},
 		},
 		["consume"] = {
@@ -76731,41 +77253,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90021,
-		["name"] = "烈阳护盾",
+		["key"] = 600482,
+		["name"] = "神圣之怒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "烈焰护盾的拥有者受到攻击时，有<font color='#green2#'>20%</font>的概率额外反弹敌方全体一层灼烧。",
-		["params"] = "res/image/ui/04_skill/fireshield.png",
-	},
-	[80298] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80298,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80298,
-		["name"] = "威廉黑",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "铸世之神的后裔中，当威廉闪避普通攻击时，对最近的一名敌人造成的伤害提升至<font color='#green2#'>300%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "菲儿的裁决有<font color='#green2#'>90%</font>概率对怪物的伤害增加<font color='#green2#'>25%</font>。",
+		["params"] = "res/image/ui/04_skill/judgement.png",
 	},
 	[90363] = {
 		["max_level"] = 10,
@@ -76795,45 +77289,59 @@ skillgroup = {
 		["full_desc"] = "女武神的制裁会额外赋予一层灼烧或重伤，并有<font color='#green2#'>50%</font>概率再次额外赋予一层灼烧或重伤。",
 		["params"] = "res/image/ui/04_skill/passive/heromaker.png",
 	},
-	[80299] = {
+	[102430] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "单体攻击并重伤目标。",
+		["skill_type"] = 1,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80299,
+				["sid"] = 30105,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30106,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30107,
 			},
 		},
+		["key"] = 102430,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80299,
-		["name"] = "威廉黑EX",
+		["name"] = "龙尾击",
+		["combo_value"] = 1,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "铸世之神的后裔中，当威廉闪避普通攻击时，对最近的一名敌人造成的伤害提升至<font color='#green2#'>400%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击<font color='#orange#'>1</font>名敌人，并赋予目标<font color='#orange#'>1</font>层重伤效果，同时有<font color='#orange#'>50%</font>概率额外赋予<font color='#orange#'>1</font>层重伤效果。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30108,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30109,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30110,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>重伤</font>效果每1层会造成每秒<font color='#orange#'>{id =40004,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
+		["params"] = "res/image/ui/04_skill/dragontail.png",
 	},
-	[5924006] = {
+	[575101] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "当能量条清空时，释放若干枚光弹攻击敌人。",
+		["simple_desc"] = "每次释放技能回复群体血量。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5924006,
+				["sid"] = 575101,
 			},
 		},
 		["consume"] = {
@@ -76843,39 +77351,55 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 5924006,
-		["name"] = "被动-光弹流星",
+		["key"] = 575101,
+		["name"] = "群体治疗",
 		["counter_type"] = {
 		},
-		["full_desc"] = "当能量条清空时，释放20枚光弹攻击敌人，每枚光弹造成100%攻击力伤害。",
+		["full_desc"] = "每次释放技能回复群体血量",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592501] = {
-		["max_level"] = 1,
+	[101320] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击增益，使1名友军攻击时能恢复生命。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
+		["accompany"] = 1,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592501,
+				["sid"] = 30011,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30014,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30017,
 			},
 		},
+		["key"] = 101320,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 592501,
-		["name"] = "呆萌木乃伊",
+		["full_desc"] = "神圣系技能，赐福目标友军，使其造成伤害时,恢复造成伤害一定百分比的生命值。神圣试炼效果持续<font color='#orange#'>2</font>秒。<br/><font color='#green1#'>战斗开始</font>：恢复<font color='#green2#'>{id =300112,index=1,key='add_hp',format=2}</font>造成伤害的生命；<br/><font color='#blue1#'>激战阶段</font>：恢复<font color='#green2#'>{id =300142,index=1,key='add_hp',format=2}</font>造成伤害的生命；<br/><font color='#purple#'>终结阶段</font>：恢复<font color='#green2#'>{id =300172,index=1,key='add_hp',format=2}</font>造成伤害的生命。<br/><font color='#red#'>没有队友时不会释放</font>",
+		["combo_value"] = 1,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["name"] = "神圣试炼",
+		["params"] = "res/image/ui/04_skill/holychallenge.png",
 	},
 	[60034] = {
 		["max_level"] = 10,
@@ -76910,17 +77434,17 @@ skillgroup = {
 		["full_desc"] = "灵魂震颤沉默时间延长为<font color='#green2#'>4</font>秒。",
 		["params"] = "res/image/ui/04_skill/spiritbreak.png",
 	},
-	[592503] = {
-		["max_level"] = 1,
+	[90021] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592503,
+				["sid"] = 90021,
 			},
 		},
 		["consume"] = {
@@ -76930,12 +77454,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592503,
-		["name"] = "沙漠地龙",
+		["key"] = 90021,
+		["name"] = "烈阳护盾",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "烈焰护盾的拥有者受到攻击时，有<font color='#green2#'>20%</font>的概率额外反弹敌方全体一层灼烧。",
+		["params"] = "res/image/ui/04_skill/fireshield.png",
 	},
 	[575103] = {
 		["max_level"] = 1,
@@ -76968,46 +77493,28 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害，终结阶段附加防御加成的伤害值。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[5400121] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5400121,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 5400121,
-		["name"] = "光明会拳师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80126] = {
+	[104440] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
+		["simple_desc"] = "赋予1名友军3个随机增益效果。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80126,
+				["sid"] = 30382,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30383,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30384,
 			},
 		},
+		["key"] = 104440,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
@@ -77020,12 +77527,39 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80126,
-		["name"] = "伊莎贝拉",
+		["name"] = "苍蓝赞歌",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "敦请天使有<font color='#green2#'>30%</font>的概率沉默被击敌人6秒。",
+		["full_desc"] = "洛天依演唱悠远的赞歌，随机赋予<font color='#orange#'>1</font>名友军以下增益效果之中的<font color='#orange#'>3</font>个：<br/>防御提升<font color='#green2#'>{id =303851,index=2,format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>闪避提升<font color='#green2#'>{id =303852,index=2,format = 2}</font>，持续<font color='#orange#'>6</font>秒；<br/>受到伤害时提升<font color='#green2#'>{id =303854,index=1,format = 2}</font>攻击速度，持续<font color='#orange#'>6</font>秒；<br/>受到伤害时，与全体队友共同分担，持续<font color='#orange#'>6</font>秒。",
+		["params"] = "res/image/ui/04_skill/bluesong.png",
+	},
+	[575104] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "进入战斗，全体英雄：减治疗效果极大提升",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 575104,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 575104,
+		["name"] = "降低治疗效果提升",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进入战斗，全体英雄：减治疗效果极大提升",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80382] = {
@@ -77083,17 +77617,17 @@ skillgroup = {
 		["full_desc"] = "进入战斗，全体英雄：减防效果极大提升",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600531] = {
-		["max_level"] = 10,
+	[592502] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600531,
+				["sid"] = 592502,
 			},
 		},
 		["consume"] = {
@@ -77103,13 +77637,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600531,
-		["name"] = "末端爆发",
+		["key"] = 592502,
+		["name"] = "执杖木乃伊",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物施放群体攻击技能时，有<font color='#green2#'>80%</font>概率会对最远的目标造成一次<font color='#green2#'>75%</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[571011] = {
 		["max_level"] = 1,
@@ -77138,37 +77671,137 @@ skillgroup = {
 		["full_desc"] = "受到技能伤害时，反弹所受到的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80173] = {
+	[600522] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "白色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80173,
+				["sid"] = 600522,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 80173,
-		["name"] = "齐格飞 白EX",
+		["key"] = 600522,
+		["name"] = "腥红飞溅",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "魔剑解放的脆弱伤害增加20%，同时技能伤害提升<font color='#green2#'>100%</font>。",
+		["full_desc"] = "攻击怪物时，每次普攻有<font color='#green2#'>90%</font>概率施放一个光弹，造成<font color='#green2#'>{id =600526, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
+	},
+	[95141] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "与怪物战斗时，水晶之刃和凛冬已至对碎甲造成额外伤害。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 95141,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 95141,
+		["name"] = "凛冬王者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "与怪物战斗时，水晶之刃对碎甲单位额外造成<font color='#green2#'>{id =951414, index=1, format = 2}</font>攻击力的伤害，若该单位在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951414, index=2, format = 2}</font>攻击力的伤害；凛冬已至对碎甲单位额外造成<font color='#green2#'>{id =951416, index=1, format = 2}</font>攻击力的伤害，若该单位在本次战斗中获得过防御类增益状态的加成，则再对其造成<font color='#green2#'>{id =951416, index=2, format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/sublimation.png",
+	},
+	[600524] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600524,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600524,
+		["name"] = "腥红飞溅",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "攻击怪物时，每次普攻有<font color='#green2#'>100%</font>概率施放一个光弹，造成<font color='#green2#'>{id =600527, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
+	},
+	[90364] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 90364,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 90364,
+		["name"] = "武神裁决",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "女武神的制裁有<font color='#green2#'>100%</font>概率额外赋予一层灼烧或重伤，重复2次。",
+		["params"] = "res/image/ui/04_skill/passive/heromaker.png",
+	},
+	[107000] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10053,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 500,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "普通攻击(缪斯)",
+		["combo_value"] = 2,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["key"] = 107000,
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[80301] = {
@@ -77226,61 +77859,6 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90364] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90364,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 90364,
-		["name"] = "武神裁决",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "女武神的制裁有<font color='#green2#'>100%</font>概率额外赋予一层灼烧或重伤，重复2次。",
-		["params"] = "res/image/ui/04_skill/passive/heromaker.png",
-	},
-	[5400161] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5400161,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 5400161,
-		["name"] = "石头人",
-		["counter_type"] = {
-		},
-		["full_desc"] = "增加攻击，在攻击达到一定程度之后提升攻速",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[600534] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -77309,17 +77887,17 @@ skillgroup = {
 		["full_desc"] = "对怪物施放群体攻击技能时，有<font color='#green2#'>100%</font>概率会对最远的目标造成一次<font color='#green2#'>110%</font>攻击力伤害。",
 		["params"] = "res/image/ui/04_skill/ghostwaltz.png",
 	},
-	[600541] = {
-		["max_level"] = 10,
+	[535200] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "进入战斗后， 赋予自身超高的防御和免伤。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600541,
+				["sid"] = 535200,
 			},
 		},
 		["consume"] = {
@@ -77329,73 +77907,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600541,
-		["name"] = "深层噩梦",
+		["key"] = 535200,
+		["name"] = "高防保护",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "衰弱的减治疗效果增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/puncture.png",
-	},
-	[50018] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 301241,
-			},
-		},
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["key"] = 50018,
-		["simple_desc"] = "对战场内所有其他角色造成伤害。",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "1虚无法球自爆",
+		["full_desc"] = "进入战斗后， 赋予自身超高的防御和免伤。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600554] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600554,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600554,
-		["name"] = "极寒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "释放寒冷时有<font color='#green2#'>100%</font>概率额外附加减少<font color='#green2#'>35%</font>攻击速度的效果。",
-		["params"] = "res/image/ui/04_skill/icefall.png",
 	},
 	[50053] = {
 		["max_level"] = 10,
@@ -77429,17 +77946,17 @@ skillgroup = {
 		["name"] = "沙盗头子",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592531] = {
-		["max_level"] = 1,
+	[60113] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592531,
+				["sid"] = 60113,
 			},
 		},
 		["consume"] = {
@@ -77449,12 +77966,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592531,
-		["name"] = "骷髅战士",
+		["key"] = 60113,
+		["name"] = "赤月之怒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放赤月斩造成伤害时，提升自身<font color='#green2#'>{id =601131, index=1, format = 2}</font>攻速，并且加速自身普通攻击动作。",
+		["params"] = "res/image/ui/04_skill/crescent.png",
 	},
 	[80127] = {
 		["max_level"] = 10,
@@ -77517,17 +78035,59 @@ skillgroup = {
 		["full_desc"] = "夏洛特的流水标记赋予的回血量提升<font color='#green2#'>15%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[60106] = {
+	[102330] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "群体攻击，根据敌人数量造成额外伤害。",
+		["skill_type"] = 1,
+		["probability"] = 3400,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 30100,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30101,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30102,
+			},
+		},
+		["key"] = 102330,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["name"] = "千刃",
+		["combo_value"] = 1,
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "瞬间闪过所有敌人，对全体敌人造成伤害，并有<font color='#orange#'>30%</font>概率赋予被击者<font color='#orange#'>1</font>层重伤效果。同时，千刃会根据敌人数量造成额外伤害，对方有<font color='#orange#'>5</font>名敌人时额外伤害达到最大值。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30100,index=2,key='sub_hp',format = 2}</font>攻击力的基础伤害，每多<font color='#orange#'>1</font>名敌人造成额外<font color='#orange#'>{id =30100,index=1,key='sub_hp_by_popular',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30101,index=2,key='sub_hp',format = 2}</font>攻击力的基础伤害，每多<font color='#orange#'>1</font>名敌人造成额外<font color='#orange#'>{id =30101,index=1,key='sub_hp_by_popular',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30102,index=2,key='sub_hp',format = 2}</font>攻击力的基础伤害，每多<font color='#orange#'>1</font>名敌人造成额外<font color='#orange#'>{id =30102,index=1,key='sub_hp_by_popular',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>重伤</font>效果每1层会造成每秒<font color='#orange#'>{id =40004,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
+		["params"] = "res/image/ui/04_skill/thousandblade.png",
+	},
+	[600611] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60106,
+				["sid"] = 600611,
 			},
 		},
 		["consume"] = {
@@ -77537,13 +78097,71 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60106,
-		["name"] = "追踪光弹",
+		["key"] = 600611,
+		["name"] = "圣光洗礼",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放地裂时，每造成一次伤害释放一枚光弹对随机目标造成<font color='#green2#'>{id =601061, index=1, format = 2}</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/groundfissure.png",
+		["full_desc"] = "对怪物释放裁决时，会削弱所有怪物<font color='#green2#'>1层</font>护盾效果。",
+		["params"] = "res/image/ui/04_skill/holyblade.png",
+	},
+	[600612] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600612,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600612,
+		["name"] = "圣光洗礼",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放裁决时，会削弱所有怪物<font color='#green2#'>2层</font>护盾效果。",
+		["params"] = "res/image/ui/04_skill/holyblade.png",
+	},
+	[20060] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 20060,
+			},
+		},
+		["skill_type"] = 1,
+		["name"] = "狂暴亚龙",
+		["probability"] = 10000,
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+		},
+		["key"] = 20060,
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[200461] = {
 		["max_level"] = 10,
@@ -77599,17 +78217,17 @@ skillgroup = {
 		["full_desc"] = "进场随机增加2%-8%攻击力。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592540] = {
+	[571021] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "进入战斗后，自身获得10层怪物标记，每受到一次伤害清除一层。",
+		["simple_desc"] = "每次受击伤害不超过最大生命的3%。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592540,
+				["sid"] = 571021,
 			},
 		},
 		["consume"] = {
@@ -77619,40 +78237,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592540,
-		["name"] = "怪物标记",
+		["key"] = 571021,
+		["name"] = "伤害上限",
 		["counter_type"] = {
 		},
-		["full_desc"] = "进入战斗后，自身获得10层怪物标记，每受到一次伤害清除一层。",
+		["full_desc"] = "每次受击伤害不超过最大生命的3%。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600651] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600651,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600651,
-		["name"] = "血影",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "杰克攻击怪物时，释放血腥一闪的同时提升杰克<font color='#green2#'>{id =6006511, index=1,key='buff_add_gj ',format = 2}</font>的攻击力。",
-		["params"] = "res/image/ui/04_skill/bloodyshining.png",
 	},
 	[592542] = {
 		["max_level"] = 1,
@@ -77681,17 +78271,45 @@ skillgroup = {
 		["full_desc"] = "每次能量条清空时获得暴击，若存在怪物标记则获得强力暴击。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[571021] = {
+	[60068] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 60068,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 60068,
+		["name"] = "趁虚而入",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放灵魂震颤时，会额外触发3次伤害，每次造成<font color='#green2#'>{id =600681, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/spiritbreak.png",
+	},
+	[592543] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "每次受击伤害不超过最大生命的3%。",
+		["simple_desc"] = "每次释放技能时赋予目标破甲，若存在怪物标记则变为强力破甲。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 571021,
+				["sid"] = 592543,
 			},
 		},
 		["consume"] = {
@@ -77701,96 +78319,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 571021,
-		["name"] = "伤害上限",
+		["key"] = 592543,
+		["name"] = "被动-破甲",
 		["counter_type"] = {
 		},
-		["full_desc"] = "每次受击伤害不超过最大生命的3%。",
+		["full_desc"] = "每次释放技能时赋予目标破甲，若存在怪物标记则变为强力破甲。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[60063] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60063,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60063,
-		["name"] = "双重快感",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放嗜虐快感时，会额外提升自身<font color='#green2#'>{id =600631, index=1,key='buff_sub_skill_idle ',format = 2}</font>攻击速度。",
-		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
-	},
-	[600702] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600702,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600702,
-		["name"] = "唤醒龙魂",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放龙枪时，会额外赋予其<font color='#green2#'>2层</font>重伤效果。",
-		["params"] = "res/image/ui/04_skill/dragonrage.png",
-	},
-	[60071] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60071,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60071,
-		["name"] = "冰刺",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放苍蓝冰棺时，会额外降低其<font color='#green2#'>{id =600711, index=1,key='buff_sub_gj ',format = 2}</font>的防御。",
-		["params"] = "res/image/ui/04_skill/icecasket.png",
 	},
 	[60035] = {
 		["max_level"] = 10,
@@ -77852,17 +78386,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80307] = {
+	[600702] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80307,
+				["sid"] = 600702,
 			},
 		},
 		["consume"] = {
@@ -77872,13 +78406,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80307,
-		["name"] = "莉莉丝黑EX",
+		["key"] = 600702,
+		["name"] = "唤醒龙魂",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "莉莉丝的黑暗奴仆法球伤害提升<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "对怪物释放龙枪时，会额外赋予其<font color='#green2#'>2层</font>重伤效果。",
+		["params"] = "res/image/ui/04_skill/dragonrage.png",
 	},
 	[532122] = {
 		["max_level"] = 1,
@@ -77968,6 +78502,172 @@ skillgroup = {
 		["full_desc"] = "夏洛特的流水标记赋予的回血量提升<font color='#green2#'>30%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
+	[600771] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600771,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600771,
+		["name"] = "灵魂囚禁",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放影牢时，会附带1层衰弱效果，降低目标<font color='#green2#'>20%</font>治疗效果。",
+		["params"] = "res/image/ui/04_skill/shadowtrap.png",
+	},
+	[600794] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600794,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600794,
+		["name"] = "破甲",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "攻击怪物时，有<font color='#green2#'>100%</font>概率额外降低一个目标<font color='#green2#'>{id =600799, index=1,key='buff_sub_fy',format = 2}</font>防御。",
+		["params"] = "res/image/ui/04_skill/armorbreak.png",
+	},
+	[80307] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80307,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80307,
+		["name"] = "莉莉丝黑EX",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "莉莉丝的黑暗奴仆法球伤害提升<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[3110021] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "自身减伤效果提升。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 3110021,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 3110021,
+		["name"] = "前排加减伤",
+		["counter_type"] = {
+		},
+		["full_desc"] = "自身减伤效果提升。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[200151] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 200151,
+			},
+		},
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["key"] = 200151,
+		["simple_desc"] = "手弩刺客普通攻击",
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["name"] = "手弩刺客普通攻击",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[600822] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 600822,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 600822,
+		["name"] = "致命重伤",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放精准射击时，有概率赋予其<font color='#green2#'>1~2</font>层重伤效果。",
+		["params"] = "res/image/ui/04_skill/multishot.png",
+	},
 	[600832] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -78052,61 +78752,7 @@ skillgroup = {
 		["full_desc"] = "对怪物释放冥界打击时，对所有怪物释放<font color='#green2#'>2层</font>减治疗，怪物释放的治疗效果被降低。",
 		["params"] = "res/image/ui/04_skill/deathstrike.png",
 	},
-	[3110021] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身减伤效果提升。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 3110021,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 3110021,
-		["name"] = "前排加减伤",
-		["counter_type"] = {
-		},
-		["full_desc"] = "自身减伤效果提升。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[200151] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 200151,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200151,
-		["simple_desc"] = "手弩刺客普通攻击",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "手弩刺客普通攻击",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[600854] = {
+	[600853] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -78116,7 +78762,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600854,
+				["sid"] = 600853,
 			},
 		},
 		["consume"] = {
@@ -78126,48 +78772,15 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600854,
+		["key"] = 600853,
 		["name"] = "攻击弱化",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>14%</font>。",
+		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>11%</font>。",
 		["params"] = "res/image/ui/04_skill/magicvacuum.png",
 	},
-	[70072] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 70072,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 70072,
-		["name"] = "护盾",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "开场时获得一个吸收<font color='#green2#'>{id =70072, index=1, format = 2}</font>攻击力伤害的护盾，持续25秒。",
-		["params"] = "res/image/ui/04_skill/shieldbash.png",
-	},
-	[600871] = {
+	[600761] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -78177,7 +78790,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600871,
+				["sid"] = 600761,
 			},
 		},
 		["consume"] = {
@@ -78187,125 +78800,35 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600871,
-		["name"] = "恶咒",
+		["key"] = 600761,
+		["name"] = "灭魂",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>80%</font>概率增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
+		["full_desc"] = "对怪物释放破灭时，会额外减少其<font color='#green2#'>1层</font>护盾效果。",
+		["params"] = "res/image/ui/04_skill/evaporate.png",
 	},
-	[600873] = {
+	[95091] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "与怪物战斗时，多重射击和破甲射击降防御并附加额外伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600873,
+				["sid"] = 95091,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 600873,
-		["name"] = "恶咒",
+		["key"] = 95091,
+		["name"] = "连续穿甲",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>100%</font>概率增加<font color='#green2#'>50%</font>。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
-	},
-	[600874] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600874,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600874,
-		["name"] = "恶咒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>100%</font>概率增加<font color='#green2#'>75%</font>。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
-	},
-	[600875] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600875,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600875,
-		["name"] = "恶咒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>100%</font>概率增加<font color='#green2#'>100%</font>。",
-		["params"] = "res/image/ui/04_skill/painfulpower.png",
-	},
-	[600895] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600895,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600895,
-		["name"] = "动摇",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "给队友释放天籁之声时，有<font color='#green2#'>70%</font>概率降低敌人<font color='#green2#'>40%</font>命中。",
-		["params"] = "res/image/ui/04_skill/songfromheaven.png",
+		["full_desc"] = "与怪物战斗时，多重射击和破甲射击额外减少1名前排敌人<font color='#green2#'>{id =950911, index=1, format = 2}</font>防御，持续<font color='#orange#'>6</font>秒；并额外造成<font color='#green2#'>200%自身攻击力与目标防御力差值</font>的伤害。",
+		["params"] = "res/image/ui/04_skill/sublimation.png",
 	},
 	[50054] = {
 		["max_level"] = 10,
@@ -78339,27 +78862,33 @@ skillgroup = {
 		["name"] = "末日审判者",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[312412] = {
-		["max_level"] = 1,
+	[600871] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 312412,
+				["sid"] = 600871,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 312412,
-		["name"] = "呆萌木乃伊",
+		["key"] = 600871,
+		["name"] = "恶咒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "自身释放的诅咒效果对怪物的伤害<font color='#green2#'>80%</font>概率增加<font color='#green2#'>50%</font>。",
+		["params"] = "res/image/ui/04_skill/painfulpower.png",
 	},
 	[80129] = {
 		["max_level"] = 10,
@@ -78421,17 +78950,25 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600991] = {
-		["max_level"] = 10,
+	[521405] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600991,
+				["sid"] = 5214051,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5214052,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5214053,
 			},
 		},
 		["consume"] = {
@@ -78441,13 +78978,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600991,
-		["name"] = "多重碎甲",
+		["key"] = 521405,
+		["name"] = "沙漠毒蝎",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放碎甲时，有<font color='#green2#'>80%</font>概率对前排目标再释放1次，3秒冷却。",
-		["params"] = "res/image/ui/04_skill/armorbreak.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[532132] = {
 		["max_level"] = 1,
@@ -78476,7 +79012,7 @@ skillgroup = {
 		["full_desc"] = "攻击全体，造成伤害。并根据破甲标记削减目标防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600792] = {
+	[600882] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -78486,7 +79022,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600792,
+				["sid"] = 600882,
 			},
 		},
 		["consume"] = {
@@ -78496,13 +79032,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600792,
-		["name"] = "破甲",
+		["key"] = 600882,
+		["name"] = "魔镜诅咒",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，有<font color='#green2#'>90%</font>概率额外降低一个目标<font color='#green2#'>{id =600797, index=1,key='buff_sub_fy',format = 2}</font>防御。",
-		["params"] = "res/image/ui/04_skill/armorbreak.png",
+		["full_desc"] = "对怪物释放镜之领域时，有概率赋予前排敌人<font color='#green2#'>1~2</font>层诅咒效果。",
+		["params"] = "res/image/ui/04_skill/mirrorfield.png",
 	},
 	[532133] = {
 		["max_level"] = 1,
@@ -78593,7 +79129,7 @@ skillgroup = {
 		["full_desc"] = "有7层鲜血积蓄以上时释放血腥一闪，会赋予自身伤害减免<font color='#green2#'>{id =901111, index=1, format = 2}</font>的效果，持续6秒。",
 		["params"] = "res/image/ui/04_skill/bloodyshining.png",
 	},
-	[601022] = {
+	[600951] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -78603,7 +79139,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601022,
+				["sid"] = 600951,
 			},
 		},
 		["consume"] = {
@@ -78613,25 +79149,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 601022,
-		["name"] = "治愈强化",
+		["key"] = 600951,
+		["name"] = "力量强化",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放钢拳造成伤害时，有<font color='#green2#'>90%</font>概率使治疗效果提升<font color='#green2#'>10%</font>。",
-		["params"] = "res/image/ui/04_skill/ironpunch.png",
+		["full_desc"] = "与怪物战斗时，每次能量清空后，技能的第一击伤害有<font color='#green2#'>80%</font>概率提高<font color='#green2#'>8%</font>。",
+		["params"] = "res/image/ui/04_skill/holyfaith.png",
 	},
-	[601024] = {
+	[80312] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
+		["simple_desc"] = "白色符文-1",
 		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601024,
+				["sid"] = 80312,
 			},
 		},
 		["consume"] = {
@@ -78641,25 +79177,33 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 601024,
-		["name"] = "治愈强化",
+		["key"] = 80312,
+		["name"] = "范海辛白",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放钢拳造成伤害时，有<font color='#green2#'>100%</font>概率使治疗效果提升<font color='#green2#'>25%</font>。",
-		["params"] = "res/image/ui/04_skill/ironpunch.png",
+		["full_desc"] = "范海辛的破邪银桩在4层战技下有<font color='#green2#'>80%</font>概率驱散目标1种状态。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[60067] = {
-		["max_level"] = 10,
+	[521805] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 60067,
+				["sid"] = 5218051,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5218052,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5218053,
 			},
 		},
 		["consume"] = {
@@ -78669,13 +79213,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 60067,
-		["name"] = "虚影",
+		["key"] = 521805,
+		["name"] = "呆萌木乃伊",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "攻击怪物时，蒂奇的攻击会减少目标的<font color='#green2#'>{id =600671, index=1,key='buff_sub_mz ',format = 2}</font>命中。",
-		["params"] = "res/image/ui/04_skill/teach.png",
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[103420] = {
 		["max_level"] = 10,
@@ -78743,53 +79286,25 @@ skillgroup = {
 		["full_desc"] = "灵魂震颤沉默时间延长为<font color='#green2#'>6</font>秒。",
 		["params"] = "res/image/ui/04_skill/spiritbreak.png",
 	},
-	[600813] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600813,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600813,
-		["name"] = "穿透之枪",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放圣枪时，会额外减少其<font color='#green2#'>3层</font>护盾效果。",
-		["params"] = "res/image/ui/04_skill/rhongomyniad.png",
-	},
-	[521614] = {
+	[521602] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5216141,
+				["sid"] = 5216021,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5216142,
+				["sid"] = 5216022,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5216143,
+				["sid"] = 5216023,
 			},
 		},
 		["consume"] = {
@@ -78799,14 +79314,41 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521614,
-		["name"] = "惩罚搜捕者",
+		["key"] = 521602,
+		["name"] = "骷髅弓箭手",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。同时释放标记层数的面条。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601081] = {
+	[532222] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 532222,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 532222,
+		["name"] = "兄弟会弩手",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601013] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -78816,7 +79358,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601081,
+				["sid"] = 601013,
 			},
 		},
 		["consume"] = {
@@ -78826,13 +79368,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 601081,
-		["name"] = "不协之毒",
+		["key"] = 601013,
+		["name"] = "冰暴",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放不协之毒时，有<font color='#green2#'>80%</font>概率对目标释放2次光弹，每发造成<font color='#green2#'>{id =601084, index=1, format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/sulphir.png",
+		["full_desc"] = "对怪物释放凛冬已至时，有<font color='#green2#'>100%</font>概率赋予前排1层碎甲，有<font color='#green2#'>60%</font>概率赋予后排1层。",
+		["params"] = "res/image/ui/04_skill/wintercome.png",
 	},
 	[104700] = {
 		["max_level"] = 10,
@@ -78865,6 +79407,222 @@ skillgroup = {
 		},
 		["name"] = "普通攻击(兰斯洛特)",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521826] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5218261,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5218262,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5218263,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521826,
+		["name"] = "骷髅战士",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601031] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601031,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601031,
+		["name"] = "治愈祝福",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放铁臂猛扫造成伤害时，自身治疗提升<font color='#green2#'>30%</font>，持续6秒。",
+		["params"] = "res/image/ui/04_skill/ironhit.png",
+	},
+	[601032] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601032,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601032,
+		["name"] = "治愈祝福",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放铁臂猛扫造成伤害时，自身治疗提升<font color='#green2#'>60%</font>，持续6秒。",
+		["params"] = "res/image/ui/04_skill/ironhit.png",
+	},
+	[521104] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5211041,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211042,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211043,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521104,
+		["name"] = "光明会拳师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。并根据破甲印记层数削减目标防御",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[532141] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击全体，造成伤害",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 532141,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 532141,
+		["name"] = "光明会大主教",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击全体，造成伤害",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521105] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5211051,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5211052,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5211053,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521105,
+		["name"] = "沙漠毒蝎",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601081] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601081,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601081,
+		["name"] = "不协之毒",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放不协之毒时，有<font color='#green2#'>80%</font>概率对目标释放2次光弹，每发造成<font color='#green2#'>{id =601084, index=1, format = 2}</font>攻击力伤害。",
+		["params"] = "res/image/ui/04_skill/sulphir.png",
 	},
 	[601082] = {
 		["max_level"] = 10,
@@ -78929,25 +79687,25 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521826] = {
+	[570133] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5218261,
+				["sid"] = 5701331,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5218262,
+				["sid"] = 5701332,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5218263,
+				["sid"] = 5701333,
 			},
 		},
 		["consume"] = {
@@ -78957,11 +79715,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521826,
-		["name"] = "骷髅战士",
+		["key"] = 570133,
+		["name"] = "零岐电击者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。并提高己方全体防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312318] = {
@@ -78984,33 +79742,6 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[532141] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击全体，造成伤害",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 532141,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 532141,
-		["name"] = "光明会大主教",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击全体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[106930] = {
@@ -79081,206 +79812,6 @@ skillgroup = {
 		["full_desc"] = "治疗己方全体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200491] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 200491,
-			},
-		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200491,
-		["simple_desc"] = "光明会大主教",
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["counter_type"] = {
-		},
-		["name"] = "光明会大主教",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[106430] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击全体敌人，依据自身战技层数造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30486,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30487,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30488,
-			},
-		},
-		["key"] = 106430,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "神圣手雷",
-		["combo_value"] = 2,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "范海辛投掷一枚充满圣水和银色弹片的手雷，攻击全体敌人；手雷的伤害会随着范海辛身上<font color='#orange#'>战技</font>效果的层数提升而提升，<font color='#orange#'>5</font>层<font color='#orange#'>战技</font>的时候达到最大值。无<font color='#orange#'>战技</font>效果的时候和<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>效果的时候伤害数值一致。<br/><font color='#green1#'>战斗开始</font>：造成基础<font color='#green2#'>{id =30486,index=1,format = 2}</font>攻击力的伤害，每层战技额外提升<font color='#orange#'>25%</font>攻击力的伤害。<br/><font color='#blue1#'>激战阶段</font>：造成基础<font color='#green2#'>{id =30487,index=1,format = 2}</font>攻击力的伤害，每层战技额外提升<font color='#orange#'>40%</font>攻击力的伤害。<br/><font color='#purple#'>终结阶段</font>：造成基础<font color='#green2#'>{id =30488,index=1,format = 2}</font>攻击力的伤害，每层战技额外提升<font color='#orange#'>40%</font>攻击力的伤害。",
-		["params"] = "res/image/ui/04_skill/holygrenade.png",
-	},
-	[102320] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "标记敌方群体，倒计时结束后造成范围伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30097,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30098,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30099,
-			},
-		},
-		["key"] = 102320,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "无形之刃",
-		["combo_value"] = 1,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "为每个敌人赋予<font color='#orange#'>1</font>枚机关，<font color='#orange#'>2</font>秒后爆炸，每个爆炸都对所有敌人造成<font color='#orange#'>1</font>次伤害，并赋予<font color='#orange#'>1</font>层<font color='#orange#'>重伤</font>效果，同时有<font color='#orange#'>35%</font>几率赋予所有受到伤害的敌人额外<font color='#orange#'>1</font>层<font color='#orange#'>重伤</font>效果。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =300971,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =300981,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =300991,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>重伤</font>效果每1层会造成每秒<font color='#orange#'>{id =40004,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
-		["params"] = "res/image/ui/04_skill/invisibleblade.png",
-	},
-	[60113] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 60113,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 60113,
-		["name"] = "赤月之怒",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放赤月斩造成伤害时，提升自身<font color='#green2#'>{id =601131, index=1, format = 2}</font>攻速，并且加速自身普通攻击动作。",
-		["params"] = "res/image/ui/04_skill/crescent.png",
-	},
-	[521121] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5211211,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5211212,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5211213,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521121,
-		["name"] = "獠牙酋长",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[576302] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 576302,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 576302,
-		["name"] = "光明会狂战",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
 	[50055] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -79313,33 +79844,47 @@ skillgroup = {
 		["name"] = "末日裁决者",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90005] = {
+	[108540] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击差加成",
+		["simple_desc"] = "塞西莉娅引导圣光笼罩目标，主教领域内凝聚杖剑造成伤害。",
 		["skill_type"] = 1,
-		["probability"] = 1000,
+		["probability"] = 3400,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 900051,
+				["sid"] = 30667,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30668,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30669,
 			},
 		},
+		["key"] = 108540,
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 90005,
-		["name"] = "光明会狂战",
+		["name"] = "主教的威严",
+		["combo_value"] = 2,
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "1",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "塞西莉娅凝聚神圣能量为己方前排加持护盾，护盾被击破时会恢复全体友军血量，护盾持续<font color='#orange#'>3</font>秒；张开主教领域之后，塞西莉娅会先凝聚神圣能量倾泻而出造成全体伤害，再回收部分能量为自身凝聚护盾，若塞西莉娅的生命值在<font color='#orange#'>75%</font>以上时，则回收的部分能量会为全体友军凝聚护盾。<br/><font color='#green1#'>战斗开始</font>：获得<font color='#green1#'>{id =30667,index=1,format = 2}</font>塞西莉娅攻击力的护盾值，击破后恢复全体友军<font color='#green1#'>{id =306672,index=1,format = 2}</font>塞西莉娅攻击力的生命值；<br/>张开主教领域之后，凝聚神圣能量拟态为杖剑对敌方全体造成<font color='#green1#'>{id =306673,index=1,format = 2}</font>攻击力的伤害，并获得<font color='#green1#'>{id =306675,index=1,format = 2}</font>造成伤害值的护盾值；<br/><font color='#blue1#'>激战阶段</font>：获得<font color='#green1#'>{id =30668,index=1,format = 2}</font>塞西莉娅攻击力的护盾值，击破后恢复全体友军<font color='#green1#'>{id =306682,index=1,format = 2}</font>塞西莉娅攻击力的生命值；<br/>张开主教领域之后，对敌方全体造成<font color='#green1#'>{id =306684,index=1,format = 2}</font>攻击力的伤害，并获得<font color='#green1#'>{id =306675,index=1,format = 2}</font>造成伤害值的护盾值；<br/><font color='#purple#'>终结阶段</font>：获得<font color='#green1#'>{id =30669,index=1,format = 2}</font>塞西莉娅攻击力的护盾值，击破后恢复全体友军<font color='#green1#'>{id =306692,index=1,format = 2}</font>塞西莉娅攻击力的生命值；<br/>张开主教领域之后，对敌方全体造成<font color='#green1#'>{id =306694,index=1,format = 2}</font>攻击力的伤害，并获得<font color='#green1#'>{id =306675,index=1,format = 2}</font>造成伤害值的护盾值。",
+		["params"] = "res/image/ui/04_skill/bishopcoercion.png",
 	},
 	[80131] = {
 		["max_level"] = 10,
@@ -79374,17 +79919,17 @@ skillgroup = {
 		["full_desc"] = "神圣试炼的吸血效果提升<font color='#green2#'>20%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[532300] = {
-		["max_level"] = 1,
+	[600852] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
+		["simple_desc"] = "装备被动",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 532300,
+				["sid"] = 600852,
 			},
 		},
 		["consume"] = {
@@ -79394,12 +79939,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 532300,
-		["name"] = "反伤印记",
+		["key"] = 600852,
+		["name"] = "攻击弱化",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击怪物时，自身释放的降低攻击力的幅度提升<font color='#green2#'>8%</font>。",
+		["params"] = "res/image/ui/04_skill/magicvacuum.png",
 	},
 	[530100] = {
 		["max_level"] = 1,
@@ -79428,17 +79974,17 @@ skillgroup = {
 		["full_desc"] = "赋予自身3层破甲印记，该标记每次受到伤害时减少1层。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[601212] = {
-		["max_level"] = 10,
+	[592326] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 601212,
+				["sid"] = 592326,
 			},
 		},
 		["consume"] = {
@@ -79448,13 +79994,12 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 601212,
-		["name"] = "深层恐惧",
+		["key"] = 592326,
+		["name"] = "树妖",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>90%</font>的概率使伤害值提高<font color='#green2#'>30%</font>。",
-		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[101630] = {
 		["max_level"] = 10,
@@ -79498,27 +80043,199 @@ skillgroup = {
 		["full_desc"] = "黑暗系技能，对<font color='#orange#'>1</font>名敌人造成伤害，并恢复自身的生命值。同时提升自己的攻击力，持续<font color='#orange#'>4</font>秒。<br><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =300401,index=1,key='sub_hp',format =2}</font>攻击力的伤害，恢复自身<font color='#green2#'>{id =300402,index=2,key='add_hp',format =2}</font>攻击力的生命,提升自己<font color='#orange#'>{id =300402,index=1,key='buff_add_gj',format = 2}</font>的攻击力；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =300431,index=1,key='sub_hp',format =2}</font>攻击力的伤害，恢复自身<font color='#green2#'>{id =300432,index=2,key='add_hp',format =2}</font>攻击力的生命,提升自己<font color='#orange#'>{id =300432,index=1,key='buff_add_gj',format = 2}</font>的攻击力；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =300461,index=1,key='sub_hp',format =2}</font>攻击力的伤害，恢复自身<font color='#green2#'>{id =300462,index=2,key='add_hp',format =2}</font>攻击力的生命,同时提升自己<font color='#orange#'>{id =300462,index=1,key='buff_add_gj',format = 2}</font>攻击力。",
 		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
 	},
-	[580411] = {
+	[576303] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "提升我方全体攻速和攻击力。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580411,
+				["sid"] = 576303,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 576303,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "提升我方全体攻速和攻击力。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[312704] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312704,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580411,
-		["name"] = "石头人",
+		["key"] = 312704,
+		["name"] = "零歧电击者",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[573100] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "进入战斗后，大幅提升自身防御，持续6秒。当被减防时，清除加防效果。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 573100,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 573100,
+		["name"] = "铁甲",
+		["counter_type"] = {
+		},
+		["full_desc"] = "进入战斗后，大幅提升自身防御，持续6秒。当被减防时，清除加防效果。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521815] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5218151,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5218152,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5218153,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521815,
+		["name"] = "零歧压迫者",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[573101] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "每次使用技能对敌人造成伤害时，追加一次伤害，自身防御越高追加的伤害越高。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 573101,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 573101,
+		["name"] = "防斩",
+		["counter_type"] = {
+		},
+		["full_desc"] = "每次使用技能对敌人造成伤害时，追加一次伤害，自身防御越高追加的伤害越高。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80323] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80323,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80323,
+		["name"] = "马可波罗黑",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "复颂状态下的单位释放伤害性技能会同时释放一枚造成<font color='#green2#'>50%</font>攻击力伤害的光弹。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[601212] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 601212,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 601212,
+		["name"] = "深层恐惧",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "对怪物释放恐惧时，有<font color='#green2#'>90%</font>的概率使伤害值提高<font color='#green2#'>30%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/demonhunter.png",
 	},
 	[90431] = {
 		["max_level"] = 10,
@@ -79548,201 +80265,6 @@ skillgroup = {
 		["full_desc"] = "凛冬已至释放后提升自身<font color='#green2#'>{id =904314, index=1, format = 2}</font>防御6秒；且命中碎甲单位提升<font color='#green2#'>{id =904312, index=1, format = 2}</font>防御6秒，可叠加3层。",
 		["params"] = "res/image/ui/04_skill/wintercome.png",
 	},
-	[573100] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进入战斗后，大幅提升自身防御，持续6秒。当被减防时，清除加防效果。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 573100,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 573100,
-		["name"] = "铁甲",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进入战斗后，大幅提升自身防御，持续6秒。当被减防时，清除加防效果。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[101820] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "群体攻击，造成寒冷效果。对灼烧达8层的敌人造成额外伤害。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 300681,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 300711,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 300741,
-			},
-		},
-		["key"] = 101820,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["name"] = "陨冰术",
-		["combo_value"] = 3,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "冰霜系技能，召唤冰陨石攻击敌方全体，并赋予寒冷效果。若敌人身上有超过<font color='#orange#'>8</font>层<font color='#orange#'>灼烧</font>效果，则额外造成伤害。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =300683,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =300713,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =300713,index=2,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =300743,index=1,key='sub_hp',format = 2}</font>攻击力的伤害，额外造成<font color='#orange#'>{id =300743,index=2,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>寒冷</font>状态下的敌人，其攻击力下降<font color='#orange#'>{id =40002,index=1,key='buff_sub_gj',format = 2}</font>，持续<font color='#orange#'>6</font>秒。",
-		["params"] = "res/image/ui/04_skill/icefall.png",
-	},
-	[573101] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "每次使用技能对敌人造成伤害时，追加一次伤害，自身防御越高追加的伤害越高。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 573101,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 573101,
-		["name"] = "防斩",
-		["counter_type"] = {
-		},
-		["full_desc"] = "每次使用技能对敌人造成伤害时，追加一次伤害，自身防御越高追加的伤害越高。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[101310] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "濒死触发治疗。",
-		["skill_type"] = 1,
-		["probability"] = 3300,
-		["accompany"] = 1,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 30010,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 30013,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 30016,
-			},
-		},
-		["key"] = 101310,
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["full_desc"] = "神圣系技能，赐福<font color='#orange#'>1</font>名友军，当其血量低于30%的时候，立刻恢复其一定量的生命值。赐福持续<font color='#orange#'>20</font>秒。状态持续期间，治疗效果只会触发<font color='#orange#'>1</font>次，同时在触发之后，清除赐福效果。<br/><font color='#green1#'>战斗开始</font>：恢复<font color='#green2#'>{id =3001011,index=1,key='add_hp',format = 2}</font>最大生命；<br/><font color='#blue1#'>激战阶段</font>：恢复<font color='#green2#'>{id =3001311,index=1,key='add_hp',format = 2}</font>最大生命；<br/><font color='#purple#'>终结阶段</font>：恢复<font color='#green2#'>{id =3001611,index=1,key='add_hp',format = 2}</font>最大生命值。<br/><font color='#red#'>没有队友时不会释放</font>",
-		["combo_value"] = 1,
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["name"] = "无畏赐福",
-		["params"] = "res/image/ui/04_skill/unfearbless.png",
-	},
-	[601032] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 601032,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 601032,
-		["name"] = "治愈祝福",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "对怪物释放铁臂猛扫造成伤害时，自身治疗提升<font color='#green2#'>60%</font>，持续6秒。",
-		["params"] = "res/image/ui/04_skill/ironhit.png",
-	},
-	[600951] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 600951,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 600951,
-		["name"] = "力量强化",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "与怪物战斗时，每次能量清空后，技能的第一击伤害有<font color='#green2#'>80%</font>概率提高<font color='#green2#'>8%</font>。",
-		["params"] = "res/image/ui/04_skill/holyfaith.png",
-	},
 	[573103] = {
 		["max_level"] = 1,
 		["heros"] = {
@@ -79770,17 +80292,17 @@ skillgroup = {
 		["full_desc"] = "进场后大幅提升防御，持续20秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[530300] = {
+	[592312] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
-		["skill_type"] = 3,
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 530300,
+				["sid"] = 592312,
 			},
 		},
 		["consume"] = {
@@ -79790,11 +80312,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 530300,
-		["name"] = "反伤印记",
+		["key"] = 592312,
+		["name"] = "鬼魂",
 		["counter_type"] = {
 		},
-		["full_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
+		["full_desc"] = "攻击敌方单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[573104] = {
@@ -79884,25 +80406,17 @@ skillgroup = {
 		["full_desc"] = "自身受到伤害时，降低非组合技的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[521805] = {
-		["max_level"] = 1,
+	[601251] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5218051,
-			},
-			[2] = {
-				["round"] = 3,
-				["sid"] = 5218052,
-			},
-			[3] = {
-				["round"] = 5,
-				["sid"] = 5218053,
+				["sid"] = 601251,
 			},
 		},
 		["consume"] = {
@@ -79912,12 +80426,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521805,
-		["name"] = "呆萌木乃伊",
+		["key"] = 601251,
+		["name"] = "正义光弹",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "与怪物作战释放正义之力时，会攻击当前攻击力最高的敌人，造成<font color='#green2#'>150%</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/justiceone.png",
 	},
 	[573106] = {
 		["max_level"] = 1,
@@ -80003,17 +80518,17 @@ skillgroup = {
 		["full_desc"] = "攻击敌方单体，造成伤害。激战阶段开始，当有群攻印记时，攻击敌方全体。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[560000] = {
+	[530300] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "战斗进入到后期时，将大幅增加攻击力",
+		["simple_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5600001,
+				["sid"] = 530300,
 			},
 		},
 		["consume"] = {
@@ -80023,24 +80538,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 560000,
-		["name"] = "狂暴",
+		["key"] = 530300,
+		["name"] = "反伤印记",
 		["counter_type"] = {
 		},
-		["full_desc"] = "战斗进入到后期时，将大幅增加攻击力",
+		["full_desc"] = "赋予自身反弹buff,受到伤害时对攻击者反弹伤害。不反弹普攻和异常状态(灼烧、重伤、诅咒等)的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[600493] = {
+	[600954] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
 		["simple_desc"] = "装备被动",
-		["skill_type"] = 3,
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 600493,
+				["sid"] = 600954,
 			},
 		},
 		["consume"] = {
@@ -80050,13 +80565,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 600493,
-		["name"] = "圣光弹",
+		["key"] = 600954,
+		["name"] = "力量强化",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "每次释放技能对怪物造成伤害时，有<font color='#green2#'>100%</font>概率释放一个光弹，造成<font color='#green2#'>{id =600498, index=1,key='sub_hp ',format = 2}</font>攻击力伤害。",
-		["params"] = "res/image/ui/04_skill/anglebless.png",
+		["full_desc"] = "与怪物战斗时，每次能量清空后，技能的第一击伤害有<font color='#green2#'>100%</font>概率提高<font color='#green2#'>11%</font>。",
+		["params"] = "res/image/ui/04_skill/holyfaith.png",
 	},
 	[312212] = {
 		["max_level"] = 1,
@@ -80080,7 +80595,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90022] = {
+	[600934] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -80090,7 +80605,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90022,
+				["sid"] = 600934,
 			},
 		},
 		["consume"] = {
@@ -80100,29 +80615,25 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90022,
-		["name"] = "烈阳护盾",
+		["key"] = 600934,
+		["name"] = "英勇捍卫",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "烈焰护盾的拥有者受到攻击时，有<font color='#green2#'>40%</font>的概率额外反弹敌方全体一层灼烧。",
-		["params"] = "res/image/ui/04_skill/fireshield.png",
+		["full_desc"] = "兰斯洛特与怪物战斗，释放捍卫时，减伤等级提高有<font color='#green2#'>100%</font>概率提高<font color='#green2#'>15</font>级。",
+		["params"] = "res/image/ui/04_skill/protect.png",
 	},
-	[530331] = {
-		["max_level"] = 1,
+	[60057] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击全体，造成伤害。并降低目标攻击力。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5303311,
-			},
-			[2] = {
-				["round"] = 0,
-				["sid"] = 5303312,
+				["sid"] = 60057,
 			},
 		},
 		["consume"] = {
@@ -80132,42 +80643,45 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 530331,
-		["name"] = "北境重锤使",
+		["key"] = 60057,
+		["name"] = "狂怒烈焰",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击全体，造成伤害。并降低目标攻击力。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "爆燃在攻击怪物时可额外触发3次伤害，每次造成<font color='#green2#'>{id =600571, index=1,key='sub_hp ',format = 2}</font>攻击力的伤害。",
+		["params"] = "res/image/ui/04_skill/fireburst.png",
 	},
-	[530332] = {
-		["max_level"] = 1,
+	[80203] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "黑色符文-1升级",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5303321,
-			},
-			[2] = {
-				["round"] = 0,
-				["sid"] = 5303322,
+				["sid"] = 80203,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 530332,
-		["name"] = "零歧电击者",
+		["key"] = 80203,
+		["name"] = "亚巴顿 黑EX",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
+		["full_desc"] = "骸骨护盾可额外提升自身<font color='#green2#'>25%</font>的攻击力，持续8秒。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312213] = {
@@ -80258,7 +80772,7 @@ skillgroup = {
 		["full_desc"] = "攻击单体造成伤害，并降低目标50%防御，持续6秒",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[90441] = {
+	[90022] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -80268,7 +80782,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90441,
+				["sid"] = 90022,
 			},
 		},
 		["consume"] = {
@@ -80278,13 +80792,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90441,
-		["name"] = "重锤",
+		["key"] = 90022,
+		["name"] = "烈阳护盾",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "铁臂猛扫的晕眩时间增加<font color='#green2#'>1</font>秒。",
-		["params"] = "res/image/ui/04_skill/ironhit.png",
+		["full_desc"] = "烈焰护盾的拥有者受到攻击时，有<font color='#green2#'>40%</font>的概率额外反弹敌方全体一层灼烧。",
+		["params"] = "res/image/ui/04_skill/fireshield.png",
 	},
 	[312214] = {
 		["max_level"] = 1,
@@ -80308,17 +80822,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592326] = {
+	[41310] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
+		["simple_desc"] = "当攻击敌人造成伤害时，治疗自身。",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592326,
+				["sid"] = 41310,
 			},
 		},
 		["consume"] = {
@@ -80328,11 +80842,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592326,
-		["name"] = "树妖",
+		["key"] = 41310,
+		["name"] = "吸血",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "当攻击敌人造成伤害时，治疗自身。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[101120] = {
@@ -80377,7 +80891,7 @@ skillgroup = {
 		["full_desc"] = "神圣系技能，对敌人造成伤害。<br/><font color='#green1#'>战斗开始</font>：攻击<font color='#orange#'>1</font>名敌人，造成<font color='#green2#'>{id =30020,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：攻击<font color='#orange#'>3</font>名敌人，造成<font color='#green2#'>{id =30023,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：攻击<font color='#orange#'>3</font>名敌人，造成<font color='#green2#'>{id =30026,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/judgement.png",
 	},
-	[90442] = {
+	[80012] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -80387,23 +80901,28 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 90441,
+				["sid"] = 80012,
 			},
 		},
 		["consume"] = {
 			[1] = {
 				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
 				[2] = 10,
 				[3] = 1,
 			},
 		},
-		["key"] = 90442,
-		["name"] = "重锤",
+		["key"] = 80012,
+		["name"] = "莉可丽丝-装备",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "铁臂猛扫的晕眩时间增加<font color='#green2#'>2</font>秒。",
-		["params"] = "res/image/ui/04_skill/ironhit.png",
+		["full_desc"] = "死亡绽放伤害提升<font color='#green2#'>10%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312215] = {
 		["max_level"] = 1,
@@ -80427,17 +80946,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80302] = {
-		["max_level"] = 10,
+	[572312] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "黑色符文-1",
-		["skill_type"] = 4,
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80302,
+				["sid"] = 572312,
 			},
 		},
 		["consume"] = {
@@ -80447,12 +80966,11 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80302,
-		["name"] = "提尔黑",
+		["key"] = 572312,
+		["name"] = "零歧监工",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["full_desc"] = "提尔释放铁臂猛扫时，对致盲目标的额外伤害提升<font color='#green2#'>30%</font>。",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[200161] = {
@@ -80543,6 +81061,39 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[70077] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 70077,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 70077,
+		["name"] = "生命吸收",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "造成伤害时，有20%的概率恢复造成伤害<font color='#green2#'>100%</font>的生命值，每3秒内最多生效1次。",
+		["params"] = "res/image/ui/04_skill/bloodknife.png",
+	},
 	[106420] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -80580,34 +81131,7 @@ skillgroup = {
 		["full_desc"] = "范海辛投掷铭刻了神圣符文的银桩，攻击<font color='#orange#'>1</font>名敌人，并且赋予自己<font color='#orange#'>1</font>层<font color='#orange#'>战技</font>效果(<font color='#orange#'>战技</font>状态在消耗之前永久存在，最多可叠加<font color='#orange#'>5</font>层；每<font color='#orange#'>1</font>层都会使伤害加深提升<font color='#orange#'>5%</font>，加成为加法运算)。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =30483,index=1,format = 2}</font>攻击力的伤害。<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =30484,index=1,format = 2}</font>攻击力的伤害。<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =30485,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/silverpile.png",
 	},
-	[521300] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "赋予自身一层怒火buff，该标记受到伤害清除一层",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5213001,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 521300,
-		["name"] = "复仇印记",
-		["counter_type"] = {
-		},
-		["full_desc"] = "赋予自身一层怒火buff，该标记受到伤害清除一层",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[70070] = {
+	[80081] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -80617,7 +81141,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 70070,
+				["sid"] = 80081,
 			},
 		},
 		["consume"] = {
@@ -80632,13 +81156,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 70070,
-		["name"] = "堡垒",
+		["key"] = 80081,
+		["name"] = "潘多拉",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "战斗开始后，提升自身防御<font color='#green1#'>{id =70070, index=1, format = 2}</font>。",
-		["params"] = "res/image/ui/04_skill/defence.png",
+		["full_desc"] = "亡者华尔兹伤害提升<font color='#green2#'>8%</font>。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312217] = {
 		["max_level"] = 1,
@@ -80726,6 +81250,149 @@ skillgroup = {
 		["full_desc"] = "攻击全体，造成伤害。并根据破甲标记削减目标防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
+	[101300] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "普通攻击（珊朵拉）",
+		["skill_type"] = 1,
+		["probability"] = 500,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 10003,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 101300,
+		["name"] = "普通攻击（珊朵拉）",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "攻击目标敌人，造成<font color='#green2#'>{id =10003,index=1,key='sub_hp',format = 1}</font>点伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[312218] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312218,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 312218,
+		["name"] = "北境叛军女",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[521707] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5217071,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 5217072,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 5217073,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 521707,
+		["name"] = "沙漠地龙",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[530124] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。同时恢复己方全体的血量。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 5301241,
+			},
+			[2] = {
+				["round"] = 5,
+				["sid"] = 5301242,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 530124,
+		["name"] = "光明会牧师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。同时恢复己方全体的血量。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[580187] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 580187,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 580187,
+		["name"] = "狼人",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
 	[106440] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -80763,87 +81430,7 @@ skillgroup = {
 		["full_desc"] = "范海辛驱动他心爱的弩枪，发射等同于自身持有的<font color='#orange#'>战技</font>层数数量的弩箭，每发弩箭都会随机攻击<font color='#orange#'>1</font>名敌人。<font color='#orange#'>战技</font>层数为<font color='#orange#'>0</font>和<font color='#orange#'>1</font>的时候，均发射<font color='#orange#'>1</font>枚弩箭；<font color='#orange#'>战技</font>层数在<font color='#orange#'>4</font>层时，弩箭数量达到最大值。<br/><font color='#green1#'>战斗开始</font>：每发弩箭造成<font color='#green2#'>{id =304891,index=1,format = 2}</font>攻击力的伤害。<br/><font color='#blue1#'>激战阶段</font>：每发弩箭造成<font color='#green2#'>{id =304901,index=1,format = 2}</font>攻击力的伤害。<br/><font color='#purple#'>终结阶段</font>：每发弩箭造成<font color='#green2#'>{id =304911,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/machinecrossbow.png",
 	},
-	[312218] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 312218,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 312218,
-		["name"] = "北境叛军女",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。同时赋予自身普攻暴击率和普攻攻速。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[312700] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "进场后降低敌方全体的技能伤害。",
-		["skill_type"] = 3,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 312700,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 312700,
-		["name"] = "伤害降低",
-		["counter_type"] = {
-		},
-		["full_desc"] = "进场后降低敌方全体的技能伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[530124] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。同时恢复己方全体的血量。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 5301241,
-			},
-			[2] = {
-				["round"] = 5,
-				["sid"] = 5301242,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 530124,
-		["name"] = "光明会牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。同时恢复己方全体的血量。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[80056] = {
+	[903512] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
@@ -80853,62 +81440,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80056,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80056,
-		["name"] = "格莱明",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "提升格莱明暴击伤害<font color='#green2#'>{id =80056,index=1,format = 1}%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[312424] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 312424,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 312424,
-		["name"] = "惩罚者牧师",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[90483] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "装备被动",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 90483,
+				["sid"] = 903512,
 			},
 		},
 		["consume"] = {
@@ -80918,13 +81450,13 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 90483,
-		["name"] = "侵蚀之毒",
+		["key"] = 903512,
+		["name"] = "帝企鹅",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "释放侵蚀时，会对随机目标额外赋予一层不协之毒，重复<font color='#green2#'>3</font>次。",
-		["params"] = "res/image/ui/04_skill/salt.png",
+		["full_desc"] = "蒂奇每<font color='#green2#'>3</font>秒赋予随机敌人碎甲，并在消失时将<font color='#green2#'>{id =903542, index=1, format = 2}</font>剩余生命值平均治疗全体友军。",
+		["params"] = "res/image/ui/04_skill/teach.png",
 	},
 	[106240] = {
 		["max_level"] = 10,
@@ -80963,7 +81495,29 @@ skillgroup = {
 		["full_desc"] = "艾尔薇迅速射出4枚箭矢，每支箭矢都会随机攻击<font color='#orange#'>1</font>名敌人。被击中的敌人，会被施加<font color='#orange#'>碎甲</font>效果。<br/>（<font color='#orange#'>碎甲</font>效果会降低持有该效果的角色<font color='#orange#'>{id =40019,index=2,format = 2}</font>防御，持续<font color='#orange#'>6</font>秒。碎甲效果最多叠加2层。)<br/><font color='#green1#'>战斗开始</font>：每支箭矢造成<font color='#green2#'>{id =304671,index=1,format = 2}</font>攻击力的伤害。<br/><font color='#blue1#'>激战阶段</font>：每支箭矢造成<font color='#green2#'>{id =304681,index=1,format = 2}</font>攻击力的伤害。<br/><font color='#purple#'>终结阶段</font>：每支箭矢造成<font color='#green2#'>{id =304691,index=1,format = 2}</font>攻击力的伤害。",
 		["params"] = "res/image/ui/04_skill/starbreaker.png",
 	},
-	[572414] = {
+	[312512] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 312512,
+			},
+		},
+		["consume"] = {
+		},
+		["key"] = 312512,
+		["name"] = "光明会拳师",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[312424] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -80973,93 +81527,92 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572414,
+				["sid"] = 312424,
 			},
 		},
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
-		["key"] = 572414,
-		["name"] = "骷髅法师",
+		["key"] = 312424,
+		["name"] = "惩罚者牧师",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[312602] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击目标单体，并治疗目标友军",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 312602,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 312602,
-		["name"] = "小火龙",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击目标单体，并治疗目标友军",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[95061] = {
+	[70072] = {
 		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "与怪物战斗时，冰霜守护会额外释放冰枪。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 95061,
+				["sid"] = 70072,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 95061,
-		["name"] = "守护之枪",
+		["key"] = 70072,
+		["name"] = "护盾",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "与怪物战斗时，冰霜守护会额外释放<font color='#orange#'>3</font>次冰枪随机攻击敌方，每次造成<font color='#green2#'>{id =950617, index=1, format = 2}</font>攻击力的伤害，自身每存在<font color='#orange#'>2</font>层<font color='#orange#'>霜冻</font>标记再释放<font color='#orange#'>1</font>次冰枪。",
-		["params"] = "res/image/ui/04_skill/sublimation.png",
+		["full_desc"] = "开场时获得一个吸收<font color='#green2#'>{id =70072, index=1, format = 2}</font>攻击力伤害的护盾，持续25秒。",
+		["params"] = "res/image/ui/04_skill/shieldbash.png",
 	},
-	[311416] = {
-		["max_level"] = 1,
+	[102320] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。",
+		["simple_desc"] = "标记敌方群体，倒计时结束后造成范围伤害。",
 		["skill_type"] = 1,
-		["probability"] = 10000,
+		["probability"] = 3300,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 311416,
+				["sid"] = 30097,
+			},
+			[2] = {
+				["round"] = 3,
+				["sid"] = 30098,
+			},
+			[3] = {
+				["round"] = 5,
+				["sid"] = 30099,
 			},
 		},
+		["key"] = 102320,
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 311416,
-		["name"] = "骷髅弓箭手",
+		["name"] = "无形之刃",
+		["combo_value"] = 1,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "为每个敌人赋予<font color='#orange#'>1</font>枚机关，<font color='#orange#'>2</font>秒后爆炸，每个爆炸都对所有敌人造成<font color='#orange#'>1</font>次伤害，并赋予<font color='#orange#'>1</font>层<font color='#orange#'>重伤</font>效果，同时有<font color='#orange#'>35%</font>几率赋予所有受到伤害的敌人额外<font color='#orange#'>1</font>层<font color='#orange#'>重伤</font>效果。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green2#'>{id =300971,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green2#'>{id =300981,index=1,key='sub_hp',format = 2}</font>攻击力的伤害；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green2#'>{id =300991,index=1,key='sub_hp',format = 2}</font>攻击力的伤害。<br/><font color='#orange#'>重伤</font>效果每1层会造成每秒<font color='#orange#'>{id =40004,index=1,key='buff_sub_hp',format = 2}</font>攻击力的伤害，持续<font color='#orange#'>3</font>秒。",
+		["params"] = "res/image/ui/04_skill/invisibleblade.png",
 	},
 	[107520] = {
 		["max_level"] = 10,
@@ -81098,27 +81651,33 @@ skillgroup = {
 		["full_desc"] = "艾德蕾妮蓄力之后精准地刺击敌方前排的弱点，并使该单位进入<font color='#orange#'>恐惧</font>。<br/><font color='#green1#'>战斗开始</font>：造成<font color='#green1#'>{id =30593,index=1,format = 2}</font>攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40024,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复<font color='#orange#'>{id =40025,index=1,format = 2}</font>释放者攻击力的生命值；<br/><font color='#blue1#'>激战阶段</font>：造成<font color='#green1#'>{id =30594,index=1,format = 2}</font>攻击力的伤害；被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40022,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复释放者<font color='#orange#'>{id =40023,index=1,format = 2}</font>攻击力的生命值；<br/><font color='#purple#'>终结阶段</font>：造成<font color='#green1#'>{id =30595,index=1,format = 2}</font>攻击力的伤害。被<font color='#orange#'>恐惧</font>的单位，会立即扣除释放者<font color='#orange#'>{id =40022,index=1,format = 2}</font>攻击力的生命值，并获得恐惧标记<font color='#orange#'>5</font>秒，恐惧标记消失后恢复释放者<font color='#orange#'>{id =40023,index=1,format = 2}</font>攻击力的生命值。",
 		["params"] = "res/image/ui/04_skill/thrust.png",
 	},
-	[580626] = {
-		["max_level"] = 1,
+	[90482] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>14%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580626,
+				["sid"] = 90482,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580626,
-		["name"] = "圣物-普攻减伤Lv6",
+		["key"] = 90482,
+		["name"] = "侵蚀之毒",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>14%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "释放侵蚀时，会对随机目标额外赋予一层不协之毒，重复<font color='#green2#'>2</font>次。",
+		["params"] = "res/image/ui/04_skill/salt.png",
 	},
 	[5925104] = {
 		["max_level"] = 1,
@@ -81170,27 +81729,33 @@ skillgroup = {
 		["full_desc"] = "攻击单体造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580629] = {
-		["max_level"] = 1,
+	[90501] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>17%</font>。",
-		["skill_type"] = 3,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 4,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580629,
+				["sid"] = 90501,
 			},
 		},
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580629,
-		["name"] = "圣物-普攻减伤Lv7",
+		["key"] = 90501,
+		["name"] = "断罪连击",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>17%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "触发断罪者后有<font color='#green2#'>25%</font>概率使下一次普攻变成断罪。",
+		["params"] = "res/image/ui/04_skill/passive/judgement.png",
 	},
 	[530131] = {
 		["max_level"] = 1,
@@ -81282,36 +81847,26 @@ skillgroup = {
 		["full_desc"] = "攻击全体，造成伤害。并根据破甲标记削减目标防御。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[200301] = {
-		["max_level"] = 10,
+	[580628] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>16%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 200301,
+				["sid"] = 580628,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 200301,
-		["simple_desc"] = "末日审判者普通攻击",
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 580628,
+		["name"] = "圣物-普攻减伤Lv6",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "末日审判者普通攻击",
+		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>16%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[530133] = {
@@ -81345,36 +81900,26 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[20020] = {
-		["max_level"] = 10,
+	[580629] = {
+		["max_level"] = 1,
 		["heros"] = {
 		},
+		["simple_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>17%</font>。",
+		["skill_type"] = 3,
+		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 20020,
+				["sid"] = 580629,
 			},
 		},
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["key"] = 20020,
-		["simple_desc"] = "零歧电击者普通攻击",
 		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 3,
-				[3] = 1,
-			},
-			[2] = {
-				[1] = 4,
-				[2] = 10,
-				[3] = 1,
-			},
 		},
+		["key"] = 580629,
+		["name"] = "圣物-普攻减伤Lv7",
 		["counter_type"] = {
-			[1] = 0,
 		},
-		["name"] = "零歧电击者普通攻击",
+		["full_desc"] = "自身受到的普攻伤害减少<font color='#orange#'>17%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[530134] = {
@@ -81408,17 +81953,17 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害。同时恢复己方全体的血量。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[572053] = {
-		["max_level"] = 1,
+	[60086] = {
+		["max_level"] = 10,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体。",
-		["skill_type"] = 1,
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 572053,
+				["sid"] = 60086,
 			},
 		},
 		["consume"] = {
@@ -81428,16 +81973,18 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 572053,
-		["name"] = "石头人",
+		["key"] = 60086,
+		["name"] = "震魂曲",
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "攻击敌方单体。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "攻击怪物时，炼狱降低目标的<font color='#green2#'>{id =600861, index=1,key='buff_sub_mz ',format = 2}</font>命中率。",
+		["params"] = "res/image/ui/04_skill/hall.png",
 	},
-	[80092] = {
+	[80048] = {
 		["max_level"] = 10,
 		["heros"] = {
+			[1] = 10007,
 		},
 		["simple_desc"] = "装备被动",
 		["skill_type"] = 4,
@@ -81445,7 +81992,7 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 80092,
+				["sid"] = 80048,
 			},
 		},
 		["consume"] = {
@@ -81460,82 +82007,67 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 80092,
-		["name"] = "奥菲莉亚",
+		["key"] = 80048,
+		["name"] = "薇薇安",
 		["counter_type"] = {
 			[1] = 0,
 		},
-		["full_desc"] = "龙枪变为攻击敌人全体，伤害降低<font color='#green2#'>40%</font>。",
+		["full_desc"] = "薇薇安基础攻击力提升<font color='#green2#'>25%</font>。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592512] = {
+	[9000005] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 592512,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 592512,
-		["name"] = "獠牙战士",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[580601] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "自身的普攻伤害提升<font color='#orange#'>7%</font>。",
+		["simple_desc"] = "单体目标破甲",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580601,
+				["sid"] = 803412,
 			},
 		},
+		["key"] = 9000005,
 		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
 		},
-		["key"] = 580601,
-		["name"] = "圣物-普攻强化Lv1",
+		["name"] = "单破甲",
+		["combo_value"] = 1,
 		["counter_type"] = {
+			[1] = 0,
 		},
-		["full_desc"] = "自身的普攻伤害提升<font color='#orange#'>7%</font>。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+		["full_desc"] = "单体目标破甲",
+		["params"] = "res/image/ui/04_skill/passive/exgift.png",
 	},
-	[521509] = {
+	[521525] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["simple_desc"] = "攻击单体，造成伤害。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 5215091,
+				["sid"] = 5215251,
 			},
 			[2] = {
 				["round"] = 3,
-				["sid"] = 5215092,
+				["sid"] = 5215252,
 			},
 			[3] = {
 				["round"] = 5,
-				["sid"] = 5215093,
+				["sid"] = 5215253,
 			},
 		},
 		["consume"] = {
@@ -81545,24 +82077,24 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 521509,
-		["name"] = "刃魔",
+		["key"] = 521525,
+		["name"] = "光明会拳师",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击单体，造成伤害。伤害受怒火标记加成",
+		["full_desc"] = "攻击单体，造成伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[592451] = {
+	[592230] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "攻击敌方单体，造成伤害。",
+		["simple_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["skill_type"] = 1,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 592451,
+				["sid"] = 592230,
 			},
 		},
 		["consume"] = {
@@ -81572,33 +82104,93 @@ skillgroup = {
 				[3] = 1,
 			},
 		},
-		["key"] = 592451,
-		["name"] = "獠牙斧手",
+		["key"] = 592230,
+		["name"] = "黑蔷薇杖兵",
 		["counter_type"] = {
 		},
-		["full_desc"] = "攻击敌方单体，造成伤害。",
+		["full_desc"] = "攻击敌方单体，造成150%攻击力的伤害。根据自身怒气层数施放重伤。同时给自身增加10层怒气。5~10层，赋予4层重伤；1~4层，赋予2层重伤。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[580147] = {
+	[592520] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
-		["simple_desc"] = "普通攻击命中后会赋予敌人流血状态。",
+		["simple_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御，同时降低敌人治疗效果。",
 		["skill_type"] = 3,
 		["probability"] = 10000,
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 580147,
+				["sid"] = 592520,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 580147,
-		["name"] = "被动-附加异常状态",
+		["key"] = 592520,
+		["name"] = "被动-领袖集火",
 		["counter_type"] = {
 		},
-		["full_desc"] = "普通攻击命中后会赋予敌人流血状态。",
+		["full_desc"] = "进入战斗一段时间后，我方攻击力最高者获得“领袖”标记。“领袖”标记效果：能量条清空时，降低敌方全体防御；同时保护队友，当队友受到技能伤害或6秒内受到普攻次数超过6次时，大幅提升全体防御；领袖死亡时，对其他队友造成伤害。",
+		["params"] = "res/image/ui/04_skill/AttackIcon.png",
+	},
+	[80004] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "装备被动",
+		["skill_type"] = 3,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80004,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 3,
+				[3] = 1,
+			},
+			[2] = {
+				[1] = 4,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80004,
+		["name"] = "虚弱",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "造成伤害时，附带攻击降低<font color='#green2#'>10%</font>的效果，持续2秒。",
+		["params"] = "res/image/ui/04_skill/maltreathappiness.png",
+	},
+	[41204] = {
+		["max_level"] = 1,
+		["heros"] = {
+		},
+		["simple_desc"] = "攻击单体，造成伤害。并赋予全体友军攻速和暴击状态。",
+		["skill_type"] = 1,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 41204,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 41204,
+		["name"] = "巫师鲁恩",
+		["counter_type"] = {
+		},
+		["full_desc"] = "攻击单体，造成伤害。并赋予全体友军攻速和暴击状态。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[312411] = {
@@ -81621,28 +82213,6 @@ skillgroup = {
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
-		["params"] = "res/image/ui/04_skill/AttackIcon.png",
-	},
-	[312511] = {
-		["max_level"] = 1,
-		["heros"] = {
-		},
-		["simple_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
-		["skill_type"] = 1,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 312511,
-			},
-		},
-		["consume"] = {
-		},
-		["key"] = 312511,
-		["name"] = "光明会狂战",
-		["counter_type"] = {
-		},
-		["full_desc"] = "攻击全体，造成140%攻击力伤害。同时附加目标最大生命值上限5%的伤害。",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
 	[20042] = {
@@ -81705,7 +82275,7 @@ skillgroup = {
 		["full_desc"] = "艾丽西亚的冰霜之心的技能加成效果提升至<font color='#green2#'>15%</font>。",
 		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
-	[312704] = {
+	[312652] = {
 		["max_level"] = 1,
 		["heros"] = {
 		},
@@ -81715,13 +82285,13 @@ skillgroup = {
 		["zone"] = {
 			[1] = {
 				["round"] = 0,
-				["sid"] = 312704,
+				["sid"] = 312652,
 			},
 		},
 		["consume"] = {
 		},
-		["key"] = 312704,
-		["name"] = "零歧电击者",
+		["key"] = 312652,
+		["name"] = "兄弟会刺客",
 		["counter_type"] = {
 		},
 		["full_desc"] = "攻击单体，造成伤害。",
@@ -81780,34 +82350,6 @@ skillgroup = {
 		["full_desc"] = "攻击单体，造成伤害",
 		["params"] = "res/image/ui/04_skill/AttackIcon.png",
 	},
-	[80502] = {
-		["max_level"] = 10,
-		["heros"] = {
-		},
-		["simple_desc"] = "黑色符文-1升级",
-		["skill_type"] = 4,
-		["probability"] = 10000,
-		["zone"] = {
-			[1] = {
-				["round"] = 0,
-				["sid"] = 80502,
-			},
-		},
-		["consume"] = {
-			[1] = {
-				[1] = 1,
-				[2] = 10,
-				[3] = 1,
-			},
-		},
-		["key"] = 80502,
-		["name"] = "薇薇安SP黑EX",
-		["counter_type"] = {
-			[1] = 0,
-		},
-		["full_desc"] = "释放克拉伦特后增加<font color='#green2#'>100%</font>的暴击伤害，持续3秒。",
-		["params"] = "res/image/ui/04_skill/passive/singer.png",
-	},
 	[60098] = {
 		["max_level"] = 10,
 		["heros"] = {
@@ -81835,6 +82377,34 @@ skillgroup = {
 		},
 		["full_desc"] = "沙利叶与怪物战斗时，安宁的伤害提高<font color='#green2#'>{id =60098, index=1, format = 2}</font>。",
 		["params"] = "res/image/ui/04_skill/tranquility.png",
+	},
+	[80511] = {
+		["max_level"] = 10,
+		["heros"] = {
+		},
+		["simple_desc"] = "黑色符文-1",
+		["skill_type"] = 4,
+		["probability"] = 10000,
+		["zone"] = {
+			[1] = {
+				["round"] = 0,
+				["sid"] = 80511,
+			},
+		},
+		["consume"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 1,
+			},
+		},
+		["key"] = 80511,
+		["name"] = "比南纳尔黑",
+		["counter_type"] = {
+			[1] = 0,
+		},
+		["full_desc"] = "智慧的洞察获得的暴击伤害提升<font color='#green2#'>15%</font>。",
+		["params"] = "res/image/ui/04_skill/passive/singer.png",
 	},
 }
 

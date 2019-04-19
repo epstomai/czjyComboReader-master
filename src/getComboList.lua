@@ -44,12 +44,13 @@ end
 
 --运行获得组合技表
 function runGetCombo()
-
     local combo_id
     local combo_name
     local combo_desc
     local skill_names_table
-    for k, v in pairs(XML_skill.combo) do
+    local combos_list = XML_skill.combo
+    local combo_output = {}
+    for k, v in pairs(combos_list) do
         if k >= 10000 and k <=100000 then
             combo_id = k
             combo_name = v.name
@@ -60,8 +61,24 @@ function runGetCombo()
             end
 
             skill_names_table = getSkillNames(v)
-            print(k..","..combo_name..","..combo_desc..","..skill_names_table[1]..","..skill_names_table[2]..","..skill_names_table[3])
+            combo_output[k] = {
+                ["name"]=combo_name,
+                ["desc"]=combo_desc,
+                ["skill1"]=skill_names_table[1],
+                ["skill2"]=skill_names_table[2],
+                ["skill3"]=skill_names_table[3],
+            }
+            --print(k..","..combo_name..","..combo_desc..","..skill_names_table[1]..","..skill_names_table[2]..","..skill_names_table[3])
+
         end
     end
+    return combo_output
 end
 
+
+function printComboList()
+    local combo = table_arrange(runGetCombo());
+    for i, v in pairs(combo) do
+        print(i..","..v.name..","..v.desc..","..v.skill1..","..v.skill2..","..v.skill3)
+    end
+end

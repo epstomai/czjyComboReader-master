@@ -243,10 +243,249 @@ function renameSkillIconFiles()
 
         --os.rename(line , string.format("C:\\Users\\knia\\Desktop\\czjy\\战报图片\\技能\\%s.png", name))
 
-        start_pos = end_pos + 1
-    end
+            start_pos = end_pos + 1
+        end
 
     print("++++++重命名完成+++++")
 
     print(formatTable(file_not_changed))
+end
+
+
+
+function table2json(t)
+    local function serialize(tbl)
+        local tmp = {}
+        for k, v in pairs(tbl) do
+            local k_type = type(k)
+            local v_type = type(v)
+            local key = (k_type == "string" and "\"" .. k .. "\":")
+                    or (k_type == "number" and "")
+            local value = (v_type == "table" and serialize(v))
+                    or (v_type == "boolean" and tostring(v))
+                    or (v_type == "string" and "\"" .. v .. "\"")
+                    or (v_type == "number" and v)
+            tmp[#tmp + 1] = key and value and tostring(key) .. tostring(value) or nil
+        end
+        if table.maxn(tbl) == 0 then
+            return "{" .. table.concat(tmp, ",") .. "}"
+        else
+            return "[" .. table.concat(tmp, ",") .. "]"
+        end
+    end
+    assert(type(t) == "table")
+    return serialize(t)
+end
+
+function musicFes()
+    --音乐祭数据 废弃
+
+    require("xml.xml_music_pre")
+    function getSenContent()
+
+    end
+
+    local sentence = XML_music_pre.effect
+    local songs = table_arrange(XML_music_pre.song)
+    local format_songs = {}
+    for i, v in pairs(songs) do
+        local sens_temp = {}
+        for j, k in pairs(v.sentences_pool) do
+            sens_temp[j] = {
+                ["sentences"] = sentence[k].sentence_content,
+                ["prompt"] = sentence[k].prompt
+            }
+        end
+        format_songs[i] = sens_temp
+    end
+    --print(formatTable(format_songs))
+    --建立词频表
+    local frequence = {}
+    for song_key, song in pairs(format_songs) do
+        for sen_key, sentence in pairs(song) do
+            local recommend = sentence.prompt[1]
+            if frequence[recommend] then
+                frequence[recommend] = frequence[recommend] + 1
+            else
+                frequence[recommend] = 1
+            end
+        end
+    end
+    local times = 0
+    for i, v in pairs(frequence) do
+        times = times + v
+    end
+    --print(times)
+    --print(formatTable(frequence))
+    --每个歌词的填入比例
+    local ratio = {}
+    for i, v in pairs(frequence) do
+        ratio[i] = tonumber(string.format("%0.4f", v/times))
+    end
+    print(formatTable(ratio))
+    --按比例平均分配每个词
+    local test_table = {
+        ["孤独"] = 167,
+        ["雨滴"] = 101,
+        ["喜欢"] = 128,
+        ["夜色"] = 155,
+        ["梦想"] = 268,
+        ["彩虹"] = 138,
+        ["远方"] = 137,
+        ["黑暗"] = 128,
+        ["勇气"] = 61,
+        ["心情"] = 162,
+        ["双手"] = 194,
+        ["颜色"] = 301,
+        ["旅途"] = 151,
+        ["可爱"] = 166,
+        ["力量"] = 130,
+        ["繁星"] = 251,
+        ["我们"] = 243,
+        ["太阳"] = 91,
+        ["友情"] = 172,
+        ["万能"] = 607,
+    }
+    local res = {}
+    res.wm = math.floor(test_table["我们"]/30/8)
+    res.mx = math.floor(test_table["梦想"]/30/8)
+    res.ys = math.floor(test_table["颜色"]/30/8)
+    res.fx = math.floor(test_table["繁星"]/30/8)
+    res.wn = test_table["万能"]/30
+    res.total = res.wm + res.mx + res.ys + res.fx + res.wn
+    --print(formatTable(res))
+    print(table2json(test_table))
+
+end
+
+--将所有数据写入本地文件data/
+function updateFiles()
+    local date = "-- Last Update: "..os.date("%Y/%m/%d", os.time())
+    local Engraving_data = io.open("./data/Engraving_data.lua","w+")
+    local document =
+    date..[[
+
+local Engraving_data = {
+]]..formatTable(GetExEquipSkills.getAllHeroExEqSkills())..[[
+}
+return Engraving_data]]
+    Engraving_data:write(document)
+    Engraving_data:close()
+
+    local EngravingHeros_data = io.open("data/EngravingHeros_data.lua","w+")
+    document =
+    date..[[
+
+local EngravingHeros_data = {
+]]..formatTable(GetExEquipSkills.getAllExEquipWithNames())..[[
+}
+return EngravingHeros_data]]
+    EngravingHeros_data:write(document)
+    EngravingHeros_data:close()
+
+    local HeroDialogs_data = io.open("data/HeroDialogs_data.lua","w+")
+    document =
+    date..[[
+
+local HeroDialogs_data = {
+]]..formatTable(getHeroDialogs())..[[
+}
+return HeroDialogs_data]]
+    HeroDialogs_data:write(document)
+    HeroDialogs_data:close()
+
+    local HeroStories_data = io.open("data/HeroStories_data.lua","w+")
+    document =
+    date..[[
+
+local HeroStories_data = {
+]]..formatTable(getHeroStories())..[[
+}
+return HeroStories_data]]
+    HeroStories_data:write(document)
+    HeroStories_data:close()
+
+    local Heros_data = io.open("data/Heros_data.lua","w+")
+    document =
+    date..[[
+
+local Heros_data = {
+]]..formatTable(cfgControlHero:getHeroBaseInfoAll())..[[
+}
+return Heros_data]]
+    Heros_data:write(document)
+    Heros_data:close()
+
+    local Skills_data = io.open("data/Skills_data.lua","w+")
+    document =
+    date..[[
+
+local Skills_data = {
+]]..getAllSkillsDesc()..[[
+}
+return Skills_data]]
+    Skills_data:write(document)
+    Skills_data:close()
+
+    local Surmount_data = io.open("data/Surmount_data.lua","w+")
+    document =
+    date..[[
+
+local Surmount_data = {
+]]..formatTable(cfgControlSurmount:getAllHerosMoreInfo())..[[
+}
+return Surmount_data]]
+    Surmount_data:write(document)
+    Surmount_data:close()
+
+    local Translation_data = io.open("data/Translation_data.lua","w+")
+    document =
+    date..[[
+
+local Translation_data = {
+]]..formatTable(getTranslationTable())..[[
+}
+return Translation_data]]
+    Translation_data:write(document)
+    Translation_data:close()
+    print("Done.")
+end
+
+--将所有需要的原配置文件复制到xml/
+function copyMetaFilesViaPath(sourcePath)
+    local desPath = "xml//"
+    local fileList = {
+        "xml_cv_museum",
+        "xml_equip",
+        "xml_equip_skill",
+        "xml_fight_conf",
+        "xml_formula",
+        "xml_hero",
+        "xml_item",
+        "xml_playerskin",
+        "xml_resonate",
+        "xml_roleskin",
+        "xml_skill_combo",
+        "xml_skill_effects",
+        "xml_skill_formulas",
+        "xml_skill_skillgroup",
+        "xml_skill_skills",
+        "xml_surmount",
+    }
+    local function copy(sp,dp)
+        local rf = io.open(sp,"r") --使用“rb”打开二进制文件，如果是“r”的话，是使用文本方式打开，遇到‘0’时会结束读取
+        local len = rf:seek("end")  --获取文件长度
+        rf:seek("set",0)--重新设置文件索引为0的位置
+        local data = rf:read(len)  --根据文件长度读取文件数据
+        local wf = io.open(dp,"w")  --用“wb”方法写入二进制文件
+        wf:write(data)
+        rf:close()
+        wf:close()
+    end
+    for i, v in pairs(fileList) do
+        local sp = sourcePath..v..".luac"
+        local dp = desPath..v..".lua"
+        copy(sp,dp)
+    end
+    print("copy done.")
 end

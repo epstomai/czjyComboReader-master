@@ -3951,6 +3951,11 @@ equip = {
 				[2] = 1.3,
 				[3] = 1.3,
 			},
+			[6] = {
+				[1] = 1.3,
+				[2] = 1.3,
+				[3] = 1.3,
+			},
 		},
 		["smelttimes"] = 10,
 		["fy"] = 13042,
@@ -3980,6 +3985,7 @@ equip = {
 			[3] = 10040,
 			[4] = 10038,
 			[5] = 10033,
+			[6] = 10066,
 		},
 	},
 	[286009] = {
@@ -6416,39 +6422,36 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284005] = {
-		["resonate"] = 284005,
+	[21203] = {
+		["resonate"] = 21203,
 		["hole"] = {
 		},
-		["hp"] = 0,
+		["hp"] = 322,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5402,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 5573,
-		["id"] = 284005,
+		["fy"] = 20,
+		["id"] = 21203,
 		["buff"] = {
 		},
-		["gj"] = 16741,
-		["enhancevalue"] = 2256,
+		["gj"] = 0,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
-				[2] = 40,
+				[2] = 1,
 			},
 		},
-		["ex_type"] = 1,
+		["name"] = "佣兵短靴",
+		["enhancevalue"] = 2015,
+		["ex_type"] = 2,
 		["skills"] = {
-			[1] = 190004,
-			[2] = 19002,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10002,
 		},
 	},
 	[274031] = {
@@ -10434,43 +10437,36 @@ equip = {
 			[1] = 10013,
 		},
 	},
-	[274078] = {
-		["resonate"] = 274078,
-		["exclusive"] = 1,
+	[23204] = {
+		["resonate"] = 23204,
 		["hole"] = {
 		},
-		["hp"] = 22372,
+		["hp"] = 1108,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 3401,
-			[2] = 3402,
-			[3] = 3403,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 1390,
-		["id"] = 274078,
+		["fy"] = 135,
+		["id"] = 23204,
 		["buff"] = {
 		},
-		["gj"] = 2780,
+		["gj"] = 271,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
-		["name"] = "薇欧瑞儿",
-		["enhancevalue"] = 2172,
+		["name"] = "学徒戒指",
+		["enhancevalue"] = 2112,
 		["ex_type"] = 1,
 		["skills"] = {
-			[1] = 274078,
-			[2] = 2740782,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10038,
 		},
 	},
 	[23220] = {
@@ -12884,6 +12880,45 @@ equip = {
 			[1] = 10020,
 		},
 	},
+	[274106] = {
+		["resonate"] = 274106,
+		["exclusive"] = 1,
+		["hole"] = {
+		},
+		["hp"] = 22372,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 3401,
+			[2] = 3402,
+			[3] = 3403,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 1390,
+		["id"] = 274106,
+		["buff"] = {
+		},
+		["gj"] = 2780,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["name"] = "塞西莉娅",
+		["enhancevalue"] = 2172,
+		["ex_type"] = 1,
+		["skills"] = {
+			[1] = 274108,
+			[2] = 2741082,
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10066,
+		},
+	},
 	[284081] = {
 		["resonate"] = 284081,
 		["hole"] = {
@@ -13015,36 +13050,37 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[22103] = {
-		["resonate"] = 22103,
+	[284083] = {
+		["resonate"] = 284083,
 		["hole"] = {
 		},
-		["hp"] = 248,
+		["hp"] = 80224,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
+			[1] = 5403,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 15,
-		["id"] = 22103,
+		["fy"] = 7040,
+		["id"] = 284083,
 		["buff"] = {
 		},
 		["gj"] = 0,
+		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
-				[2] = 20,
+				[2] = 40,
 			},
 		},
-		["name"] = "松垮的布鞋",
-		["enhancevalue"] = 2039,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
-		["resonatetimes"] = 0,
+		["resonatetimes"] = 10,
 		["heroid"] = {
+			[1] = 10021,
 		},
 	},
 	[21112] = {
@@ -13213,36 +13249,39 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[21208] = {
-		["resonate"] = 21208,
+	[284085] = {
+		["resonate"] = 284085,
 		["hole"] = {
 		},
-		["hp"] = 96,
+		["hp"] = 0,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
+			[1] = 5402,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 12,
-		["id"] = 21208,
+		["fy"] = 5573,
+		["id"] = 284085,
 		["buff"] = {
 		},
-		["gj"] = 32,
+		["gj"] = 16741,
+		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
-				[2] = 10,
+				[2] = 40,
 			},
 		},
-		["name"] = "发光戒指",
-		["enhancevalue"] = 2020,
 		["ex_type"] = 1,
 		["skills"] = {
+			[1] = 190003,
+			[2] = 19022,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
+			[1] = 10022,
 		},
 	},
 	[24309] = {
@@ -16108,45 +16147,6 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[274046] = {
-		["resonate"] = 274046,
-		["exclusive"] = 1,
-		["hole"] = {
-		},
-		["hp"] = 22372,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 3401,
-			[2] = 3402,
-			[3] = 3403,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 1390,
-		["id"] = 274046,
-		["buff"] = {
-		},
-		["gj"] = 2780,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "菲娅",
-		["enhancevalue"] = 2172,
-		["ex_type"] = 1,
-		["skills"] = {
-			[1] = 274046,
-			[2] = 2740462,
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10002,
-		},
-	},
 	[31311] = {
 		["resonate"] = 31311,
 		["hole"] = {
@@ -16176,6 +16176,39 @@ equip = {
 		["skills"] = {
 		},
 		["resonatetimes"] = 0,
+		["heroid"] = {
+		},
+	},
+	[23317] = {
+		["resonate"] = 23317,
+		["hole"] = {
+		},
+		["hp"] = 0,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 3302,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 168,
+		["id"] = 23317,
+		["buff"] = {
+		},
+		["gj"] = 1283,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["name"] = "勇士斧头",
+		["enhancevalue"] = 2149,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
 		["heroid"] = {
 		},
 	},
@@ -16214,6 +16247,38 @@ equip = {
 		["resonatetimes"] = 10,
 		["heroid"] = {
 			[1] = 10031,
+		},
+	},
+	[31310] = {
+		["resonate"] = 31310,
+		["hole"] = {
+		},
+		["hp"] = 8,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 8,
+		["id"] = 31310,
+		["buff"] = {
+		},
+		["gj"] = 8,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["name"] = "炼金术师的精炼战甲",
+		["enhancevalue"] = 2001,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 0,
+		["heroid"] = {
 		},
 	},
 	[284100] = {
@@ -16278,38 +16343,6 @@ equip = {
 		},
 		["name"] = "过气的扳指",
 		["enhancevalue"] = 2044,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 0,
-		["heroid"] = {
-		},
-	},
-	[31310] = {
-		["resonate"] = 31310,
-		["hole"] = {
-		},
-		["hp"] = 8,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 8,
-		["id"] = 31310,
-		["buff"] = {
-		},
-		["gj"] = 8,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "炼金术师的精炼战甲",
-		["enhancevalue"] = 2001,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
@@ -16416,11 +16449,11 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[24208] = {
-		["resonate"] = 23208,
+	[31307] = {
+		["resonate"] = 31307,
 		["hole"] = {
 		},
-		["hp"] = 11680,
+		["hp"] = 8,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
@@ -16428,22 +16461,23 @@ equip = {
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 804,
-		["id"] = 24208,
+		["fy"] = 8,
+		["id"] = 31307,
 		["buff"] = {
 		},
-		["gj"] = 2034,
-		["enhancevalue"] = 2116,
+		["gj"] = 8,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
+		["name"] = "炼金术师的道具靴",
+		["enhancevalue"] = 2001,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
-		["resonatetimes"] = 10,
+		["resonatetimes"] = 0,
 		["heroid"] = {
 		},
 	},
@@ -16478,6 +16512,37 @@ equip = {
 		["resonatetimes"] = 10,
 		["heroid"] = {
 			[1] = 10032,
+		},
+	},
+	[24208] = {
+		["resonate"] = 23208,
+		["hole"] = {
+		},
+		["hp"] = 11680,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 804,
+		["id"] = 24208,
+		["buff"] = {
+		},
+		["gj"] = 2034,
+		["enhancevalue"] = 2116,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
 		},
 	},
 	[24216] = {
@@ -16542,38 +16607,6 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[21206] = {
-		["resonate"] = 21206,
-		["hole"] = {
-		},
-		["hp"] = 96,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 24,
-		["id"] = 21206,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 10,
-			},
-		},
-		["name"] = "发光法袍",
-		["enhancevalue"] = 2018,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
 	[284111] = {
 		["resonate"] = 284111,
 		["hole"] = {
@@ -16607,11 +16640,11 @@ equip = {
 			[1] = 10032,
 		},
 	},
-	[31307] = {
-		["resonate"] = 31307,
+	[21206] = {
+		["resonate"] = 21206,
 		["hole"] = {
 		},
-		["hp"] = 8,
+		["hp"] = 96,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
@@ -16619,23 +16652,23 @@ equip = {
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 8,
-		["id"] = 31307,
+		["fy"] = 24,
+		["id"] = 21206,
 		["buff"] = {
 		},
-		["gj"] = 8,
+		["gj"] = 0,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
-				[2] = 40,
+				[2] = 10,
 			},
 		},
-		["name"] = "炼金术师的道具靴",
-		["enhancevalue"] = 2001,
+		["name"] = "发光法袍",
+		["enhancevalue"] = 2018,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
-		["resonatetimes"] = 0,
+		["resonatetimes"] = 10,
 		["heroid"] = {
 		},
 	},
@@ -16671,11 +16704,11 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[23224] = {
-		["resonate"] = 23224,
+	[31305] = {
+		["resonate"] = 31305,
 		["hole"] = {
 		},
-		["hp"] = 1441,
+		["hp"] = 8,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
@@ -16683,23 +16716,23 @@ equip = {
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 149,
-		["id"] = 23224,
+		["fy"] = 8,
+		["id"] = 31305,
 		["buff"] = {
 		},
-		["gj"] = 188,
+		["gj"] = 8,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
-		["name"] = "被遗弃的戒指",
-		["enhancevalue"] = 2132,
+		["name"] = "炼金术师的道具剑",
+		["enhancevalue"] = 2001,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
-		["resonatetimes"] = 10,
+		["resonatetimes"] = 0,
 		["heroid"] = {
 		},
 	},
@@ -16738,6 +16771,39 @@ equip = {
 		["resonatetimes"] = 10,
 		["heroid"] = {
 			[1] = 10032,
+		},
+	},
+	[284006] = {
+		["resonate"] = 284006,
+		["hole"] = {
+		},
+		["hp"] = 92831,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5401,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 4459,
+		["id"] = 284006,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10002,
 		},
 	},
 	[23314] = {
@@ -16806,41 +16872,6 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[22308] = {
-		["resonate"] = 22308,
-		["hole"] = {
-		},
-		["hp"] = 1483,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 2301,
-			[2] = 2302,
-			[3] = 2303,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 191,
-		["id"] = 22308,
-		["buff"] = {
-		},
-		["gj"] = 487,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "圣光守护",
-		["enhancevalue"] = 2080,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
 	[284113] = {
 		["resonate"] = 284113,
 		["hole"] = {
@@ -16876,6 +16907,41 @@ equip = {
 			[1] = 10033,
 		},
 	},
+	[22308] = {
+		["resonate"] = 22308,
+		["hole"] = {
+		},
+		["hp"] = 1483,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 2301,
+			[2] = 2302,
+			[3] = 2303,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 191,
+		["id"] = 22308,
+		["buff"] = {
+		},
+		["gj"] = 487,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["name"] = "圣光守护",
+		["enhancevalue"] = 2080,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+		},
+	},
 	[22324] = {
 		["resonate"] = 22324,
 		["hole"] = {
@@ -16908,38 +16974,6 @@ equip = {
 		["skills"] = {
 		},
 		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
-	[31305] = {
-		["resonate"] = 31305,
-		["hole"] = {
-		},
-		["hp"] = 8,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 8,
-		["id"] = 31305,
-		["buff"] = {
-		},
-		["gj"] = 8,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "炼金术师的道具剑",
-		["enhancevalue"] = 2001,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 0,
 		["heroid"] = {
 		},
 	},
@@ -17143,37 +17177,43 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284083] = {
-		["resonate"] = 284083,
+	[274078] = {
+		["resonate"] = 274078,
+		["exclusive"] = 1,
 		["hole"] = {
 		},
-		["hp"] = 80224,
+		["hp"] = 22372,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5403,
+			[1] = 3401,
+			[2] = 3402,
+			[3] = 3403,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 7040,
-		["id"] = 284083,
+		["fy"] = 1390,
+		["id"] = 274078,
 		["buff"] = {
 		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
+		["gj"] = 2780,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
+		["name"] = "薇欧瑞儿",
+		["enhancevalue"] = 2172,
 		["ex_type"] = 1,
 		["skills"] = {
+			[1] = 274078,
+			[2] = 2740782,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10021,
+			[1] = 10038,
 		},
 	},
 	[21114] = {
@@ -17211,39 +17251,43 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284085] = {
-		["resonate"] = 284085,
+	[274046] = {
+		["resonate"] = 274046,
+		["exclusive"] = 1,
 		["hole"] = {
 		},
-		["hp"] = 0,
+		["hp"] = 22372,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5402,
+			[1] = 3401,
+			[2] = 3402,
+			[3] = 3403,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 5573,
-		["id"] = 284085,
+		["fy"] = 1390,
+		["id"] = 274046,
 		["buff"] = {
 		},
-		["gj"] = 16741,
-		["enhancevalue"] = 2256,
+		["gj"] = 2780,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
+		["name"] = "菲娅",
+		["enhancevalue"] = 2172,
 		["ex_type"] = 1,
 		["skills"] = {
-			[1] = 190003,
-			[2] = 19022,
+			[1] = 274046,
+			[2] = 2740462,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10022,
+			[1] = 10002,
 		},
 	},
 	[24215] = {
@@ -17405,21 +17449,21 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284115] = {
-		["resonate"] = 284115,
+	[284086] = {
+		["resonate"] = 284086,
 		["hole"] = {
 		},
-		["hp"] = 80224,
+		["hp"] = 92831,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5403,
+			[1] = 5401,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 7040,
-		["id"] = 284115,
+		["fy"] = 4459,
+		["id"] = 284086,
 		["buff"] = {
 		},
 		["gj"] = 0,
@@ -17435,7 +17479,7 @@ equip = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10033,
+			[1] = 10022,
 		},
 	},
 	[24311] = {
@@ -17610,6 +17654,140 @@ equip = {
 		["heroid"] = {
 		},
 	},
+	[274030] = {
+		["resonate"] = 274030,
+		["hole"] = {
+		},
+		["hp"] = 69785,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 4401,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 3129,
+		["id"] = 274030,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2174,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+			[1] = 18004,
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+		},
+	},
+	[284119] = {
+		["resonate"] = 284119,
+		["hole"] = {
+		},
+		["hp"] = 72202,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5403,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 7803,
+		["id"] = 284119,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10034,
+		},
+	},
+	[284037] = {
+		["resonate"] = 284037,
+		["hole"] = {
+		},
+		["hp"] = 0,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5402,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 5573,
+		["id"] = 284037,
+		["buff"] = {
+		},
+		["gj"] = 16741,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+			[1] = 190003,
+			[2] = 19010,
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10010,
+		},
+	},
+	[284115] = {
+		["resonate"] = 284115,
+		["hole"] = {
+		},
+		["hp"] = 80224,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5403,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 7040,
+		["id"] = 284115,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10033,
+		},
+	},
 	[22101] = {
 		["resonate"] = 22101,
 		["hole"] = {
@@ -17642,24 +17820,28 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284119] = {
-		["resonate"] = 284119,
+	[284120] = {
+		["resonate"] = 284120,
 		["hole"] = {
 		},
-		["hp"] = 72202,
+		["hp"] = 41258,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5403,
+			[1] = 5401,
+			[2] = 5402,
+			[3] = 5403,
+			[4] = 5404,
+			[5] = 5405,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 7803,
-		["id"] = 284119,
+		["fy"] = 4459,
+		["id"] = 284120,
 		["buff"] = {
 		},
-		["gj"] = 0,
+		["gj"] = 11160,
 		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
@@ -17769,141 +17951,6 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284120] = {
-		["resonate"] = 284120,
-		["hole"] = {
-		},
-		["hp"] = 41258,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5401,
-			[2] = 5402,
-			[3] = 5403,
-			[4] = 5404,
-			[5] = 5405,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 4459,
-		["id"] = 284120,
-		["buff"] = {
-		},
-		["gj"] = 11160,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10034,
-		},
-	},
-	[21207] = {
-		["resonate"] = 21207,
-		["hole"] = {
-		},
-		["hp"] = 290,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 18,
-		["id"] = 21207,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 10,
-			},
-		},
-		["name"] = "发光法靴",
-		["enhancevalue"] = 2019,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
-	[23315] = {
-		["resonate"] = 23315,
-		["hole"] = {
-		},
-		["hp"] = 12468,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 3303,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 536,
-		["id"] = 23315,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "老旧的凉鞋",
-		["enhancevalue"] = 2147,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
-	[22309] = {
-		["resonate"] = 22309,
-		["hole"] = {
-		},
-		["hp"] = 0,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 2301,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 95,
-		["id"] = 22309,
-		["buff"] = {
-		},
-		["gj"] = 730,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "先驱者之剑",
-		["enhancevalue"] = 2081,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
 	[284121] = {
 		["resonate"] = 284121,
 		["hole"] = {
@@ -17937,6 +17984,38 @@ equip = {
 		["resonatetimes"] = 10,
 		["heroid"] = {
 			[1] = 10035,
+		},
+	},
+	[21207] = {
+		["resonate"] = 21207,
+		["hole"] = {
+		},
+		["hp"] = 290,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 18,
+		["id"] = 21207,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 10,
+			},
+		},
+		["name"] = "发光法靴",
+		["enhancevalue"] = 2019,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
 		},
 	},
 	[284149] = {
@@ -17974,24 +18053,58 @@ equip = {
 			[1] = 10042,
 		},
 	},
-	[24213] = {
-		["resonate"] = 23213,
+	[23315] = {
+		["resonate"] = 23315,
 		["hole"] = {
 		},
-		["hp"] = 0,
+		["hp"] = 12468,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
+			[1] = 3303,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 3210,
-		["id"] = 24213,
+		["fy"] = 536,
+		["id"] = 23315,
 		["buff"] = {
 		},
-		["gj"] = 2544,
-		["enhancevalue"] = 2121,
+		["gj"] = 0,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["name"] = "老旧的凉鞋",
+		["enhancevalue"] = 2147,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+		},
+	},
+	[284122] = {
+		["resonate"] = 284122,
+		["hole"] = {
+		},
+		["hp"] = 103146,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5401,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 3520,
+		["id"] = 284122,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
@@ -18003,6 +18116,139 @@ equip = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
+			[1] = 10035,
+		},
+	},
+	[22309] = {
+		["resonate"] = 22309,
+		["hole"] = {
+		},
+		["hp"] = 0,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 2301,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 95,
+		["id"] = 22309,
+		["buff"] = {
+		},
+		["gj"] = 730,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["name"] = "先驱者之剑",
+		["enhancevalue"] = 2081,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+		},
+	},
+	[284101] = {
+		["resonate"] = 284101,
+		["hole"] = {
+		},
+		["hp"] = 0,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5402,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 8214,
+		["id"] = 284101,
+		["buff"] = {
+		},
+		["gj"] = 13951,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+			[1] = 190001,
+			[2] = 19030,
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10030,
+		},
+	},
+	[24210] = {
+		["resonate"] = 23210,
+		["hole"] = {
+		},
+		["hp"] = 33743,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 466,
+		["id"] = 24210,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2118,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+		},
+	},
+	[284123] = {
+		["resonate"] = 284123,
+		["hole"] = {
+		},
+		["hp"] = 80224,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5403,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 7040,
+		["id"] = 284123,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10035,
 		},
 	},
 	[274032] = {
@@ -18042,243 +18288,40 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284122] = {
-		["resonate"] = 284122,
+	[21201] = {
+		["resonate"] = 21201,
 		["hole"] = {
 		},
-		["hp"] = 103146,
+		["hp"] = 0,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5401,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 3520,
-		["id"] = 284122,
+		["fy"] = 6,
+		["id"] = 21201,
 		["buff"] = {
 		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
+		["gj"] = 40,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
-				[2] = 40,
+				[2] = 1,
 			},
 		},
+		["name"] = "佣兵战斧",
+		["enhancevalue"] = 2013,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10035,
 		},
 	},
-	[284102] = {
-		["resonate"] = 284102,
-		["hole"] = {
-		},
-		["hp"] = 103146,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5401,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 3520,
-		["id"] = 284102,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10030,
-		},
-	},
-	[284131] = {
-		["resonate"] = 284131,
-		["hole"] = {
-		},
-		["hp"] = 110720,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5403,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 6511,
-		["id"] = 284131,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10037,
-		},
-	},
-	[284116] = {
-		["resonate"] = 284116,
-		["hole"] = {
-		},
-		["hp"] = 45842,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5401,
-			[2] = 5402,
-			[3] = 5403,
-			[4] = 5404,
-			[5] = 5405,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 4693,
-		["id"] = 284116,
-		["buff"] = {
-		},
-		["gj"] = 9300,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10033,
-		},
-	},
-	[284123] = {
-		["resonate"] = 284123,
-		["hole"] = {
-		},
-		["hp"] = 80224,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5403,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 7040,
-		["id"] = 284123,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10035,
-		},
-	},
-	[284134] = {
-		["resonate"] = 284134,
-		["hole"] = {
-		},
-		["hp"] = 103146,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5401,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 3520,
-		["id"] = 284134,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10038,
-		},
-	},
-	[284118] = {
-		["resonate"] = 284118,
-		["hole"] = {
-		},
-		["hp"] = 92831,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5401,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 4459,
-		["id"] = 284118,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10034,
-		},
-	},
-	[284133] = {
-		["resonate"] = 284133,
+	[284117] = {
+		["resonate"] = 284117,
 		["hole"] = {
 		},
 		["hp"] = 0,
@@ -18290,11 +18333,11 @@ equip = {
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 8214,
-		["id"] = 284133,
+		["fy"] = 5573,
+		["id"] = 284117,
 		["buff"] = {
 		},
-		["gj"] = 13951,
+		["gj"] = 16741,
 		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
@@ -18304,12 +18347,12 @@ equip = {
 		},
 		["ex_type"] = 1,
 		["skills"] = {
-			[1] = 190001,
-			[2] = 19038,
+			[1] = 190004,
+			[2] = 19034,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10038,
+			[1] = 10034,
 		},
 	},
 	[284124] = {
@@ -18349,66 +18392,36 @@ equip = {
 			[1] = 10035,
 		},
 	},
-	[284101] = {
-		["resonate"] = 284101,
+	[23324] = {
+		["resonate"] = 23324,
 		["hole"] = {
 		},
-		["hp"] = 0,
+		["hp"] = 5403,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5402,
+			[1] = 3301,
+			[2] = 3302,
+			[3] = 3303,
+			[4] = 3307,
+			[5] = 3308,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 8214,
-		["id"] = 284101,
+		["fy"] = 427,
+		["id"] = 23324,
 		["buff"] = {
 		},
-		["gj"] = 13951,
-		["enhancevalue"] = 2256,
+		["gj"] = 543,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
-		["ex_type"] = 1,
-		["skills"] = {
-			[1] = 190001,
-			[2] = 19030,
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10030,
-		},
-	},
-	[21201] = {
-		["resonate"] = 21201,
-		["hole"] = {
-		},
-		["hp"] = 0,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 6,
-		["id"] = 21201,
-		["buff"] = {
-		},
-		["gj"] = 40,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 1,
-			},
-		},
-		["name"] = "佣兵战斧",
-		["enhancevalue"] = 2013,
+		["name"] = "暗夜指环",
+		["enhancevalue"] = 2156,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
@@ -18416,8 +18429,8 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284086] = {
-		["resonate"] = 284086,
+	[284118] = {
+		["resonate"] = 284118,
 		["hole"] = {
 		},
 		["hp"] = 92831,
@@ -18430,7 +18443,7 @@ equip = {
 		},
 		["smelttimes"] = 10,
 		["fy"] = 4459,
-		["id"] = 284086,
+		["id"] = 284118,
 		["buff"] = {
 		},
 		["gj"] = 0,
@@ -18446,7 +18459,39 @@ equip = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10022,
+			[1] = 10034,
+		},
+	},
+	[22103] = {
+		["resonate"] = 22103,
+		["hole"] = {
+		},
+		["hp"] = 248,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 15,
+		["id"] = 22103,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 20,
+			},
+		},
+		["name"] = "松垮的布鞋",
+		["enhancevalue"] = 2039,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 0,
+		["heroid"] = {
 		},
 	},
 	[284125] = {
@@ -18484,6 +18529,39 @@ equip = {
 			[1] = 10036,
 		},
 	},
+	[284131] = {
+		["resonate"] = 284131,
+		["hole"] = {
+		},
+		["hp"] = 110720,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5403,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 6511,
+		["id"] = 284131,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10037,
+		},
+	},
 	[22102] = {
 		["resonate"] = 22102,
 		["hole"] = {
@@ -18516,24 +18594,25 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[24210] = {
-		["resonate"] = 23210,
+	[284134] = {
+		["resonate"] = 284134,
 		["hole"] = {
 		},
-		["hp"] = 33743,
+		["hp"] = 103146,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
+			[1] = 5401,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 466,
-		["id"] = 24210,
+		["fy"] = 3520,
+		["id"] = 284134,
 		["buff"] = {
 		},
 		["gj"] = 0,
-		["enhancevalue"] = 2118,
+		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
@@ -18545,38 +18624,7 @@ equip = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-		},
-	},
-	[23204] = {
-		["resonate"] = 23204,
-		["hole"] = {
-		},
-		["hp"] = 1108,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 135,
-		["id"] = 23204,
-		["buff"] = {
-		},
-		["gj"] = 271,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "学徒戒指",
-		["enhancevalue"] = 2112,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
+			[1] = 10038,
 		},
 	},
 	[284126] = {
@@ -18610,6 +18658,73 @@ equip = {
 		["resonatetimes"] = 10,
 		["heroid"] = {
 			[1] = 10036,
+		},
+	},
+	[21208] = {
+		["resonate"] = 21208,
+		["hole"] = {
+		},
+		["hp"] = 96,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 12,
+		["id"] = 21208,
+		["buff"] = {
+		},
+		["gj"] = 32,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 10,
+			},
+		},
+		["name"] = "发光戒指",
+		["enhancevalue"] = 2020,
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+		},
+	},
+	[284133] = {
+		["resonate"] = 284133,
+		["hole"] = {
+		},
+		["hp"] = 0,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5402,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 8214,
+		["id"] = 284133,
+		["buff"] = {
+		},
+		["gj"] = 13951,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+			[1] = 190001,
+			[2] = 19038,
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10038,
 		},
 	},
 	[23316] = {
@@ -18649,41 +18764,37 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[23324] = {
-		["resonate"] = 23324,
+	[284127] = {
+		["resonate"] = 284127,
 		["hole"] = {
 		},
-		["hp"] = 5403,
+		["hp"] = 72202,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 3301,
-			[2] = 3302,
-			[3] = 3303,
-			[4] = 3307,
-			[5] = 3308,
+			[1] = 5403,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 427,
-		["id"] = 23324,
+		["fy"] = 7803,
+		["id"] = 284127,
 		["buff"] = {
 		},
-		["gj"] = 543,
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
-		["name"] = "暗夜指环",
-		["enhancevalue"] = 2156,
 		["ex_type"] = 1,
 		["skills"] = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
+			[1] = 10036,
 		},
 	},
 	[22310] = {
@@ -18719,25 +18830,24 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284127] = {
-		["resonate"] = 284127,
+	[24213] = {
+		["resonate"] = 23213,
 		["hole"] = {
 		},
-		["hp"] = 72202,
+		["hp"] = 0,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5403,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 7803,
-		["id"] = 284127,
+		["fy"] = 3210,
+		["id"] = 24213,
 		["buff"] = {
 		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
+		["gj"] = 2544,
+		["enhancevalue"] = 2121,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
@@ -18749,7 +18859,6 @@ equip = {
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10036,
 		},
 	},
 	[274048] = {
@@ -18791,74 +18900,6 @@ equip = {
 			[1] = 10004,
 		},
 	},
-	[284117] = {
-		["resonate"] = 284117,
-		["hole"] = {
-		},
-		["hp"] = 0,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5402,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 5573,
-		["id"] = 284117,
-		["buff"] = {
-		},
-		["gj"] = 16741,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-			[1] = 190004,
-			[2] = 19034,
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10034,
-		},
-	},
-	[284147] = {
-		["resonate"] = 284131,
-		["hole"] = {
-		},
-		["hp"] = 72202,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5403,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 7803,
-		["id"] = 284147,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10041,
-		},
-	},
 	[284128] = {
 		["resonate"] = 284128,
 		["hole"] = {
@@ -18894,6 +18935,144 @@ equip = {
 		["resonatetimes"] = 10,
 		["heroid"] = {
 			[1] = 10036,
+		},
+	},
+	[284116] = {
+		["resonate"] = 284116,
+		["hole"] = {
+		},
+		["hp"] = 45842,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5401,
+			[2] = 5402,
+			[3] = 5403,
+			[4] = 5404,
+			[5] = 5405,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 4693,
+		["id"] = 284116,
+		["buff"] = {
+		},
+		["gj"] = 9300,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10033,
+		},
+	},
+	[284102] = {
+		["resonate"] = 284102,
+		["hole"] = {
+		},
+		["hp"] = 103146,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5401,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 3520,
+		["id"] = 284102,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10030,
+		},
+	},
+	[284147] = {
+		["resonate"] = 284131,
+		["hole"] = {
+		},
+		["hp"] = 72202,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5403,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 7803,
+		["id"] = 284147,
+		["buff"] = {
+		},
+		["gj"] = 0,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10041,
+		},
+	},
+	[284129] = {
+		["resonate"] = 284129,
+		["hole"] = {
+		},
+		["hp"] = 0,
+		["skills_rate"] = {
+		},
+		["ex_value"] = {
+			[1] = 5402,
+		},
+		["ex_rate"] = {
+		},
+		["smelttimes"] = 10,
+		["fy"] = 11395,
+		["id"] = 284129,
+		["buff"] = {
+		},
+		["gj"] = 11451,
+		["enhancevalue"] = 2256,
+		["smelt"] = {
+			["items"] = {
+				[1] = 1024,
+				[2] = 40,
+			},
+		},
+		["ex_type"] = 1,
+		["skills"] = {
+			[1] = 190001,
+			[2] = 19037,
+		},
+		["resonatetimes"] = 10,
+		["heroid"] = {
+			[1] = 10037,
 		},
 	},
 	[284099] = {
@@ -18987,139 +19166,6 @@ equip = {
 		["enhancevalue"] = 2113,
 		["ex_type"] = 1,
 		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
-	[284129] = {
-		["resonate"] = 284129,
-		["hole"] = {
-		},
-		["hp"] = 0,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 5402,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 11395,
-		["id"] = 284129,
-		["buff"] = {
-		},
-		["gj"] = 11451,
-		["enhancevalue"] = 2256,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-			[1] = 190001,
-			[2] = 19037,
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-			[1] = 10037,
-		},
-	},
-	[23317] = {
-		["resonate"] = 23317,
-		["hole"] = {
-		},
-		["hp"] = 0,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 3302,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 168,
-		["id"] = 23317,
-		["buff"] = {
-		},
-		["gj"] = 1283,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["name"] = "勇士斧头",
-		["enhancevalue"] = 2149,
-		["ex_type"] = 1,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
-	[21203] = {
-		["resonate"] = 21203,
-		["hole"] = {
-		},
-		["hp"] = 322,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 20,
-		["id"] = 21203,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 1,
-			},
-		},
-		["name"] = "佣兵短靴",
-		["enhancevalue"] = 2015,
-		["ex_type"] = 2,
-		["skills"] = {
-		},
-		["resonatetimes"] = 10,
-		["heroid"] = {
-		},
-	},
-	[274030] = {
-		["resonate"] = 274030,
-		["hole"] = {
-		},
-		["hp"] = 69785,
-		["skills_rate"] = {
-		},
-		["ex_value"] = {
-			[1] = 4401,
-		},
-		["ex_rate"] = {
-		},
-		["smelttimes"] = 10,
-		["fy"] = 3129,
-		["id"] = 274030,
-		["buff"] = {
-		},
-		["gj"] = 0,
-		["enhancevalue"] = 2174,
-		["smelt"] = {
-			["items"] = {
-				[1] = 1024,
-				[2] = 40,
-			},
-		},
-		["ex_type"] = 1,
-		["skills"] = {
-			[1] = 18004,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
@@ -19288,24 +19334,24 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284006] = {
-		["resonate"] = 284006,
+	[284005] = {
+		["resonate"] = 284005,
 		["hole"] = {
 		},
-		["hp"] = 92831,
+		["hp"] = 0,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5401,
+			[1] = 5402,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 4459,
-		["id"] = 284006,
+		["fy"] = 5573,
+		["id"] = 284005,
 		["buff"] = {
 		},
-		["gj"] = 0,
+		["gj"] = 16741,
 		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
@@ -19315,6 +19361,8 @@ equip = {
 		},
 		["ex_type"] = 1,
 		["skills"] = {
+			[1] = 190004,
+			[2] = 19002,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
@@ -19354,8 +19402,8 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284037] = {
-		["resonate"] = 284037,
+	[284021] = {
+		["resonate"] = 284021,
 		["hole"] = {
 		},
 		["hp"] = 0,
@@ -19367,11 +19415,11 @@ equip = {
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 5573,
-		["id"] = 284037,
+		["fy"] = 8214,
+		["id"] = 284021,
 		["buff"] = {
 		},
-		["gj"] = 16741,
+		["gj"] = 13951,
 		["enhancevalue"] = 2256,
 		["smelt"] = {
 			["items"] = {
@@ -19381,12 +19429,12 @@ equip = {
 		},
 		["ex_type"] = 1,
 		["skills"] = {
-			[1] = 190003,
-			[2] = 19010,
+			[1] = 190002,
+			[2] = 19006,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10010,
+			[1] = 10006,
 		},
 	},
 	[284132] = {
@@ -19554,39 +19602,36 @@ equip = {
 		["heroid"] = {
 		},
 	},
-	[284021] = {
-		["resonate"] = 284021,
+	[23224] = {
+		["resonate"] = 23224,
 		["hole"] = {
 		},
-		["hp"] = 0,
+		["hp"] = 1441,
 		["skills_rate"] = {
 		},
 		["ex_value"] = {
-			[1] = 5402,
 		},
 		["ex_rate"] = {
 		},
 		["smelttimes"] = 10,
-		["fy"] = 8214,
-		["id"] = 284021,
+		["fy"] = 149,
+		["id"] = 23224,
 		["buff"] = {
 		},
-		["gj"] = 13951,
-		["enhancevalue"] = 2256,
+		["gj"] = 188,
 		["smelt"] = {
 			["items"] = {
 				[1] = 1024,
 				[2] = 40,
 			},
 		},
+		["name"] = "被遗弃的戒指",
+		["enhancevalue"] = 2132,
 		["ex_type"] = 1,
 		["skills"] = {
-			[1] = 190002,
-			[2] = 19006,
 		},
 		["resonatetimes"] = 10,
 		["heroid"] = {
-			[1] = 10006,
 		},
 	},
 	[24312] = {
@@ -35123,6 +35168,151 @@ exproperty = {
 			},
 		},
 		["id"] = 284070,
+	},
+	[274106] = {
+		["ex_hp"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 0,
+			},
+			[2] = {
+				[1] = 11,
+				[2] = 20,
+				[3] = 0,
+			},
+			[3] = {
+				[1] = 21,
+				[2] = 30,
+				[3] = 0,
+			},
+			[4] = {
+				[1] = 31,
+				[2] = 40,
+				[3] = 0,
+			},
+			[5] = {
+				[1] = 41,
+				[2] = 50,
+				[3] = 0,
+			},
+			[6] = {
+				[1] = 51,
+				[2] = 60,
+				[3] = 0,
+			},
+			[7] = {
+				[1] = 61,
+				[2] = 70,
+				[3] = 0,
+			},
+			[8] = {
+				[1] = 71,
+				[2] = 80,
+				[3] = 0,
+			},
+			[9] = {
+				[1] = 81,
+				[2] = 90,
+				[3] = 0,
+			},
+		},
+		["name"] = "塞西莉娅",
+		["id"] = 274106,
+		["ex_fy"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 0,
+			},
+			[2] = {
+				[1] = 11,
+				[2] = 20,
+				[3] = 0,
+			},
+			[3] = {
+				[1] = 21,
+				[2] = 30,
+				[3] = 0,
+			},
+			[4] = {
+				[1] = 31,
+				[2] = 40,
+				[3] = 0,
+			},
+			[5] = {
+				[1] = 41,
+				[2] = 50,
+				[3] = 0,
+			},
+			[6] = {
+				[1] = 51,
+				[2] = 60,
+				[3] = 0,
+			},
+			[7] = {
+				[1] = 61,
+				[2] = 70,
+				[3] = 0,
+			},
+			[8] = {
+				[1] = 71,
+				[2] = 80,
+				[3] = 0,
+			},
+			[9] = {
+				[1] = 81,
+				[2] = 90,
+				[3] = 0,
+			},
+		},
+		["ex_gj"] = {
+			[1] = {
+				[1] = 1,
+				[2] = 10,
+				[3] = 0,
+			},
+			[2] = {
+				[1] = 11,
+				[2] = 20,
+				[3] = 0,
+			},
+			[3] = {
+				[1] = 21,
+				[2] = 30,
+				[3] = 0,
+			},
+			[4] = {
+				[1] = 31,
+				[2] = 40,
+				[3] = 0,
+			},
+			[5] = {
+				[1] = 41,
+				[2] = 50,
+				[3] = 0,
+			},
+			[6] = {
+				[1] = 51,
+				[2] = 60,
+				[3] = 0,
+			},
+			[7] = {
+				[1] = 61,
+				[2] = 70,
+				[3] = 0,
+			},
+			[8] = {
+				[1] = 71,
+				[2] = 80,
+				[3] = 0,
+			},
+			[9] = {
+				[1] = 81,
+				[2] = 90,
+				[3] = 0,
+			},
+		},
 	},
 	[284071] = {
 		["ex_hp"] = {
