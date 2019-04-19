@@ -5,6 +5,7 @@
 * 读取所有英雄概要信息
 * 读取翻译表
 * 读取对话和故事
+
 均直接输出在console。
 updateFiles()和copyMetaFilesViaPath()用来简化更新维基数据的操作，运行后直接复制输出的文件内容到维基里就行了。
 配置表存放在xml/中，输出目录为data/
