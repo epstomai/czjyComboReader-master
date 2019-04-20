@@ -9,6 +9,7 @@ require("getHeroData")
 require("getSkillDesc")
 require("getHeroDialog")
 require("getTranslation")
+require("utils")
 --获取组合技列表
 --GetComboList.printComboList()
 
@@ -45,5 +46,5 @@ require("getTranslation")
 --updateFiles()
 
 --复制所有需要用到的园配置表到项目目录下
---sourcePath:解码后的配置表所在目录
+--sourcePath:解码后的配置表所在目录，路径不能有中文和空格
 copyMetaFilesViaPath("G:\\APK\\[Crack]\\decrypt_files\\10416config\\")
