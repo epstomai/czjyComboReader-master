@@ -44,7 +44,7 @@ require("utils")
 
 --复制所有需要用到的园配置表到项目目录下
 --sourcePath:解码后的配置表所在目录，路径不能有中文和空格
-copyMetaFilesViaPath("G:\\APK\\[Crack]\\decrypt_files\\config\\")
+--copyMetaFilesViaPath("G:\\APK\\[Crack]\\decrypt_files\\config\\")
 
 --将所有数据写入本地文件data/
-updateFiles()
+--updateFiles()

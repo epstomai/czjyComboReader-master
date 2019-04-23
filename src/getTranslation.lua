@@ -32,7 +32,7 @@ function getTranslationTable()
     for i, v in pairs(heronames) do
         translation[v.name] ={
             ["eng"] = getNameFromPath(skininfo[v.skinid].battlemodel),
-            ["chn"] = v.name.."头像",
+            ["chn"] = v.name,
             ["head"] = getHeadPicFileName(skininfo[v.skinid].headpic)
         }
     end

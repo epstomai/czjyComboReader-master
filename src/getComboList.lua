@@ -67,6 +67,9 @@ function runGetCombo()
                 ["skill1"]=skill_names_table[1],
                 ["skill2"]=skill_names_table[2],
                 ["skill3"]=skill_names_table[3],
+                ["sid_1"]=v.group_skill_1,
+                ["sid_2"]=v.group_skill_2,
+                ["sid_3"]=v.group_skill_3 or -1,
             }
             --print(k..","..combo_name..","..combo_desc..","..skill_names_table[1]..","..skill_names_table[2]..","..skill_names_table[3])
 
@@ -75,10 +78,36 @@ function runGetCombo()
     return combo_output
 end
 
+--通过技能id反查角色
+--技能id > 角色id > 角色技能id表 > 技能id顺序
+function getSkillOrder(skillid)
+    if skillid == -1 then
+        return
+    end
+    local heroids = cfgControlHero:getAllHeroIds()
+    local target
+    local order = 0
+    for i, v in pairs(heroids) do
+        local heroskills = cfgControlHero:getAllSkillsById(v)
+        for j, k in pairs(heroskills) do
+            if k == skillid then
+                target = v
+                order = j-1
+                break
+            end
+        end
+        if target then
+            break
+        end
+    end
+    if target then
+        return cfgControlHero:getName(target)..order
+    end
+end
 
 function printComboList()
     local combo = table_arrange(runGetCombo());
     for i, v in pairs(combo) do
-        print(i..","..v.name..","..v.desc..","..v.skill1..","..v.skill2..","..v.skill3)
+        print(i..","..v.desc.."|"..v.skill1..","..v.skill2..","..v.skill3,v.sid_1)
     end
 end
