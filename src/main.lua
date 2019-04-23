@@ -42,9 +42,9 @@ require("utils")
 --获得英雄名字中英文翻译表
 --print(formatTable(getTranslationTable()))
 
---将所有数据写入本地文件data/
---updateFiles()
-
 --复制所有需要用到的园配置表到项目目录下
 --sourcePath:解码后的配置表所在目录，路径不能有中文和空格
-copyMetaFilesViaPath("G:\\APK\\[Crack]\\decrypt_files\\10416config\\")
+copyMetaFilesViaPath("G:\\APK\\[Crack]\\decrypt_files\\config\\")
+
+--将所有数据写入本地文件data/
+updateFiles()

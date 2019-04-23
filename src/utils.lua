@@ -483,7 +483,7 @@ function copyMetaFilesViaPath(sourcePath)
         wf:close()
     end
     for i, v in pairs(fileList) do
-        local sp = sourcePath..v..".luac"
+        local sp = sourcePath..v..".lua"
         local dp = desPath..v..".lua"
         copy(sp,dp)
     end
