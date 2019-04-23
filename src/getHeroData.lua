@@ -65,7 +65,8 @@ end
 --    4 = 104640
 --  }
 function cfgControlHero:getAllSkillsById(heroid)
-    local all_skills = cfgControlSurmount:all_heros_skills(heroid)
+    --table_arrange()解决了多次运行会添加额外对象的问题
+    local all_skills = table_arrange(cfgControlSurmount:all_heros_skills(heroid))
     local passive_skill = cfgControlHero:getSkills(heroid)
     if #passive_skill > 0 then
         table.insert(all_skills,1,{1,passive_skill[1]})
@@ -77,7 +78,8 @@ function cfgControlHero:getAllSkillsById(heroid)
             table.insert(skills_ret,i,v[2])
         end
     end
-    return skills_ret
+    all_skills = {}
+    return table_arrange(skills_ret)
 end
 
 function cfgControlHero:conf(id)

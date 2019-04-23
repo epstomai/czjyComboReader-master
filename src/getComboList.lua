@@ -84,15 +84,20 @@ function getSkillOrder(skillid)
     if skillid == -1 then
         return
     end
-    local heroids = cfgControlHero:getAllHeroIds()
+    local allheroids = cfgControlHero:getAllHeroIds()
     local target
+
     local order = 0
-    for i, v in pairs(heroids) do
+    for i, v in pairs(allheroids) do
         local heroskills = cfgControlHero:getAllSkillsById(v)
         for j, k in pairs(heroskills) do
             if k == skillid then
                 target = v
-                order = j-1
+                if #heroskills == 4 then
+                    order = j -1
+                else
+                    order = j
+                end
                 break
             end
         end
@@ -108,6 +113,10 @@ end
 function printComboList()
     local combo = table_arrange(runGetCombo());
     for i, v in pairs(combo) do
-        print(i..","..v.desc.."|"..v.skill1..","..v.skill2..","..v.skill3,v.sid_1)
+        if v.skill3 ~= "" then
+            print(string.format("%s,%s | %s(%s), %s(%s), %s(%s)",i,v.desc,v.skill1,getSkillOrder(v.sid_1),v.skill2,getSkillOrder(v.sid_2),v.skill3,getSkillOrder(v.sid_3)))
+        else
+            print(string.format("%s,%s | %s(%s), %s(%s)",i,v.desc,v.skill1,getSkillOrder(v.sid_1),v.skill2,getSkillOrder(v.sid_2)))
+        end
     end
 end
