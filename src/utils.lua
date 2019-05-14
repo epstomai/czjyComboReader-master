@@ -365,10 +365,14 @@ function updateFiles()
     local document =
     date..[[
 
-local Engraving_data = {
+local p = {}
+p.engraving_data = {
 ]]..formatTable(GetExEquipSkills.getAllHeroExEqSkills())..[[
 }
-return Engraving_data]]
+p.sublimation_data = {
+]]..formatTable(getSublimitation())..[[
+}
+return p]]
     Engraving_data:write(document)
     Engraving_data:close()
 
@@ -448,6 +452,23 @@ local Translation_data = {
 return Translation_data]]
     Translation_data:write(document)
     Translation_data:close()
+
+    local Equip_data = io.open("data/Equip_data.lua","w+")
+    require("getEquipData")
+    document =
+    date..[[
+
+local p = {}
+p.equips = {
+]]..getEquipInfo()[1]..[[
+}
+p.equip_skills = {
+]]..getEquipInfo()[2]..[[
+}
+return p]]
+    Equip_data:write(document)
+    Equip_data:close()
+
     print("Done.")
 end
 
@@ -488,4 +509,21 @@ function copyMetaFilesViaPath(sourcePath)
         copy(sp,dp)
     end
     print("copy done.")
+end
+
+function getAWBList()
+    local out = ""
+    local str = [[
+<Article NameSpaceKey="0">
+    <PreProcessed>false</PreProcessed>
+    <Name>%s</Name>
+</Article>
+]]
+    local tbl = {
+
+    }
+    for i, v in pairs(tbl) do
+        out = out..string.format(str,v)
+    end
+    print(out)
 end

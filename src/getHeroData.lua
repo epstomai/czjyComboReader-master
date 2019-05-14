@@ -59,9 +59,9 @@ end
 
 --返回整理好的技能table
 --  {
---    1 = 104610
---    2 = 104620
---    3 = 104630
+--    1 = 104610,
+--    2 = 104620,
+--    3 = 104630,
 --    4 = 104640
 --  }
 function cfgControlHero:getAllSkillsById(heroid)

@@ -10,6 +10,7 @@ require("getSkillDesc")
 require("getHeroDialog")
 require("getTranslation")
 require("utils")
+require("getEquipData")
 --获取组合技列表
 --GetComboList.printComboList()
 
@@ -41,6 +42,17 @@ require("utils")
 
 --获得英雄名字中英文翻译表
 --print(formatTable(getTranslationTable()))
+
+--获得所有觉醒天赋
+--print(formatTable(getSublimitation()))
+
+--获得全部装备信息
+--输出所有装备信息
+--print(formatTable(getEquipInfo()[1]))
+--输出所有装备技能表
+--print(formatTable(getEquipInfo()[2]))
+--输出新加入的装备名称
+--getAllEquipNames(getEquipInfo()[1])
 
 --复制所有需要用到的园配置表到项目目录下
 --sourcePath:解码后的配置表所在目录，路径不能有中文和空格
