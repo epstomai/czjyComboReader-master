@@ -214,6 +214,9 @@ function parseDesc(id, heroData, skillLv)
 end
 
 function getSkillName(skillid)
+    --print(skillid)
+    --TODO:以后可能也会出现有技能没有实装的情况，一一排除
+    --5月22号的是千刃火麻觉醒技没有实装sid:95371 在getSkillDesc里处理了
     return XML_skill.skillgroup[skillid].name
 end
 

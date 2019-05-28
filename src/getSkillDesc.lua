@@ -76,16 +76,20 @@ function getSublimitation()
     local sublimations = {}
     for i, v in pairs(heroids) do
         local sid = cfgControlHero:conf(v).sublimation_skill
-        local name
-        local desc
-        if sid then
-            name = GetExEquipSkills.getSkillName(sid)
-            desc = colorParser(GetExEquipSkills.parseDesc(sid))
-            sublimations[cfgControlHero:getName(v)] = {
-                ["icon"] = "sublimation.png",
-                ["name"] = name,
-                ["desc"] = desc,
-            }
+        --TODO:部分觉醒技没有实装，一一跳过
+        --5月22日千刃觉醒技sid:95371 火麻95381
+        if sid ~= 95371 and sid~=95381 then
+            local name
+            local desc
+            if sid then
+                name = GetExEquipSkills.getSkillName(sid)
+                desc = colorParser(GetExEquipSkills.parseDesc(sid))
+                sublimations[cfgControlHero:getName(v)] = {
+                    ["icon"] = "sublimation.png",
+                    ["name"] = name,
+                    ["desc"] = desc,
+                }
+            end
         end
     end
     return sublimations

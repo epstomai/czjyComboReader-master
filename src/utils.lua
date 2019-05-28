@@ -460,10 +460,10 @@ return Translation_data]]
 
 local p = {}
 p.equips = {
-]]..getEquipInfo()[1]..[[
+]]..formatTable(getEquipInfo()[1])..[[
 }
 p.equip_skills = {
-]]..getEquipInfo()[2]..[[
+]]..formatTable(getEquipInfo()[2])..[[
 }
 return p]]
     Equip_data:write(document)

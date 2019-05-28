@@ -51,6 +51,9 @@ require("getEquipData")
 --print(formatTable(getEquipInfo()[1]))
 --输出所有装备技能表
 --print(formatTable(getEquipInfo()[2]))
+--输出装备共鸣属性数据
+local equips = getEquipInfo()[1]
+print(formatTable(getResonateInfo(equips)))
 --输出新加入的装备名称
 --getAllEquipNames(getEquipInfo()[1])
 

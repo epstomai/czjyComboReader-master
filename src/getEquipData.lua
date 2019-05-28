@@ -1,6 +1,7 @@
 
 require("xml.xml_item")
 require("xml.xml_equip")
+require("xml.xml_resonate")
 require("utils")
 require("getExEquipSkills")
 
@@ -318,6 +319,37 @@ function getExValue(values,_props,_index)
     return props
 end
 
+--获得装备每级共鸣属性数据
+function getResonateInfo(equips)
+
+    local xml_resonate = XML_resonate.equip
+    local new_props = {}
+    for i, v in pairs(equips) do
+        local enhance_list = xml_resonate[v.id].enhance
+        local curr_props = {
+            ["atk"] = v.atk,
+            ["def"] = v.def,
+            ["hp"] = v.hp,
+        }
+        for j, k in pairs(enhance_list) do
+            if j == 1 then
+                new_props[v.id][j] = {
+                        ["atk"] = curr_props.atk + k.gj,
+                        ["def"] = curr_props.def + k.fy,
+                        ["hp"] = curr_props.hp + k.hp,
+                }
+            else
+                new_props[v.id][j] = {
+                    ["atk"] = new_props[j-1].atk + k.gj,
+                    ["def"] = new_props[j-1].def + k.fy,
+                    ["hp"] = new_props[j-1].hp + k.hp,
+                }
+            end
+        end
+    end
+    return new_props
+end
+
 function getEquipInfo()
     local items = XML_item.item
     local xml_equip = XML_equip.equip
@@ -332,7 +364,6 @@ function getEquipInfo()
                     quality = v.quality,
                     id = v.itemid,
                     max_level = v.val,
-                    propertyid = v.propertyid or -1,
                     teamlv = v.teamlv,
                     type = v.type,
                     pic = string.match(v.picture or "","([%w_]+.png)") or "",
