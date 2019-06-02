@@ -114,9 +114,9 @@ function printComboList()
     local combo = table_arrange(runGetCombo());
     for i, v in pairs(combo) do
         if v.skill3 ~= "" then
-            print(string.format("%s,%s | %s(%s), %s(%s), %s(%s)",i,v.desc,v.skill1,getSkillOrder(v.sid_1),v.skill2,getSkillOrder(v.sid_2),v.skill3,getSkillOrder(v.sid_3)))
+            print(string.format("%s,%s | %s(%s), %s(%s), %s(%s)<br>",i,v.desc,v.skill1,getSkillOrder(v.sid_1),v.skill2,getSkillOrder(v.sid_2),v.skill3,getSkillOrder(v.sid_3)))
         else
-            print(string.format("%s,%s | %s(%s), %s(%s)",i,v.desc,v.skill1,getSkillOrder(v.sid_1),v.skill2,getSkillOrder(v.sid_2)))
+            print(string.format("%s,%s | %s(%s), %s(%s)<br>",i,v.desc,v.skill1,getSkillOrder(v.sid_1),v.skill2,getSkillOrder(v.sid_2)))
         end
     end
 end

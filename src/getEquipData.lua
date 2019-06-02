@@ -268,6 +268,7 @@ function getAllEquipNames(list)
         "卓越之戒",
         "雷霆之戒",
         "晨曦之戒",
+        "织魂之戒",
     }
     for i, v in pairs(list) do
         for j, k in pairs(old) do
@@ -321,33 +322,36 @@ end
 
 --获得装备每级共鸣属性数据
 function getResonateInfo(equips)
-
     local xml_resonate = XML_resonate.equip
-    local new_props = {}
-    for i, v in pairs(equips) do
-        local enhance_list = xml_resonate[v.id].enhance
+    function getEach(equip)
+        local new_props = {}
+        local enhance_list = table_arrange(xml_resonate[equip.id].enhance)
         local curr_props = {
-            ["atk"] = v.atk,
-            ["def"] = v.def,
-            ["hp"] = v.hp,
+            atk = equip.atk,
+            def = equip.def,
+            hp = equip.hp,
         }
-        for j, k in pairs(enhance_list) do
-            if j == 1 then
-                new_props[v.id][j] = {
-                        ["atk"] = curr_props.atk + k.gj,
-                        ["def"] = curr_props.def + k.fy,
-                        ["hp"] = curr_props.hp + k.hp,
-                }
-            else
-                new_props[v.id][j] = {
-                    ["atk"] = new_props[j-1].atk + k.gj,
-                    ["def"] = new_props[j-1].def + k.fy,
-                    ["hp"] = new_props[j-1].hp + k.hp,
-                }
-            end
+        for level, props in pairs(enhance_list) do
+            new_props[level] = {
+                atk = curr_props.atk + props.gj,
+                def = curr_props.def + props.fy,
+                hp = curr_props.hp + props.hp
+            }
+            curr_props.atk = curr_props.atk + props.gj
+            curr_props.def = curr_props.def + props.fy
+            curr_props.hp = curr_props.hp + props.hp
+        end
+        return new_props
+    end
+
+    local props_list = {}
+    for i, equip in pairs(equips) do
+        if xml_resonate[equip.id] then
+            props_list[equip.id] = getEach(equip)
         end
     end
-    return new_props
+
+    return props_list
 end
 
 function getEquipInfo()

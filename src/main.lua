@@ -11,6 +11,7 @@ require("getHeroDialog")
 require("getTranslation")
 require("utils")
 require("getEquipData")
+
 --获取组合技列表
 --GetComboList.printComboList()
 
@@ -51,11 +52,12 @@ require("getEquipData")
 --print(formatTable(getEquipInfo()[1]))
 --输出所有装备技能表
 --print(formatTable(getEquipInfo()[2]))
---输出装备共鸣属性数据
-local equips = getEquipInfo()[1]
-print(formatTable(getResonateInfo(equips)))
+--TODO:输出装备共鸣属性数据
+--print(formatTable(getResonateInfo(getEquipInfo()[1])))
 --输出新加入的装备名称
---getAllEquipNames(getEquipInfo()[1])
+--etAllEquipNames(getEquipInfo()[1])
+
+--新增图片列表
 
 --复制所有需要用到的园配置表到项目目录下
 --sourcePath:解码后的配置表所在目录，路径不能有中文和空格

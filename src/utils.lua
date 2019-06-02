@@ -465,6 +465,9 @@ p.equips = {
 p.equip_skills = {
 ]]..formatTable(getEquipInfo()[2])..[[
 }
+p.equip_props = {
+]]..formatTable(getResonateInfo(getEquipInfo()[1]))..[[
+}
 return p]]
     Equip_data:write(document)
     Equip_data:close()
